@@ -63,16 +63,24 @@ function ModeView({ meta, onBack }: { meta: (typeof CONV_SUBID_TO_CAT)[string]; 
       }
       return undefined;
     } else if (lineIdx === 1) {
+      // Density/SG 화면에서만 UP/DOWN 키를 커서 이동으로 처리
+      if (meta.cat === 'density') {
+        return undefined; // 기본 네비게이션으로 처리
+      }
       if (k === 'DN') { setFromIdx(i => (i + 1) % units.length); return 'stop'; }
       if (k === 'UP') { setFromIdx(i => (i - 1 + units.length) % units.length); return 'stop'; }
       return undefined;
     } else if (lineIdx === 2) {
+      // Density/SG 화면에서만 UP/DOWN 키를 커서 이동으로 처리
+      if (meta.cat === 'density') {
+        return undefined; // 기본 네비게이션으로 처리
+      }
       if (k === 'DN') { setToIdx(i => (i + 1) % units.length); return 'stop'; }
       if (k === 'UP') { setToIdx(i => (i - 1 + units.length) % units.length); return 'stop'; }
       return undefined;
     }
     return undefined;
-  }, [cursor, onBack, val, fromIdx, toIdx, units.length], 12);
+  }, [cursor, onBack, val, fromIdx, toIdx, units.length, meta.cat], 12);
 
   useCx3OnEnter(() => {
     if (cursor < TOTAL - 1) dispatch({ type: 'NAV', delta: 1 });
