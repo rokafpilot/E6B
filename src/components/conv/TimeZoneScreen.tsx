@@ -91,7 +91,7 @@ E4,240,Dubai,Muscat,Zayed
 S5,300,Bandaranaike,Chhatrapati,Indira,Tribhuvan,Velana
 S6,360,Hazrat,Yangon
 S7,420,Chiang Mai,Da Nang,Noi Bai,Novosibirsk,Phnom Penh,Phuket,Siem,Soekarno-Hat,Suvarnabhumi,Tan Son Nhat
-S8,480,Beijing,Changchun,Changsha,Chengdu,Chifeng,Chongqing,Dalian,Denpasar,Fuzhou,Guangzhou,Hangzhou,Harbin,Hefei,Hohhot Baita,Hong Kong,Hotan,Irkutsk,Jinan,Kuala Lumpur,Kunming,Lanzhou,Lianyungang,Macau,Mactan Cebu,Mudanjiang,Nanchang,Nanjing,Ningbo Lishe,Ninoy Aquino,Qingdao,Qiqihar,Quanzhou,Shanghai,Shanghai,Shenyang,Shenzhen,Shijiazhuang,Singapore,Taiwan,Tianjin,Ulaanbaatar,Weihai,Wenzhou,Wuhan Tianhe,Xi'an,Xiamen Gaoqi,Yanji,Yantai,Yinchuan,Yiwu,Zhangjiajie,Zhengzhou
+S8,480,Shanghai
 S9,540,Seoul
 S10,600,Antonio,Brisbane,Khabarovsk,Saipan,Vladivostok
 U11,660,Melbourne,Sydney
