@@ -319,35 +319,6 @@ const TZ_LIST: TzEntry[] = (() => {
     const name = DEC(id, raw);
     out.push({ id, name, offset: FOF(mn), offMin: mn });
   }
-  // IANA 타임존 ID → TZ_LIST 인덱스 채우기
-  // TZ_RAW의 각 항목을 IANA ID와 매칭 (prefix+offset 기반)
-  for (const [ianaId] of Object.entries(IANA_TZ_MAP)) {
-    const prefix = ianaId.split('/')[0]; // 'America', 'Asia', 'Europe' 등
-    const pfxKey = Object.entries(PF).find(([, v]) => v.startsWith(prefix + '/'))?.[0];
-    if (!pfxKey) continue;
-    // 같은 prefix를 가진 TZ_LIST 항목 중 offMin이 같은 것을 찾음
-    // (IANA ID의 현재 offset을 계산)
-    try {
-      const offsetMin = -new Date().getTimezoneOffset(); // 로컬이 아니라 IANA 기준
-      // IANA ID의 현재 UTC offset 계산
-      const parts = Intl.DateTimeFormat('en', {
-        timeZone: ianaId, timeZoneName: 'shortOffset',
-      } as Intl.DateTimeFormatOptions).formatToParts(new Date());
-      const tzPart = parts.find(p => p.type === 'timeZoneName')?.value || '';
-      // 'GMT+9' → 540, 'GMT-5' → -300
-      const match = tzPart.match(/GMT([+-])(\d+)(?::(\d+))?/);
-      if (match) {
-        const sign = match[1] === '+' ? 1 : -1;
-        const h = parseInt(match[2], 10);
-        const m = match[3] ? parseInt(match[3], 10) : 0;
-        const ianaOffMin = sign * (h * 60 + m);
-        const idx = out.findIndex(e => e.offMin === ianaOffMin && e.id.startsWith(prefix));
-        if (idx >= 0) IANA_TZ_MAP[ianaId] = idx;
-      }
-    } catch {
-      // Intl 미지원 환경 무시
-    }
-  }
   return out;
 })();
 
