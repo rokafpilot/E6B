@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .android-sdk/
 .gradle-user-home/
+dist/
+*.apk
