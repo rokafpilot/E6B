@@ -101,25 +101,24 @@ export function useBlankField(kind: FieldKind = 'dec', initialValue = ''): Blank
     if (kind === 'time') {
       if (raw.includes(':')) {
         const parts = raw.split(':').map(Number);
-        // CX-3: 콜론이 모자라면 왼쪽(시)부터 채움. 10:00 → 00:10:00 (10분), 1:00:00 → 1시간
-        while (parts.length < 3) parts.unshift(0);
-        const [h, m, s] = parts;
-        return (isFinite(h) ? h : 0) * 3600 + (isFinite(m) ? Math.min(59, Math.max(0, m)) : 0) * 60 + (isFinite(s) ? Math.min(59, Math.max(0, s)) : 0);
+        // HH:MM 형식: 콜론이 모자라면 오른쪽(분)부터 채움. 10:00 → 10:00:00 (10시간), 1:00 → 01:00:00 (1시간)
+        while (parts.length < 2) parts.push(0);
+        const [h, m] = parts;
+        return (isFinite(h) ? h : 0) * 3600 + (isFinite(m) ? Math.min(59, Math.max(0, m)) : 0) * 60;
       }
       const digits = raw.replace(/\D/g, '');
       if (digits.length === 0) return 0;
-      let s = 0, m = 0, h = 0;
+      let m = 0, h = 0;
       if (digits.length <= 2) {
-        s = Number(digits);
+        m = Number(digits);
       } else if (digits.length <= 4) {
-        s = Number(digits.slice(-2));
-        m = Number(digits.slice(0, -2));
+        m = Number(digits.slice(-2));
+        h = Number(digits.slice(0, -2));
       } else {
-        s = Number(digits.slice(-2));
-        m = Number(digits.slice(-4, -2));
-        h = Number(digits.slice(0, -4));
+        m = Number(digits.slice(-2));
+        h = Number(digits.slice(0, -2));
       }
-      return h * 3600 + Math.min(59, m) * 60 + Math.min(59, s);
+      return h * 3600 + Math.min(59, m) * 60;
     }
     return Number(raw);
   }, [raw, kind]);
@@ -131,17 +130,21 @@ export function useBlankField(kind: FieldKind = 'dec', initialValue = ''): Blank
     if (kind !== 'time') return raw;
     if (raw.includes(':')) {
       const parts = raw.split(':');
-      while (parts.length < 3) parts.unshift('00');
+      while (parts.length < 2) parts.push('00');
       const pad = (p: string) => (p.length <= 1 ? `0${p}` : p).slice(-2);
       const hhRaw = parts[0].replace(/^0+(?=\d)/, '') || '0';
       const hh = hhRaw.length > 2 ? hhRaw : pad(parts[0]);
       const mm = pad(parts[1]);
-      const ss = pad(parts[2]);
-      return `${hh}:${mm}:${ss}`;
+      return `${hh}:${mm}`;
     }
     const total = toNum();
     if (!isFinite(total)) return '--';
-    return formatHMS(total);
+    const sign = total < 0 ? '-' : '';
+    let t = Math.abs(total);
+    const h = Math.floor(t / 3600); t -= h * 3600;
+    const m = Math.floor(t / 60);
+    const pad = (n: number) => n < 10 ? `0${n}` : `${n}`;
+    return `${sign}${pad(h)}:${pad(m)}`;
   }, [raw, isBlank, kind, toNum]);
 
   return { value: raw, setValue, pushChar, backspace, clear, toggleSign, toNum, isBlank, displayValue };
