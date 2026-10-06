@@ -1,0 +1,302 @@
+[
+  {
+    "term": "EXPECT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(ALTITUDE) AT (TIME) or (FIX)− Used"
+  },
+  {
+    "term": "FAA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "Order JO 7110.65, Para 4−5−1, VERTICAL"
+  },
+  {
+    "term": "FAF",
+    "fullName": "Final approach fix",
+    "category": "PilotController",
+    "old_description": "(such as an on airport VOR), where the aircraft"
+  },
+  {
+    "term": "FAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FILE− An FSS system whereby a pilot files a"
+  },
+  {
+    "term": "FEDERAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRWAYS− (See FINAL APPROACH COURSE.)"
+  },
+  {
+    "term": "FEEDER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− The fix depicted on Instrument"
+  },
+  {
+    "term": "FIELD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ELEVATION−"
+  },
+  {
+    "term": "FINAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH [ICAO]− That part of an"
+  },
+  {
+    "term": "FL",
+    "fullName": "Flight level",
+    "category": "PilotController",
+    "old_description": "Flight level"
+  },
+  {
+    "term": "FLAG",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALARM−"
+  },
+  {
+    "term": "FLIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LEVEL [ICAO]− A surface of constant"
+  },
+  {
+    "term": "FLY-BY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WAYPOINT− A fly-by waypoint requires"
+  },
+  {
+    "term": "FLY-OVER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WAYPOINT− A fly-over waypoint"
+  },
+  {
+    "term": "FUEL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DUMPING− Airborne release of usable fuel."
+  },
+  {
+    "term": "FUSED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGET-"
+  },
+  {
+    "term": "GENERAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AVIATION− That portion of civil APPROACH PROCEDURE.)"
+  },
+  {
+    "term": "GEO",
+    "fullName": "Geographic or true",
+    "category": "PilotController",
+    "old_description": "MAP− The digitized map markings associated"
+  },
+  {
+    "term": "GLIDEPATH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− A descent profile determined"
+  },
+  {
+    "term": "GLIDESLOPE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INTERCEPT ALTITUDE− The"
+  },
+  {
+    "term": "GLOBAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION SATELLITE SYSTEM"
+  },
+  {
+    "term": "GNSS",
+    "fullName": "Global navigation satellite system",
+    "category": "PilotController",
+    "old_description": "MEA− GROUND BASED AUGMENTATION SYSTEM"
+  },
+  {
+    "term": "GO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AHEAD− Proceed with your message. Not to be"
+  },
+  {
+    "term": "GPS",
+    "fullName": "Global positioning system",
+    "category": "PilotController",
+    "old_description": "Standard Positioning System Performance"
+  },
+  {
+    "term": "GROSS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION ERROR (GNE) − A lateral"
+  },
+  {
+    "term": "GROUND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BASED AUGMENTATION SYSTEM"
+  },
+  {
+    "term": "GUIDANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIGHTING SYSTEMS.) AIRPORT MARKING AIDS− Markings used on"
+  },
+  {
+    "term": "HAZARDOUS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFLIGHT WEATHER ADVISO-"
+  },
+  {
+    "term": "HEAVY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(AIRCRAFT)−"
+  },
+  {
+    "term": "HEIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ABOVE TOUCHDOWN− The height of"
+  },
+  {
+    "term": "HELIPORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "REFERENCE POINT (HRP)− The"
+  },
+  {
+    "term": "HIGH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE REDESIGN (HAR)− A level of"
+  },
+  {
+    "term": "HIWAS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BROADCAST AREA. any."
+  },
+  {
+    "term": "HOLD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PROCEDURE− A predetermined maneuver"
+  },
+  {
+    "term": "HOLD-SHORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A point on the runway"
+  },
+  {
+    "term": "HOLDING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− A specified fix identifiable to a"
+  },
+  {
+    "term": "HOMING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The procedure of using the"
+  },
+  {
+    "term": "HOW",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DO YOU HEAR ME?− A question relating to"
+  },
+  {
+    "term": "ICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION−"
+  },
+  {
+    "term": "ICAO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "International Civil Aviation Organization"
+  },
+  {
+    "term": "IDENT",
+    "fullName": "Identification",
+    "category": "PilotController",
+    "old_description": "FEATURE− The special feature in the Air"
+  },
+  {
+    "term": "IF",
+    "fullName": "Intermediate approach fix",
+    "category": "PilotController",
+    "old_description": "NO TRANSMISSION RECEIVED FOR"
+  },
+  {
+    "term": "ILS",
+    "fullName": "Instrument landing system",
+    "category": "PilotController",
+    "old_description": "RNAV and GLS. These charts are identified by AIM−"
+  },
+  {
+    "term": "INCERFA",
+    "fullName": "Uncertainty phase",
+    "category": "PilotController",
+    "old_description": "(Uncertainty Phase) [ICAO]− A situation"
+  },
+  {
+    "term": "INCREASE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPEED TO (SPEED)−"
+  },
+  {
+    "term": "INERTIAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION SYSTEM− An RNAV"
+  },
+  {
+    "term": "INFLIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTINGENCIES.)"
+  },
+  {
+    "term": "INHIBITED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA.)"
+  },
+  {
+    "term": "INITIAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH FIX− The fixes depicted on (Refer to AIM.)"
+  },
+  {
+    "term": "INNER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MARKER− A marker beacon used with an"
+  },
+  {
+    "term": "INSTRUMENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH OPERATIONS"
+  }
+]

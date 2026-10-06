@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 23/24):
+Format: index|term|fullName|category|old_description
+0|SEPARATION||PilotController|MINIMA.
+1|SERVICE||PilotController|− ALASKA FSSs ONLY.)
+2|SEVERE||PilotController|WEATHER AVOIDANCE PLAN− An
+3|SHORT||PilotController|TAKEOFF AND LANDING AIRCRAFT−
+4|SIDESTEP||PilotController|MANEUVER− A visual maneuver
+5|SINGLE||PilotController|DIRECTION ROUTES− Preferred IFR
+6|SLOT||PilotController|TIME−
+7|SPECIAL|(평문)|PilotController|Local special meteorological report (in abbreviated plain language)
+8|SPEED||PilotController|SEGMENTS− Portions of the arrival route
+9|SQUAWK||PilotController|(Mode, Code, Function)− Activate
+10|STAND||PilotController|BY− Means the controller or pilot must
+11|STANDARD||PilotController|INSTRUMENT APPROACH PRO- STATIONARY RESERVATIONS− Altitude
+12|STATE||PilotController|AIRCRAFT− Aircraft used in military,
+13|STATIC||PilotController|RESTRICTIONS− Those restrictions that transponder off.
+14|STEP||PilotController|TAXI− To taxi a float plane at full power or
+15|STEPDOWN||PilotController|FIX− A fix permitting additional
+16|STOL|Short take-off and landing|PilotController|Short take-off and landing
+17|STOP||PilotController|AND GO− A procedure wherein an aircraft
+18|STRATEGIC||PilotController|PLANNING− Planning whereby (Refer to AIM.)
+19|SUNSET||PilotController|AND SUNRISE− The mean solar times of
+20|TACAN-ONLY||PilotController|AIRCRAFT− An aircraft, normally
+21|TACTICAL||PilotController|AIR NAVIGATION− An ultra-high
+22|TAKEOFF||PilotController|RUN AVAILABLE (TORA) – The
+23|TARGET||PilotController|[ICAO]− In radar:
+24|TELEPHONE||PilotController|INFORMATION BRIEFING SER-
+25|TENTATIVE||PilotController|CALCULATED LANDING TIME− A
+26|TERMINAL||PilotController|INFORMATION SERVICE.)
+27|TERRAIN||PilotController|FOLLOWING− The flight of a military
+28|THAT||PilotController|IS CORRECT− The understanding you have
+29|THRESHOLD||PilotController|LIGHTS− TMU−
+30|TIE-IN||PilotController|FACILITY– The FSS primarily responsible TOI−
+31|TIME||PilotController|BASED FLOW MANAGEMENT (TBFM)−
+32|TOP|Cloud top|PilotController|ALTITUDE– In reference to SID published
+33|TOUCHDOWN||PilotController|[ICAO]− The point where the
+34|TOWER||PilotController|TO TOWER−
+35|TRACEABLE||PilotController|PRESSURE STANDARD− The
+36|TRACK||PilotController|OF INTEREST (TOI)− Displayed data
+37|TRACKING||PilotController|SYSTEM.)
+38|TRAFFIC||PilotController|INFORMATION−
+39|TRAJECTORY||PilotController|MODELING− The automated pro-
+40|TRANSFER||PilotController|OF CONTROL− That action whereby
+41|TRANSITION||PilotController|POINT− A point at an adapted
+42|TUDE||PilotController|IMMEDIATELY−
+43|TURBOJET||PilotController|AIRCRAFT− An aircraft having a jet
+44|TURN||PilotController|ANTICIPATION− (maneuver anticipation).
+45|ULTRAHIGH||PilotController|FREQUENCY− The frequency band
+46|ULTRALIGHT||PilotController|VEHICLE− A single-occupant
+47|UNDER||PilotController|THE HOOD− Indicates that the pilot is (See ROUTE.)
+48|UNMANNED||PilotController|AIRCRAFT SYSTEM (UAS)- An
+49|UNRELIABLE||PilotController|(GPS/WAAS)− An advisory to

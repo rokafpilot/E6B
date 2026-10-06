@@ -1,0 +1,62 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 24/24):
+Format: index|term|fullName|category|old_description
+0|UPWIND||PilotController|LEG−
+1|URGENCY||PilotController|[ICAO]− A condition concerning the
+2|VERIFY||PilotController|SPECIFIC DIRECTION OF TAKEOFF
+3|VERTEX||PilotController|TIME OF ARRIVAL− A calculated time of
+4|VERTICAL||PilotController|NAVIGATION (VNAV)– A function of
+5|VESSEL||PilotController|RESCUE SYSTEM.)
+6|VHF|Very high frequency(30 to 300MHz)|PilotController|Very high frequency [30 to 300 MHz]
+7|VICE||PilotController|(AFIS) − ALASKA FSSs ONLY− The
+8|VISIBILITY||PilotController|[ICAO]− The ability, as determined by ODP.
+9|VISUAL||PilotController|DESCENT POINT− A defined point on the
+10|VOICE||PilotController|SWITCHING AND CONTROL SYSTEM− (See AIRCRAFT CLASSES.)
+11|VOR|VHF omnidirectional radio range|PilotController|TEST SIGNAL− (See VERTICAL TAKEOFF AND LANDING
+12|VTOL|Vertical take-off and landing|PilotController|Vertical take-off and landing
+13|WAKE||PilotController|TURBULENCE− Phenomena resulting from opportunity to comply.
+14|WARNING||PilotController|AREA− (WAAS)− The WAAS is a satellite navigation system
+15|WEATHER||PilotController|RECONNAISSANCE AREA (WRA)
+16|WIDE-AREA||PilotController|AUGMENTATION SYSTEM
+17|WIND|Wind|PilotController|SHEAR− A change in wind speed and/or wind WORDS TWICE−
+18|WING||PilotController|TIP VORTICES− (See CONVECTIVE SIGMET.)
+19|AIR TRAFFIC SERVICE|AIR TRAFFIC SERVICE|P/C Glossary|A generic term meaning:
+20|ASDE-3|ASDE-3|P/C Glossary|a Surface Movement Radar.
+21|ARRIVAL TIME|ARRIVAL TIME|P/C Glossary|The time an aircraft touches down on arrival.
+22|CHOP|CHOP|P/C Glossary|A form of turbulence.
+23|CIVIL AIRCRAFT OPERATION (CAO)|CIVIL AIRCRAFT OPERATION (CAO)|P/C Glossary|Aircraft operations other than public use.
+24|DEPARTURE TIME|DEPARTURE TIME|P/C Glossary|The time an aircraft becomes airborne.
+25|FAWP|FAWP|P/C Glossary|Final Approach Waypoint
+26|FERRY FLIGHT|FERRY FLIGHT|P/C Glossary|A flight for the purpose of:
+27|FLIGHT TEST|FLIGHT TEST|P/C Glossary|A flight for the purpose of:
+28|HIGH FREQUENCY|HIGH FREQUENCY|P/C Glossary|The frequency band between 3 and 30&#xA0;MHz.
+29|IAWP|IAWP|P/C Glossary|Initial Approach Waypoint
+30|IFWP|IFWP|P/C Glossary|Intermediate Fix Waypoint
+31|INTERNATIONAL AIRPORT|INTERNATIONAL AIRPORT|P/C Glossary|Relating to international flight, it means:
+32|MAHWP|MAHWP|P/C Glossary|Missed Approach Holding Waypoint
+33|MAWP|MAWP|P/C Glossary|Missed Approach Waypoint
+34|OPERATOR (UAS)|OPERATOR (UAS)|P/C Glossary|The owner and/or remote pilot of a UAS.
+35|RADAR ENVIRONMENT|RADAR ENVIRONMENT|P/C Glossary|An area in which radar service may be provided.
+36|SLOW TAXI|SLOW TAXI|P/C Glossary|To taxi a float plane at low power or low RPM.
+37|STANDARD RATE TURN|STANDARD RATE TURN|P/C Glossary|A turn of three degrees per second.
+38|STEP TAXI|STEP TAXI|P/C Glossary|To taxi a float plane at full power or high RPM.
+39|TURN ANTICIPATION|TURN ANTICIPATION|P/C Glossary|(maneuver anticipation).

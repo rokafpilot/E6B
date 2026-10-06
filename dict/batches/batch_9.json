@@ -1,0 +1,302 @@
+[
+  {
+    "term": "LINE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Line (used in SIGMET)"
+  },
+  {
+    "term": "LM",
+    "fullName": "Locator, middle",
+    "category": "NOTAM",
+    "old_description": "\"(중간로케이터) Locator"
+  },
+  {
+    "term": "LMT",
+    "fullName": "Local mean time",
+    "category": "NOTAM",
+    "old_description": "Local mean time"
+  },
+  {
+    "term": "LO",
+    "fullName": "Locator, outer",
+    "category": "NOTAM",
+    "old_description": "\"(외측로케이터) Locator"
+  },
+  {
+    "term": "LOC",
+    "fullName": "Localizer",
+    "category": "NOTAM",
+    "old_description": "Localizer"
+  },
+  {
+    "term": "LOSS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Airspeed or headwind loss"
+  },
+  {
+    "term": "LRG",
+    "fullName": "Long range",
+    "category": "NOTAM",
+    "old_description": "Long range"
+  },
+  {
+    "term": "LTA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Lower control area"
+  },
+  {
+    "term": "LTD",
+    "fullName": "Limited",
+    "category": "NOTAM",
+    "old_description": "Limited"
+  },
+  {
+    "term": "LTP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Landing threshold point"
+  },
+  {
+    "term": "LVE",
+    "fullName": "Leave or leaving",
+    "category": "NOTAM",
+    "old_description": "Leave or leaving"
+  },
+  {
+    "term": "LVL",
+    "fullName": "Level",
+    "category": "NOTAM",
+    "old_description": "Level"
+  },
+  {
+    "term": "LVP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Low visibility procedures"
+  },
+  {
+    "term": "LYR",
+    "fullName": "Layer or layered",
+    "category": "NOTAM",
+    "old_description": "Layer or layered"
+  },
+  {
+    "term": "MAA",
+    "fullName": "Maximum authorized altitude",
+    "category": "NOTAM",
+    "old_description": "Maximum authorized altitude"
+  },
+  {
+    "term": "MAG",
+    "fullName": "Magnetic",
+    "category": "NOTAM",
+    "old_description": "Magnetic"
+  },
+  {
+    "term": "MAHF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Missed approach holding fix"
+  },
+  {
+    "term": "MAINT",
+    "fullName": "Maintenance",
+    "category": "NOTAM",
+    "old_description": "Maintenance"
+  },
+  {
+    "term": "MAP",
+    "fullName": "Aeronautical maps and charts",
+    "category": "NOTAM",
+    "old_description": "Aeronautical maps and charts"
+  },
+  {
+    "term": "MAPT",
+    "fullName": "Missed approach point",
+    "category": "NOTAM",
+    "old_description": "Missed approach point"
+  },
+  {
+    "term": "MAR",
+    "fullName": "At sea",
+    "category": "NOTAM",
+    "old_description": "At sea"
+  },
+  {
+    "term": "MATF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Missed approach turning fix"
+  },
+  {
+    "term": "MAX",
+    "fullName": "Maximum",
+    "category": "NOTAM",
+    "old_description": "Maximum"
+  },
+  {
+    "term": "MAY",
+    "fullName": "May 5",
+    "category": "NOTAM",
+    "old_description": "May"
+  },
+  {
+    "term": "MBST",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Microburst"
+  },
+  {
+    "term": "MCA",
+    "fullName": "Minimum crossing altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum crossing altitude"
+  },
+  {
+    "term": "MCTR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Military control zone"
+  },
+  {
+    "term": "MCW",
+    "fullName": "Modulated continuous wave",
+    "category": "NOTAM",
+    "old_description": "Modulated continuous wave"
+  },
+  {
+    "term": "MDA",
+    "fullName": "Minimum descent altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum descent altitude"
+  },
+  {
+    "term": "MDH",
+    "fullName": "Minimum descent height",
+    "category": "NOTAM",
+    "old_description": "Minimum descent height"
+  },
+  {
+    "term": "MEA",
+    "fullName": "Minimum en-route altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum en-route altitude"
+  },
+  {
+    "term": "MEDEVAC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Medical evacuation flight"
+  },
+  {
+    "term": "MET",
+    "fullName": "Meteorological or Meteorology",
+    "category": "NOTAM",
+    "old_description": "Meteorological or meteorology"
+  },
+  {
+    "term": "MHA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Minimum holding altitude"
+  },
+  {
+    "term": "MHZ",
+    "fullName": "Megahertz",
+    "category": "NOTAM",
+    "old_description": "Megahertz"
+  },
+  {
+    "term": "MIFG",
+    "fullName": "Shallow fog",
+    "category": "NOTAM",
+    "old_description": "Shallow fog"
+  },
+  {
+    "term": "MIL",
+    "fullName": "Military",
+    "category": "NOTAM",
+    "old_description": "Military"
+  },
+  {
+    "term": "MIN",
+    "fullName": "Minute",
+    "category": "NOTAM",
+    "old_description": "Minutes"
+  },
+  {
+    "term": "MKR",
+    "fullName": "Marker radio beacon",
+    "category": "NOTAM",
+    "old_description": "Marker radio beacon"
+  },
+  {
+    "term": "MLS",
+    "fullName": "Microwave landing system",
+    "category": "NOTAM",
+    "old_description": "Microwave landing system"
+  },
+  {
+    "term": "MM",
+    "fullName": "Middle marker",
+    "category": "NOTAM",
+    "old_description": "Middle marker"
+  },
+  {
+    "term": "MNM",
+    "fullName": "Minimum",
+    "category": "NOTAM",
+    "old_description": "Minimum"
+  },
+  {
+    "term": "MNTN",
+    "fullName": "Maintain",
+    "category": "NOTAM",
+    "old_description": "Maintain"
+  },
+  {
+    "term": "MOA",
+    "fullName": "Military operating area",
+    "category": "NOTAM",
+    "old_description": "Military operating area"
+  },
+  {
+    "term": "MON",
+    "fullName": "Above mountains",
+    "category": "NOTAM",
+    "old_description": "Above mountains"
+  },
+  {
+    "term": "MOV",
+    "fullName": "Move or moving or movement",
+    "category": "NOTAM",
+    "old_description": "Move or moving or movement"
+  },
+  {
+    "term": "MPS",
+    "fullName": "Meters per second",
+    "category": "NOTAM",
+    "old_description": "Metres per second"
+  },
+  {
+    "term": "MRA",
+    "fullName": "Minimum reception altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum reception altitude"
+  },
+  {
+    "term": "MRG",
+    "fullName": "Medium range",
+    "category": "NOTAM",
+    "old_description": "Medium range"
+  },
+  {
+    "term": "MRP",
+    "fullName": "ATS/MET reporting point",
+    "category": "NOTAM",
+    "old_description": "ATS/MET reporting point"
+  }
+]

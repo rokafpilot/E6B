@@ -1,0 +1,7142 @@
+[
+  {
+    "term": "ACDM",
+    "fullName": "Airport collaborative decision making",
+    "category": "AIP",
+    "old_description": "공항 운영자, 항공사, 지상조업사, 항공교통관제기관 등 공항 내 주요 이해관계자들이 실시간으로 정확한 운항 정보를 공유하여 항공기 지연을 최소화하고, 자원 활용을 최적화하며, 전반적인 운영 효율성과 예측 가능성을 높이는 공동 의사결정 체계입니다."
+  },
+  {
+    "term": "DCL",
+    "fullName": "Departure Clearance",
+    "category": "ATC",
+    "old_description": "조종사와 관제사 간의 항공기 출발 허가(비행 경로, 할당 고도, 주파수 등)를 무선 음성 통신 대신 디지털 데이터(텍스트)로 주고받아, 통신 오류를 방지하고 주파수 혼잡 및 조종사·관제사의 업무 부하를 줄여주는 자동화 통신 시스템입니다."
+  },
+  {
+    "term": "ADP",
+    "fullName": "ATFM daily plan",
+    "category": "AIP",
+    "old_description": "흐름관리일일계획서"
+  },
+  {
+    "term": "CDM",
+    "fullName": "Collaborative decision making meeting",
+    "category": "AIP",
+    "old_description": "실무조정협의회"
+  },
+  {
+    "term": "COBT",
+    "fullName": "Calculated off-block time",
+    "category": "AIP",
+    "old_description": "조정이동개시시간"
+  },
+  {
+    "term": "CTO",
+    "fullName": "Calculated time over",
+    "category": "AIP",
+    "old_description": "조정통과시간"
+  },
+  {
+    "term": "CTOT",
+    "fullName": "Calculated take-off time",
+    "category": "AIP",
+    "old_description": "조정이륙시간"
+  },
+  {
+    "term": "D",
+    "fullName": "Downward (tendency in RVR during previous 10 minutes)",
+    "category": "AIP",
+    "old_description": "하향경향(이전 10분동안 활주로가시 거리"
+  },
+  {
+    "term": "ELDT",
+    "fullName": "Estimated landing time",
+    "category": "AIP",
+    "old_description": "예상착륙시간"
+  },
+  {
+    "term": "ETOT",
+    "fullName": "Estimated take-off time",
+    "category": "AIP",
+    "old_description": "예상이륙시간"
+  },
+  {
+    "term": "FDR",
+    "fullName": "Flight data recorder",
+    "category": "AIP",
+    "old_description": "비행자료기록장치"
+  },
+  {
+    "term": "GRID",
+    "fullName": "",
+    "category": "AIP",
+    "old_description": "Processed meteorological data in the form of grid point"
+  },
+  {
+    "term": "IC",
+    "fullName": "",
+    "category": "AIP",
+    "old_description": "Ice Crystals(very small ice crystals in suspension, also"
+  },
+  {
+    "term": "KST",
+    "fullName": "Korean standard time",
+    "category": "AIP",
+    "old_description": "한국표준시간"
+  },
+  {
+    "term": "LSQ",
+    "fullName": "Line squall",
+    "category": "AIP",
+    "old_description": "스콜라인"
+  },
+  {
+    "term": "MINT",
+    "fullName": "Minute in trail",
+    "category": "AIP",
+    "old_description": "시간(분) 간격 분리"
+  },
+  {
+    "term": "MIT",
+    "fullName": "Miles in trail",
+    "category": "AIP",
+    "old_description": "거리(마일) 간격 분리"
+  },
+  {
+    "term": "OTLK",
+    "fullName": "",
+    "category": "AIP",
+    "old_description": "Outlook(used in SIGMET message for valcanic ash and"
+  },
+  {
+    "term": "RX",
+    "fullName": "Receiver",
+    "category": "AIP",
+    "old_description": "수신기"
+  },
+  {
+    "term": "U",
+    "fullName": "Upward(tendency in RVR during previous 10 minutes)",
+    "category": "AIP",
+    "old_description": "상승경향"
+  },
+  {
+    "term": "AMSS",
+    "fullName": "Aeronautical mobile satellite service",
+    "category": "AIP/DOC8400",
+    "old_description": "Aeronautical mobile satellite service"
+  },
+  {
+    "term": "ANC",
+    "fullName": "Aeronautical chart 1:500000 (followed by name title)",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Aeronautical chart — 1:500"
+  },
+  {
+    "term": "ANCS",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "Aeronautical navigation chart - small scale (followed by"
+  },
+  {
+    "term": "AT",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "At (followed by time at which weather change is forecast"
+  },
+  {
+    "term": "BLDU",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "= blowing dust, BLSA = blowing sand, BLSN ="
+  },
+  {
+    "term": "ENRC",
+    "fullName": "Enroute chart (followed by name/title)",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Enroute chart (followed by name/title) EOBT Estimated off-block time"
+  },
+  {
+    "term": "GMC",
+    "fullName": "Ground movement chart (followed by name/title)",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Ground movement chart (followed by"
+  },
+  {
+    "term": "TX",
+    "fullName": "Transmitter",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Maximum temperature (followed by"
+  },
+  {
+    "term": "VC",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "Vicinity of the aerodrome(followed by, FG =fog, FC"
+  },
+  {
+    "term": "A",
+    "fullName": "Amber",
+    "category": "AIP/KMA",
+    "old_description": "호박색"
+  },
+  {
+    "term": "ARFOR",
+    "fullName": "Area forecast (in aeronautical meteorological code)",
+    "category": "AIP/KMA",
+    "old_description": "지역예보(항공기상용어)"
+  },
+  {
+    "term": "B",
+    "fullName": "Blue",
+    "category": "AIP/KMA",
+    "old_description": "청색"
+  },
+  {
+    "term": "C",
+    "fullName": "Degrees Celsius (Centigrade)",
+    "category": "AIP/KMA",
+    "old_description": "중앙(활주로식별"
+  },
+  {
+    "term": "CIT",
+    "fullName": "Near or over large town",
+    "category": "AIP/KMA",
+    "old_description": "대도시 주변 또는 상공"
+  },
+  {
+    "term": "DENEB",
+    "fullName": "Fog dispersal operations",
+    "category": "AIP/KMA",
+    "old_description": "안개분산작업(삭제)"
+  },
+  {
+    "term": "E",
+    "fullName": "East or eastern longitude",
+    "category": "AIP/KMA",
+    "old_description": "동쪽 또는 동경"
+  },
+  {
+    "term": "ER",
+    "fullName": "here... or herewith",
+    "category": "AIP/KMA",
+    "old_description": "여기"
+  },
+  {
+    "term": "F",
+    "fullName": "Fixed",
+    "category": "AIP/KMA",
+    "old_description": "고정된"
+  },
+  {
+    "term": "G",
+    "fullName": "Green",
+    "category": "AIP/KMA",
+    "old_description": "녹색"
+  },
+  {
+    "term": "L",
+    "fullName": "Locator(see LM, LO)",
+    "category": "AIP/KMA",
+    "old_description": "Left(preceded by runway designation number to identify a"
+  },
+  {
+    "term": "LTT",
+    "fullName": "Landing teletypewriter",
+    "category": "AIP/KMA",
+    "old_description": "유선테레타잎회선"
+  },
+  {
+    "term": "MAS",
+    "fullName": "Manual Al simplex",
+    "category": "AIP/KMA",
+    "old_description": "수동 AI 단방향방식"
+  },
+  {
+    "term": "N",
+    "fullName": "North or northern latitude",
+    "category": "AIP/KMA",
+    "old_description": "변화 경향없음(이전 10분동안 RVR에서)"
+  },
+  {
+    "term": "PE",
+    "fullName": "Ice pellets",
+    "category": "AIP/KMA",
+    "old_description": "얼음덩이"
+  },
+  {
+    "term": "R",
+    "fullName": "Red",
+    "category": "AIP/KMA",
+    "old_description": "비행제한구역(번호를 첨부"
+  },
+  {
+    "term": "RAFC",
+    "fullName": "Regional area forecast center",
+    "category": "AIP/KMA",
+    "old_description": "지역예보센타"
+  },
+  {
+    "term": "RITE",
+    "fullName": "Right(direction of turn)",
+    "category": "AIP/KMA",
+    "old_description": "우측(선회방향)"
+  },
+  {
+    "term": "ROFOR",
+    "fullName": "Route forecast(in meteorological code)",
+    "category": "AIP/KMA",
+    "old_description": "항공로예보"
+  },
+  {
+    "term": "S",
+    "fullName": "South or Southern latitude",
+    "category": "AIP/KMA",
+    "old_description": "남쪽 또는 남위"
+  },
+  {
+    "term": "SAP",
+    "fullName": "As soon as possible",
+    "category": "AIP/KMA",
+    "old_description": "가능한 빨리"
+  },
+  {
+    "term": "SIGWX",
+    "fullName": "Significant weather",
+    "category": "AIP/KMA",
+    "old_description": "악기상"
+  },
+  {
+    "term": "SKC",
+    "fullName": "Sky clear",
+    "category": "AIP/KMA",
+    "old_description": "맑음"
+  },
+  {
+    "term": "T",
+    "fullName": "Temperature",
+    "category": "AIP/KMA",
+    "old_description": "온도"
+  },
+  {
+    "term": "TEND",
+    "fullName": "Trend forecast",
+    "category": "AIP/KMA",
+    "old_description": "경향 예보"
+  },
+  {
+    "term": "TIP",
+    "fullName": "Until past...(place) (",
+    "category": "AIP/KMA",
+    "old_description": "장소)를 통과할 때까지"
+  },
+  {
+    "term": "TWYL",
+    "fullName": "Taxiway-link",
+    "category": "AIP/KMA",
+    "old_description": "유도로 연결"
+  },
+  {
+    "term": "W",
+    "fullName": "West or western longitude",
+    "category": "AIP/KMA",
+    "old_description": "서쪽 또는 서경"
+  },
+  {
+    "term": "WAC",
+    "fullName": "",
+    "category": "AIP/KMA",
+    "old_description": "World Aeronautical Chart ICAO-1:1,000,000(followed by"
+  },
+  {
+    "term": "WINTEM",
+    "fullName": "Forecast upper wind and temperature for aviation",
+    "category": "AIP/KMA",
+    "old_description": "상층바람?상층기온 항공예보"
+  },
+  {
+    "term": "X",
+    "fullName": "Cross",
+    "category": "AIP/KMA",
+    "old_description": "횡단하다"
+  },
+  {
+    "term": "Y",
+    "fullName": "Yellow",
+    "category": "AIP/KMA",
+    "old_description": "황색"
+  },
+  {
+    "term": "AOC",
+    "fullName": "Aerodrome obstacle chart",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . Aerodrome obstacle chart (followed by"
+  },
+  {
+    "term": "ATP",
+    "fullName": "At... (time or place) ...",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . At (followed by time or place) ATS Air traffic services"
+  },
+  {
+    "term": "ESE",
+    "fullName": "East south east",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": "East-south-east"
+  },
+  {
+    "term": "IAC",
+    "fullName": "Instrument approach chart(followed by name/title)",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . Instrument approach chart (followed by"
+  },
+  {
+    "term": "TO",
+    "fullName": "To...(place) ...",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . To (followed by place)"
+  },
+  {
+    "term": "VAC",
+    "fullName": "Visual approach chart(followed by name/title)",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . Visual approach chart (followed by"
+  },
+  {
+    "term": "BL",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Blowing (followed by DU = dust,"
+  },
+  {
+    "term": "EQN",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Equatorial latitudes northern"
+  },
+  {
+    "term": "EQS",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Equatorial latitudes southern"
+  },
+  {
+    "term": "EUR",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "RODEX European regional OPMET data"
+  },
+  {
+    "term": "HNH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "High latitudes northern hemisphere"
+  },
+  {
+    "term": "HSH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "High latitudes southern hemisphere"
+  },
+  {
+    "term": "MNH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Middle latitudes northern hemisphere"
+  },
+  {
+    "term": "MSH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Middle latitudes southern hemisphere"
+  },
+  {
+    "term": "PATC",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Precision approach terrain chart (followed"
+  },
+  {
+    "term": "REPORT",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Local routine meteorological report (in"
+  },
+  {
+    "term": "SWX",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Space weather"
+  },
+  {
+    "term": "SWXC",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Space weather centre"
+  },
+  {
+    "term": "TCAS",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "RA† (to be pronounced “TEE-CAS-AR-AY”)"
+  },
+  {
+    "term": "TL",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Till (followed by time by which weather"
+  },
+  {
+    "term": "TN",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Minimum temperature (followed by"
+  },
+  {
+    "term": "VOL",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Volume (followed by I, II . . .)"
+  },
+  {
+    "term": "VV",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Vertical visibility (followed by figures in"
+  },
+  {
+    "term": "AMR",
+    "fullName": "At sea",
+    "category": "KMA",
+    "old_description": "바다"
+  },
+  {
+    "term": "AR",
+    "fullName": "(부호) End of transmission",
+    "category": "KMA",
+    "old_description": "송신종료"
+  },
+  {
+    "term": "AVASIS",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "간이진입각 지시등"
+  },
+  {
+    "term": "BLSN",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "눈바람"
+  },
+  {
+    "term": "BT",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "분리신호 -...-"
+  },
+  {
+    "term": "DRSN",
+    "fullName": "Low drifting snow",
+    "category": "KMA",
+    "old_description": "눈보라"
+  },
+  {
+    "term": "ENRT",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "\"(항행중"
+  },
+  {
+    "term": "INDB",
+    "fullName": "Inbound",
+    "category": "KMA",
+    "old_description": "입항"
+  },
+  {
+    "term": "INTER",
+    "fullName": "Intermittent",
+    "category": "KMA",
+    "old_description": "간헐적"
+  },
+  {
+    "term": "LB",
+    "fullName": "Pounds(weight)",
+    "category": "KMA",
+    "old_description": "무게단위"
+  },
+  {
+    "term": "LLZ",
+    "fullName": ") Localizer",
+    "category": "KMA",
+    "old_description": "방위각 지시기(ILS"
+  },
+  {
+    "term": "M",
+    "fullName": "Mach number",
+    "category": "KMA",
+    "old_description": "The ratio of true airspeed to the speed of sound; e.g., MACH .82, MACH 1.6."
+  },
+  {
+    "term": "MB",
+    "fullName": "Milibars",
+    "category": "KMA",
+    "old_description": "기압단위"
+  },
+  {
+    "term": "MPH",
+    "fullName": "Statute miles per hour",
+    "category": "KMA",
+    "old_description": "마일/매시속도"
+  },
+  {
+    "term": "NEH",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "요구한국과 연결됐음"
+  },
+  {
+    "term": "OCL",
+    "fullName": "Obstacle clearance limit",
+    "category": "KMA",
+    "old_description": "장애물 허용한계"
+  },
+  {
+    "term": "QBI",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "의무계기비행규칙기행"
+  },
+  {
+    "term": "RAPID",
+    "fullName": "Rapid or rapidly",
+    "category": "KMA",
+    "old_description": "신속"
+  },
+  {
+    "term": "RASH",
+    "fullName": "Rain showers",
+    "category": "KMA",
+    "old_description": "소나기"
+  },
+  {
+    "term": "RASN",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "\"(비"
+  },
+  {
+    "term": "SNSH",
+    "fullName": "Snow showers",
+    "category": "KMA",
+    "old_description": "폭설"
+  },
+  {
+    "term": "TAANS",
+    "fullName": "Transmits or transmitter",
+    "category": "KMA",
+    "old_description": "송신 또는 송신기"
+  },
+  {
+    "term": "TRLVL",
+    "fullName": "Transitional level",
+    "category": "KMA",
+    "old_description": "전이고도"
+  },
+  {
+    "term": "TSGR",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "우박을 동반한 뇌우"
+  },
+  {
+    "term": "YD",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "거리단위"
+  },
+  {
+    "term": "SH",
+    "fullName": "",
+    "category": "KMA/DOC8400",
+    "old_description": ". . . Shower (followed by RA = rain, SN ="
+  },
+  {
+    "term": "...M",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Metres (preceded by figures)"
+  },
+  {
+    "term": "A/A",
+    "fullName": "Air-to-air",
+    "category": "NOTAM",
+    "old_description": "Air-to-air"
+  },
+  {
+    "term": "A/G",
+    "fullName": "Air-to-ground",
+    "category": "NOTAM",
+    "old_description": "Air-to-ground"
+  },
+  {
+    "term": "AAD",
+    "fullName": "Assigned altitude deviation",
+    "category": "NOTAM",
+    "old_description": "Assigned altitude deviation"
+  },
+  {
+    "term": "AAL",
+    "fullName": "Above aerodrome level",
+    "category": "NOTAM",
+    "old_description": "Above aerodrome level"
+  },
+  {
+    "term": "AAR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Air to air refuelling"
+  },
+  {
+    "term": "ABI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Advance boundary information"
+  },
+  {
+    "term": "ABM",
+    "fullName": "Abeam",
+    "category": "NOTAM",
+    "old_description": "정좌(우)현에"
+  },
+  {
+    "term": "ABN",
+    "fullName": "Aerodrome beacon",
+    "category": "NOTAM",
+    "old_description": "Aerodrome beacon"
+  },
+  {
+    "term": "ABT",
+    "fullName": "About",
+    "category": "NOTAM",
+    "old_description": "About"
+  },
+  {
+    "term": "ABV",
+    "fullName": "Above",
+    "category": "NOTAM",
+    "old_description": "Above"
+  },
+  {
+    "term": "ACFT",
+    "fullName": "Aircraft",
+    "category": "NOTAM",
+    "old_description": "Aircraft"
+  },
+  {
+    "term": "ACK",
+    "fullName": "Acknowledge",
+    "category": "NOTAM",
+    "old_description": "Acknowledge"
+  },
+  {
+    "term": "ACL",
+    "fullName": "Altimeter check location",
+    "category": "NOTAM",
+    "old_description": "Altimeter check location"
+  },
+  {
+    "term": "ACN",
+    "fullName": "Aircraft classification number",
+    "category": "NOTAM",
+    "old_description": "Aircraft classification number"
+  },
+  {
+    "term": "ACPT",
+    "fullName": "Accept, accepted",
+    "category": "NOTAM",
+    "old_description": "Accept or accepted"
+  },
+  {
+    "term": "ADA",
+    "fullName": "Advisory Area",
+    "category": "NOTAM",
+    "old_description": "Advisory area"
+  },
+  {
+    "term": "ADC",
+    "fullName": "Aerodrome chart",
+    "category": "NOTAM",
+    "old_description": "Aerodrome chart"
+  },
+  {
+    "term": "ADDN",
+    "fullName": "Addition or additional",
+    "category": "NOTAM",
+    "old_description": "Addition or additional"
+  },
+  {
+    "term": "ADF",
+    "fullName": "Automatic direction-finding equipment",
+    "category": "NOTAM",
+    "old_description": "Automatic direction-finding equipment"
+  },
+  {
+    "term": "ADJ",
+    "fullName": "Adjacent",
+    "category": "NOTAM",
+    "old_description": "Adjacent"
+  },
+  {
+    "term": "ADR",
+    "fullName": "Advisory route",
+    "category": "NOTAM",
+    "old_description": "Advisory route"
+  },
+  {
+    "term": "ADVS",
+    "fullName": "Advisory service",
+    "category": "NOTAM",
+    "old_description": "Advisory service"
+  },
+  {
+    "term": "ADZ",
+    "fullName": "Advise",
+    "category": "NOTAM",
+    "old_description": "Advise"
+  },
+  {
+    "term": "AES",
+    "fullName": "Aircraft earth station",
+    "category": "NOTAM",
+    "old_description": "Aircraft earth station"
+  },
+  {
+    "term": "AFIL",
+    "fullName": "Flight plan filed in the air",
+    "category": "NOTAM",
+    "old_description": "Flight plan filed in the air"
+  },
+  {
+    "term": "AFS",
+    "fullName": "Aeronautical fixed service",
+    "category": "NOTAM",
+    "old_description": "Aeronautical fixed service"
+  },
+  {
+    "term": "AGL",
+    "fullName": "Above ground level",
+    "category": "NOTAM",
+    "old_description": "Above ground level"
+  },
+  {
+    "term": "AGN",
+    "fullName": "Again",
+    "category": "NOTAM",
+    "old_description": "Again"
+  },
+  {
+    "term": "AIC",
+    "fullName": "Aeronautical information circular",
+    "category": "NOTAM",
+    "old_description": "Aeronautical information circular"
+  },
+  {
+    "term": "AIREP",
+    "fullName": "Air-report",
+    "category": "NOTAM",
+    "old_description": "비행중 항공기로부터 기상보고"
+  },
+  {
+    "term": "AIS",
+    "fullName": "Aeronautical information services",
+    "category": "NOTAM",
+    "old_description": "Aeronautical information services"
+  },
+  {
+    "term": "ALA",
+    "fullName": "Alighting area",
+    "category": "NOTAM",
+    "old_description": "Alighting area"
+  },
+  {
+    "term": "ALRS",
+    "fullName": "Alerting service",
+    "category": "NOTAM",
+    "old_description": "Alerting service"
+  },
+  {
+    "term": "ALS",
+    "fullName": "Approach lighting system",
+    "category": "NOTAM",
+    "old_description": "Approach lighting system"
+  },
+  {
+    "term": "ALT",
+    "fullName": "Altitude",
+    "category": "NOTAM",
+    "old_description": "Altitude"
+  },
+  {
+    "term": "AMA",
+    "fullName": "Area minimum altitude",
+    "category": "NOTAM",
+    "old_description": "Area minimum altitude"
+  },
+  {
+    "term": "AMS",
+    "fullName": "Aeronautical mobile service",
+    "category": "NOTAM",
+    "old_description": "Aeronautical mobile service"
+  },
+  {
+    "term": "AMSL",
+    "fullName": "Above mean sea level",
+    "category": "NOTAM",
+    "old_description": "Above mean sea level"
+  },
+  {
+    "term": "ANS",
+    "fullName": "Answer",
+    "category": "NOTAM",
+    "old_description": "Answer"
+  },
+  {
+    "term": "AO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Aircraft operator"
+  },
+  {
+    "term": "APCH",
+    "fullName": "Approach",
+    "category": "NOTAM",
+    "old_description": "진입 또는 접근"
+  },
+  {
+    "term": "APN",
+    "fullName": "Apron",
+    "category": "NOTAM",
+    "old_description": "Apron"
+  },
+  {
+    "term": "APR",
+    "fullName": "April 4",
+    "category": "NOTAM",
+    "old_description": "April"
+  },
+  {
+    "term": "APRX",
+    "fullName": "Approximate or approximately",
+    "category": "NOTAM",
+    "old_description": "Approximate or approximately"
+  },
+  {
+    "term": "APSG",
+    "fullName": "After passing",
+    "category": "NOTAM",
+    "old_description": "After passing"
+  },
+  {
+    "term": "APU",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Auxiliary power unit"
+  },
+  {
+    "term": "ARC",
+    "fullName": "Area chart",
+    "category": "NOTAM",
+    "old_description": "Area chart"
+  },
+  {
+    "term": "ARNG",
+    "fullName": "Arrange",
+    "category": "NOTAM",
+    "old_description": "Arrange"
+  },
+  {
+    "term": "ARQ",
+    "fullName": "Automatic error correction",
+    "category": "NOTAM",
+    "old_description": "Automatic error correction"
+  },
+  {
+    "term": "AS",
+    "fullName": "Altostratus",
+    "category": "NOTAM",
+    "old_description": "Altostratus"
+  },
+  {
+    "term": "ASAP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "As soon as possible"
+  },
+  {
+    "term": "ASC",
+    "fullName": "Ascend to or ascending to ...",
+    "category": "NOTAM",
+    "old_description": "Ascend to or ascending to"
+  },
+  {
+    "term": "ASE",
+    "fullName": "Altimetry system error",
+    "category": "NOTAM",
+    "old_description": "Altimetry system error"
+  },
+  {
+    "term": "ASPH",
+    "fullName": "Asphalt",
+    "category": "NOTAM",
+    "old_description": "Asphalt"
+  },
+  {
+    "term": "ATA",
+    "fullName": "Actual time of arrival",
+    "category": "NOTAM",
+    "old_description": "Actual time of arrival"
+  },
+  {
+    "term": "ATD",
+    "fullName": "Actual time of departure",
+    "category": "NOTAM",
+    "old_description": "Actual time of departure"
+  },
+  {
+    "term": "ATFM",
+    "fullName": "Air traffic flow management",
+    "category": "NOTAM",
+    "old_description": "Air traffic flow management"
+  },
+  {
+    "term": "ATM",
+    "fullName": "Air traffic management",
+    "category": "NOTAM",
+    "old_description": "Air traffic management"
+  },
+  {
+    "term": "ATN",
+    "fullName": "Aeronautical telecommunication network",
+    "category": "NOTAM",
+    "old_description": "Aeronautical telecommunication network"
+  },
+  {
+    "term": "ATTN",
+    "fullName": "Attention",
+    "category": "NOTAM",
+    "old_description": "Attention"
+  },
+  {
+    "term": "ATZ",
+    "fullName": "Aerodrome traffic zone",
+    "category": "NOTAM",
+    "old_description": "Aerodrome traffic zone"
+  },
+  {
+    "term": "AUG",
+    "fullName": "August 8",
+    "category": "NOTAM",
+    "old_description": "August"
+  },
+  {
+    "term": "AUTH",
+    "fullName": "Authorized or authorization",
+    "category": "NOTAM",
+    "old_description": "Authorized or authorization"
+  },
+  {
+    "term": "AUTO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Automatic"
+  },
+  {
+    "term": "AUW",
+    "fullName": "All up weight",
+    "category": "NOTAM",
+    "old_description": "All up weight"
+  },
+  {
+    "term": "AUX",
+    "fullName": "Auxiliary",
+    "category": "NOTAM",
+    "old_description": "Auxiliary"
+  },
+  {
+    "term": "AVBL",
+    "fullName": "Available or availability",
+    "category": "NOTAM",
+    "old_description": "Available or availability"
+  },
+  {
+    "term": "AVG",
+    "fullName": "Average",
+    "category": "NOTAM",
+    "old_description": "Average"
+  },
+  {
+    "term": "AVGAS",
+    "fullName": "Aviation gasoline",
+    "category": "NOTAM",
+    "old_description": "Aviation gasoline"
+  },
+  {
+    "term": "AWTA",
+    "fullName": "Advise at what time able",
+    "category": "NOTAM",
+    "old_description": "Advise at what time able"
+  },
+  {
+    "term": "AWY",
+    "fullName": "Airway",
+    "category": "NOTAM",
+    "old_description": "Airway"
+  },
+  {
+    "term": "AZM",
+    "fullName": "Azimuth",
+    "category": "NOTAM",
+    "old_description": "Azimuth"
+  },
+  {
+    "term": "BA",
+    "fullName": "Braking action",
+    "category": "NOTAM",
+    "old_description": "Braking action"
+  },
+  {
+    "term": "BCFG",
+    "fullName": "Fog patches",
+    "category": "NOTAM",
+    "old_description": "Fog patches"
+  },
+  {
+    "term": "BCST",
+    "fullName": "Broadcast",
+    "category": "NOTAM",
+    "old_description": "Broadcast"
+  },
+  {
+    "term": "BDRY",
+    "fullName": "Boundary",
+    "category": "NOTAM",
+    "old_description": "Boundary"
+  },
+  {
+    "term": "BECMG",
+    "fullName": "Becoming",
+    "category": "NOTAM",
+    "old_description": "Becoming"
+  },
+  {
+    "term": "BFR",
+    "fullName": "Before ...",
+    "category": "NOTAM",
+    "old_description": "...의 앞에"
+  },
+  {
+    "term": "BKN",
+    "fullName": "Broken",
+    "category": "NOTAM",
+    "old_description": "운량 5/8 이상 7/8 이하"
+  },
+  {
+    "term": "BLDG",
+    "fullName": "Building",
+    "category": "NOTAM",
+    "old_description": "Building"
+  },
+  {
+    "term": "BLO",
+    "fullName": "Below clouds",
+    "category": "NOTAM",
+    "old_description": "Below clouds"
+  },
+  {
+    "term": "BLW",
+    "fullName": "Below... ...",
+    "category": "NOTAM",
+    "old_description": "...미만"
+  },
+  {
+    "term": "BOMB",
+    "fullName": "Bombing",
+    "category": "NOTAM",
+    "old_description": "Bombing"
+  },
+  {
+    "term": "BR",
+    "fullName": "Mist",
+    "category": "NOTAM",
+    "old_description": "Mist"
+  },
+  {
+    "term": "BRG",
+    "fullName": "Bearing",
+    "category": "NOTAM",
+    "old_description": "Bearing"
+  },
+  {
+    "term": "BRKG",
+    "fullName": "Braking",
+    "category": "NOTAM",
+    "old_description": "Braking"
+  },
+  {
+    "term": "BS",
+    "fullName": "Commercial broadcasting station",
+    "category": "NOTAM",
+    "old_description": "Commercial broadcasting station"
+  },
+  {
+    "term": "BTL",
+    "fullName": "Between layers",
+    "category": "NOTAM",
+    "old_description": "Between layers"
+  },
+  {
+    "term": "BTN",
+    "fullName": "Between",
+    "category": "NOTAM",
+    "old_description": "Between"
+  },
+  {
+    "term": "CA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Course to an altitude"
+  },
+  {
+    "term": "CAT",
+    "fullName": "Category",
+    "category": "NOTAM",
+    "old_description": "Clear air turbulence"
+  },
+  {
+    "term": "CC",
+    "fullName": "Cirrocumulus",
+    "category": "NOTAM",
+    "old_description": "Cirrocumulus"
+  },
+  {
+    "term": "CCO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Continuous climb operations"
+  },
+  {
+    "term": "CD",
+    "fullName": "Candela",
+    "category": "NOTAM",
+    "old_description": "광도의 단위 칸델라"
+  },
+  {
+    "term": "CDO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Continuous descent operations"
+  },
+  {
+    "term": "CDR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Conditional route"
+  },
+  {
+    "term": "CGL",
+    "fullName": "Circling guidance light",
+    "category": "NOTAM",
+    "old_description": "Circling guidance light(s)"
+  },
+  {
+    "term": "CHEM",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Chemical"
+  },
+  {
+    "term": "CI",
+    "fullName": "Cirrus",
+    "category": "NOTAM",
+    "old_description": "Cirrus"
+  },
+  {
+    "term": "CIV",
+    "fullName": "Civil",
+    "category": "NOTAM",
+    "old_description": "Civil"
+  },
+  {
+    "term": "CK",
+    "fullName": "Check",
+    "category": "NOTAM",
+    "old_description": "Check"
+  },
+  {
+    "term": "CL",
+    "fullName": "Centre line",
+    "category": "NOTAM",
+    "old_description": "Centre line"
+  },
+  {
+    "term": "CLA",
+    "fullName": "Clear type of ice formation",
+    "category": "NOTAM",
+    "old_description": "Clear type of ice formation"
+  },
+  {
+    "term": "CLBR",
+    "fullName": "Calibration",
+    "category": "NOTAM",
+    "old_description": "Calibration"
+  },
+  {
+    "term": "CLD",
+    "fullName": "Cloud",
+    "category": "NOTAM",
+    "old_description": "Cloud"
+  },
+  {
+    "term": "CLG",
+    "fullName": "Calling",
+    "category": "NOTAM",
+    "old_description": "Calling"
+  },
+  {
+    "term": "CLIMB-OUT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Climb-out area"
+  },
+  {
+    "term": "CLSD",
+    "fullName": "Close or closed or closing",
+    "category": "NOTAM",
+    "old_description": "Close or closed or closing"
+  },
+  {
+    "term": "CM",
+    "fullName": "Centimeter",
+    "category": "NOTAM",
+    "old_description": "Centimetre"
+  },
+  {
+    "term": "CMB",
+    "fullName": "Climb to or climbing to",
+    "category": "NOTAM",
+    "old_description": "Climb to or climbing to"
+  },
+  {
+    "term": "COM",
+    "fullName": "Communications",
+    "category": "NOTAM",
+    "old_description": "Communications"
+  },
+  {
+    "term": "CONC",
+    "fullName": "Concrete",
+    "category": "NOTAM",
+    "old_description": "Concrete"
+  },
+  {
+    "term": "COND",
+    "fullName": "Condition",
+    "category": "NOTAM",
+    "old_description": "Condition"
+  },
+  {
+    "term": "CONS",
+    "fullName": "Continuous",
+    "category": "NOTAM",
+    "old_description": "Continuous"
+  },
+  {
+    "term": "CONST",
+    "fullName": "Construction or constructed",
+    "category": "NOTAM",
+    "old_description": "Construction or constructed"
+  },
+  {
+    "term": "CONT",
+    "fullName": "Continue or continued",
+    "category": "NOTAM",
+    "old_description": "Continue(s) or continued"
+  },
+  {
+    "term": "COOR",
+    "fullName": "Coordinate or coordination",
+    "category": "NOTAM",
+    "old_description": "Coordinate or coordination"
+  },
+  {
+    "term": "COORD",
+    "fullName": "Coordinates",
+    "category": "NOTAM",
+    "old_description": "Coordinates"
+  },
+  {
+    "term": "COP",
+    "fullName": "Change-over-point",
+    "category": "NOTAM",
+    "old_description": "Change-over point"
+  },
+  {
+    "term": "COT",
+    "fullName": "At the coast",
+    "category": "NOTAM",
+    "old_description": "At the coast"
+  },
+  {
+    "term": "COV",
+    "fullName": "Cover or covered or covering",
+    "category": "NOTAM",
+    "old_description": "Cover or covered or covering"
+  },
+  {
+    "term": "CRC",
+    "fullName": "Cyclic redundancy check",
+    "category": "NOTAM",
+    "old_description": "Cyclic redundancy check"
+  },
+  {
+    "term": "CRM",
+    "fullName": "Collision risk model",
+    "category": "NOTAM",
+    "old_description": "Collision risk model"
+  },
+  {
+    "term": "CRP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Compulsory reporting point"
+  },
+  {
+    "term": "CRZ",
+    "fullName": "Cruise",
+    "category": "NOTAM",
+    "old_description": "Cruise"
+  },
+  {
+    "term": "CS",
+    "fullName": "Cirrostratus",
+    "category": "NOTAM",
+    "old_description": "Cirrostratus"
+  },
+  {
+    "term": "CTA",
+    "fullName": "Control area",
+    "category": "NOTAM",
+    "old_description": "Control area"
+  },
+  {
+    "term": "CTAM",
+    "fullName": "Climb to and maintain",
+    "category": "NOTAM",
+    "old_description": "Climb to and maintain"
+  },
+  {
+    "term": "CTC",
+    "fullName": "Contact",
+    "category": "NOTAM",
+    "old_description": "Contact"
+  },
+  {
+    "term": "CTL",
+    "fullName": "Control",
+    "category": "NOTAM",
+    "old_description": "Control"
+  },
+  {
+    "term": "CTN",
+    "fullName": "Caution",
+    "category": "NOTAM",
+    "old_description": "Caution"
+  },
+  {
+    "term": "CTR",
+    "fullName": "Control zone",
+    "category": "NOTAM",
+    "old_description": "Control zone"
+  },
+  {
+    "term": "CU",
+    "fullName": "Cumulus",
+    "category": "NOTAM",
+    "old_description": "Cumulus"
+  },
+  {
+    "term": "CUF",
+    "fullName": "Cumuliform",
+    "category": "NOTAM",
+    "old_description": "Cumuliform"
+  },
+  {
+    "term": "CUST",
+    "fullName": "Customs",
+    "category": "NOTAM",
+    "old_description": "Customs"
+  },
+  {
+    "term": "CVR",
+    "fullName": "Cockpit voice recorder",
+    "category": "NOTAM",
+    "old_description": "Cockpit voice recorder"
+  },
+  {
+    "term": "CW",
+    "fullName": "Continuous wave",
+    "category": "NOTAM",
+    "old_description": "Continuous wave"
+  },
+  {
+    "term": "CWY",
+    "fullName": "Clearway",
+    "category": "NOTAM",
+    "old_description": "Clearway"
+  },
+  {
+    "term": "D-VOLMET",
+    "fullName": "Data link VOLMET",
+    "category": "NOTAM",
+    "old_description": "비행중 항공기에 제공하기 위한 데이터링"
+  },
+  {
+    "term": "DCD",
+    "fullName": "Double channel duplex",
+    "category": "NOTAM",
+    "old_description": "Double channel duplex"
+  },
+  {
+    "term": "DCKG",
+    "fullName": "Docking",
+    "category": "NOTAM",
+    "old_description": "Docking"
+  },
+  {
+    "term": "DCP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Datum crossing point"
+  },
+  {
+    "term": "DCPC",
+    "fullName": "Direct controller-pilot communications",
+    "category": "NOTAM",
+    "old_description": "Direct controller-pilot communications"
+  },
+  {
+    "term": "DCS",
+    "fullName": "Double channel simplex",
+    "category": "NOTAM",
+    "old_description": "Double channel simplex"
+  },
+  {
+    "term": "DEC",
+    "fullName": "December 12",
+    "category": "NOTAM",
+    "old_description": "December"
+  },
+  {
+    "term": "DEG",
+    "fullName": "Degrees",
+    "category": "NOTAM",
+    "old_description": "도(방위 또는 각도)"
+  },
+  {
+    "term": "DEPO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Deposition"
+  },
+  {
+    "term": "DER",
+    "fullName": "Departure end of the runway",
+    "category": "NOTAM",
+    "old_description": "Departure end of the runway"
+  },
+  {
+    "term": "DES",
+    "fullName": "Descend to or descending to",
+    "category": "NOTAM",
+    "old_description": "Descend to or descending to"
+  },
+  {
+    "term": "DEST",
+    "fullName": "Destination",
+    "category": "NOTAM",
+    "old_description": "Destination"
+  },
+  {
+    "term": "DETRESFA",
+    "fullName": "Distress phase",
+    "category": "NOTAM",
+    "old_description": "DETRESFA"
+  },
+  {
+    "term": "DEV",
+    "fullName": "Deviation or deviating",
+    "category": "NOTAM",
+    "old_description": "Deviation or deviating"
+  },
+  {
+    "term": "DF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Direction finding"
+  },
+  {
+    "term": "DFDR",
+    "fullName": "Digital flight data recorder",
+    "category": "NOTAM",
+    "old_description": "Digital flight data recorder"
+  },
+  {
+    "term": "DIF",
+    "fullName": "Diffuse",
+    "category": "NOTAM",
+    "old_description": "Diffuse"
+  },
+  {
+    "term": "DIST",
+    "fullName": "Distance",
+    "category": "NOTAM",
+    "old_description": "Distance"
+  },
+  {
+    "term": "DIV",
+    "fullName": "Divert or diverting",
+    "category": "NOTAM",
+    "old_description": "Divert or diverting"
+  },
+  {
+    "term": "DLY",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Daily"
+  },
+  {
+    "term": "DNG",
+    "fullName": "Danger or dangerous",
+    "category": "NOTAM",
+    "old_description": "Danger or dangerous"
+  },
+  {
+    "term": "DOF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Date of flight"
+  },
+  {
+    "term": "DOM",
+    "fullName": "Domestic",
+    "category": "NOTAM",
+    "old_description": "Domestic"
+  },
+  {
+    "term": "DP",
+    "fullName": "Dew point temperature",
+    "category": "NOTAM",
+    "old_description": "Dew point temperature"
+  },
+  {
+    "term": "DPT",
+    "fullName": "Depth",
+    "category": "NOTAM",
+    "old_description": "Depth"
+  },
+  {
+    "term": "DRG",
+    "fullName": "During",
+    "category": "NOTAM",
+    "old_description": "During"
+  },
+  {
+    "term": "DS",
+    "fullName": "Dust storm",
+    "category": "NOTAM",
+    "old_description": "= duststorm, SS = sandstorm,"
+  },
+  {
+    "term": "DSB",
+    "fullName": "Double Sideband",
+    "category": "NOTAM",
+    "old_description": "Double sideband"
+  },
+  {
+    "term": "DTAM",
+    "fullName": "Descend to and maintain",
+    "category": "NOTAM",
+    "old_description": "Descend to and maintain"
+  },
+  {
+    "term": "DTG",
+    "fullName": "Date-time group",
+    "category": "NOTAM",
+    "old_description": "Date-time group"
+  },
+  {
+    "term": "DTHR",
+    "fullName": "Displaced runway threshold",
+    "category": "NOTAM",
+    "old_description": "Displaced runway threshold"
+  },
+  {
+    "term": "DTRT",
+    "fullName": "Deteriorate or deteriorating",
+    "category": "NOTAM",
+    "old_description": "Deteriorate or deteriorating"
+  },
+  {
+    "term": "DTW",
+    "fullName": "Dual tandem wheels",
+    "category": "NOTAM",
+    "old_description": "Dual tandem wheels"
+  },
+  {
+    "term": "DU",
+    "fullName": "Dust",
+    "category": "NOTAM",
+    "old_description": "Dust"
+  },
+  {
+    "term": "DUC",
+    "fullName": "Dense upper cloud",
+    "category": "NOTAM",
+    "old_description": "Dense upper cloud"
+  },
+  {
+    "term": "DUR",
+    "fullName": "Duration",
+    "category": "NOTAM",
+    "old_description": "Duration"
+  },
+  {
+    "term": "DVOR",
+    "fullName": "Doppler VOR",
+    "category": "NOTAM",
+    "old_description": "Doppler VOR"
+  },
+  {
+    "term": "DW",
+    "fullName": "Dual wheels",
+    "category": "NOTAM",
+    "old_description": "Dual wheels"
+  },
+  {
+    "term": "DZ",
+    "fullName": "Drizzle",
+    "category": "NOTAM",
+    "old_description": "Drizzle"
+  },
+  {
+    "term": "EAT",
+    "fullName": "Expected approach time",
+    "category": "NOTAM",
+    "old_description": "Expected approach time"
+  },
+  {
+    "term": "EB",
+    "fullName": "East bound",
+    "category": "NOTAM",
+    "old_description": "Eastbound"
+  },
+  {
+    "term": "EDA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Elevation differential area"
+  },
+  {
+    "term": "EET",
+    "fullName": "Estimated elapsed time",
+    "category": "NOTAM",
+    "old_description": "Estimated elapsed time"
+  },
+  {
+    "term": "EFC",
+    "fullName": "Expect further clearance",
+    "category": "NOTAM",
+    "old_description": "Expect further clearance"
+  },
+  {
+    "term": "ELEV",
+    "fullName": "Elevation",
+    "category": "NOTAM",
+    "old_description": "Elevation"
+  },
+  {
+    "term": "ELR",
+    "fullName": "Extra long range",
+    "category": "NOTAM",
+    "old_description": "Extra long range"
+  },
+  {
+    "term": "ELT",
+    "fullName": "Emergency locator transmitter",
+    "category": "NOTAM",
+    "old_description": "Emergency locator transmitter"
+  },
+  {
+    "term": "EM",
+    "fullName": "Emission (",
+    "category": "NOTAM",
+    "old_description": "{발사(전파의)} Emission"
+  },
+  {
+    "term": "EMERG",
+    "fullName": "Emergency",
+    "category": "NOTAM",
+    "old_description": "Emergency"
+  },
+  {
+    "term": "ENE",
+    "fullName": "East north east",
+    "category": "NOTAM",
+    "old_description": "East-north-east"
+  },
+  {
+    "term": "ENG",
+    "fullName": "Engine",
+    "category": "NOTAM",
+    "old_description": "Engine"
+  },
+  {
+    "term": "ENR",
+    "fullName": "En route",
+    "category": "NOTAM",
+    "old_description": "En route"
+  },
+  {
+    "term": "EOBT",
+    "fullName": "Estimated off-block time",
+    "category": "NOTAM",
+    "old_description": "Estimated off-block time"
+  },
+  {
+    "term": "EQPT",
+    "fullName": "Equipment",
+    "category": "NOTAM",
+    "old_description": "Equipment"
+  },
+  {
+    "term": "EV",
+    "fullName": "Every",
+    "category": "NOTAM",
+    "old_description": "Every"
+  },
+  {
+    "term": "EVS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Enhanced vision system"
+  },
+  {
+    "term": "EXC",
+    "fullName": "Except ...",
+    "category": "NOTAM",
+    "old_description": "...을 제외하고는"
+  },
+  {
+    "term": "FAC",
+    "fullName": "Facilities",
+    "category": "NOTAM",
+    "old_description": "Facilities"
+  },
+  {
+    "term": "FAP",
+    "fullName": "Final approach point",
+    "category": "NOTAM",
+    "old_description": "Final approach point"
+  },
+  {
+    "term": "FAS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Final approach segment"
+  },
+  {
+    "term": "FAX",
+    "fullName": "Facsimile transmission",
+    "category": "NOTAM",
+    "old_description": "Facsimile transmission"
+  },
+  {
+    "term": "FCST",
+    "fullName": "Forecast",
+    "category": "NOTAM",
+    "old_description": "Forecast"
+  },
+  {
+    "term": "FCT",
+    "fullName": "Friction coefficient",
+    "category": "NOTAM",
+    "old_description": "Friction coefficient"
+  },
+  {
+    "term": "FDPS",
+    "fullName": "Flight data processing system",
+    "category": "NOTAM",
+    "old_description": "Flight data processing system"
+  },
+  {
+    "term": "FEB",
+    "fullName": "February 2",
+    "category": "NOTAM",
+    "old_description": "February"
+  },
+  {
+    "term": "FEW",
+    "fullName": "Few",
+    "category": "NOTAM",
+    "old_description": "운량이 1/8이상, 2/8이하"
+  },
+  {
+    "term": "FG",
+    "fullName": "Fog",
+    "category": "NOTAM",
+    "old_description": "= fog, FC = funnel cloud,"
+  },
+  {
+    "term": "FIC",
+    "fullName": "Flight information centre",
+    "category": "NOTAM",
+    "old_description": "Flight information centre"
+  },
+  {
+    "term": "FIR",
+    "fullName": "Flight information region",
+    "category": "NOTAM",
+    "old_description": "Flight information region"
+  },
+  {
+    "term": "FIS",
+    "fullName": "Flight information service",
+    "category": "NOTAM",
+    "old_description": "Flight information service"
+  },
+  {
+    "term": "FLD",
+    "fullName": "Field",
+    "category": "NOTAM",
+    "old_description": "비행장 지면"
+  },
+  {
+    "term": "FLG",
+    "fullName": "Flashing",
+    "category": "NOTAM",
+    "old_description": "Flashing"
+  },
+  {
+    "term": "FLR",
+    "fullName": "Flares",
+    "category": "NOTAM",
+    "old_description": "Flares"
+  },
+  {
+    "term": "FLT",
+    "fullName": "Flight",
+    "category": "NOTAM",
+    "old_description": "Flight"
+  },
+  {
+    "term": "FLTCK",
+    "fullName": "Flight check",
+    "category": "NOTAM",
+    "old_description": "Flight check"
+  },
+  {
+    "term": "FLW",
+    "fullName": "Follow(s) or following",
+    "category": "NOTAM",
+    "old_description": "Follow(s) or following"
+  },
+  {
+    "term": "FLY",
+    "fullName": "Fly or flying",
+    "category": "NOTAM",
+    "old_description": "Fly or flying"
+  },
+  {
+    "term": "FMC",
+    "fullName": "Flight management computer",
+    "category": "NOTAM",
+    "old_description": "Flight management computer"
+  },
+  {
+    "term": "FMS",
+    "fullName": "Flight management system",
+    "category": "NOTAM",
+    "old_description": "Flight management system"
+  },
+  {
+    "term": "FMU",
+    "fullName": "Flow management unit",
+    "category": "NOTAM",
+    "old_description": "Flow management unit"
+  },
+  {
+    "term": "FNA",
+    "fullName": "Final approach",
+    "category": "NOTAM",
+    "old_description": "Final approach"
+  },
+  {
+    "term": "FPAP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Flight path alignment point"
+  },
+  {
+    "term": "FPL",
+    "fullName": "Filed flight plan (message type designator)",
+    "category": "NOTAM",
+    "old_description": "제출된 비행계획서(전문형식 지정어)"
+  },
+  {
+    "term": "FPM",
+    "fullName": "Feet per minute",
+    "category": "NOTAM",
+    "old_description": "Feet per minute"
+  },
+  {
+    "term": "FPR",
+    "fullName": "Flight plan route",
+    "category": "NOTAM",
+    "old_description": "Flight plan route"
+  },
+  {
+    "term": "FR",
+    "fullName": "Fuel remaining",
+    "category": "NOTAM",
+    "old_description": "Fuel remaining"
+  },
+  {
+    "term": "FREQ",
+    "fullName": "Frequency",
+    "category": "NOTAM",
+    "old_description": "Frequency"
+  },
+  {
+    "term": "FRI",
+    "fullName": "Friday",
+    "category": "NOTAM",
+    "old_description": "Friday"
+  },
+  {
+    "term": "FRNG",
+    "fullName": "Firing",
+    "category": "NOTAM",
+    "old_description": "Firing"
+  },
+  {
+    "term": "FRONT",
+    "fullName": "Front (relating to weather)",
+    "category": "NOTAM",
+    "old_description": "Front (relating to weather)"
+  },
+  {
+    "term": "FRQ",
+    "fullName": "Frequent",
+    "category": "NOTAM",
+    "old_description": "Frequent"
+  },
+  {
+    "term": "FSL",
+    "fullName": "Full stop landing",
+    "category": "NOTAM",
+    "old_description": "Full stop landing"
+  },
+  {
+    "term": "FSS",
+    "fullName": "Flight service station",
+    "category": "NOTAM",
+    "old_description": "Flight service station"
+  },
+  {
+    "term": "FST",
+    "fullName": "First",
+    "category": "NOTAM",
+    "old_description": "First"
+  },
+  {
+    "term": "FT",
+    "fullName": "Feet (Dimensional unit)",
+    "category": "NOTAM",
+    "old_description": "Feet (dimensional unit)"
+  },
+  {
+    "term": "FTE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Flight technical error"
+  },
+  {
+    "term": "FTP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Fictitious threshold point"
+  },
+  {
+    "term": "FTT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Flight technical tolerance"
+  },
+  {
+    "term": "FU",
+    "fullName": "Smoke",
+    "category": "NOTAM",
+    "old_description": "Smoke"
+  },
+  {
+    "term": "FZ",
+    "fullName": "Freezing",
+    "category": "NOTAM",
+    "old_description": "Freezing"
+  },
+  {
+    "term": "FZDZ",
+    "fullName": "Freezing drizzle",
+    "category": "NOTAM",
+    "old_description": "Freezing drizzle"
+  },
+  {
+    "term": "FZFG",
+    "fullName": "Freezing fog",
+    "category": "NOTAM",
+    "old_description": "Freezing fog"
+  },
+  {
+    "term": "FZRA",
+    "fullName": "Freezing rain",
+    "category": "NOTAM",
+    "old_description": "Freezing rain"
+  },
+  {
+    "term": "G/A",
+    "fullName": "Ground-to-air",
+    "category": "NOTAM",
+    "old_description": "Ground-to-air"
+  },
+  {
+    "term": "G/A/G",
+    "fullName": "Ground-to-air and air-to-ground",
+    "category": "NOTAM",
+    "old_description": "Ground-to-air and air-to-ground"
+  },
+  {
+    "term": "GAIN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Airspeed or headwind gain"
+  },
+  {
+    "term": "GARP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "GBAS azimuth reference point"
+  },
+  {
+    "term": "GEN",
+    "fullName": "General",
+    "category": "NOTAM",
+    "old_description": "일반 또는 총칙"
+  },
+  {
+    "term": "GES",
+    "fullName": "Ground earth station",
+    "category": "NOTAM",
+    "old_description": "Ground earth station"
+  },
+  {
+    "term": "GLD",
+    "fullName": "Glider",
+    "category": "NOTAM",
+    "old_description": "Glider"
+  },
+  {
+    "term": "GLS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "GBAS landing system"
+  },
+  {
+    "term": "GND",
+    "fullName": "Ground",
+    "category": "NOTAM",
+    "old_description": "Ground"
+  },
+  {
+    "term": "GNDCK",
+    "fullName": "Ground check",
+    "category": "NOTAM",
+    "old_description": "Ground check"
+  },
+  {
+    "term": "GOV",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Government"
+  },
+  {
+    "term": "GP",
+    "fullName": "Glide path",
+    "category": "NOTAM",
+    "old_description": "Glide path"
+  },
+  {
+    "term": "GPA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Glide path angle"
+  },
+  {
+    "term": "GPIP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Glide path intercept point"
+  },
+  {
+    "term": "GPU",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Ground power unit"
+  },
+  {
+    "term": "GRASS",
+    "fullName": "Grass landing area",
+    "category": "NOTAM",
+    "old_description": "Grass landing area"
+  },
+  {
+    "term": "GRVL",
+    "fullName": "Gravel",
+    "category": "NOTAM",
+    "old_description": "Gravel"
+  },
+  {
+    "term": "GUND",
+    "fullName": "Geoid undulation",
+    "category": "NOTAM",
+    "old_description": "Geoid undulation"
+  },
+  {
+    "term": "HBN",
+    "fullName": "Hazard beacon",
+    "category": "NOTAM",
+    "old_description": "Hazard beacon"
+  },
+  {
+    "term": "HCH",
+    "fullName": "Heliport crossing height",
+    "category": "NOTAM",
+    "old_description": "Heliport crossing height"
+  },
+  {
+    "term": "HDG",
+    "fullName": "Heading",
+    "category": "NOTAM",
+    "old_description": "방향 또는 기수방향"
+  },
+  {
+    "term": "HEL",
+    "fullName": "Helicopter",
+    "category": "NOTAM",
+    "old_description": "Helicopter"
+  },
+  {
+    "term": "HGT",
+    "fullName": "Height or height above",
+    "category": "NOTAM",
+    "old_description": "Height or height above"
+  },
+  {
+    "term": "HJ",
+    "fullName": "Sunrise to sunset",
+    "category": "NOTAM",
+    "old_description": "Sunrise to sunset"
+  },
+  {
+    "term": "HLDG",
+    "fullName": "Holding",
+    "category": "NOTAM",
+    "old_description": "Holding"
+  },
+  {
+    "term": "HLP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Heliport"
+  },
+  {
+    "term": "HLS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Helicopter landing site"
+  },
+  {
+    "term": "HN",
+    "fullName": "Sunset to sunrise",
+    "category": "NOTAM",
+    "old_description": "Sunset to sunrise"
+  },
+  {
+    "term": "HOL",
+    "fullName": "Holiday",
+    "category": "NOTAM",
+    "old_description": "Holiday"
+  },
+  {
+    "term": "HOSP",
+    "fullName": "Hospital aircraft",
+    "category": "NOTAM",
+    "old_description": "Hospital aircraft"
+  },
+  {
+    "term": "HPA",
+    "fullName": "Hectopascal",
+    "category": "NOTAM",
+    "old_description": "Hectopascal"
+  },
+  {
+    "term": "HR",
+    "fullName": "Hours",
+    "category": "NOTAM",
+    "old_description": "Hours"
+  },
+  {
+    "term": "HRP",
+    "fullName": "Heliport reference point",
+    "category": "NOTAM",
+    "old_description": "Heliport reference point"
+  },
+  {
+    "term": "HUD",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Head-up display"
+  },
+  {
+    "term": "HUM",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Humanitarian"
+  },
+  {
+    "term": "HURCN",
+    "fullName": "Hurricane",
+    "category": "NOTAM",
+    "old_description": "Hurricane"
+  },
+  {
+    "term": "HX",
+    "fullName": "No specific working hours",
+    "category": "NOTAM",
+    "old_description": "No specific working hours"
+  },
+  {
+    "term": "HYR",
+    "fullName": "Higher ...",
+    "category": "NOTAM",
+    "old_description": "...보다높은"
+  },
+  {
+    "term": "HZ",
+    "fullName": "Haze",
+    "category": "NOTAM",
+    "old_description": "Hertz (cycle per second)"
+  },
+  {
+    "term": "IAF",
+    "fullName": "Initial approach fix",
+    "category": "NOTAM",
+    "old_description": "Initial approach fix"
+  },
+  {
+    "term": "IAO",
+    "fullName": "In and out of clouds",
+    "category": "NOTAM",
+    "old_description": "In and out of clouds"
+  },
+  {
+    "term": "IAP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Instrument approach procedure"
+  },
+  {
+    "term": "IAR",
+    "fullName": "Intersection of air routes",
+    "category": "NOTAM",
+    "old_description": "Intersection of air routes"
+  },
+  {
+    "term": "IAS",
+    "fullName": "Indicated air speed",
+    "category": "NOTAM",
+    "old_description": "Indicated airspeed"
+  },
+  {
+    "term": "IBN",
+    "fullName": "Identification beacon",
+    "category": "NOTAM",
+    "old_description": "Identification beacon"
+  },
+  {
+    "term": "ICE",
+    "fullName": "Icing",
+    "category": "NOTAM",
+    "old_description": "Icing"
+  },
+  {
+    "term": "ID",
+    "fullName": "Identifier or identify",
+    "category": "NOTAM",
+    "old_description": "Identifier or identify"
+  },
+  {
+    "term": "IFF",
+    "fullName": "Identification friend/foe",
+    "category": "NOTAM",
+    "old_description": "Identification friend/foe"
+  },
+  {
+    "term": "IGA",
+    "fullName": "International general aviation",
+    "category": "NOTAM",
+    "old_description": "International general aviation"
+  },
+  {
+    "term": "IM",
+    "fullName": "Inner marker",
+    "category": "NOTAM",
+    "old_description": "Inner marker"
+  },
+  {
+    "term": "IMC",
+    "fullName": "Instrument meteorological conditions",
+    "category": "NOTAM",
+    "old_description": "Instrument meteorological conditions"
+  },
+  {
+    "term": "IMG",
+    "fullName": "Immigration",
+    "category": "NOTAM",
+    "old_description": "Immigration"
+  },
+  {
+    "term": "IMPR",
+    "fullName": "Improve or improving",
+    "category": "NOTAM",
+    "old_description": "Improve or improving"
+  },
+  {
+    "term": "IMT",
+    "fullName": "immediate or immediately",
+    "category": "NOTAM",
+    "old_description": "Immediate or immediately"
+  },
+  {
+    "term": "INA",
+    "fullName": "Initial approach",
+    "category": "NOTAM",
+    "old_description": "Initial approach"
+  },
+  {
+    "term": "INBD",
+    "fullName": "Inbound",
+    "category": "NOTAM",
+    "old_description": "Inbound"
+  },
+  {
+    "term": "INC",
+    "fullName": "In cloud",
+    "category": "NOTAM",
+    "old_description": "In cloud"
+  },
+  {
+    "term": "INCORP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Incorporated"
+  },
+  {
+    "term": "INFO",
+    "fullName": "Information",
+    "category": "NOTAM",
+    "old_description": "Information"
+  },
+  {
+    "term": "INOP",
+    "fullName": "Inoperative",
+    "category": "NOTAM",
+    "old_description": "Inoperative"
+  },
+  {
+    "term": "INP",
+    "fullName": "If not possible",
+    "category": "NOTAM",
+    "old_description": "If not possible"
+  },
+  {
+    "term": "INPR",
+    "fullName": "In progress",
+    "category": "NOTAM",
+    "old_description": "In progress"
+  },
+  {
+    "term": "INS",
+    "fullName": "Inertial navigation system",
+    "category": "NOTAM",
+    "old_description": "Inertial navigation system"
+  },
+  {
+    "term": "INSTR",
+    "fullName": "Instrument",
+    "category": "NOTAM",
+    "old_description": "Instrument"
+  },
+  {
+    "term": "INT",
+    "fullName": "Intersection",
+    "category": "NOTAM",
+    "old_description": "Intersection"
+  },
+  {
+    "term": "INTL",
+    "fullName": "International",
+    "category": "NOTAM",
+    "old_description": "International"
+  },
+  {
+    "term": "INTRG",
+    "fullName": "Interrogator",
+    "category": "NOTAM",
+    "old_description": "Interrogator"
+  },
+  {
+    "term": "INTSF",
+    "fullName": "Intensify or intensifying",
+    "category": "NOTAM",
+    "old_description": "Intensify or intensifying"
+  },
+  {
+    "term": "INTST",
+    "fullName": "Intensity",
+    "category": "NOTAM",
+    "old_description": "Intensity"
+  },
+  {
+    "term": "IR",
+    "fullName": "Ice on runway",
+    "category": "NOTAM",
+    "old_description": "Ice on runway"
+  },
+  {
+    "term": "IRS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Inertial reference system"
+  },
+  {
+    "term": "ISA",
+    "fullName": "International standard atmosphere",
+    "category": "NOTAM",
+    "old_description": "International standard atmosphere"
+  },
+  {
+    "term": "ISB",
+    "fullName": "Independent sideband",
+    "category": "NOTAM",
+    "old_description": "Independent sideband"
+  },
+  {
+    "term": "ISOL",
+    "fullName": "Isolated",
+    "category": "NOTAM",
+    "old_description": "Isolated"
+  },
+  {
+    "term": "JAN",
+    "fullName": "January 1",
+    "category": "NOTAM",
+    "old_description": "January"
+  },
+  {
+    "term": "JTST",
+    "fullName": "Jet stream",
+    "category": "NOTAM",
+    "old_description": "Jet stream"
+  },
+  {
+    "term": "JUL",
+    "fullName": "July 7",
+    "category": "NOTAM",
+    "old_description": "July"
+  },
+  {
+    "term": "JUN",
+    "fullName": "June 6",
+    "category": "NOTAM",
+    "old_description": "June"
+  },
+  {
+    "term": "KG",
+    "fullName": "Kilograms",
+    "category": "NOTAM",
+    "old_description": "Kilograms"
+  },
+  {
+    "term": "KHZ",
+    "fullName": "Kilohertz",
+    "category": "NOTAM",
+    "old_description": "Kilohertz"
+  },
+  {
+    "term": "KIAS",
+    "fullName": "Knots indicated airspeed",
+    "category": "NOTAM",
+    "old_description": "Knots indicated airspeed"
+  },
+  {
+    "term": "KM",
+    "fullName": "kilometers",
+    "category": "NOTAM",
+    "old_description": "Kilometres"
+  },
+  {
+    "term": "KMH",
+    "fullName": "Kilometers per hour",
+    "category": "NOTAM",
+    "old_description": "Kilometres per hour"
+  },
+  {
+    "term": "KPA",
+    "fullName": "Kilopascal",
+    "category": "NOTAM",
+    "old_description": "Kilopascal"
+  },
+  {
+    "term": "KT",
+    "fullName": "Knots",
+    "category": "NOTAM",
+    "old_description": "Knots"
+  },
+  {
+    "term": "KW",
+    "fullName": "Kilowatts",
+    "category": "NOTAM",
+    "old_description": "Kilowatts"
+  },
+  {
+    "term": "LAN",
+    "fullName": "Inland",
+    "category": "NOTAM",
+    "old_description": "Inland"
+  },
+  {
+    "term": "LAT",
+    "fullName": "Latitude",
+    "category": "NOTAM",
+    "old_description": "Latitude"
+  },
+  {
+    "term": "LDA",
+    "fullName": "Landing distance available",
+    "category": "NOTAM",
+    "old_description": "Landing distance available"
+  },
+  {
+    "term": "LDG",
+    "fullName": "Landing",
+    "category": "NOTAM",
+    "old_description": "Landing"
+  },
+  {
+    "term": "LDI",
+    "fullName": "Landing direction indicator",
+    "category": "NOTAM",
+    "old_description": "Landing direction indicator"
+  },
+  {
+    "term": "LEN",
+    "fullName": "Length",
+    "category": "NOTAM",
+    "old_description": "Length"
+  },
+  {
+    "term": "LF",
+    "fullName": "Low frequency(30 to 300kHz)",
+    "category": "NOTAM",
+    "old_description": "Low frequency [30 to 300 kHz]"
+  },
+  {
+    "term": "LGT",
+    "fullName": "Light or lighting",
+    "category": "NOTAM",
+    "old_description": "Light or lighting"
+  },
+  {
+    "term": "LGTD",
+    "fullName": "Lighted",
+    "category": "NOTAM",
+    "old_description": "Lighted"
+  },
+  {
+    "term": "LIH",
+    "fullName": "Light intensity high",
+    "category": "NOTAM",
+    "old_description": "Light intensity high"
+  },
+  {
+    "term": "LIL",
+    "fullName": "Light intensity low",
+    "category": "NOTAM",
+    "old_description": "Light intensity low"
+  },
+  {
+    "term": "LIM",
+    "fullName": "Light intensity medium",
+    "category": "NOTAM",
+    "old_description": "Light intensity medium"
+  },
+  {
+    "term": "LINE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Line (used in SIGMET)"
+  },
+  {
+    "term": "LM",
+    "fullName": "Locator, middle",
+    "category": "NOTAM",
+    "old_description": "\"(중간로케이터) Locator"
+  },
+  {
+    "term": "LMT",
+    "fullName": "Local mean time",
+    "category": "NOTAM",
+    "old_description": "Local mean time"
+  },
+  {
+    "term": "LO",
+    "fullName": "Locator, outer",
+    "category": "NOTAM",
+    "old_description": "\"(외측로케이터) Locator"
+  },
+  {
+    "term": "LOC",
+    "fullName": "Localizer",
+    "category": "NOTAM",
+    "old_description": "Localizer"
+  },
+  {
+    "term": "LOSS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Airspeed or headwind loss"
+  },
+  {
+    "term": "LRG",
+    "fullName": "Long range",
+    "category": "NOTAM",
+    "old_description": "Long range"
+  },
+  {
+    "term": "LTA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Lower control area"
+  },
+  {
+    "term": "LTD",
+    "fullName": "Limited",
+    "category": "NOTAM",
+    "old_description": "Limited"
+  },
+  {
+    "term": "LTP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Landing threshold point"
+  },
+  {
+    "term": "LVE",
+    "fullName": "Leave or leaving",
+    "category": "NOTAM",
+    "old_description": "Leave or leaving"
+  },
+  {
+    "term": "LVL",
+    "fullName": "Level",
+    "category": "NOTAM",
+    "old_description": "Level"
+  },
+  {
+    "term": "LVP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Low visibility procedures"
+  },
+  {
+    "term": "LYR",
+    "fullName": "Layer or layered",
+    "category": "NOTAM",
+    "old_description": "Layer or layered"
+  },
+  {
+    "term": "MAA",
+    "fullName": "Maximum authorized altitude",
+    "category": "NOTAM",
+    "old_description": "Maximum authorized altitude"
+  },
+  {
+    "term": "MAG",
+    "fullName": "Magnetic",
+    "category": "NOTAM",
+    "old_description": "Magnetic"
+  },
+  {
+    "term": "MAHF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Missed approach holding fix"
+  },
+  {
+    "term": "MAINT",
+    "fullName": "Maintenance",
+    "category": "NOTAM",
+    "old_description": "Maintenance"
+  },
+  {
+    "term": "MAP",
+    "fullName": "Aeronautical maps and charts",
+    "category": "NOTAM",
+    "old_description": "Aeronautical maps and charts"
+  },
+  {
+    "term": "MAPT",
+    "fullName": "Missed approach point",
+    "category": "NOTAM",
+    "old_description": "Missed approach point"
+  },
+  {
+    "term": "MAR",
+    "fullName": "At sea",
+    "category": "NOTAM",
+    "old_description": "At sea"
+  },
+  {
+    "term": "MATF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Missed approach turning fix"
+  },
+  {
+    "term": "MAX",
+    "fullName": "Maximum",
+    "category": "NOTAM",
+    "old_description": "Maximum"
+  },
+  {
+    "term": "MAY",
+    "fullName": "May 5",
+    "category": "NOTAM",
+    "old_description": "May"
+  },
+  {
+    "term": "MBST",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Microburst"
+  },
+  {
+    "term": "MCA",
+    "fullName": "Minimum crossing altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum crossing altitude"
+  },
+  {
+    "term": "MCTR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Military control zone"
+  },
+  {
+    "term": "MCW",
+    "fullName": "Modulated continuous wave",
+    "category": "NOTAM",
+    "old_description": "Modulated continuous wave"
+  },
+  {
+    "term": "MDA",
+    "fullName": "Minimum descent altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum descent altitude"
+  },
+  {
+    "term": "MDH",
+    "fullName": "Minimum descent height",
+    "category": "NOTAM",
+    "old_description": "Minimum descent height"
+  },
+  {
+    "term": "MEA",
+    "fullName": "Minimum en-route altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum en-route altitude"
+  },
+  {
+    "term": "MEDEVAC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Medical evacuation flight"
+  },
+  {
+    "term": "MET",
+    "fullName": "Meteorological or Meteorology",
+    "category": "NOTAM",
+    "old_description": "Meteorological or meteorology"
+  },
+  {
+    "term": "MHA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Minimum holding altitude"
+  },
+  {
+    "term": "MHZ",
+    "fullName": "Megahertz",
+    "category": "NOTAM",
+    "old_description": "Megahertz"
+  },
+  {
+    "term": "MIFG",
+    "fullName": "Shallow fog",
+    "category": "NOTAM",
+    "old_description": "Shallow fog"
+  },
+  {
+    "term": "MIL",
+    "fullName": "Military",
+    "category": "NOTAM",
+    "old_description": "Military"
+  },
+  {
+    "term": "MIN",
+    "fullName": "Minute",
+    "category": "NOTAM",
+    "old_description": "Minutes"
+  },
+  {
+    "term": "MKR",
+    "fullName": "Marker radio beacon",
+    "category": "NOTAM",
+    "old_description": "Marker radio beacon"
+  },
+  {
+    "term": "MLS",
+    "fullName": "Microwave landing system",
+    "category": "NOTAM",
+    "old_description": "Microwave landing system"
+  },
+  {
+    "term": "MM",
+    "fullName": "Middle marker",
+    "category": "NOTAM",
+    "old_description": "Middle marker"
+  },
+  {
+    "term": "MNM",
+    "fullName": "Minimum",
+    "category": "NOTAM",
+    "old_description": "Minimum"
+  },
+  {
+    "term": "MNTN",
+    "fullName": "Maintain",
+    "category": "NOTAM",
+    "old_description": "Maintain"
+  },
+  {
+    "term": "MOA",
+    "fullName": "Military operating area",
+    "category": "NOTAM",
+    "old_description": "Military operating area"
+  },
+  {
+    "term": "MON",
+    "fullName": "Above mountains",
+    "category": "NOTAM",
+    "old_description": "Above mountains"
+  },
+  {
+    "term": "MOV",
+    "fullName": "Move or moving or movement",
+    "category": "NOTAM",
+    "old_description": "Move or moving or movement"
+  },
+  {
+    "term": "MPS",
+    "fullName": "Meters per second",
+    "category": "NOTAM",
+    "old_description": "Metres per second"
+  },
+  {
+    "term": "MRA",
+    "fullName": "Minimum reception altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum reception altitude"
+  },
+  {
+    "term": "MRG",
+    "fullName": "Medium range",
+    "category": "NOTAM",
+    "old_description": "Medium range"
+  },
+  {
+    "term": "MRP",
+    "fullName": "ATS/MET reporting point",
+    "category": "NOTAM",
+    "old_description": "ATS/MET reporting point"
+  },
+  {
+    "term": "MS",
+    "fullName": "Minus",
+    "category": "NOTAM",
+    "old_description": "Minus"
+  },
+  {
+    "term": "MSA",
+    "fullName": "Minimum sector altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum sector altitude"
+  },
+  {
+    "term": "MSAW",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Minimum safe altitude warning"
+  },
+  {
+    "term": "MSG",
+    "fullName": "Message",
+    "category": "NOTAM",
+    "old_description": "Message"
+  },
+  {
+    "term": "MSL",
+    "fullName": "Mean sea level",
+    "category": "NOTAM",
+    "old_description": "Mean sea level"
+  },
+  {
+    "term": "MT",
+    "fullName": "Mountain",
+    "category": "NOTAM",
+    "old_description": "Mountain"
+  },
+  {
+    "term": "MTOM",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Maximum take-off mass"
+  },
+  {
+    "term": "MTU",
+    "fullName": "Metric units",
+    "category": "NOTAM",
+    "old_description": "Metric units"
+  },
+  {
+    "term": "MTW",
+    "fullName": "Mountain waves",
+    "category": "NOTAM",
+    "old_description": "Mountain waves"
+  },
+  {
+    "term": "MWO",
+    "fullName": "Meteorological watch office",
+    "category": "NOTAM",
+    "old_description": "Meteorological watch office"
+  },
+  {
+    "term": "NASC",
+    "fullName": "National AIS system center",
+    "category": "NOTAM",
+    "old_description": "National AIS system centre"
+  },
+  {
+    "term": "NAV",
+    "fullName": "Navigation",
+    "category": "NOTAM",
+    "old_description": "Navigation"
+  },
+  {
+    "term": "NAVAID",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Navigation aid"
+  },
+  {
+    "term": "NB",
+    "fullName": "Northbound",
+    "category": "NOTAM",
+    "old_description": "Northbound"
+  },
+  {
+    "term": "NBFR",
+    "fullName": "Not before ...",
+    "category": "NOTAM",
+    "old_description": "...의 앞이 아님"
+  },
+  {
+    "term": "NC",
+    "fullName": "No change",
+    "category": "NOTAM",
+    "old_description": "No change"
+  },
+  {
+    "term": "NDB",
+    "fullName": "Non-directional radio beacon",
+    "category": "NOTAM",
+    "old_description": "Non-directional radio beacon"
+  },
+  {
+    "term": "NE",
+    "fullName": "North-east",
+    "category": "NOTAM",
+    "old_description": "North-east"
+  },
+  {
+    "term": "NEB",
+    "fullName": "North-east bound",
+    "category": "NOTAM",
+    "old_description": "North-eastbound"
+  },
+  {
+    "term": "NGT",
+    "fullName": "Night",
+    "category": "NOTAM",
+    "old_description": "Night"
+  },
+  {
+    "term": "NM",
+    "fullName": "Nautical miles",
+    "category": "NOTAM",
+    "old_description": "해리(거리단위)) Nautical miles"
+  },
+  {
+    "term": "NML",
+    "fullName": "Normal",
+    "category": "NOTAM",
+    "old_description": "Normal"
+  },
+  {
+    "term": "NN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "No name, unnamed"
+  },
+  {
+    "term": "NNE",
+    "fullName": "North north east",
+    "category": "NOTAM",
+    "old_description": "North-north-east"
+  },
+  {
+    "term": "NNW",
+    "fullName": "North north west",
+    "category": "NOTAM",
+    "old_description": "North-north-west"
+  },
+  {
+    "term": "NOF",
+    "fullName": "International NOTAM office",
+    "category": "NOTAM",
+    "old_description": "International NOTAM office"
+  },
+  {
+    "term": "NONSTD",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Non-standard"
+  },
+  {
+    "term": "NOTAMC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Cancelling NOTAM"
+  },
+  {
+    "term": "NOTAMN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "New NOTAM"
+  },
+  {
+    "term": "NOTAMR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Replacing NOTAM"
+  },
+  {
+    "term": "NOV",
+    "fullName": "November 11",
+    "category": "NOTAM",
+    "old_description": "November"
+  },
+  {
+    "term": "NPA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Non-precision approach"
+  },
+  {
+    "term": "NR",
+    "fullName": "Number",
+    "category": "NOTAM",
+    "old_description": "Number"
+  },
+  {
+    "term": "NRH",
+    "fullName": "NO reply heard",
+    "category": "NOTAM",
+    "old_description": "No reply heard"
+  },
+  {
+    "term": "NS",
+    "fullName": "Nimbostratus",
+    "category": "NOTAM",
+    "old_description": "Nimbostratus"
+  },
+  {
+    "term": "NSC",
+    "fullName": "Nil significant cloud",
+    "category": "NOTAM",
+    "old_description": "Nil significant cloud"
+  },
+  {
+    "term": "NSE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Navigation system error"
+  },
+  {
+    "term": "NSW",
+    "fullName": "Nil significant weather",
+    "category": "NOTAM",
+    "old_description": "Nil significant weather"
+  },
+  {
+    "term": "NTL",
+    "fullName": "National",
+    "category": "NOTAM",
+    "old_description": "National"
+  },
+  {
+    "term": "NTZ",
+    "fullName": "No transgression zone",
+    "category": "NOTAM",
+    "old_description": "No transgression zone"
+  },
+  {
+    "term": "NW",
+    "fullName": "North west",
+    "category": "NOTAM",
+    "old_description": "North-west"
+  },
+  {
+    "term": "NWB",
+    "fullName": "North west bound",
+    "category": "NOTAM",
+    "old_description": "North-westbound"
+  },
+  {
+    "term": "NXT",
+    "fullName": "Next",
+    "category": "NOTAM",
+    "old_description": "Next"
+  },
+  {
+    "term": "O/R",
+    "fullName": "On request",
+    "category": "NOTAM",
+    "old_description": "On request"
+  },
+  {
+    "term": "OAC",
+    "fullName": "Oceanic area control centre",
+    "category": "NOTAM",
+    "old_description": "Oceanic area control centre"
+  },
+  {
+    "term": "OAS",
+    "fullName": "Obstacle assessment surface",
+    "category": "NOTAM",
+    "old_description": "Obstacle assessment surface"
+  },
+  {
+    "term": "OBST",
+    "fullName": "Obstacle",
+    "category": "NOTAM",
+    "old_description": "Obstacle"
+  },
+  {
+    "term": "OCA",
+    "fullName": "Obstacle clearance altitude",
+    "category": "NOTAM",
+    "old_description": "Obstacle clearance altitude"
+  },
+  {
+    "term": "OCC",
+    "fullName": "Occulting(light)",
+    "category": "NOTAM",
+    "old_description": "Occulting (light)"
+  },
+  {
+    "term": "OCH",
+    "fullName": "Obstacle clearance height",
+    "category": "NOTAM",
+    "old_description": "Obstacle clearance height"
+  },
+  {
+    "term": "OCNL",
+    "fullName": "Occasional or occasionally",
+    "category": "NOTAM",
+    "old_description": "Occasional or occasionally"
+  },
+  {
+    "term": "OCS",
+    "fullName": "Obstacle clearance surface",
+    "category": "NOTAM",
+    "old_description": "Obstacle clearance surface"
+  },
+  {
+    "term": "OCT",
+    "fullName": "October 10",
+    "category": "NOTAM",
+    "old_description": "October"
+  },
+  {
+    "term": "OFZ",
+    "fullName": "Obstacle free zone",
+    "category": "NOTAM",
+    "old_description": "Obstacle free zone"
+  },
+  {
+    "term": "OHD",
+    "fullName": "Overhead",
+    "category": "NOTAM",
+    "old_description": "Overhead"
+  },
+  {
+    "term": "OIS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Obstacle identification surface"
+  },
+  {
+    "term": "OLDI",
+    "fullName": "On-line data interchange",
+    "category": "NOTAM",
+    "old_description": "On-line data interchange"
+  },
+  {
+    "term": "OM",
+    "fullName": "Outer marker",
+    "category": "NOTAM",
+    "old_description": "Outer marker"
+  },
+  {
+    "term": "OPMET",
+    "fullName": "Operational meteorological(information)",
+    "category": "NOTAM",
+    "old_description": "Operational meteorological (information)"
+  },
+  {
+    "term": "OPN",
+    "fullName": "Open or opening or opened",
+    "category": "NOTAM",
+    "old_description": "Open or opening or opened"
+  },
+  {
+    "term": "OPS",
+    "fullName": "Operations",
+    "category": "NOTAM",
+    "old_description": "Operations"
+  },
+  {
+    "term": "ORD",
+    "fullName": "Indication of an order",
+    "category": "NOTAM",
+    "old_description": "지시의 표시"
+  },
+  {
+    "term": "OSV",
+    "fullName": "Ocean station vessel",
+    "category": "NOTAM",
+    "old_description": "Ocean station vessel"
+  },
+  {
+    "term": "OTP",
+    "fullName": "On top",
+    "category": "NOTAM",
+    "old_description": "On top"
+  },
+  {
+    "term": "OTS",
+    "fullName": "Out of service",
+    "category": "NOTAM",
+    "old_description": "Organized track system"
+  },
+  {
+    "term": "OUBD",
+    "fullName": "Outbound",
+    "category": "NOTAM",
+    "old_description": "외국(외지로 가는"
+  },
+  {
+    "term": "OVC",
+    "fullName": "Overcast",
+    "category": "NOTAM",
+    "old_description": "Overcast"
+  },
+  {
+    "term": "PA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Precision approach"
+  },
+  {
+    "term": "PARL",
+    "fullName": "Parallel",
+    "category": "NOTAM",
+    "old_description": "Parallel"
+  },
+  {
+    "term": "PAX",
+    "fullName": "Passenger(s)",
+    "category": "NOTAM",
+    "old_description": "Passenger(s)"
+  },
+  {
+    "term": "PBC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Performance-based communication"
+  },
+  {
+    "term": "PBN",
+    "fullName": "Performance-based navigation",
+    "category": "NOTAM",
+    "old_description": "Performance-based navigation"
+  },
+  {
+    "term": "PBS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Performance-based surveillance"
+  },
+  {
+    "term": "PCD",
+    "fullName": "Proceed or proceeding",
+    "category": "NOTAM",
+    "old_description": "Proceed or proceeding"
+  },
+  {
+    "term": "PCL",
+    "fullName": "Pilot-controlled lighting",
+    "category": "NOTAM",
+    "old_description": "Pilot-controlled lighting"
+  },
+  {
+    "term": "PCN",
+    "fullName": "Pavement classification number",
+    "category": "NOTAM",
+    "old_description": "Pavement classification number"
+  },
+  {
+    "term": "PCT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Per cent"
+  },
+  {
+    "term": "PDC",
+    "fullName": "Pre-departure clearance",
+    "category": "NOTAM",
+    "old_description": "Pre-departure clearance"
+  },
+  {
+    "term": "PDG",
+    "fullName": "Procedure design gradient",
+    "category": "NOTAM",
+    "old_description": "Procedure design gradient"
+  },
+  {
+    "term": "PER",
+    "fullName": "Performance",
+    "category": "NOTAM",
+    "old_description": "Performance"
+  },
+  {
+    "term": "PERM",
+    "fullName": "Permanent",
+    "category": "NOTAM",
+    "old_description": "Permanent"
+  },
+  {
+    "term": "PIB",
+    "fullName": "Pre-flight information bulletin",
+    "category": "NOTAM",
+    "old_description": "Pre-flight information bulletin"
+  },
+  {
+    "term": "PJE",
+    "fullName": "Parachute jumping exercise",
+    "category": "NOTAM",
+    "old_description": "Parachute jumping exercise"
+  },
+  {
+    "term": "PL",
+    "fullName": "Ice pellets",
+    "category": "NOTAM",
+    "old_description": "Ice pellets"
+  },
+  {
+    "term": "PLA",
+    "fullName": "Practice low approach",
+    "category": "NOTAM",
+    "old_description": "Practice low approach"
+  },
+  {
+    "term": "PLVL",
+    "fullName": "Present level",
+    "category": "NOTAM",
+    "old_description": "Present level"
+  },
+  {
+    "term": "PN",
+    "fullName": "Prior notice required",
+    "category": "NOTAM",
+    "old_description": "Prior notice required"
+  },
+  {
+    "term": "PNR",
+    "fullName": "Point of no return",
+    "category": "NOTAM",
+    "old_description": "Point of no return"
+  },
+  {
+    "term": "POB",
+    "fullName": "Persons on board",
+    "category": "NOTAM",
+    "old_description": "Persons on board"
+  },
+  {
+    "term": "POSS",
+    "fullName": "Possible",
+    "category": "NOTAM",
+    "old_description": "Possible"
+  },
+  {
+    "term": "PPI",
+    "fullName": "Plan position indicator",
+    "category": "NOTAM",
+    "old_description": "Plan position indicator"
+  },
+  {
+    "term": "PPR",
+    "fullName": "Prior permission required",
+    "category": "NOTAM",
+    "old_description": "Prior permission required"
+  },
+  {
+    "term": "PPSN",
+    "fullName": "Present position",
+    "category": "NOTAM",
+    "old_description": "Present position"
+  },
+  {
+    "term": "PRI",
+    "fullName": "Primary 1",
+    "category": "NOTAM",
+    "old_description": "차, 주, 최초의"
+  },
+  {
+    "term": "PRKG",
+    "fullName": "Parking",
+    "category": "NOTAM",
+    "old_description": "추차 또는 계류"
+  },
+  {
+    "term": "PROB",
+    "fullName": "Probability",
+    "category": "NOTAM",
+    "old_description": "Probability"
+  },
+  {
+    "term": "PROC",
+    "fullName": "Procedure",
+    "category": "NOTAM",
+    "old_description": "Procedure"
+  },
+  {
+    "term": "PROP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Propeller"
+  },
+  {
+    "term": "PROV",
+    "fullName": "Provisional",
+    "category": "NOTAM",
+    "old_description": "Provisional"
+  },
+  {
+    "term": "PRP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Point-in-space reference point"
+  },
+  {
+    "term": "PS",
+    "fullName": "Plus",
+    "category": "NOTAM",
+    "old_description": "Plus"
+  },
+  {
+    "term": "PSG",
+    "fullName": "Passing",
+    "category": "NOTAM",
+    "old_description": "Passing"
+  },
+  {
+    "term": "PSN",
+    "fullName": "Position",
+    "category": "NOTAM",
+    "old_description": "Position"
+  },
+  {
+    "term": "PSP",
+    "fullName": "Pierced steel plank",
+    "category": "NOTAM",
+    "old_description": "Pierced steel plank"
+  },
+  {
+    "term": "PSR",
+    "fullName": "Primary surveillance radar 1",
+    "category": "NOTAM",
+    "old_description": "Primary surveillance radar"
+  },
+  {
+    "term": "PSYS",
+    "fullName": "Pressure system(s)",
+    "category": "NOTAM",
+    "old_description": "Pressure system(s)"
+  },
+  {
+    "term": "PTN",
+    "fullName": "Procedure turn",
+    "category": "NOTAM",
+    "old_description": "Procedure turn"
+  },
+  {
+    "term": "PTS",
+    "fullName": "Polar track structure",
+    "category": "NOTAM",
+    "old_description": "Polar track structure"
+  },
+  {
+    "term": "PWR",
+    "fullName": "Power",
+    "category": "NOTAM",
+    "old_description": "출력, 전력"
+  },
+  {
+    "term": "QDM",
+    "fullName": "Magnetic heading(zero wind)",
+    "category": "NOTAM",
+    "old_description": "Magnetic heading (zero wind)"
+  },
+  {
+    "term": "QDR",
+    "fullName": "Magnetic bearing",
+    "category": "NOTAM",
+    "old_description": "Magnetic bearing"
+  },
+  {
+    "term": "QTE",
+    "fullName": "True bearing",
+    "category": "NOTAM",
+    "old_description": "True bearing"
+  },
+  {
+    "term": "QUAD",
+    "fullName": "Quadrant",
+    "category": "NOTAM",
+    "old_description": "Quadrant"
+  },
+  {
+    "term": "RA",
+    "fullName": "Rain",
+    "category": "NOTAM",
+    "old_description": "Resolution advisory"
+  },
+  {
+    "term": "RAG",
+    "fullName": "Runway arresting gear",
+    "category": "NOTAM",
+    "old_description": "Runway arresting gear"
+  },
+  {
+    "term": "RAI",
+    "fullName": "Runway alignment indicator",
+    "category": "NOTAM",
+    "old_description": "Runway alignment indicator"
+  },
+  {
+    "term": "RASC",
+    "fullName": "Regional AIS system center",
+    "category": "NOTAM",
+    "old_description": "Regional AIS system centre"
+  },
+  {
+    "term": "RB",
+    "fullName": "Rescue boat",
+    "category": "NOTAM",
+    "old_description": "Rescue boat"
+  },
+  {
+    "term": "RCA",
+    "fullName": "Reach cruising altitude",
+    "category": "NOTAM",
+    "old_description": "Reach cruising altitude"
+  },
+  {
+    "term": "RCC",
+    "fullName": "Rescue coordination center",
+    "category": "NOTAM",
+    "old_description": "Rescue coordination centre"
+  },
+  {
+    "term": "RCH",
+    "fullName": "Reach or reaching",
+    "category": "NOTAM",
+    "old_description": "Reach or reaching"
+  },
+  {
+    "term": "RCL",
+    "fullName": "Runway center line",
+    "category": "NOTAM",
+    "old_description": "Runway centre line"
+  },
+  {
+    "term": "RCLL",
+    "fullName": "Runway center line light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway centre line light(s)"
+  },
+  {
+    "term": "RCLR",
+    "fullName": "Recleared",
+    "category": "NOTAM",
+    "old_description": "Recleared"
+  },
+  {
+    "term": "RCP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Required communication performance"
+  },
+  {
+    "term": "RDH",
+    "fullName": "Reference datum height",
+    "category": "NOTAM",
+    "old_description": "Reference datum height"
+  },
+  {
+    "term": "RDL",
+    "fullName": "Radial",
+    "category": "NOTAM",
+    "old_description": "Radial"
+  },
+  {
+    "term": "RDO",
+    "fullName": "Radio",
+    "category": "NOTAM",
+    "old_description": "Radio"
+  },
+  {
+    "term": "RDOACT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Radioactive"
+  },
+  {
+    "term": "REC",
+    "fullName": "Receive or receiver",
+    "category": "NOTAM",
+    "old_description": "Receive or receiver"
+  },
+  {
+    "term": "REDL",
+    "fullName": "Runway edge light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway edge light(s)"
+  },
+  {
+    "term": "REG",
+    "fullName": "Registration",
+    "category": "NOTAM",
+    "old_description": "Registration"
+  },
+  {
+    "term": "RENL",
+    "fullName": "Runway end light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway end light(s)"
+  },
+  {
+    "term": "REQ",
+    "fullName": "Request or requested",
+    "category": "NOTAM",
+    "old_description": "Request or requested"
+  },
+  {
+    "term": "RERTE",
+    "fullName": "Re-route",
+    "category": "NOTAM",
+    "old_description": "Re-route"
+  },
+  {
+    "term": "RESA",
+    "fullName": "Runway end safety area",
+    "category": "NOTAM",
+    "old_description": "Runway end safety area"
+  },
+  {
+    "term": "RF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Constant radius arc to a fix"
+  },
+  {
+    "term": "RG",
+    "fullName": "Range(lights)",
+    "category": "NOTAM",
+    "old_description": "Range (lights)"
+  },
+  {
+    "term": "RHC",
+    "fullName": "Right-hand circuit",
+    "category": "NOTAM",
+    "old_description": "Right-hand circuit"
+  },
+  {
+    "term": "RIF",
+    "fullName": "Reclearance in flight",
+    "category": "NOTAM",
+    "old_description": "Reclearance in flight"
+  },
+  {
+    "term": "RL",
+    "fullName": "Report leaving",
+    "category": "NOTAM",
+    "old_description": "Report leaving"
+  },
+  {
+    "term": "RLA",
+    "fullName": "Relay to",
+    "category": "NOTAM",
+    "old_description": "Relay to"
+  },
+  {
+    "term": "RLCE",
+    "fullName": "Request level change en-route",
+    "category": "NOTAM",
+    "old_description": "Request level change en route"
+  },
+  {
+    "term": "RLNA",
+    "fullName": "Request level not available",
+    "category": "NOTAM",
+    "old_description": "Requested level not available"
+  },
+  {
+    "term": "RMK",
+    "fullName": "Remark",
+    "category": "NOTAM",
+    "old_description": "Remark"
+  },
+  {
+    "term": "RNG",
+    "fullName": "Radio range",
+    "category": "NOTAM",
+    "old_description": "Radio range"
+  },
+  {
+    "term": "ROC",
+    "fullName": "Rate of climb",
+    "category": "NOTAM",
+    "old_description": "Rate of climb"
+  },
+  {
+    "term": "ROD",
+    "fullName": "Rate of descent",
+    "category": "NOTAM",
+    "old_description": "Rate of descent"
+  },
+  {
+    "term": "RON",
+    "fullName": "Receiving only",
+    "category": "NOTAM",
+    "old_description": "Receiving only"
+  },
+  {
+    "term": "RPDS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Reference path data selector"
+  },
+  {
+    "term": "RPI",
+    "fullName": "Radar position indicator",
+    "category": "NOTAM",
+    "old_description": "Radar position indicator"
+  },
+  {
+    "term": "RPL",
+    "fullName": "Repetitive flight plan",
+    "category": "NOTAM",
+    "old_description": "Repetitive flight plan"
+  },
+  {
+    "term": "RPLC",
+    "fullName": "Replace or replaced ....",
+    "category": "NOTAM",
+    "old_description": "Replace or replaced"
+  },
+  {
+    "term": "RPS",
+    "fullName": "Radar positon symbol",
+    "category": "NOTAM",
+    "old_description": "Radar position symbol"
+  },
+  {
+    "term": "RQMNTS",
+    "fullName": "Requirements",
+    "category": "NOTAM",
+    "old_description": "Requirements"
+  },
+  {
+    "term": "RR",
+    "fullName": "Report reaching",
+    "category": "NOTAM",
+    "old_description": "Report reaching"
+  },
+  {
+    "term": "RSC",
+    "fullName": "Rescue sub-centre",
+    "category": "NOTAM",
+    "old_description": "Rescue sub-centre"
+  },
+  {
+    "term": "RSCD",
+    "fullName": "Runway surface condition",
+    "category": "NOTAM",
+    "old_description": "Runway surface condition"
+  },
+  {
+    "term": "RSP",
+    "fullName": "Responder beacon",
+    "category": "NOTAM",
+    "old_description": "Required surveillance performance"
+  },
+  {
+    "term": "RSR",
+    "fullName": "En-route surveillance radar",
+    "category": "NOTAM",
+    "old_description": "En-route surveillance radar"
+  },
+  {
+    "term": "RSS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Root sum square"
+  },
+  {
+    "term": "RTE",
+    "fullName": "Route",
+    "category": "NOTAM",
+    "old_description": "Route"
+  },
+  {
+    "term": "RTF",
+    "fullName": "Radiotelephone",
+    "category": "NOTAM",
+    "old_description": "Radiotelephone"
+  },
+  {
+    "term": "RTG",
+    "fullName": "Radiotelegraph",
+    "category": "NOTAM",
+    "old_description": "Radiotelegraph"
+  },
+  {
+    "term": "RTHL",
+    "fullName": "Runway threshold light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway threshold light(s)"
+  },
+  {
+    "term": "RTS",
+    "fullName": "Return to service",
+    "category": "NOTAM",
+    "old_description": "Return to service"
+  },
+  {
+    "term": "RTT",
+    "fullName": "Radioteletypewriter",
+    "category": "NOTAM",
+    "old_description": "Radioteletypewriter"
+  },
+  {
+    "term": "RV",
+    "fullName": "Rescue vessel",
+    "category": "NOTAM",
+    "old_description": "Rescue vessel"
+  },
+  {
+    "term": "RVA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Radar vectoring area"
+  },
+  {
+    "term": "RVR",
+    "fullName": "Runway visual range",
+    "category": "NOTAM",
+    "old_description": "Runway visual range"
+  },
+  {
+    "term": "RWY",
+    "fullName": "Runway",
+    "category": "NOTAM",
+    "old_description": "Runway"
+  },
+  {
+    "term": "SA",
+    "fullName": "Sand",
+    "category": "NOTAM",
+    "old_description": "= sand or SN = snow)"
+  },
+  {
+    "term": "SAN",
+    "fullName": "Sanitary",
+    "category": "NOTAM",
+    "old_description": "Sanitary"
+  },
+  {
+    "term": "SAR",
+    "fullName": "Search and rescue",
+    "category": "NOTAM",
+    "old_description": "Search and rescue"
+  },
+  {
+    "term": "SAT",
+    "fullName": "Saturday",
+    "category": "NOTAM",
+    "old_description": "Saturday"
+  },
+  {
+    "term": "SATVOICE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Satellite voice communication"
+  },
+  {
+    "term": "SB",
+    "fullName": "Southbound",
+    "category": "NOTAM",
+    "old_description": "Southbound"
+  },
+  {
+    "term": "SC",
+    "fullName": "Stratocumulus",
+    "category": "NOTAM",
+    "old_description": "Stratocumulus"
+  },
+  {
+    "term": "SCT",
+    "fullName": "Scattered",
+    "category": "NOTAM",
+    "old_description": "산재한 또는 운량이 3/8에서 4/8미만"
+  },
+  {
+    "term": "SD",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Standard deviation"
+  },
+  {
+    "term": "SDBY",
+    "fullName": "Stand by",
+    "category": "NOTAM",
+    "old_description": "Stand by"
+  },
+  {
+    "term": "SDF",
+    "fullName": "Step down Fix",
+    "category": "NOTAM",
+    "old_description": "Step down fix"
+  },
+  {
+    "term": "SE",
+    "fullName": "South-east",
+    "category": "NOTAM",
+    "old_description": "South-east"
+  },
+  {
+    "term": "SEB",
+    "fullName": "South-east bound",
+    "category": "NOTAM",
+    "old_description": "South-eastbound"
+  },
+  {
+    "term": "SEC",
+    "fullName": "Seconds",
+    "category": "NOTAM",
+    "old_description": "Seconds"
+  },
+  {
+    "term": "SECN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Section"
+  },
+  {
+    "term": "SECT",
+    "fullName": "Sector",
+    "category": "NOTAM",
+    "old_description": "Sector"
+  },
+  {
+    "term": "SELCAL",
+    "fullName": "Selective calling system",
+    "category": "NOTAM",
+    "old_description": "Selective calling system"
+  },
+  {
+    "term": "SEP",
+    "fullName": "September 9",
+    "category": "NOTAM",
+    "old_description": "September"
+  },
+  {
+    "term": "SFC",
+    "fullName": "Surface",
+    "category": "NOTAM",
+    "old_description": "Surface"
+  },
+  {
+    "term": "SG",
+    "fullName": "Snow grains",
+    "category": "NOTAM",
+    "old_description": "Snow grains"
+  },
+  {
+    "term": "SGL",
+    "fullName": "Signal",
+    "category": "NOTAM",
+    "old_description": "Signal"
+  },
+  {
+    "term": "SI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "International system of units"
+  },
+  {
+    "term": "SID",
+    "fullName": "Standard instrument departure",
+    "category": "NOTAM",
+    "old_description": "Standard instrument departure"
+  },
+  {
+    "term": "SIF",
+    "fullName": "Selective identification feature",
+    "category": "NOTAM",
+    "old_description": "Selective identification feature"
+  },
+  {
+    "term": "SIG",
+    "fullName": "Significant",
+    "category": "NOTAM",
+    "old_description": "Significant"
+  },
+  {
+    "term": "SIMUL",
+    "fullName": "Simultaneous or simultaneously",
+    "category": "NOTAM",
+    "old_description": "Simultaneous or simultaneously"
+  },
+  {
+    "term": "SIWL",
+    "fullName": "Single isolated wheel load",
+    "category": "NOTAM",
+    "old_description": "Single isolated wheel load"
+  },
+  {
+    "term": "SKED",
+    "fullName": "Schedule or scheduled",
+    "category": "NOTAM",
+    "old_description": "Schedule or scheduled"
+  },
+  {
+    "term": "SLP",
+    "fullName": "Speed limiting point",
+    "category": "NOTAM",
+    "old_description": "Speed limiting point"
+  },
+  {
+    "term": "SLW",
+    "fullName": "Slow",
+    "category": "NOTAM",
+    "old_description": "Slow"
+  },
+  {
+    "term": "SMC",
+    "fullName": "Surface movement control",
+    "category": "NOTAM",
+    "old_description": "Surface movement control"
+  },
+  {
+    "term": "SMR",
+    "fullName": "Surface movement radar",
+    "category": "NOTAM",
+    "old_description": "Surface movement radar"
+  },
+  {
+    "term": "SN",
+    "fullName": "Snow",
+    "category": "NOTAM",
+    "old_description": "= snow, PL = ice pellets,"
+  },
+  {
+    "term": "SOC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Start of climb"
+  },
+  {
+    "term": "SPI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Special position indicator"
+  },
+  {
+    "term": "SPOC",
+    "fullName": "SAR point of contact",
+    "category": "NOTAM",
+    "old_description": "SAR point of contact"
+  },
+  {
+    "term": "SPOT",
+    "fullName": "Spot wind",
+    "category": "NOTAM",
+    "old_description": "Spot wind"
+  },
+  {
+    "term": "SQ",
+    "fullName": "Squall",
+    "category": "NOTAM",
+    "old_description": "Squall"
+  },
+  {
+    "term": "SQL",
+    "fullName": "Squall line",
+    "category": "NOTAM",
+    "old_description": "Squall line"
+  },
+  {
+    "term": "SR",
+    "fullName": "Sunrise",
+    "category": "NOTAM",
+    "old_description": "Sunrise"
+  },
+  {
+    "term": "SRA",
+    "fullName": "Surveillance radar approach",
+    "category": "NOTAM",
+    "old_description": "Surveillance radar approach"
+  },
+  {
+    "term": "SRG",
+    "fullName": "Short range",
+    "category": "NOTAM",
+    "old_description": "Short range"
+  },
+  {
+    "term": "SRR",
+    "fullName": "Search and rescue region",
+    "category": "NOTAM",
+    "old_description": "Search and rescue region"
+  },
+  {
+    "term": "SRY",
+    "fullName": "Secondary 2",
+    "category": "NOTAM",
+    "old_description": "Secondary"
+  },
+  {
+    "term": "SS",
+    "fullName": "Sunset",
+    "category": "NOTAM",
+    "old_description": "Sandstorm"
+  },
+  {
+    "term": "SSB",
+    "fullName": "Single sideband",
+    "category": "NOTAM",
+    "old_description": "Single sideband"
+  },
+  {
+    "term": "SSE",
+    "fullName": "South south east",
+    "category": "NOTAM",
+    "old_description": "South-south-east"
+  },
+  {
+    "term": "SSR",
+    "fullName": "Secondary surveillance radar",
+    "category": "NOTAM",
+    "old_description": "Secondary surveillance radar"
+  },
+  {
+    "term": "SST",
+    "fullName": "supersonic transport",
+    "category": "NOTAM",
+    "old_description": "Supersonic transport"
+  },
+  {
+    "term": "SSW",
+    "fullName": "South south west",
+    "category": "NOTAM",
+    "old_description": "South-south-west"
+  },
+  {
+    "term": "ST",
+    "fullName": "Stratus",
+    "category": "NOTAM",
+    "old_description": "Stratus"
+  },
+  {
+    "term": "STA",
+    "fullName": "Straight in approach",
+    "category": "NOTAM",
+    "old_description": "Straight-in approach"
+  },
+  {
+    "term": "STAR",
+    "fullName": "Standard instrument arrival",
+    "category": "NOTAM",
+    "old_description": "Standard instrument arrival"
+  },
+  {
+    "term": "STD",
+    "fullName": "Standard",
+    "category": "NOTAM",
+    "old_description": "Standard"
+  },
+  {
+    "term": "STF",
+    "fullName": "Stratiform",
+    "category": "NOTAM",
+    "old_description": "Stratiform"
+  },
+  {
+    "term": "STN",
+    "fullName": "Station",
+    "category": "NOTAM",
+    "old_description": "Station"
+  },
+  {
+    "term": "STNR",
+    "fullName": "Stationary",
+    "category": "NOTAM",
+    "old_description": "Stationary"
+  },
+  {
+    "term": "STS",
+    "fullName": "Status",
+    "category": "NOTAM",
+    "old_description": "Status"
+  },
+  {
+    "term": "STWL",
+    "fullName": "Stopway light(S)",
+    "category": "NOTAM",
+    "old_description": "Stopway light(s)"
+  },
+  {
+    "term": "SUBJ",
+    "fullName": "Subject to ...",
+    "category": "NOTAM",
+    "old_description": "...을 조건으로 하는"
+  },
+  {
+    "term": "SUN",
+    "fullName": "Sunday",
+    "category": "NOTAM",
+    "old_description": "Sunday"
+  },
+  {
+    "term": "SUPPS",
+    "fullName": "Regional supplementary procedure",
+    "category": "NOTAM",
+    "old_description": "Regional supplementary procedures"
+  },
+  {
+    "term": "SVCBL",
+    "fullName": "Serviceable",
+    "category": "NOTAM",
+    "old_description": "Serviceable"
+  },
+  {
+    "term": "SW",
+    "fullName": "South-west",
+    "category": "NOTAM",
+    "old_description": "South-west"
+  },
+  {
+    "term": "SWB",
+    "fullName": "South-westbound",
+    "category": "NOTAM",
+    "old_description": "South-westbound"
+  },
+  {
+    "term": "SWY",
+    "fullName": "Stopway",
+    "category": "NOTAM",
+    "old_description": "Stopway"
+  },
+  {
+    "term": "TA",
+    "fullName": "Transition altitude",
+    "category": "NOTAM",
+    "old_description": "Transition altitude"
+  },
+  {
+    "term": "TA/H",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Turn at an altitude/height"
+  },
+  {
+    "term": "TAA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Terminal arrival altitude"
+  },
+  {
+    "term": "TAIL",
+    "fullName": "Tail wind",
+    "category": "NOTAM",
+    "old_description": "Tail wind"
+  },
+  {
+    "term": "TAS",
+    "fullName": "True airspeed",
+    "category": "NOTAM",
+    "old_description": "True airspeed"
+  },
+  {
+    "term": "TAX",
+    "fullName": "Taxiing or taxi",
+    "category": "NOTAM",
+    "old_description": "Taxiing or taxi"
+  },
+  {
+    "term": "TC",
+    "fullName": "Tropical cyclone",
+    "category": "NOTAM",
+    "old_description": "Tropical cyclone"
+  },
+  {
+    "term": "TCH",
+    "fullName": "Threshold crossing height",
+    "category": "NOTAM",
+    "old_description": "Threshold crossing height"
+  },
+  {
+    "term": "TCU",
+    "fullName": "Towering cumulus",
+    "category": "NOTAM",
+    "old_description": "Towering cumulus"
+  },
+  {
+    "term": "TDO",
+    "fullName": "Tornado",
+    "category": "NOTAM",
+    "old_description": "Tornado"
+  },
+  {
+    "term": "TDZ",
+    "fullName": "Touchdown zone",
+    "category": "NOTAM",
+    "old_description": "Touchdown zone"
+  },
+  {
+    "term": "TECR",
+    "fullName": "Technical reason",
+    "category": "NOTAM",
+    "old_description": "Technical reason"
+  },
+  {
+    "term": "TEL",
+    "fullName": "Telephone",
+    "category": "NOTAM",
+    "old_description": "Telephone"
+  },
+  {
+    "term": "TEMPO",
+    "fullName": "Temporary or temporarily",
+    "category": "NOTAM",
+    "old_description": "Temporary or temporarily"
+  },
+  {
+    "term": "TF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Track to fix"
+  },
+  {
+    "term": "TFC",
+    "fullName": "Traffic",
+    "category": "NOTAM",
+    "old_description": "Traffic"
+  },
+  {
+    "term": "TGL",
+    "fullName": "Touch-and-go landing",
+    "category": "NOTAM",
+    "old_description": "Touch-and-go landing"
+  },
+  {
+    "term": "TGS",
+    "fullName": "Taxiing guidance system",
+    "category": "NOTAM",
+    "old_description": "Taxiing guidance system"
+  },
+  {
+    "term": "THR",
+    "fullName": "Threshold",
+    "category": "NOTAM",
+    "old_description": "Threshold"
+  },
+  {
+    "term": "THRU",
+    "fullName": "Through …",
+    "category": "NOTAM",
+    "old_description": "\"(...을 통하여"
+  },
+  {
+    "term": "THU",
+    "fullName": "Thursday",
+    "category": "NOTAM",
+    "old_description": "Thursday"
+  },
+  {
+    "term": "TIL",
+    "fullName": "Until",
+    "category": "NOTAM",
+    "old_description": "Until"
+  },
+  {
+    "term": "TKOF",
+    "fullName": "Take off",
+    "category": "NOTAM",
+    "old_description": "Take-off"
+  },
+  {
+    "term": "TLOF",
+    "fullName": "Touchdown and lift-off area",
+    "category": "NOTAM",
+    "old_description": "Touchdown and lift-off area"
+  },
+  {
+    "term": "TMA",
+    "fullName": "Terminal control area",
+    "category": "NOTAM",
+    "old_description": "Terminal control area"
+  },
+  {
+    "term": "TNA",
+    "fullName": "Turn altitude",
+    "category": "NOTAM",
+    "old_description": "Turn altitude"
+  },
+  {
+    "term": "TNH",
+    "fullName": "Turn height",
+    "category": "NOTAM",
+    "old_description": "Turn height"
+  },
+  {
+    "term": "TO . . .",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "To (followed by place)"
+  },
+  {
+    "term": "TOC",
+    "fullName": "Top of climb",
+    "category": "NOTAM",
+    "old_description": "Top of climb"
+  },
+  {
+    "term": "TODA",
+    "fullName": "Take-off distance available",
+    "category": "NOTAM",
+    "old_description": "Take-off distance available"
+  },
+  {
+    "term": "TORA",
+    "fullName": "Take-off run available",
+    "category": "NOTAM",
+    "old_description": "Take-off run available"
+  },
+  {
+    "term": "TOX",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Toxic"
+  },
+  {
+    "term": "TP",
+    "fullName": "Turning point",
+    "category": "NOTAM",
+    "old_description": "Turning point"
+  },
+  {
+    "term": "TR",
+    "fullName": "Track",
+    "category": "NOTAM",
+    "old_description": "Track"
+  },
+  {
+    "term": "TRA",
+    "fullName": "Temporary reserved airspace",
+    "category": "NOTAM",
+    "old_description": "Temporary reserved airspace"
+  },
+  {
+    "term": "TRANS",
+    "fullName": "Transmits or transmitter",
+    "category": "NOTAM",
+    "old_description": "Transmits or transmitter"
+  },
+  {
+    "term": "TREND",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Trend forecast"
+  },
+  {
+    "term": "TRG",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Training"
+  },
+  {
+    "term": "TRL",
+    "fullName": "Transition level",
+    "category": "NOTAM",
+    "old_description": "Transition level"
+  },
+  {
+    "term": "TROP",
+    "fullName": "Tropopause",
+    "category": "NOTAM",
+    "old_description": "Tropopause"
+  },
+  {
+    "term": "TT",
+    "fullName": "Teletypewriter",
+    "category": "NOTAM",
+    "old_description": "Teletypewriter"
+  },
+  {
+    "term": "TUE",
+    "fullName": "Tuesday",
+    "category": "NOTAM",
+    "old_description": "Tuesday"
+  },
+  {
+    "term": "TURB",
+    "fullName": "Turbulence",
+    "category": "NOTAM",
+    "old_description": "Turbulence"
+  },
+  {
+    "term": "TVOR",
+    "fullName": "Terminal VOR",
+    "category": "NOTAM",
+    "old_description": "Terminal VOR"
+  },
+  {
+    "term": "TWY",
+    "fullName": "Taxiway",
+    "category": "NOTAM",
+    "old_description": "Taxiway"
+  },
+  {
+    "term": "TXL",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Taxilane"
+  },
+  {
+    "term": "TYP",
+    "fullName": "Type of aircraft",
+    "category": "NOTAM",
+    "old_description": "Type of aircraft"
+  },
+  {
+    "term": "TYPH",
+    "fullName": "Typhoon",
+    "category": "NOTAM",
+    "old_description": "Typhoon"
+  },
+  {
+    "term": "U/S",
+    "fullName": "Unserviceable",
+    "category": "NOTAM",
+    "old_description": "Unserviceable"
+  },
+  {
+    "term": "UA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Unmanned aircraft"
+  },
+  {
+    "term": "UAB",
+    "fullName": "Until advised by... ...",
+    "category": "NOTAM",
+    "old_description": "Until advised by . . ."
+  },
+  {
+    "term": "UAC",
+    "fullName": "Upper area control center",
+    "category": "NOTAM",
+    "old_description": "Upper area control centre"
+  },
+  {
+    "term": "UAR",
+    "fullName": "Upper air route",
+    "category": "NOTAM",
+    "old_description": "Upper air route"
+  },
+  {
+    "term": "UAS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Unmanned aircraft system"
+  },
+  {
+    "term": "UFN",
+    "fullName": "Until further notice",
+    "category": "NOTAM",
+    "old_description": "Until further notice"
+  },
+  {
+    "term": "UHDT",
+    "fullName": "Unable higher due traffic",
+    "category": "NOTAM",
+    "old_description": "보다높은 고도에 상승은 트래픽으로 말미암아 승인 불가함"
+  },
+  {
+    "term": "UIC",
+    "fullName": "Upper information centre",
+    "category": "NOTAM",
+    "old_description": "Upper information centre"
+  },
+  {
+    "term": "ULR",
+    "fullName": "Ultra long range",
+    "category": "NOTAM",
+    "old_description": "Ultra long range"
+  },
+  {
+    "term": "UNA",
+    "fullName": "Unable",
+    "category": "NOTAM",
+    "old_description": "Unable"
+  },
+  {
+    "term": "UNAP",
+    "fullName": "Unable to approve",
+    "category": "NOTAM",
+    "old_description": "Unable to approve"
+  },
+  {
+    "term": "UNL",
+    "fullName": "Unlimited",
+    "category": "NOTAM",
+    "old_description": "Unlimited"
+  },
+  {
+    "term": "UNREL",
+    "fullName": "Unreliable",
+    "category": "NOTAM",
+    "old_description": "Unreliable"
+  },
+  {
+    "term": "UTA",
+    "fullName": "Upper control area",
+    "category": "NOTAM",
+    "old_description": "Upper control area"
+  },
+  {
+    "term": "UTC",
+    "fullName": "Co-ordinated universal time",
+    "category": "NOTAM",
+    "old_description": "Coordinated Universal Time"
+  },
+  {
+    "term": "VA",
+    "fullName": "Volcanic ash",
+    "category": "NOTAM",
+    "old_description": "Heading to an altitude"
+  },
+  {
+    "term": "VAAC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Volcanic ash advisory centre"
+  },
+  {
+    "term": "VAL",
+    "fullName": "In valleys",
+    "category": "NOTAM",
+    "old_description": "In valleys"
+  },
+  {
+    "term": "VAN",
+    "fullName": "Runway control van",
+    "category": "NOTAM",
+    "old_description": "Runway control van"
+  },
+  {
+    "term": "VAR",
+    "fullName": "Magnetic variation",
+    "category": "NOTAM",
+    "old_description": "Visual-aural radio range"
+  },
+  {
+    "term": "VCY",
+    "fullName": "Vicinity",
+    "category": "NOTAM",
+    "old_description": "Vicinity"
+  },
+  {
+    "term": "VER",
+    "fullName": "Vertical",
+    "category": "NOTAM",
+    "old_description": "Vertical"
+  },
+  {
+    "term": "VI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Heading to an intercept"
+  },
+  {
+    "term": "VIP",
+    "fullName": "Very important person",
+    "category": "NOTAM",
+    "old_description": "Very important person"
+  },
+  {
+    "term": "VIS",
+    "fullName": "Visibility",
+    "category": "NOTAM",
+    "old_description": "Visibility"
+  },
+  {
+    "term": "VLR",
+    "fullName": "Very long range",
+    "category": "NOTAM",
+    "old_description": "Very long range"
+  },
+  {
+    "term": "VMC",
+    "fullName": "Visual meteorological conditions",
+    "category": "NOTAM",
+    "old_description": "Visual meteorological conditions"
+  },
+  {
+    "term": "VORTAC",
+    "fullName": "VOR and TACAN combination VOR",
+    "category": "NOTAM",
+    "old_description": "VOR and TACAN combination"
+  },
+  {
+    "term": "VPA",
+    "fullName": "Vertical path angle",
+    "category": "NOTAM",
+    "old_description": "Vertical path angle"
+  },
+  {
+    "term": "VRB",
+    "fullName": "Variable",
+    "category": "NOTAM",
+    "old_description": "Variable"
+  },
+  {
+    "term": "VSP",
+    "fullName": "Vertical speed",
+    "category": "NOTAM",
+    "old_description": "Vertical speed"
+  },
+  {
+    "term": "VTF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Vector to final"
+  },
+  {
+    "term": "WAAS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Wide area augmentation system"
+  },
+  {
+    "term": "WAFC",
+    "fullName": "World area forecast center",
+    "category": "NOTAM",
+    "old_description": "World area forecast centre"
+  },
+  {
+    "term": "WB",
+    "fullName": "Westbound",
+    "category": "NOTAM",
+    "old_description": "Westbound"
+  },
+  {
+    "term": "WBAR",
+    "fullName": "Wing bar lights",
+    "category": "NOTAM",
+    "old_description": "Wing bar lights"
+  },
+  {
+    "term": "WDI",
+    "fullName": "Wind direction indicator",
+    "category": "NOTAM",
+    "old_description": "Wind direction indicator"
+  },
+  {
+    "term": "WDSPR",
+    "fullName": "Widespread",
+    "category": "NOTAM",
+    "old_description": "Widespread"
+  },
+  {
+    "term": "WED",
+    "fullName": "Wednesday",
+    "category": "NOTAM",
+    "old_description": "Wednesday"
+  },
+  {
+    "term": "WGS-84",
+    "fullName": "World Geodetic System - 1984",
+    "category": "NOTAM",
+    "old_description": "World Geodetic System � 1984"
+  },
+  {
+    "term": "WI",
+    "fullName": "Within ...",
+    "category": "NOTAM",
+    "old_description": "Within"
+  },
+  {
+    "term": "WID",
+    "fullName": "Width",
+    "category": "NOTAM",
+    "old_description": "Width or wide"
+  },
+  {
+    "term": "WILCO",
+    "fullName": "Will comply ...",
+    "category": "NOTAM",
+    "old_description": "Will comply"
+  },
+  {
+    "term": "WIP",
+    "fullName": "Work in progress",
+    "category": "NOTAM",
+    "old_description": "Work in progress"
+  },
+  {
+    "term": "WKN",
+    "fullName": "Weaken or weakening",
+    "category": "NOTAM",
+    "old_description": "Weaken or weakening"
+  },
+  {
+    "term": "WNW",
+    "fullName": "West north west",
+    "category": "NOTAM",
+    "old_description": "West-north-west"
+  },
+  {
+    "term": "WO",
+    "fullName": "Without ...",
+    "category": "NOTAM",
+    "old_description": "Without"
+  },
+  {
+    "term": "WPT",
+    "fullName": "Way-point",
+    "category": "NOTAM",
+    "old_description": "Way-point"
+  },
+  {
+    "term": "WRNG",
+    "fullName": "Warning",
+    "category": "NOTAM",
+    "old_description": "Warning"
+  },
+  {
+    "term": "WS",
+    "fullName": "Wind shear",
+    "category": "NOTAM",
+    "old_description": "Wind shear"
+  },
+  {
+    "term": "WSPD",
+    "fullName": "Wind speed",
+    "category": "NOTAM",
+    "old_description": "Wind speed"
+  },
+  {
+    "term": "WSW",
+    "fullName": "West south west",
+    "category": "NOTAM",
+    "old_description": "West-south-west"
+  },
+  {
+    "term": "WT",
+    "fullName": "Weight",
+    "category": "NOTAM",
+    "old_description": "중량, 무게"
+  },
+  {
+    "term": "WTSPT",
+    "fullName": "Waterspout",
+    "category": "NOTAM",
+    "old_description": "Waterspout"
+  },
+  {
+    "term": "WWW",
+    "fullName": "World wide web",
+    "category": "NOTAM",
+    "old_description": "Worldwide web"
+  },
+  {
+    "term": "WX",
+    "fullName": "Weather",
+    "category": "NOTAM",
+    "old_description": "Weather"
+  },
+  {
+    "term": "WXR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Weather radar"
+  },
+  {
+    "term": "XNG",
+    "fullName": "Crossing",
+    "category": "NOTAM",
+    "old_description": "Crossing"
+  },
+  {
+    "term": "XS",
+    "fullName": "Atmospherics",
+    "category": "NOTAM",
+    "old_description": "Atmospherics"
+  },
+  {
+    "term": "YR",
+    "fullName": "Your",
+    "category": "NOTAM",
+    "old_description": "Your"
+  },
+  {
+    "term": "AC",
+    "fullName": "Altocumulus",
+    "category": "PilotController",
+    "old_description": "150/5320-12, Measurement, Construction, and"
+  },
+  {
+    "term": "ACTIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUNWAY−"
+  },
+  {
+    "term": "ACTUAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CALCULATED LANDING TIME−"
+  },
+  {
+    "term": "ADVISORY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SERVICE− Advice and information"
+  },
+  {
+    "term": "AERODROME",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BEACON [ICAO]− Aeronautical"
+  },
+  {
+    "term": "AIP",
+    "fullName": "Aeronautical information publication",
+    "category": "PilotController",
+    "old_description": "[ICAO]− AIR ROUTE SURVEILLANCE RADAR− Air route"
+  },
+  {
+    "term": "AIR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CARRIER DISTRICT OFFICE− An FAA field"
+  },
+  {
+    "term": "AIR/GROUND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FACILITY.) receiver facility which is used to expand ARTCC"
+  },
+  {
+    "term": "AIRBORNE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DELAY− Amount of delay to be"
+  },
+  {
+    "term": "AIRCRAFT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONFLICT− Predicted conflict, within"
+  },
+  {
+    "term": "AIRPORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ADVISORY AREA− The area within ten"
+  },
+  {
+    "term": "AIRSPACE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONFLICT− Predicted conflict of an"
+  },
+  {
+    "term": "ALERFA",
+    "fullName": "Alert phase",
+    "category": "PilotController",
+    "old_description": "(Alert Phase) [ICAO]− A situation wherein"
+  },
+  {
+    "term": "ALTERNATE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AERODROME [ICAO]− An aero-"
+  },
+  {
+    "term": "ALTIMETER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SETTING− The barometric pressure ALTITUDE RESTRICTIONS ARE CANCELED−"
+  },
+  {
+    "term": "ALTITUDE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESERVATION (ALTRV)− Airspace"
+  },
+  {
+    "term": "AMENDED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CLEARANCE if ATC issues a"
+  },
+  {
+    "term": "APPROACH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROL FACILITY− A terminal APPROACH WITH VERTICAL GUIDANCE"
+  },
+  {
+    "term": "APRON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− A defined area, on a land"
+  },
+  {
+    "term": "AREA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION (RNAV)− A method of"
+  },
+  {
+    "term": "ARMY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AVIATION FLIGHT INFORMATION"
+  },
+  {
+    "term": "ARRIVAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT INTERVAL− An internally ASR−"
+  },
+  {
+    "term": "ARTS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IIIE, STARS, and MEARTS."
+  },
+  {
+    "term": "ASDA",
+    "fullName": "Accelerate-stop distance available",
+    "category": "PilotController",
+    "old_description": "Accelerate-stop distance available"
+  },
+  {
+    "term": "ASR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH−"
+  },
+  {
+    "term": "ATC",
+    "fullName": "Air traffic control (in general)",
+    "category": "PilotController",
+    "old_description": "ADVISES− Used to prefix a message of"
+  },
+  {
+    "term": "ATIS",
+    "fullName": "Automatic terminal information service",
+    "category": "PilotController",
+    "old_description": "(to be pronounced �AY-TIS�) Automatic terminal information service"
+  },
+  {
+    "term": "ATS",
+    "fullName": "Air traffic services",
+    "category": "PilotController",
+    "old_description": "ROUTE [ICAO]− A specified route designed for"
+  },
+  {
+    "term": "AUTOLAND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH−An autoland system"
+  },
+  {
+    "term": "AUTOMATED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PROBLEM DETECTION (APD)−"
+  },
+  {
+    "term": "AUTOMATIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE REPORT−"
+  },
+  {
+    "term": "AVAILABLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LANDING DISTANCE (ALD)− The"
+  },
+  {
+    "term": "AVIATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WEATHER SERVICE− A service"
+  },
+  {
+    "term": "AVOIDANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM.)"
+  },
+  {
+    "term": "BASE",
+    "fullName": "Cloud base",
+    "category": "PilotController",
+    "old_description": "LEG− BLOCKED− Phraseology used to indicate that a"
+  },
+  {
+    "term": "BELOW",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MINIMUMS− Weather conditions below"
+  },
+  {
+    "term": "BILITY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOR SEPARATION OF AIRCRAFT− A"
+  },
+  {
+    "term": "BLAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FENCE− A barrier that is used to divert or"
+  },
+  {
+    "term": "BLIND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ZONE−"
+  },
+  {
+    "term": "BOTTOM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE– In reference to published"
+  },
+  {
+    "term": "BRAKING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ACTION (GOOD, FAIR, POOR, OR NIL)"
+  },
+  {
+    "term": "BROADCAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(ADS-B)− A surveillance system in"
+  },
+  {
+    "term": "CALCULATED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LANDING TIME− A term that may CENRAP-PLUS−"
+  },
+  {
+    "term": "CALL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOR RELEASE− Wherein the overlying CENTER−"
+  },
+  {
+    "term": "CANADIAN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MINIMUM NAVIGATION PERFOR-"
+  },
+  {
+    "term": "CATCH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A fix/waypoint that serves as a"
+  },
+  {
+    "term": "CEDURE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(SIAP)− reservations which encompass activities in a fixed"
+  },
+  {
+    "term": "CEILING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The height above the ground or"
+  },
+  {
+    "term": "CENTER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RADAR ARTS PRESENTATION/"
+  },
+  {
+    "term": "CERTIFIED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TOWER RADAR DISPLAY (CTRD)−"
+  },
+  {
+    "term": "CHARTED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VFR FLYWAYS− Charted VFR Fly- CIRCLING APPROACH−"
+  },
+  {
+    "term": "CHASE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− as Class A, B, C, D or E."
+  },
+  {
+    "term": "CIRCLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO RUNWAY (RUNWAY NUMBER)−"
+  },
+  {
+    "term": "CIRCLING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER−"
+  },
+  {
+    "term": "CLASS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "B AIRSPACE−"
+  },
+  {
+    "term": "CLEAR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIR TURBULENCE (CAT)− Turbulence"
+  },
+  {
+    "term": "CLEARANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIMIT− The fix, point, or location to"
+  },
+  {
+    "term": "CLEARED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOR TAKEOFF− ATC authorization"
+  },
+  {
+    "term": "CLIMB",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO VFR− ATC authorization for an aircraft"
+  },
+  {
+    "term": "CLOSE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PARALLEL RUNWAYS− Two parallel"
+  },
+  {
+    "term": "CLOSED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUNWAY− A runway that is unusable for"
+  },
+  {
+    "term": "COLD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TEMPERATURE COMPENSATION− An"
+  },
+  {
+    "term": "COMBINED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CENTER-RAPCON− An air traffic"
+  },
+  {
+    "term": "COMMAND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CENTER.)"
+  },
+  {
+    "term": "COMMON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A significant point over which"
+  },
+  {
+    "term": "COMPOSITE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ROUTE SYSTEM− An organized"
+  },
+  {
+    "term": "CONDITIONS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NOT MONITORED− When an"
+  },
+  {
+    "term": "CONFIDENCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER− A confidence man-"
+  },
+  {
+    "term": "CONFLICT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALERT− A function of certain air traffic"
+  },
+  {
+    "term": "CONTRACT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(ADS−C)− A data link position"
+  },
+  {
+    "term": "CONTROL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA [ICAO]− A controlled airspace"
+  },
+  {
+    "term": "CONTROLLED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME OF ARRIVAL− Arrival time"
+  },
+  {
+    "term": "CPL",
+    "fullName": "Current flight plan (message type designator)",
+    "category": "PilotController",
+    "old_description": "Current flight plan (message type designator)"
+  },
+  {
+    "term": "CRITICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ENGINE− The engine which, upon"
+  },
+  {
+    "term": "CROSS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(FIX) AT (ALTITUDE)− Used by ATC"
+  },
+  {
+    "term": "CROSSWIND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COMPONENT− The wind compo- CRUISING LEVEL−"
+  },
+  {
+    "term": "CRUISE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CLIMB− A climb technique employed by CVFP APPROACH−"
+  },
+  {
+    "term": "CRUISING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LEVEL [ICAO]− A level maintained"
+  },
+  {
+    "term": "CT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MESSAGE− An EDCT time generated by the"
+  },
+  {
+    "term": "CURRENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FLIGHT PLAN [ICAO]− The flight"
+  },
+  {
+    "term": "DA",
+    "fullName": "Decision altitude",
+    "category": "PilotController",
+    "old_description": "Decision altitude"
+  },
+  {
+    "term": "DATA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BLOCK−"
+  },
+  {
+    "term": "DEAD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RECKONING− Dead reckoning, as applied"
+  },
+  {
+    "term": "DECISION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE (DA)− A specified altitude"
+  },
+  {
+    "term": "DEFENSE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA– Any airspace of the contiguous"
+  },
+  {
+    "term": "DELAY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ASSIGNMENT (DAS)− Delays are distrib-"
+  },
+  {
+    "term": "DESCENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPEED ADJUSTMENTS− Speed decel-"
+  },
+  {
+    "term": "DESIRED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COURSE− data is presented on digital displays and the"
+  },
+  {
+    "term": "DIGITAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGET− A computer−generated symbol"
+  },
+  {
+    "term": "DISCRETE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BEACON CODE−"
+  },
+  {
+    "term": "DISTANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AVAILABLE.)"
+  },
+  {
+    "term": "DIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BRAKES−"
+  },
+  {
+    "term": "DIVERSE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VECTOR AREA− In a radar environ-"
+  },
+  {
+    "term": "DIVERSION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(DVRSN)− Flights that are required to"
+  },
+  {
+    "term": "DME",
+    "fullName": "Distance measuring equipment",
+    "category": "PilotController",
+    "old_description": "SEPARATION− Spacing of aircraft in terms of"
+  },
+  {
+    "term": "DOMESTIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE− Airspace which overlies"
+  },
+  {
+    "term": "DOWNWIND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LEG−"
+  },
+  {
+    "term": "DRAG",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CHUTE− A parachute device installed on"
+  },
+  {
+    "term": "DUTY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUNWAY−"
+  },
+  {
+    "term": "DYNAMIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESTRICTIONS− Those restrictions"
+  },
+  {
+    "term": "EN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ROUTE AUTOMATION SYSTEM (EAS)− The"
+  },
+  {
+    "term": "ENHANCED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FLIGHT VISION SYSTEM (EFVS)"
+  },
+  {
+    "term": "ESTIMATED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(EST)−When used in NOTAMs (Refer to AIM.)"
+  },
+  {
+    "term": "EXECUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MISSED APPROACH− Instructions"
+  },
+  {
+    "term": "EXPECT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(ALTITUDE) AT (TIME) or (FIX)− Used"
+  },
+  {
+    "term": "FAA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "Order JO 7110.65, Para 4−5−1, VERTICAL"
+  },
+  {
+    "term": "FAF",
+    "fullName": "Final approach fix",
+    "category": "PilotController",
+    "old_description": "(such as an on airport VOR), where the aircraft"
+  },
+  {
+    "term": "FAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FILE− An FSS system whereby a pilot files a"
+  },
+  {
+    "term": "FEDERAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRWAYS− (See FINAL APPROACH COURSE.)"
+  },
+  {
+    "term": "FEEDER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− The fix depicted on Instrument"
+  },
+  {
+    "term": "FIELD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ELEVATION−"
+  },
+  {
+    "term": "FINAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH [ICAO]− That part of an"
+  },
+  {
+    "term": "FL",
+    "fullName": "Flight level",
+    "category": "PilotController",
+    "old_description": "Flight level"
+  },
+  {
+    "term": "FLAG",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALARM−"
+  },
+  {
+    "term": "FLIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LEVEL [ICAO]− A surface of constant"
+  },
+  {
+    "term": "FLY-BY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WAYPOINT− A fly-by waypoint requires"
+  },
+  {
+    "term": "FLY-OVER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WAYPOINT− A fly-over waypoint"
+  },
+  {
+    "term": "FUEL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DUMPING− Airborne release of usable fuel."
+  },
+  {
+    "term": "FUSED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGET-"
+  },
+  {
+    "term": "GENERAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AVIATION− That portion of civil APPROACH PROCEDURE.)"
+  },
+  {
+    "term": "GEO",
+    "fullName": "Geographic or true",
+    "category": "PilotController",
+    "old_description": "MAP− The digitized map markings associated"
+  },
+  {
+    "term": "GLIDEPATH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− A descent profile determined"
+  },
+  {
+    "term": "GLIDESLOPE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INTERCEPT ALTITUDE− The"
+  },
+  {
+    "term": "GLOBAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION SATELLITE SYSTEM"
+  },
+  {
+    "term": "GNSS",
+    "fullName": "Global navigation satellite system",
+    "category": "PilotController",
+    "old_description": "MEA− GROUND BASED AUGMENTATION SYSTEM"
+  },
+  {
+    "term": "GO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AHEAD− Proceed with your message. Not to be"
+  },
+  {
+    "term": "GPS",
+    "fullName": "Global positioning system",
+    "category": "PilotController",
+    "old_description": "Standard Positioning System Performance"
+  },
+  {
+    "term": "GROSS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION ERROR (GNE) − A lateral"
+  },
+  {
+    "term": "GROUND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BASED AUGMENTATION SYSTEM"
+  },
+  {
+    "term": "GUIDANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIGHTING SYSTEMS.) AIRPORT MARKING AIDS− Markings used on"
+  },
+  {
+    "term": "HAZARDOUS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFLIGHT WEATHER ADVISO-"
+  },
+  {
+    "term": "HEAVY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(AIRCRAFT)−"
+  },
+  {
+    "term": "HEIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ABOVE TOUCHDOWN− The height of"
+  },
+  {
+    "term": "HELIPORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "REFERENCE POINT (HRP)− The"
+  },
+  {
+    "term": "HIGH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE REDESIGN (HAR)− A level of"
+  },
+  {
+    "term": "HIWAS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BROADCAST AREA. any."
+  },
+  {
+    "term": "HOLD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PROCEDURE− A predetermined maneuver"
+  },
+  {
+    "term": "HOLD-SHORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A point on the runway"
+  },
+  {
+    "term": "HOLDING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− A specified fix identifiable to a"
+  },
+  {
+    "term": "HOMING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The procedure of using the"
+  },
+  {
+    "term": "HOW",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DO YOU HEAR ME?− A question relating to"
+  },
+  {
+    "term": "ICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION−"
+  },
+  {
+    "term": "ICAO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "International Civil Aviation Organization"
+  },
+  {
+    "term": "IDENT",
+    "fullName": "Identification",
+    "category": "PilotController",
+    "old_description": "FEATURE− The special feature in the Air"
+  },
+  {
+    "term": "IF",
+    "fullName": "Intermediate approach fix",
+    "category": "PilotController",
+    "old_description": "NO TRANSMISSION RECEIVED FOR"
+  },
+  {
+    "term": "ILS",
+    "fullName": "Instrument landing system",
+    "category": "PilotController",
+    "old_description": "RNAV and GLS. These charts are identified by AIM−"
+  },
+  {
+    "term": "INCERFA",
+    "fullName": "Uncertainty phase",
+    "category": "PilotController",
+    "old_description": "(Uncertainty Phase) [ICAO]− A situation"
+  },
+  {
+    "term": "INCREASE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPEED TO (SPEED)−"
+  },
+  {
+    "term": "INERTIAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION SYSTEM− An RNAV"
+  },
+  {
+    "term": "INFLIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTINGENCIES.)"
+  },
+  {
+    "term": "INHIBITED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA.)"
+  },
+  {
+    "term": "INITIAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH FIX− The fixes depicted on (Refer to AIM.)"
+  },
+  {
+    "term": "INNER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MARKER− A marker beacon used with an"
+  },
+  {
+    "term": "INSTRUMENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH OPERATIONS"
+  },
+  {
+    "term": "ITED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA (APDIA)− Airspace surrounding a"
+  },
+  {
+    "term": "ITORING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(RAIM)− A technique whereby a civil"
+  },
+  {
+    "term": "JET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BLAST− Jet engine exhaust (thrust stream"
+  },
+  {
+    "term": "KNOWN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TRAFFIC− With respect to ATC clear-"
+  },
+  {
+    "term": "LANDING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DISTANCE AVAILABLE [ICAO]− The"
+  },
+  {
+    "term": "LAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ASSIGNED ALTITUDE− The last altitude/"
+  },
+  {
+    "term": "LATERAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SEPARATION− The lateral spacing of"
+  },
+  {
+    "term": "LIGHTED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRPORT− An airport where runway and"
+  },
+  {
+    "term": "LOCAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRPORT ADVISORY (LAA)− A service"
+  },
+  {
+    "term": "LOCALIZER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OFFSET− An angular offset of the"
+  },
+  {
+    "term": "LOCATOR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− An LM/MF NDB used as an aid"
+  },
+  {
+    "term": "LONG",
+    "fullName": "Longitude",
+    "category": "PilotController",
+    "old_description": "RANGE NAVIGATION−"
+  },
+  {
+    "term": "LOST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LINK PROCEDURE− Preprogrammed or"
+  },
+  {
+    "term": "LOW",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE ALERT, CHECK YOUR ALTI-"
+  },
+  {
+    "term": "MACH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NUMBER− The ratio of true airspeed to the"
+  },
+  {
+    "term": "MAN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PORTABLE AIR DEFENSE SYSTEMS"
+  },
+  {
+    "term": "MANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPECIFICATION AIRSPACE− That"
+  },
+  {
+    "term": "MATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SERVICE (D−ATIS) [ICAO]− The"
+  },
+  {
+    "term": "MAXIMUM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUTHORIZED ALTITUDE− A pub-"
+  },
+  {
+    "term": "METER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX ARC− A semicircle, equidistant from"
+  },
+  {
+    "term": "METERING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− A fix along an established route"
+  },
+  {
+    "term": "MICRO-EN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ROUTE AUTOMATED RADAR"
+  },
+  {
+    "term": "MID",
+    "fullName": "Mid-point(related to RVR)",
+    "category": "PilotController",
+    "old_description": "Mid-point (related to RVR)"
+  },
+  {
+    "term": "MIDDLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MARKER− A marker beacon that defines"
+  },
+  {
+    "term": "MILITARY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUTHORITY ASSUMES RESPONSI- (Refer to AIM.)"
+  },
+  {
+    "term": "MINIMUM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE− Any of the following:"
+  },
+  {
+    "term": "MODE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(SSR MODE) [ICAO]− The letter or number"
+  },
+  {
+    "term": "MODEL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− An unmanned aircraft that is:"
+  },
+  {
+    "term": "MONITOR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALERT (MA)− A function of the TFMS"
+  },
+  {
+    "term": "MOVEMENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA− The runways, taxiways, and MSA−"
+  },
+  {
+    "term": "MOVING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGET INDICATOR− An electronic"
+  },
+  {
+    "term": "MULTIPLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUNWAYS− The utilization of a"
+  },
+  {
+    "term": "NAT",
+    "fullName": "North Atlantic",
+    "category": "PilotController",
+    "old_description": "North Atlantic"
+  },
+  {
+    "term": "NATIONAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE SYSTEM− The common"
+  },
+  {
+    "term": "NAVIGATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "REFERENCE SYSTEM (NRS)−"
+  },
+  {
+    "term": "NBCAP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE−"
+  },
+  {
+    "term": "NO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "No (negative) (to be used in AFS as a procedure signal)"
+  },
+  {
+    "term": "NONCOMMON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ROUTE/PORTION− That segment"
+  },
+  {
+    "term": "NORTH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AMERICAN ROUTE PROGRAM (NRP)−"
+  },
+  {
+    "term": "NOTICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO AIRMEN− A notice containing"
+  },
+  {
+    "term": "NOTICES",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO AIRMEN PUBLICATION− A"
+  },
+  {
+    "term": "NUMEROUS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGETS VICINITY (LOCA-"
+  },
+  {
+    "term": "OBSTACLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DEPARTURE PROCEDURE (ODP)−"
+  },
+  {
+    "term": "OCEANIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ERROR REPORT− A report filed when"
+  },
+  {
+    "term": "OFF",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COURSE− A term used to describe a situation"
+  },
+  {
+    "term": "OFF-ROUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VECTOR− A vector by ATC which"
+  },
+  {
+    "term": "OFFSET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PARALLEL RUNWAYS− Staggered"
+  },
+  {
+    "term": "ON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COURSE−"
+  },
+  {
+    "term": "ONE-MINUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WEATHER− The most recent one"
+  },
+  {
+    "term": "ORGANIZED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TRACK SYSTEM− A series of ATS"
+  },
+  {
+    "term": "OUT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF SERVICE− When a piece of equipment, a"
+  },
+  {
+    "term": "OUTER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX ARC− A semicircle, usually about a"
+  },
+  {
+    "term": "OVERHEAD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER− A series of predeter-"
+  },
+  {
+    "term": "PCG",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "A−1"
+  },
+  {
+    "term": "PHOTO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RECONNAISSANCE− Military activity"
+  },
+  {
+    "term": "PILOT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BRIEFING− A service provided by the FSS"
+  },
+  {
+    "term": "PITCH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A fix/waypoint that serves as a"
+  },
+  {
+    "term": "PLACEMENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM (STARS)−"
+  },
+  {
+    "term": "PLAN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE− Airspace over United States"
+  },
+  {
+    "term": "PLANS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DISPLAY− A display available in EDST"
+  },
+  {
+    "term": "POINT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OUT−"
+  },
+  {
+    "term": "POSITION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "REPORT− A report over a known"
+  },
+  {
+    "term": "POSITIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROL− The separation of all air"
+  },
+  {
+    "term": "PRACTICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INSTRUMENT APPROACH− An"
+  },
+  {
+    "term": "PRE-FLIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PILOT BRIEFING− (See SEGMENTS OF AN INSTRUMENT"
+  },
+  {
+    "term": "PRECISION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH PROCEDURE− A"
+  },
+  {
+    "term": "PREDICTIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WIND SHEAR ALERT SYSTEM"
+  },
+  {
+    "term": "PREVAILING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VISIBILITY−"
+  },
+  {
+    "term": "PROCEDURAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROL [ICAO]– Term used to PROGRESS REPORT−"
+  },
+  {
+    "term": "PROCEDURE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TURN [ICAO]− A maneuver in"
+  },
+  {
+    "term": "PROFILE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DESCENT− An uninterrupted descent"
+  },
+  {
+    "term": "PROGRAM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(CTOP)- CTOP is a traffic management"
+  },
+  {
+    "term": "PROPOSED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BOUNDARY CROSSING TIME−"
+  },
+  {
+    "term": "PUBLISHED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INSTRUMENT APPROACH"
+  },
+  {
+    "term": "QUICK",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LOOK− A feature of the EAS and ARTS"
+  },
+  {
+    "term": "RADAR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IDENTIFICATION"
+  },
+  {
+    "term": "RADIO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTIMETER− Aircraft equipment which"
+  },
+  {
+    "term": "RANDOM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE− An altitude inappropriate"
+  },
+  {
+    "term": "RECEIVER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUTONOMOUS INTEGRITY MON-"
+  },
+  {
+    "term": "RECEIVING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROLLER− A controller/facility"
+  },
+  {
+    "term": "REDUCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPEED TO (SPEED)−"
+  },
+  {
+    "term": "RELEASE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME− A departure time restriction"
+  },
+  {
+    "term": "REMOTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COMMUNICATIONS OUTLET− An"
+  },
+  {
+    "term": "REPORTING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A geographical location in"
+  },
+  {
+    "term": "REQUIRED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION PERFORMANCE"
+  },
+  {
+    "term": "RESCUE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM− A facility which can deliver, in"
+  },
+  {
+    "term": "RESOLUTION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ADVISORY−A display indication ROAD RECONNAISSANCE− Military activity"
+  },
+  {
+    "term": "RNP",
+    "fullName": "Required navigation performance",
+    "category": "PilotController",
+    "old_description": "Required navigation performance"
+  },
+  {
+    "term": "ROLLOUT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RVR−"
+  },
+  {
+    "term": "ROUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ACTION NOTIFICATION− EDST notifi- (See BRAKING ACTION.)"
+  },
+  {
+    "term": "RTR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(O’s) were established for the express purpose"
+  },
+  {
+    "term": "RUNWAY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONDITION CODES (RWYCC)"
+  },
+  {
+    "term": "SAFETY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALERT− A safety alert issued by ATC to"
+  },
+  {
+    "term": "SAME",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DIRECTION AIRCRAFT− Aircraft are"
+  },
+  {
+    "term": "SAY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AGAIN− Used to request a repeat of the last"
+  },
+  {
+    "term": "SCHEDULED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME OF ARRIVAL (STA)− A STA"
+  },
+  {
+    "term": "SEARCH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AND RESCUE− A service which seeks"
+  },
+  {
+    "term": "SECTOR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIST DROP INTERVAL− A parameter"
+  },
+  {
+    "term": "SECURITY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NOTICE (SECNOT) − A SECNOT is a"
+  },
+  {
+    "term": "SEGMENTS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF AN INSTRUMENT APPROACH"
+  },
+  {
+    "term": "SEPARATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MINIMA."
+  },
+  {
+    "term": "SERVICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "− ALASKA FSSs ONLY.)"
+  },
+  {
+    "term": "SEVERE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WEATHER AVOIDANCE PLAN− An"
+  },
+  {
+    "term": "SHORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TAKEOFF AND LANDING AIRCRAFT−"
+  },
+  {
+    "term": "SIDESTEP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER− A visual maneuver"
+  },
+  {
+    "term": "SINGLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DIRECTION ROUTES− Preferred IFR"
+  },
+  {
+    "term": "SLOT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME−"
+  },
+  {
+    "term": "SPECIAL",
+    "fullName": "(평문)",
+    "category": "PilotController",
+    "old_description": "Local special meteorological report (in abbreviated plain language)"
+  },
+  {
+    "term": "SPEED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SEGMENTS− Portions of the arrival route"
+  },
+  {
+    "term": "SQUAWK",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(Mode, Code, Function)− Activate"
+  },
+  {
+    "term": "STAND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BY− Means the controller or pilot must"
+  },
+  {
+    "term": "STANDARD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INSTRUMENT APPROACH PRO- STATIONARY RESERVATIONS− Altitude"
+  },
+  {
+    "term": "STATE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− Aircraft used in military,"
+  },
+  {
+    "term": "STATIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESTRICTIONS− Those restrictions that transponder off."
+  },
+  {
+    "term": "STEP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TAXI− To taxi a float plane at full power or"
+  },
+  {
+    "term": "STEPDOWN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− A fix permitting additional"
+  },
+  {
+    "term": "STOL",
+    "fullName": "Short take-off and landing",
+    "category": "PilotController",
+    "old_description": "Short take-off and landing"
+  },
+  {
+    "term": "STOP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AND GO− A procedure wherein an aircraft"
+  },
+  {
+    "term": "STRATEGIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PLANNING− Planning whereby (Refer to AIM.)"
+  },
+  {
+    "term": "SUNSET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AND SUNRISE− The mean solar times of"
+  },
+  {
+    "term": "TACAN-ONLY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− An aircraft, normally"
+  },
+  {
+    "term": "TACTICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIR NAVIGATION− An ultra-high"
+  },
+  {
+    "term": "TAKEOFF",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUN AVAILABLE (TORA) – The"
+  },
+  {
+    "term": "TARGET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− In radar:"
+  },
+  {
+    "term": "TELEPHONE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION BRIEFING SER-"
+  },
+  {
+    "term": "TENTATIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CALCULATED LANDING TIME− A"
+  },
+  {
+    "term": "TERMINAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION SERVICE.)"
+  },
+  {
+    "term": "TERRAIN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOLLOWING− The flight of a military"
+  },
+  {
+    "term": "THAT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IS CORRECT− The understanding you have"
+  },
+  {
+    "term": "THRESHOLD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIGHTS− TMU−"
+  },
+  {
+    "term": "TIE-IN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FACILITY– The FSS primarily responsible TOI−"
+  },
+  {
+    "term": "TIME",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BASED FLOW MANAGEMENT (TBFM)−"
+  },
+  {
+    "term": "TOP",
+    "fullName": "Cloud top",
+    "category": "PilotController",
+    "old_description": "ALTITUDE– In reference to SID published"
+  },
+  {
+    "term": "TOUCHDOWN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The point where the"
+  },
+  {
+    "term": "TOWER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO TOWER−"
+  },
+  {
+    "term": "TRACEABLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PRESSURE STANDARD− The"
+  },
+  {
+    "term": "TRACK",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF INTEREST (TOI)− Displayed data"
+  },
+  {
+    "term": "TRACKING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM.)"
+  },
+  {
+    "term": "TRAFFIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION−"
+  },
+  {
+    "term": "TRAJECTORY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MODELING− The automated pro-"
+  },
+  {
+    "term": "TRANSFER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF CONTROL− That action whereby"
+  },
+  {
+    "term": "TRANSITION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A point at an adapted"
+  },
+  {
+    "term": "TUDE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IMMEDIATELY−"
+  },
+  {
+    "term": "TURBOJET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− An aircraft having a jet"
+  },
+  {
+    "term": "TURN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ANTICIPATION− (maneuver anticipation)."
+  },
+  {
+    "term": "ULTRAHIGH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FREQUENCY− The frequency band"
+  },
+  {
+    "term": "ULTRALIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VEHICLE− A single-occupant"
+  },
+  {
+    "term": "UNDER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "THE HOOD− Indicates that the pilot is (See ROUTE.)"
+  },
+  {
+    "term": "UNMANNED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT SYSTEM (UAS)- An"
+  },
+  {
+    "term": "UNRELIABLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(GPS/WAAS)− An advisory to"
+  },
+  {
+    "term": "UPWIND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LEG−"
+  },
+  {
+    "term": "URGENCY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− A condition concerning the"
+  },
+  {
+    "term": "VERIFY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPECIFIC DIRECTION OF TAKEOFF"
+  },
+  {
+    "term": "VERTEX",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME OF ARRIVAL− A calculated time of"
+  },
+  {
+    "term": "VERTICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION (VNAV)– A function of"
+  },
+  {
+    "term": "VESSEL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESCUE SYSTEM.)"
+  },
+  {
+    "term": "VHF",
+    "fullName": "Very high frequency(30 to 300MHz)",
+    "category": "PilotController",
+    "old_description": "Very high frequency [30 to 300 MHz]"
+  },
+  {
+    "term": "VICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(AFIS) − ALASKA FSSs ONLY− The"
+  },
+  {
+    "term": "VISIBILITY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The ability, as determined by ODP."
+  },
+  {
+    "term": "VISUAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DESCENT POINT− A defined point on the"
+  },
+  {
+    "term": "VOICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SWITCHING AND CONTROL SYSTEM− (See AIRCRAFT CLASSES.)"
+  },
+  {
+    "term": "VOR",
+    "fullName": "VHF omnidirectional radio range",
+    "category": "PilotController",
+    "old_description": "TEST SIGNAL− (See VERTICAL TAKEOFF AND LANDING"
+  },
+  {
+    "term": "VTOL",
+    "fullName": "Vertical take-off and landing",
+    "category": "PilotController",
+    "old_description": "Vertical take-off and landing"
+  },
+  {
+    "term": "WAKE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TURBULENCE− Phenomena resulting from opportunity to comply."
+  },
+  {
+    "term": "WARNING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA− (WAAS)− The WAAS is a satellite navigation system"
+  },
+  {
+    "term": "WEATHER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RECONNAISSANCE AREA (WRA)"
+  },
+  {
+    "term": "WIDE-AREA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUGMENTATION SYSTEM"
+  },
+  {
+    "term": "WIND",
+    "fullName": "Wind",
+    "category": "PilotController",
+    "old_description": "SHEAR− A change in wind speed and/or wind WORDS TWICE−"
+  },
+  {
+    "term": "WING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIP VORTICES− (See CONVECTIVE SIGMET.)"
+  },
+  {
+    "term": "AIR TRAFFIC SERVICE",
+    "fullName": "AIR TRAFFIC SERVICE",
+    "category": "P/C Glossary",
+    "old_description": "A generic term meaning:"
+  },
+  {
+    "term": "ASDE-3",
+    "fullName": "ASDE-3",
+    "category": "P/C Glossary",
+    "old_description": "a Surface Movement Radar."
+  },
+  {
+    "term": "ARRIVAL TIME",
+    "fullName": "ARRIVAL TIME",
+    "category": "P/C Glossary",
+    "old_description": "The time an aircraft touches down on arrival."
+  },
+  {
+    "term": "CHOP",
+    "fullName": "CHOP",
+    "category": "P/C Glossary",
+    "old_description": "A form of turbulence."
+  },
+  {
+    "term": "CIVIL AIRCRAFT OPERATION (CAO)",
+    "fullName": "CIVIL AIRCRAFT OPERATION (CAO)",
+    "category": "P/C Glossary",
+    "old_description": "Aircraft operations other than public use."
+  },
+  {
+    "term": "DEPARTURE TIME",
+    "fullName": "DEPARTURE TIME",
+    "category": "P/C Glossary",
+    "old_description": "The time an aircraft becomes airborne."
+  },
+  {
+    "term": "FAWP",
+    "fullName": "FAWP",
+    "category": "P/C Glossary",
+    "old_description": "Final Approach Waypoint"
+  },
+  {
+    "term": "FERRY FLIGHT",
+    "fullName": "FERRY FLIGHT",
+    "category": "P/C Glossary",
+    "old_description": "A flight for the purpose of:"
+  },
+  {
+    "term": "FLIGHT TEST",
+    "fullName": "FLIGHT TEST",
+    "category": "P/C Glossary",
+    "old_description": "A flight for the purpose of:"
+  },
+  {
+    "term": "HIGH FREQUENCY",
+    "fullName": "HIGH FREQUENCY",
+    "category": "P/C Glossary",
+    "old_description": "The frequency band between 3 and 30&#xA0;MHz."
+  },
+  {
+    "term": "IAWP",
+    "fullName": "IAWP",
+    "category": "P/C Glossary",
+    "old_description": "Initial Approach Waypoint"
+  },
+  {
+    "term": "IFWP",
+    "fullName": "IFWP",
+    "category": "P/C Glossary",
+    "old_description": "Intermediate Fix Waypoint"
+  },
+  {
+    "term": "INTERNATIONAL AIRPORT",
+    "fullName": "INTERNATIONAL AIRPORT",
+    "category": "P/C Glossary",
+    "old_description": "Relating to international flight, it means:"
+  },
+  {
+    "term": "MAHWP",
+    "fullName": "MAHWP",
+    "category": "P/C Glossary",
+    "old_description": "Missed Approach Holding Waypoint"
+  },
+  {
+    "term": "MAWP",
+    "fullName": "MAWP",
+    "category": "P/C Glossary",
+    "old_description": "Missed Approach Waypoint"
+  },
+  {
+    "term": "OPERATOR (UAS)",
+    "fullName": "OPERATOR (UAS)",
+    "category": "P/C Glossary",
+    "old_description": "The owner and/or remote pilot of a UAS."
+  },
+  {
+    "term": "RADAR ENVIRONMENT",
+    "fullName": "RADAR ENVIRONMENT",
+    "category": "P/C Glossary",
+    "old_description": "An area in which radar service may be provided."
+  },
+  {
+    "term": "SLOW TAXI",
+    "fullName": "SLOW TAXI",
+    "category": "P/C Glossary",
+    "old_description": "To taxi a float plane at low power or low RPM."
+  },
+  {
+    "term": "STANDARD RATE TURN",
+    "fullName": "STANDARD RATE TURN",
+    "category": "P/C Glossary",
+    "old_description": "A turn of three degrees per second."
+  },
+  {
+    "term": "STEP TAXI",
+    "fullName": "STEP TAXI",
+    "category": "P/C Glossary",
+    "old_description": "To taxi a float plane at full power or high RPM."
+  },
+  {
+    "term": "TURN ANTICIPATION",
+    "fullName": "TURN ANTICIPATION",
+    "category": "P/C Glossary",
+    "old_description": "(maneuver anticipation)."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "term": "UTC",
+    "fullName": "Co-ordinated universal time",
+    "category": "NOTAM",
+    "old_description": "Coordinated Universal Time"
+  },
+  {
+    "term": "VA",
+    "fullName": "Volcanic ash",
+    "category": "NOTAM",
+    "old_description": "Heading to an altitude"
+  },
+  {
+    "term": "VAAC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Volcanic ash advisory centre"
+  },
+  {
+    "term": "VAL",
+    "fullName": "In valleys",
+    "category": "NOTAM",
+    "old_description": "In valleys"
+  },
+  {
+    "term": "VAN",
+    "fullName": "Runway control van",
+    "category": "NOTAM",
+    "old_description": "Runway control van"
+  },
+  {
+    "term": "VAR",
+    "fullName": "Magnetic variation",
+    "category": "NOTAM",
+    "old_description": "Visual-aural radio range"
+  },
+  {
+    "term": "VCY",
+    "fullName": "Vicinity",
+    "category": "NOTAM",
+    "old_description": "Vicinity"
+  },
+  {
+    "term": "VER",
+    "fullName": "Vertical",
+    "category": "NOTAM",
+    "old_description": "Vertical"
+  },
+  {
+    "term": "VI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Heading to an intercept"
+  },
+  {
+    "term": "VIP",
+    "fullName": "Very important person",
+    "category": "NOTAM",
+    "old_description": "Very important person"
+  },
+  {
+    "term": "VIS",
+    "fullName": "Visibility",
+    "category": "NOTAM",
+    "old_description": "Visibility"
+  },
+  {
+    "term": "VLR",
+    "fullName": "Very long range",
+    "category": "NOTAM",
+    "old_description": "Very long range"
+  },
+  {
+    "term": "VMC",
+    "fullName": "Visual meteorological conditions",
+    "category": "NOTAM",
+    "old_description": "Visual meteorological conditions"
+  },
+  {
+    "term": "VORTAC",
+    "fullName": "VOR and TACAN combination VOR",
+    "category": "NOTAM",
+    "old_description": "VOR and TACAN combination"
+  },
+  {
+    "term": "VPA",
+    "fullName": "Vertical path angle",
+    "category": "NOTAM",
+    "old_description": "Vertical path angle"
+  },
+  {
+    "term": "VRB",
+    "fullName": "Variable",
+    "category": "NOTAM",
+    "old_description": "Variable"
+  },
+  {
+    "term": "VSP",
+    "fullName": "Vertical speed",
+    "category": "NOTAM",
+    "old_description": "Vertical speed"
+  },
+  {
+    "term": "VTF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Vector to final"
+  },
+  {
+    "term": "WAAS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Wide area augmentation system"
+  },
+  {
+    "term": "WAFC",
+    "fullName": "World area forecast center",
+    "category": "NOTAM",
+    "old_description": "World area forecast centre"
+  },
+  {
+    "term": "WB",
+    "fullName": "Westbound",
+    "category": "NOTAM",
+    "old_description": "Westbound"
+  },
+  {
+    "term": "WBAR",
+    "fullName": "Wing bar lights",
+    "category": "NOTAM",
+    "old_description": "Wing bar lights"
+  },
+  {
+    "term": "WDI",
+    "fullName": "Wind direction indicator",
+    "category": "NOTAM",
+    "old_description": "Wind direction indicator"
+  },
+  {
+    "term": "WDSPR",
+    "fullName": "Widespread",
+    "category": "NOTAM",
+    "old_description": "Widespread"
+  },
+  {
+    "term": "WED",
+    "fullName": "Wednesday",
+    "category": "NOTAM",
+    "old_description": "Wednesday"
+  },
+  {
+    "term": "WGS-84",
+    "fullName": "World Geodetic System - 1984",
+    "category": "NOTAM",
+    "old_description": "World Geodetic System � 1984"
+  },
+  {
+    "term": "WI",
+    "fullName": "Within ...",
+    "category": "NOTAM",
+    "old_description": "Within"
+  },
+  {
+    "term": "WID",
+    "fullName": "Width",
+    "category": "NOTAM",
+    "old_description": "Width or wide"
+  },
+  {
+    "term": "WILCO",
+    "fullName": "Will comply ...",
+    "category": "NOTAM",
+    "old_description": "Will comply"
+  },
+  {
+    "term": "WIP",
+    "fullName": "Work in progress",
+    "category": "NOTAM",
+    "old_description": "Work in progress"
+  },
+  {
+    "term": "WKN",
+    "fullName": "Weaken or weakening",
+    "category": "NOTAM",
+    "old_description": "Weaken or weakening"
+  },
+  {
+    "term": "WNW",
+    "fullName": "West north west",
+    "category": "NOTAM",
+    "old_description": "West-north-west"
+  },
+  {
+    "term": "WO",
+    "fullName": "Without ...",
+    "category": "NOTAM",
+    "old_description": "Without"
+  },
+  {
+    "term": "WPT",
+    "fullName": "Way-point",
+    "category": "NOTAM",
+    "old_description": "Way-point"
+  },
+  {
+    "term": "WRNG",
+    "fullName": "Warning",
+    "category": "NOTAM",
+    "old_description": "Warning"
+  },
+  {
+    "term": "WS",
+    "fullName": "Wind shear",
+    "category": "NOTAM",
+    "old_description": "Wind shear"
+  },
+  {
+    "term": "WSPD",
+    "fullName": "Wind speed",
+    "category": "NOTAM",
+    "old_description": "Wind speed"
+  },
+  {
+    "term": "WSW",
+    "fullName": "West south west",
+    "category": "NOTAM",
+    "old_description": "West-south-west"
+  },
+  {
+    "term": "WT",
+    "fullName": "Weight",
+    "category": "NOTAM",
+    "old_description": "중량, 무게"
+  },
+  {
+    "term": "WTSPT",
+    "fullName": "Waterspout",
+    "category": "NOTAM",
+    "old_description": "Waterspout"
+  },
+  {
+    "term": "WWW",
+    "fullName": "World wide web",
+    "category": "NOTAM",
+    "old_description": "Worldwide web"
+  },
+  {
+    "term": "WX",
+    "fullName": "Weather",
+    "category": "NOTAM",
+    "old_description": "Weather"
+  },
+  {
+    "term": "WXR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Weather radar"
+  },
+  {
+    "term": "XNG",
+    "fullName": "Crossing",
+    "category": "NOTAM",
+    "old_description": "Crossing"
+  },
+  {
+    "term": "XS",
+    "fullName": "Atmospherics",
+    "category": "NOTAM",
+    "old_description": "Atmospherics"
+  },
+  {
+    "term": "YR",
+    "fullName": "Your",
+    "category": "NOTAM",
+    "old_description": "Your"
+  },
+  {
+    "term": "AC",
+    "fullName": "Altocumulus",
+    "category": "PilotController",
+    "old_description": "150/5320-12, Measurement, Construction, and"
+  },
+  {
+    "term": "ACTIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUNWAY−"
+  },
+  {
+    "term": "ACTUAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CALCULATED LANDING TIME−"
+  },
+  {
+    "term": "ADVISORY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SERVICE− Advice and information"
+  }
+]

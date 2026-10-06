@@ -1,0 +1,1768 @@
+:root {
+  --cx3-bg: #1a1a1a;
+  --cx3-frame: #2b2b2b;
+  --cx3-frame-light: #3a3a3a;
+  --cx3-frame-dark: #141414;
+  --cx3-lcd-bg: #000000;
+  --cx3-lcd-fg: #ffffff;
+  --cx3-lcd-green: #00ff66;
+  --cx3-lcd-amber: #ffaa00;
+  --cx3-lcd-blue: #3399ff;
+  --cx3-lcd-red: #ff3330;
+  --cx3-lcd-divider: rgba(120, 120, 120, 0.35);
+  --cx3-lcd-cursor: rgba(255, 170, 0, 0.15);
+  --cx3-lcd-cursor-bar: #ffaa00;
+  --cx3-power: #ff6a00;
+  --cx3-power-dark: #cc5200;
+  --cx3-key: #444444;
+  --cx3-key-dark: #2f2f2f;
+  --cx3-key-light: #5a5a5a;
+  --cx3-key-text: #f0f0f0;
+  --cx3-key-fn: #333333;
+  --cx3-key-fn-text: #cccccc;
+  --cx3-bright: 1;
+  --cx3-keypad-glow: 0;
+}
+
+html[data-theme="cx3-night"] {
+  --cx3-lcd-bg: #000000;
+  --cx3-lcd-fg: #ffffff;
+  --cx3-bright: 0.3;
+  --cx3-keypad-glow: 1;
+}
+html[data-theme="cx3-dusk"] {
+  --cx3-lcd-bg: #000000;
+  --cx3-lcd-fg: #ffffff;
+  --cx3-bright: 0.6;
+  --cx3-keypad-glow: 1;
+}
+html[data-theme="cx3-daylight"] {
+  --cx3-lcd-bg: #000000;
+  --cx3-lcd-fg: #ffffff;
+  --cx3-bright: 1.2;
+  --cx3-keypad-glow: 0;
+}
+html[data-theme="cx3-standard"] {
+  --cx3-lcd-bg: #000000;
+  --cx3-lcd-fg: #ffffff;
+  --cx3-bright: 1.0;
+  --cx3-keypad-glow: 0;
+}
+html[data-theme="cx3-daylight-white"] {
+  --cx3-lcd-bg: #f5f5dc;
+  --cx3-lcd-fg: #000000;
+  --cx3-bright: 1.0;
+  --cx3-keypad-glow: 0;
+}
+
+@font-face {
+  font-family: 'Hanjin Group Sans';
+  src: url('../../TTF/HanjinGroupSans-Light_A.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hanjin Group Sans';
+  src: url('../../TTF/HanjinGroupSans-Regular_A.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hanjin Group Sans';
+  src: url('../../TTF/HanjinGroupSans-Bold_A.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+}
+
+.cx3-app {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  font-family: 'Hanjin Group Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.cx3-device {
+  width: 100%;
+  max-width: 380px;
+  min-height: 740px;
+  max-height: 795px;
+  height: 774px;
+  background: linear-gradient(180deg, #2a2a2a 0%, #1e1e1e 50%, #141414 100%);
+  border-radius: 42px;
+  padding: 14px 14px 14px;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.65),
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    inset 0 -2px 0 rgba(0,0,0,0.6);
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cx3-brand-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 0 3px;
+  color: #cfcfcf;
+  flex-shrink: 0;
+  height: 70px;
+}
+
+.cx3-asa-wing-logo {
+  width: 100%;
+  max-width: 352px;
+  height: auto;
+  max-height: 100%;
+  color: #cfcfcf;
+  fill: currentColor;
+  filter: drop-shadow(0 1px 0 rgba(0,0,0,0.6));
+}
+
+.cx3-lcd-wrap {
+  background: var(--cx3-lcd-bg);
+  border-radius: 10px;
+  padding: 4px 8px;
+  border: 2px solid #000;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.04),
+    inset 0 4px 18px rgba(0, 180, 80, 0.04),
+    0 0 0 3px #111;
+  filter: brightness(var(--cx3-bright)) contrast(1.05);
+  position: relative;
+  overflow: hidden;
+  flex: 0 0 auto;
+  min-height: 290px;
+  max-height: 290px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.cx3-status-bar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0 3px 0;
+  border-bottom: 1px solid var(--cx3-lcd-divider);
+  margin-bottom: 3px;
+  flex-shrink: 0;
+  min-height: 20px;
+  line-height: 1;
+}
+
+/* ===== Trial 버전 배너 (status-bar 아래 한 줄) ===== */
+.cx3-trial-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 2px 4px 3px;
+  border-bottom: 1px dashed rgba(255,196,91,0.45);
+  margin-bottom: 3px;
+  flex-shrink: 0;
+  min-height: 18px;
+  background: linear-gradient(90deg, rgba(255,170,60,0.10), rgba(255,210,120,0.03));
+}
+.cx3-trial-banner-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #ffc45b;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  font-size: 10px;
+  font-size: clamp(8.5px, 1.95dvw, 11.5px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-variant-numeric: tabular-nums;
+}
+.cx3-trial-banner-sub {
+  flex: 0 0 auto;
+  color: #ffb03a;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  font-size: 10px;
+  font-size: clamp(9px, 2.1dvw, 12px);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== Trial 만료 잠금 오버레이 (화면 전체 덮기) ===== */
+.cx3-trial-expired-lock {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 16px 10px;
+  text-align: center;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(90, 0, 0, 0.22) 0px,
+    rgba(90, 0, 0, 0.22) 10px,
+    rgba(40, 0, 0, 0.22) 10px,
+    rgba(40, 0, 0, 0.22) 20px
+  );
+  backdrop-filter: blur(0.5px);
+}
+.cx3-trial-expired-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 17px;
+  font-size: clamp(14px, 4.5dvw, 22px);
+  letter-spacing: 3px;
+}
+.cx3-trial-expired-ver {
+  color: #ffb36b;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+}
+.cx3-trial-expired-line {
+  color: #ff5a5a;
+  font-weight: 900;
+  font-size: 15px;
+  font-size: clamp(13px, 4.1dvw, 19px);
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  animation: cx3-trial-blink 0.9s steps(2, end) infinite;
+}
+@keyframes cx3-trial-blink {
+  50% { opacity: 0.25; }
+}
+.cx3-trial-expired-date {
+  color: #ffc36b;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  font-variant-numeric: tabular-nums;
+}
+.cx3-trial-expired-contact,
+.cx3-trial-expired-contact2 {
+  color: #cfe0e2;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  font-size: 11px;
+}
+.cx3-trial-expired-contact2 {
+  color: #99c7d4;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.2px;
+}
+
+.cx3-status-left {
+  color: var(--cx3-lcd-fg);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  justify-self: start;
+}
+
+.cx3-status-clock {
+  color: var(--cx3-lcd-fg);
+  font-size: 11px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.5px;
+  justify-self: end;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.cx3-batt {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--cx3-lcd-fg);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.cx3-batt-body {
+  width: 26px;
+  height: 12px;
+  border: 1.5px solid var(--cx3-lcd-fg);
+  border-radius: 2px;
+  position: relative;
+  padding: 1px;
+  display: flex;
+  gap: 1px;
+}
+
+.cx3-batt-body::after {
+  content: '';
+  position: absolute;
+  right: -3px;
+  top: 3px;
+  width: 2px;
+  height: 6px;
+  background: var(--cx3-lcd-fg);
+  border-radius: 0 1px 1px 0;
+}
+
+.cx3-batt-cell {
+  flex: 1;
+  background: currentColor;
+  min-width: 1px;
+  opacity: 0.9;
+}
+
+.cx3-batt-cell.empty {
+  background: transparent;
+}
+
+.cx3-batt.low .cx3-batt-body,
+.cx3-batt.low,
+.cx3-batt.low .cx3-batt-body::after {
+  color: var(--cx3-lcd-red);
+  border-color: var(--cx3-lcd-red);
+}
+
+.cx3-lcd-screen {
+  color: var(--cx3-lcd-fg);
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 1.25;
+  position: relative;
+  overflow: hidden;
+}
+
+.cx3-lcd-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: 100%;
+  justify-content: flex-start;
+  -webkit-tap-highlight-color: rgba(125, 255, 125, 0.15);
+}
+.cx3-lcd-menu::-webkit-scrollbar {
+  width: 5px;
+}
+.cx3-lcd-menu::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.04);
+}
+.cx3-lcd-menu::-webkit-scrollbar-thumb {
+  background: rgba(125, 255, 125, 0.4);
+  border-radius: 3px;
+}
+
+.cx3-menu-line {
+  display: grid;
+  grid-template-columns: 22px 1fr auto;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 2px;
+  border-bottom: 1px solid var(--cx3-lcd-divider);
+  min-height: 31px;
+  max-height: 31px;
+  position: relative;
+  font-weight: 600;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+.cx3-menu-line .cx3-menu-value-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  max-width: 100%;
+  padding-right: 3px;
+  overflow: visible;
+  gap: 2px;
+}
+
+.cx3-menu-line.half {
+  max-height: 13px;
+  padding: 0 2px;
+  overflow: hidden;
+  clip-path: inset(0 0 52% 0);
+  opacity: 0.92;
+  position: relative;
+  z-index: 2;
+}
+
+.cx3-menu-line.half::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2px;
+  background: repeating-linear-gradient(90deg, var(--cx3-lcd-divider) 0 3px, transparent 3px 7px);
+}
+
+.cx3-menu-line.cursor {
+  background: var(--cx3-lcd-cursor);
+}
+.cx3-menu-line.cursor::before {
+  content: '';
+  position: absolute;
+  left: -2px; top: 2px; bottom: 2px;
+  width: 3px;
+  background: var(--cx3-lcd-cursor-bar);
+  border-radius: 1px;
+}
+
+.cx3-menu-line .cx3-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.cx3-icon.green-check { color: var(--cx3-lcd-green); }
+.cx3-icon.green-eq { color: var(--cx3-lcd-green); }
+.cx3-icon.amber-q { color: var(--cx3-lcd-amber); }
+.cx3-icon.blue-dot { color: var(--cx3-lcd-blue); }
+
+.cx3-menu-label {
+  color: var(--cx3-lcd-fg);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  text-align: left;
+  line-height: 1.15;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.cx3-menu-label.subtle {
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.cx3-menu-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--cx3-lcd-fg);
+  line-height: 1.15;
+}
+.cx3-menu-value.green { color: var(--cx3-lcd-green); }
+
+.curr-swap-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  flex: 0 0 18px;
+  border-bottom: 1px solid var(--cx3-lcd-divider);
+}
+.curr-swap-button {
+  width: 44px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid var(--cx3-lcd-green);
+  border-radius: 10px;
+  background: rgba(0, 255, 102, 0.08);
+  color: var(--cx3-lcd-green);
+  font: 800 20px/20px Arial, sans-serif;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(125, 255, 125, 0.2);
+}
+.curr-swap-button:active {
+  background: var(--cx3-lcd-green);
+  color: #07120b;
+}
+
+/* ===== CURR Result + Rate 행 ===== */
+.cx3-menu-line-sub {
+  min-height: 26px;
+  max-height: 26px;
+  padding: 2px 2px 2px 0;
+}
+.curr-result-big {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+}
+.cx3-menu-unit {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 11.5px;
+  color: var(--cx3-lcd-fg);
+  opacity: 0.9;
+  margin-left: 3px;
+  line-height: 1.15;
+}
+.cx3-menu-unit.green { color: var(--cx3-lcd-green); }
+.cx3-menu-unit.amber { color: var(--cx3-lcd-amber); }
+.cx3-menu-value.amber { color: var(--cx3-lcd-amber); }
+.cx3-menu-value.dashes { color: var(--cx3-lcd-amber); letter-spacing: 1px; }
+
+/* ===== CURR 환율 추이 그래프 (Rate 행 클릭 시 LCD 전체 화면) ===== */
+.cx3-ratechart {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 5px 6px 5px;
+  box-sizing: border-box;
+  background: var(--cx3-lcd-bg);
+  color: var(--cx3-lcd-fg);
+}
+.cx3-ratechart-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+}
+.cx3-ratechart-pair {
+  font-size: clamp(11px, 3.05vw, 15px);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.cx3-ratechart-range {
+  flex: 0 0 auto;
+  font-size: clamp(9px, 2.5vw, 12px);
+  letter-spacing: 0.6px;
+  opacity: 0.75;
+}
+.cx3-ratechart-hero {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+}
+.cx3-ratechart-hero strong {
+  font: 800 clamp(20px, 5.6vw, 28px)/1.05 ui-monospace, monospace;
+  color: var(--cx3-lcd-green);
+}
+.cx3-ratechart-hero em {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(11px, 3.1vw, 15px);
+  white-space: nowrap;
+}
+.cx3-ratechart-hero em.up { color: var(--cx3-lcd-green); }
+.cx3-ratechart-hero em.down { color: var(--cx3-lcd-red); }
+.cx3-ratechart-plot {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  border: 1px solid #33424a;
+  background: rgba(0, 255, 102, 0.04);
+}
+.cx3-ratechart-plot svg { display: block; width: 100%; height: 100%; }
+.cx3-ratechart-grid { stroke: #2c3a42; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.cx3-ratechart-line {
+  fill: none;
+  stroke: var(--cx3-lcd-green);
+  stroke-width: 1.6;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.cx3-ratechart-area { fill: rgba(0, 255, 102, 0.14); stroke: none; }
+.cx3-ratechart-plot .hi,
+.cx3-ratechart-plot .lo {
+  position: absolute;
+  left: 3px;
+  font-family: ui-monospace, monospace;
+  font-size: clamp(8.5px, 2.3vw, 11px);
+  color: #8ba0a7;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 0 2px;
+}
+.cx3-ratechart-plot .hi { top: 1px; }
+.cx3-ratechart-plot .lo { bottom: 1px; }
+.cx3-ratechart-foot {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  font-family: ui-monospace, monospace;
+  font-size: clamp(9px, 2.5vw, 12px);
+  color: #8ba0a7;
+}
+.cx3-ratechart-msg {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #8ba0a7;
+  font-size: clamp(11px, 3.1vw, 15px);
+}
+.cx3-ratechart-close {
+  flex: 0 0 auto;
+  border: 1px solid #54656c;
+  background: #1a252a;
+  color: #b8c7ca;
+  border-radius: 3px;
+  font-family: 'Hanjin Group Sans', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  font-size: clamp(12px, 3.4vw, 16px);
+  padding: clamp(3px, 0.7dvh, 7px) 6px;
+}
+.cx3-ratechart-close small { margin-left: 6px; font-size: 0.72em; color: #778990; }
+
+.cx3-lcd-screen::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 3px;
+  background: linear-gradient(180deg, transparent 0%, var(--cx3-lcd-bg) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Standard Calculator Display (일반 계산기 모양) */
+.calc-lcd-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  gap: 6px;
+  padding: 2px 0;
+  box-sizing: border-box;
+}
+
+.calc-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.calc-mode-chip,
+.calc-mem-chip {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--cx3-lcd-fg);
+  opacity: 0.9;
+  padding: 1px 5px;
+  border: 1px solid var(--cx3-lcd-divider);
+  border-radius: 3px;
+  background: rgba(255,255,255,0.02);
+  font-variant-numeric: tabular-nums;
+  transition: all 0.15s ease;
+}
+.calc-mode-chip[data-angle="RAD"] {
+  color: var(--cx3-lcd-amber);
+  border-color: var(--cx3-lcd-amber);
+  opacity: 1;
+}
+.calc-mode-chip[data-angle="DEG"] {
+  color: var(--cx3-lcd-green);
+  border-color: var(--cx3-lcd-green);
+  opacity: 1;
+}
+.calc-mem-chip[data-active="true"] {
+  color: var(--cx3-lcd-amber);
+  border-color: var(--cx3-lcd-amber);
+  opacity: 1;
+}
+
+.calc-expr-row {
+  min-height: 22px;
+  max-height: 26px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--cx3-lcd-fg);
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 2px;
+  line-height: 1.4;
+}
+
+.calc-main-display {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: clamp(28px, 6.2vh, 46px);
+  line-height: 1.05;
+  letter-spacing: 0.5px;
+  color: var(--cx3-lcd-green);
+  font-variant-numeric: tabular-nums;
+  padding-right: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-shadow:
+    0 0 0.5px rgba(0, 220, 90, 0.4),
+    0 0 1px rgba(0, 220, 90, 0.15);
+}
+.calc-main-display.error {
+  color: var(--cx3-lcd-red);
+  text-shadow:
+    0 0 0.5px rgba(255, 60, 60, 0.4),
+    0 0 1px rgba(255, 60, 60, 0.15);
+}
+
+.cx3-lcd-footer {
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid var(--cx3-lcd-divider);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cx3-lcd-fg);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  opacity: 0.9;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.cx3-footer-legend {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 10.5px;
+  text-transform: uppercase;
+}
+
+.cx3-footer-asa {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cx3-footer-logo {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.cx3-clock {
+  height: 100%;
+  min-height: 0;
+  box-sizing: border-box;
+  padding: 6px 6px 5px;
+  background: radial-gradient(circle at 50% 28%, #232e37 0%, #10161b 55%, #070a0d 100%);
+  color: #d9e1e4;
+  font-family: 'Hanjin Group Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+}
+.cx3-clock.alarm { animation: cx3-clock-alarm .6s steps(2, end) infinite; }
+@keyframes cx3-clock-alarm { 50% { filter: brightness(1.75); } }
+
+.cx3-clock-main { flex: 1 1 auto; min-height: 0; display: flex; gap: 8px; }
+/* 좌측: 다이얼 전용 스테이지. 우측 패널을 최소 폭으로 눌러 원 지름을 최대화한다. */
+.cx3-clock-stage { position: relative; flex: 1 1 auto; min-width: 0; min-height: 0; display: flex; align-items: center; justify-content: center; }
+/* 우측 패널: 컨테이너 쿼리 기준 = 패널 폭(106~130px) → 값 폭에 맞춰 자동 확대/축소
+   기존 대비 폭 약 10% 확대 (27% → 30%, min 96→106, max 118→130) */
+.cx3-clock-side { flex: 0 0 30%; min-width: 106px; max-width: 130px; min-height: 0; container-type: inline-size; display: flex; flex-direction: column; gap: 5px; }
+.cx3-dial, .cx3-ring { display: block; width: 100%; height: 100%; touch-action: none; }
+.cx3-dial-face { fill: #131c22; stroke: #5e6b70; stroke-width: 2.4; }
+.cx3-tick { stroke: #8b9ba2; stroke-width: 1; }
+.cx3-tick.major { stroke: #e2ebed; stroke-width: 1.8; }
+.cx3-hand { stroke-linecap: round; }
+.cx3-hand.hour { stroke: #dbe4e6; stroke-width: 4; }
+.cx3-hand.minute { stroke: #f2f6f6; stroke-width: 2.4; }
+.cx3-hand.second { stroke: #e88b56; stroke-width: 1.1; }
+.cx3-hand-pin { fill: #e88b56; stroke: #131c22; stroke-width: .8; }
+.cx3-dial-caption { fill: #93a4ab; font-size: 7px; letter-spacing: 1px; text-anchor: middle; }
+/* STOPWATCH 모드: 브라이틀링 이미지 시계판 + 태그호이어 바늘 이미지 3장을 겹쳐 회전시킨다. */
+.cx3-analog-wrap { position: relative; width: auto; height: 100%; max-width: 100%; max-height: 100%; aspect-ratio: 1 / 1; margin: 0 auto; display: block; container-type: inline-size; }
+.cx3-analog-face { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; -webkit-user-select: none; user-select: none; -webkit-user-drag: none; pointer-events: none; z-index: 0; }
+.cx3-analog-hand { position: absolute; left: 50%; top: 50%; height: 115%; width: auto; -webkit-user-select: none; user-select: none; -webkit-user-drag: none; pointer-events: none; will-change: transform; transform-origin: 50% 49.5%; }
+.cx3-analog-hand.hour { z-index: 2; transform: translate(-50%, -49.5%) rotate(0); filter: drop-shadow(0 1px 1px rgba(0,0,0,.7)); }
+.cx3-analog-hand.minute { z-index: 3; transform: translate(-50%, -49.5%) rotate(0); filter: drop-shadow(0 1px 1px rgba(0,0,0,.65)); }
+.cx3-analog-hand.second { z-index: 4; transform: translate(-50%, -49.5%) rotate(0); filter: drop-shadow(0 1px 1px rgba(0,0,0,.6)); }
+.cx3-analog-center { position: absolute; top: 50%; left: 50%; width: 5%; height: 5%; border-radius: 50%; background: radial-gradient(circle, #f2cf8a, #b9883f, #5a4017); transform: translate(-50%, -50%); box-shadow: 0 0 4px rgba(0,0,0,.7), inset 0 0 0 1px rgba(0,0,0,.5); z-index: 6; pointer-events: none; }
+/* 시계판의 CHRONOGRAPHE EXOSPACE 각인(세로 61.5~64.4%) 바로 아래에 오도록 위쪽 기준으로 배치 */
+.cx3-chrono-display { position: absolute; left: 50%; top: 66%; transform: translateX(-50%); width: 62%; max-width: 62%; padding: 3px 5px; border: 1px solid rgba(102,118,126,.95); background: linear-gradient(180deg, rgba(4,8,12,.96), rgba(1,3,5,.98)); box-shadow: inset 0 0 10px rgba(0,0,0,.75), 0 1px rgba(255,255,255,.05); border-radius: 3px; text-align: center; z-index: 3; pointer-events: none; }
+.cx3-chrono-display strong { display: block; color: #f0a05f; font: 700 clamp(6px, 7.4cqw, 20px)/1.12 ui-monospace, monospace; letter-spacing: .4px; white-space: nowrap; text-shadow: 0 0 1px rgba(240,160,95,.35); }
+.cx3-chrono-display.running strong { color: #7fe0b0; text-shadow: 0 0 1px rgba(127,224,176,.35); }
+/* 1/100초도 분:초와 같은 크기로 표시 */
+.cx3-chrono-display strong small { color: #e88b56; font-size: 1em; margin-left: 1px; }
+.cx3-chrono-display.running strong small { color: #5dca94; }
+.cx3-ring-track { stroke: #38474e; stroke-width: 7; }
+.cx3-ring-value { stroke: #ff5c5c; stroke-width: 7; stroke-linecap: round; transition: stroke-dashoffset .2s linear; }
+.cx3-ring.locked .cx3-ring-value { stroke: #ff8080; }
+/* 경과 시간(ELAPSED) 링: 카운트다운 링(r=30, 두께 7)과 맞닿은 바깥쪽 원(r=37) */
+.cx3-ring-elapsed { stroke-width: 7; stroke-linecap: round; fill: none; transition: stroke-dashoffset .2s linear; }
+.cx3-ring-hub { fill: #101a1f; stroke: #33424a; stroke-width: .8; }
+/* 링 안쪽: REMAIN(주) / ELAPSED(부) 를 위아래로 4줄 배치 */
+.cx3-ring-hub-label { fill: #8ba0a7; font-size: 4px; letter-spacing: .9px; text-anchor: middle; }
+.cx3-ring-hub-time { fill: #e6f2ec; font-family: ui-monospace, monospace; font-size: 9px; font-weight: 700; text-anchor: middle; }
+.cx3-ring-hub-elapsed { fill: #8ba0a7; font-family: ui-monospace, monospace; font-size: 6.5px; font-weight: 700; text-anchor: middle; }
+
+/* ===== 우측 패널 박스 3개가 세로를 꽉 채우도록 flex: 1 1 0 로 균등 분할 ===== */
+.cx3-readout { flex: 1 1 0; min-height: 0; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; border: 1px solid #4c5c63; background: rgba(0,0,0,.3); padding: 3px 5px; text-align: center; box-shadow: inset 0 0 10px rgba(0,0,0,.35); overflow: hidden; }
+.cx3-readout span { display: block; color: #8ba0a7; font-size: 8px; font-size: clamp(9px, 9.5cqw, 13px); line-height: 1.1; letter-spacing: 1.1px; }
+.cx3-readout strong { display: block; color: #dfe9ea; font: 700 clamp(12.5px, 3.05vw, 17px)/1.15 ui-monospace, monospace; white-space: nowrap; }
+/* 값 길이별 자동 크기: 박스 폭(cqw)에 맞춰 최대한 확대 · cqw 미지원 브라우저는 앞의 vw 값으로 폴백 */
+.cx3-readout.utc strong { font-size: clamp(14px, 3.5vw, 17px); font-size: clamp(14px, 22cqw, 28px); }
+.cx3-readout.set strong { font-size: clamp(12px, 3.1vw, 16px); font-size: clamp(12px, 15cqw, 20px); }
+.cx3-readout.primary strong { font-size: clamp(11px, 2.8vw, 14px); font-size: clamp(11px, 15cqw, 19px); }
+.cx3-readout strong small { color: #e88b56; font-size: .55em; margin-left: 2px; }
+.cx3-readout.primary strong { color: #f0a05f; }
+.cx3-readout.primary.running strong { color: #7fe0b0; }
+
+.cx3-stepper { display: flex; align-items: center; justify-content: space-between; gap: 3px; margin-top: 2px; }
+.cx3-stepper button { flex: 0 0 auto; width: 26px; height: 20px; border: 1px solid #54656c; background: #1a252a; color: #cfe0e2; border-radius: 3px; font-size: 14px; line-height: 1; padding: 0; }
+.cx3-stepper em { font-style: normal; color: #8ba0a7; font-size: 6.5px; letter-spacing: .6px; }
+
+
+
+.cx3-status { flex: 0 0 auto; text-align: center; color: #7d929a; letter-spacing: 1.4px; font-size: 7.5px; font-size: clamp(8.5px, 9cqw, 12px); }
+.cx3-status.on { color: #7fe0b0; }
+.cx3-status.expired { color: #ff9b6a; }
+
+/* ===== 모드 전환 박스도 세로를 꽉 채우도록 ===== */
+.cx3-mode-toggle { flex: 1 1 0; min-height: 0; width: 100%; min-width: 0; border: 1px solid #5d7280; background: linear-gradient(180deg, #223038, #16212a); color: #cfe0e2; border-radius: 3px; padding: 4px 2px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-family: inherit; }
+/* STOPWATCH / COUNTDOWN 은 박스 폭의 약 80%만 차지하도록 여유를 둔다 */
+.cx3-mode-toggle b { letter-spacing: 0; color: #f0a05f; line-height: 1.1; font-size: 12.5px; font-size: clamp(9.5px, 10.5cqw, 13px); }
+.cx3-mode-toggle small { letter-spacing: .2px; color: #8ba0a7; text-align: center; line-height: 1.15; white-space: normal; font-size: 6.5px; font-size: clamp(7.5px, 8.5cqw, 11px); }
+
+/* 하단 꽉 찬 폭 RESET / START */
+.cx3-controls { flex: 0 0 auto; display: flex; gap: 6px; width: 100%; }
+.cx3-controls button { flex: 1 1 0; min-width: 0; border: 1px solid #54656c; background: #1a252a; color: #b8c7ca; border-radius: 3px; font-family: 'Hanjin Group Sans', Arial, sans-serif; font-weight: 700; letter-spacing: .6px; font-size: 11px; font-size: clamp(15px, 5vw, 24px); padding: clamp(4px, 0.75dvh, 9px) 6px; transition: transform .06s ease, filter .06s ease, box-shadow .06s ease; }
+/* RESET / START 눌림 피드백: 아래로 내려앉고 밝아지며 안쪽 그림자가 생긴다. */
+.cx3-controls button:active { transform: translateY(1.5px) scale(.985); filter: brightness(1.4); border-color: #93a8af; box-shadow: inset 0 2px 5px rgba(0,0,0,.6); }
+.cx3-controls button small { display: block; margin-top: 2px; letter-spacing: .4px; color: #778990; font-size: 7.5px; font-size: clamp(9px, 2.8vw, 13px); }
+.cx3-controls button.start { color: #a6e4c1; border-color: #719f88; }
+.cx3-controls button.pause { color: #f1c08b; border-color: #b1845d; }
+
+.cx3-footer-text {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.cx3-keypad {
+  background: transparent;
+  border-radius: 18px;
+  padding: 8px 6px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1 1 auto;
+  min-height: 410px;
+  max-height: 420px;
+  height: 414px;
+  filter: none;
+  background: linear-gradient(180deg, #2f2f2f 0%, #262626 100%);
+  margin: 0 -4px;
+}
+
+.cx3-keypad-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+  width: 100%;
+}
+
+.cx3-keypad-row--qwerty {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.cx3-key {
+  aspect-ratio: 1.25 / 1;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(180deg, var(--cx3-key-light) 0%, var(--cx3-key) 55%, var(--cx3-key-dark) 100%);
+  color: var(--cx3-key-text);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  box-shadow:
+    0 1px 0 rgba(255,255,255,0.12) inset,
+    0 -2px 0 rgba(0,0,0,0.55) inset,
+    0 2px 3px rgba(0,0,0,0.4);
+  transition: transform 60ms ease, box-shadow 60ms ease, filter 60ms ease;
+  padding: 2px 1px;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  min-width: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.cx3-key:active {
+  transform: translateY(1.2px);
+  box-shadow:
+    0 0 0 rgba(255,255,255,0) inset,
+    0 -1px 0 rgba(0,0,0,0.4) inset,
+    0 1px 1px rgba(0,0,0,0.4);
+  filter: brightness(0.92);
+}
+
+.cx3-key.fn {
+  background: linear-gradient(180deg, #4a4a4a 0%, var(--cx3-key-fn) 55%, #1f1f1f 100%);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--cx3-key-fn-text);
+  letter-spacing: 0.2px;
+  line-height: 1.05;
+  padding: 3px 2px;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.cx3-key.fn.menu {
+  color: #8ab4ff;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.cx3-key.power {
+  background: linear-gradient(180deg, #ff8a3a 0%, var(--cx3-power) 50%, var(--cx3-power-dark) 100%);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 14px;
+  aspect-ratio: 1 / 1;
+  width: 92%;
+  justify-self: center;
+  box-shadow:
+    0 1px 0 rgba(255,220,170,0.5) inset,
+    0 -2px 0 rgba(120,40,0,0.7) inset,
+    0 3px 6px rgba(255,110,20,0.4);
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cx3-key.power::before {
+  content: '';
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: relative;
+  box-sizing: border-box;
+}
+.cx3-key.power::after {
+  content: '';
+  position: absolute;
+  width: 4px; height: 11px;
+  background: #fff;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -90%);
+  border-radius: 2px;
+}
+.cx3-key.power > * { z-index: 2; }
+.cx3-key.power:active {
+  filter: brightness(0.88);
+}
+
+.cx3-key.orange-equal {
+  background: linear-gradient(180deg, #ff8a3a 0%, var(--cx3-power) 50%, var(--cx3-power-dark) 100%);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  border-radius: 14px;
+  aspect-ratio: 1.25 / 1;
+  width: 92%;
+  justify-self: center;
+  box-shadow:
+    0 1px 0 rgba(255,220,170,0.5) inset,
+    0 -2px 0 rgba(120,40,0,0.7) inset,
+    0 3px 6px rgba(255,110,20,0.4);
+}
+.cx3-key.orange-equal::before,
+.cx3-key.orange-equal::after {
+  display: none !important;
+}
+
+.cx3-key.fav-only {
+  background: linear-gradient(180deg, var(--cx3-key-light) 0%, var(--cx3-key) 55%, var(--cx3-key-dark) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.cx3-key.nav.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 4px;
+}
+
+.cx3-key.op {
+  color: #ffd18a;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.cx3-key.nav {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.cx3-key.empty {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.cx3-key.span2 {
+  grid-column: span 2;
+  aspect-ratio: 2.4 / 1;
+}
+
+.cx3-key.span4 {
+  grid-column: span 4;
+  aspect-ratio: 4.8 / 1;
+}
+
+.cx3-keypad-row--qwerty:nth-child(5) {
+  justify-items: center;
+}
+
+.cx3-fav-star {
+  display: inline-block;
+  transform: translateY(-1px);
+  font-size: 14px;
+  color: #fff;
+}
+
+.cx3-fav-star-only {
+  font-size: 22px !important;
+  color: #fff !important;
+  filter: drop-shadow(0 1px 0 rgba(0,0,0,0.5));
+}
+
+/* ============================================================
+   PopupSelect (HOT Dropdown 터치 선택용 공통 스타일)
+   ============================================================ */
+.cx3-popup-mask {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 42px 14px 24px;
+  animation: cx3-fade 120ms ease-out;
+  backdrop-filter: blur(1px);
+  box-sizing: border-box;
+}
+
+.cx3-popup-panel {
+  width: 100%;
+  max-width: 340px;
+  max-height: calc(100vh - 96px);
+  background: linear-gradient(180deg, #0a0a0a 0%, #000000 100%);
+  border: 1.5px solid #333;
+  border-radius: 12px;
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.6),
+    0 0 0 1px rgba(0,255,102,0.08) inset,
+    0 0 0 4px #1a1a1a;
+  overflow: hidden;
+  color: var(--cx3-lcd-fg);
+  font-family: ui-monospace, "SF Mono", Menlo, "JetBrains Mono", Consolas, monospace;
+  animation: cx3-pop 150ms cubic-bezier(.2,.8,.2,1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  min-height: 0;
+}
+
+@keyframes cx3-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes cx3-pop  { from { transform: translateY(10px) scale(0.97); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes cx3-flash-loading {
+  0%   { opacity: 0.15; }
+  35%  { opacity: 1;    }
+  55%  { opacity: 1;    }
+  100% { opacity: 0.15; }
+}
+.cx3-loading-flash {
+  animation: cx3-flash-loading 900ms ease-in-out infinite;
+  color: var(--cx3-lcd-amber);
+  font-family: "JetBrains Mono", Consolas, "SF Mono", Menlo, monospace;
+  letter-spacing: 2px;
+}
+.cx3-loading-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.2;
+  min-height: 28px;
+  padding: 4px 6px 0;
+}
+.cx3-loading-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 3px;
+  min-height: 31px;
+  color: var(--cx3-lcd-amber);
+}
+
+.cx3-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 14px;
+  background: rgba(0,255,102,0.06);
+  border-bottom: 1px solid var(--cx3-lcd-divider);
+  overflow: visible;
+  min-height: 40px;
+  gap: 6px;
+}
+.cx3-popup-title-label {
+  font-weight: 900;
+  font-size: 13px;
+  color: var(--cx3-lcd-green);
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: break-word;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.cx3-popup-title-count {
+  font-size: 11px;
+  color: var(--cx3-lcd-amber);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  line-height: 1.2;
+  overflow: visible;
+}
+
+.cx3-popup-menu {
+  padding: 4px 2px;
+  max-height: 360px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #555 #111;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  min-height: 0;
+}
+/* HOT /Weather 16종 / Fluid 19종 / OAT 프리셋 긴 라벨 FULL 표시
+  → 행 높이 자동 (2줄 이상 래핑 허용, 글자 짤림 0 */
+.cx3-popup-menu .cx3-menu-line {
+  min-height: 27px;
+  max-height: none !important;
+  height: auto;
+  padding: 3px 2px 3px 2px;
+  display: flex;
+  align-items: flex-start;
+  overflow: visible;
+  gap: 5px;
+  justify-content: space-between;
+}
+.cx3-popup-menu .cx3-menu-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1.15;
+  max-width: 250px;
+  flex: 1 1 55%;
+  overflow: visible;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: keep-all;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cx3-popup-menu .cx3-menu-value-wrap {
+  display: inline-flex;
+  align-items: flex-start;
+  max-width: 150px;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  overflow: visible;
+  padding-top: 0px;
+  gap: 2px;
+}
+.cx3-popup-menu .cx3-menu-value {
+  font-size: 10px;
+  line-height: 1.15;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.cx3-popup-menu .cx3-menu-unit {
+  font-size: 9.5px;
+  margin-left: 2px;
+  max-width: 108px;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: break-word;
+  line-height: 1.15;
+}
+.cx3-popup-menu::-webkit-scrollbar { width: 6px; }
+.cx3-popup-menu::-webkit-scrollbar-track { background: #0a0a0a; }
+.cx3-popup-menu::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+/* ===== 행 전체에 터치 영역 넓히기 · 커서 하일라이트 ===== */
+.cx3-popup-row-wrap {
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255,170,0,0.12);
+}
+.cx3-popup-row-wrap:active {
+  background: rgba(255, 170, 0, 0.08);
+}
+.cx3-popup-menu .cx3-menu-line.cursor::before {
+  background: rgba(255, 170, 0, 0.22) !important;
+}
+
+/* ============================================================
+   Popup 모바일 LCD 풀스크린 오버레이 · @media ≤768px
+   ============================================================ */
+@media (max-width: 768px) {
+  .cx3-popup-mask {
+    position: fixed !important;
+    inset: 0 !important;
+    padding: 0 !important;
+    background: rgba(0,0,0,0.75) !important;
+    z-index: 99999 !important;
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: stretch !important;
+    backdrop-filter: blur(1px);
+  }
+  .cx3-popup-panel {
+    /* ===== cx3-device 내부 영역에 딱 맞춰 LCD 크기로 오버레이 ===== */
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    min-height: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: linear-gradient(180deg, #0a0a0a 0%, #000000 100%);
+    box-sizing: border-box !important;
+    padding: clamp(env(safe-area-inset-top), 4px, 12px) max(env(safe-area-inset-right), 4px) clamp(env(safe-area-inset-bottom) * 0.55 + 6px, 8px, 16px) max(env(safe-area-inset-left), 4px) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    animation: cx3-pop 180ms cubic-bezier(.2,.8,.2,1);
+  }
+  .cx3-popup-mask > .cx3-device {
+    pointer-events: none;
+  }
+  .cx3-popup-title {
+    padding: clamp(8px, 1.05dvh, 14px) clamp(8px, 1.3dvh, 16px) !important;
+    min-height: 0 !important;
+    border-bottom: 1px solid var(--cx3-lcd-divider) !important;
+    gap: 6px;
+    background: rgba(0,255,102,0.08);
+    flex-shrink: 0;
+  }
+  .cx3-popup-title-label {
+    font-size: clamp(13px, 2.2dvh, 20px) !important;
+    letter-spacing: 0.3px !important;
+  }
+  .cx3-popup-title-count {
+    font-size: clamp(11px, 1.85dvh, 17px) !important;
+  }
+  /* ✅ .cx3-lcd-menu(모바일 height/min-height:100%) 규칙이 이 팝업에 새어들어
+     하단이 잘리는 문제 수정 · 특이도를 높여 어떤 선언 순서에서도 확실히 승리 */
+  .cx3-lcd-menu.cx3-popup-menu {
+    /* ===== options 전체 네이티브 터치 스크롤 ===== */
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior-y: contain;
+    /* 마지막 행이 LCD 하단 베젤에 눌려 짤리지 않도록 bottom padding 확보 */
+    padding: clamp(2px, 0.4dvh, 6px) clamp(2px, 0.45dvh, 6px) clamp(4px, 1dvh, 12px) !important;
+    box-sizing: border-box !important;
+    justify-content: flex-start !important;
+    align-content: stretch !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  /* ===== LCD 행 폰트/패딩 모바일 한사이즈 업 ===== */
+  .cx3-popup-menu .cx3-menu-line {
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+    padding: clamp(3px, 0.85dvh, 10px) clamp(3px, 0.5dvh, 7px) !important;
+    border-bottom: 1px solid var(--cx3-lcd-divider);
+    display: grid;
+    grid-template-columns: 22px 1fr auto;
+    gap: 5px;
+  }
+  .cx3-popup-menu .cx3-menu-label {
+    font-size: clamp(10px, 1.60dvh, 15px) !important;
+    max-width: none !important;
+    flex: 1 1 auto !important;
+    white-space: nowrap !important;
+    line-height: 1.15 !important;
+    word-break: keep-all !important;
+  }
+  .cx3-popup-menu .cx3-menu-value-wrap {
+    max-width: none !important;
+    flex: 0 0 auto !important;
+  }
+  .cx3-popup-menu .cx3-menu-value {
+    font-size: clamp(9.5px, 1.50dvh, 14.5px) !important;
+  }
+  .cx3-popup-menu .cx3-menu-unit {
+    font-size: clamp(9px, 1.40dvh, 13.5px) !important;
+    max-width: none !important;
+  }
+  .cx3-popup-menu::-webkit-scrollbar { width: 4px; }
+  .cx3-popup-menu::-webkit-scrollbar-thumb { background: #555; border-radius: 2px; }
+}
+
+/* ===== DICT LCD 글자 겹침 문제 해결 ===== */
+.cx3-lcd-menu.dict-lcd-menu .cx3-menu-label {
+  font-size: 10px !important;
+  line-height: 1.0 !important;
+}
+.cx3-lcd-menu.dict-lcd-menu .cx3-menu-value {
+  font-size: 9px !important;
+  line-height: 1.0 !important;
+}
+
+/* ===== TIME ZONE LCD 글자 겹침 문제 해결 ===== */
+.cx3-lcd-menu.timezone-lcd-menu .cx3-menu-label {
+  font-size: 12px !important;
+  line-height: 1.0 !important;
+}
+.cx3-lcd-menu.timezone-lcd-menu .cx3-menu-value {
+  font-size: 11px !important;
+  line-height: 1.0 !important;
+}
+.cx3-lcd-menu.timezone-lcd-menu .cx3-menu-unit {
+  font-size: 10px !important;
+  line-height: 1.0 !important;
+}
+
+/* ===== WX Dense Mode : 결과 수신시 글자 작게 해서 내용 많이 표시 ===== */
+.cx3-lcd-menu.wx-dense .cx3-menu-line {
+  min-height: 24px;
+  max-height: 24px;
+  padding: 1px 2px;
+  gap: 4px;
+  grid-template-columns: 18px 1fr auto;
+  font-weight: 600;
+  white-space: nowrap !important;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+.cx3-lcd-menu.wx-dense .cx3-menu-label,
+.cx3-lcd-menu.wx-dense .cx3-menu-value,
+.cx3-lcd-menu.wx-dense .cx3-menu-value-wrap > * {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-overflow: ellipsis;
+}
+.cx3-lcd-menu.wx-dense .cx3-menu-cursor {
+  opacity: 0.85;
+}
+.cx3-lcd-menu.wx-dense .cx3-menu-label {
+  font-size: 11px;
+  line-height: 1.05;
+}
+.cx3-lcd-menu.wx-dense .cx3-menu-value-wrap {
+  max-width: calc(100% - 2px);
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+.cx3-lcd-menu.wx-dense .cx3-menu-value {
+  font-size: 11.5px;
+  line-height: 1.05;
+  letter-spacing: -0.1px;
+}
+.cx3-lcd-menu.wx-dense .cx3-menu-unit {
+  font-size: 9.5px;
+  margin-left: 2px;
+}
+
+/* ===== WX Raw Text 뷰어 (결과 화면 RAW METAR/TAF 표시) ===== */
+.wx-raw-viewer {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+.wx-raw-viewport {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  box-sizing: border-box;
+}
+.wx-raw-viewport::-webkit-scrollbar {
+  width: 5px;
+}
+.wx-raw-viewport::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+}
+.wx-raw-viewport::-webkit-scrollbar-thumb {
+  background: rgba(125, 255, 125, 0.45);
+  border-radius: 3px;
+}
+.wx-raw-content {
+  width: 100%;
+  min-width: 0;
+  padding: 0px 8px 1px 2px;
+  box-sizing: border-box;
+  color: var(--cx3-lcd-green);
+  font-family: ui-monospace, "SF Mono", Menlo, "JetBrains Mono", Consolas, monospace;
+  font-size: 13px;
+  line-height: 13.6px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  letter-spacing: 0;
+  text-align: left;
+}
+.wx-raw-title {
+  color: var(--cx3-lcd-fg);
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 13.4px;
+  letter-spacing: 0.3px;
+  border-bottom: 1px dashed var(--cx3-lcd-divider);
+  padding: 0 0 1px 0;
+  margin: 0 0 1px 0;
+}
+.wx-raw-title:first-child { margin-top: 0; padding-top: 0; }
+.wx-raw-error {
+  color: var(--cx3-lcd-amber);
+  font-weight: 700;
+  font-family: inherit;
+}
+.wx-raw-scroll-hint {
+  color: var(--cx3-lcd-amber);
+  font-size: 10.5px;
+  font-weight: 800;
+  position: absolute;
+  right: 2px;
+  bottom: -1px;
+  padding: 0 4px;
+  opacity: 0.95;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 170, 0, 0.4);
+  border-radius: 3px;
+  line-height: 14px;
+  height: 15px;
+  z-index: 5;
+  pointer-events: none;
+  font-family: ui-monospace, "SF Mono", Menlo, "JetBrains Mono", Consolas, monospace;
+  letter-spacing: 0.3px;
+}
+
+/* ===== WX 입력화면 ICAO 박스 하단 짤림 방지 ===== */
+.wx-icao-row-line {
+  max-height: 33px !important;
+  min-height: 33px !important;
+  padding: 3px 2px 5px !important;
+  z-index: 3;
+}
+
+.cx3-popup-sep {
+  padding: 4px 12px 2px 38px;
+  font-size: 10.5px;
+  color: var(--cx3-lcd-amber);
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  opacity: 0.85;
+  border-top: 1px dashed rgba(120,120,120,0.2);
+  margin-top: 2px;
+}
+.cx3-popup-sep:first-child { border-top: none; }
+
+@media (max-width: 360px) {
+  .cx3-device { padding: 12px 10px 16px; }
+  .cx3-key { font-size: 12px; }
+  .cx3-key.fn { font-size: 9.5px; }
+  .cx3-menu-label { font-size: 13px; }
+  .cx3-status-left { font-size: 11px; }
+  .cx3-status-clock { font-size: 10px; }
+}
+
+/* ===== 모바일 전체화면 (APK / 뷰포트 768px 이하) · Z Fold 8 전면 최적화 · 아래 절대 안잘리게 ===== */
+@media (max-width: 768px) {
+  .cx3-app {
+    padding: 0 !important;
+    min-height: 100dvh;
+    max-height: 100dvh;
+    height: 100dvh;
+    background: #141414;
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+  }
+  .cx3-device {
+    /* ===== Z Fold 8 등 길쭉한 기기는 100% 꽉 채우고, 극단 납작 기기만 여백 ===== */
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-width: 0 !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    min-height: 0 !important;
+    box-sizing: border-box !important;
+    border-radius: 0 !important;
+    padding: env(safe-area-inset-top) max(env(safe-area-inset-right), 4px) env(safe-area-inset-bottom) max(env(safe-area-inset-left), 4px) !important;
+    gap: clamp(2px, 0.28dvh, 4px) !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 50%, #0f0f0f 100%);
+    margin: 0 !important;
+    align-self: stretch !important;
+    justify-self: stretch !important;
+  }
+  .cx3-brand-wrap {
+    /* ===== 로고 영역 0.4 dvh 추가 축소 → 키패드 위로 이동 ===== */
+    height: clamp(27px, 4.4dvh, 46px) !important;
+    padding: 1px 4px 0 !important;
+    flex: 0 0 auto !important;
+  }
+  /* 1열 로고: 폭을 꽉 채워 글자를 최대한 크게 (높이는 비율대로 따라감) */
+  .cx3-asa-wing-logo {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 100% !important;
+  }
+  .cx3-lcd-wrap {
+    min-height: 0 !important;
+    max-height: none !important;
+    height: auto !important;
+    /* ===== LCD : KEYPAD = 47:53 → 45.5 : 54.5 로 미세 조정 · 약 1.5% 키패드 확장 ===== */
+    flex: 45.5 1 0% !important;
+    padding: clamp(1.5px, 0.28dvh, 3.5px) clamp(4px, 0.82dvh, 10px) !important;
+    border-radius: clamp(5px, 1.1dvh, 12px) !important;
+  }
+  .cx3-keypad {
+    min-height: 0 !important;
+    max-height: none !important;
+    height: auto !important;
+    flex: 54.5 1 0% !important;
+    /* ===== 갭 추가 축소 · 패딩 bottom 제로 ===== */
+    gap: clamp(0.8px, 0.18dvh, 2.5px) !important;
+    padding: clamp(1.2px, 0.26dvh, 3.5px) clamp(1.2px, 0.26dvh, 3.5px) clamp(1.2px, 0.26dvh, 3.5px) !important;
+    margin: 0 -2px !important;
+  }
+  .cx3-keypad-row {
+    gap: clamp(0.8px, 0.18dvh, 2.5px) !important;
+    /* ===== 기기 높이에 맞춰 7개 행이 균등하게 축소되도록 =====
+       flex: 1 1 0 → 남는 높이를 행끼리 똑같이 나눔
+       min-height: 0 → flex 기본값(auto)이 축소를 막아 오버플로되던 근본 원인 제거 */
+    flex: 1 1 0 !important;
+    min-height: 0 !important;
+  }
+  .cx3-key {
+    /* ===== 폭 기반 aspect-ratio 폐기 → 행 높이에 종속시켜 어떤 화면비에서도 안 잘리게 ===== */
+    font-size: clamp(14px, 2.35dvh, 25px) !important;
+    border-radius: clamp(6px, 1.1dvh, 12px) !important;
+    aspect-ratio: auto !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    align-self: stretch !important;
+  }
+  .cx3-key.fn {
+    font-size: clamp(11px, 1.85dvh, 18px) !important;
+  }
+  .cx3-key.fn.menu {
+    font-size: clamp(10px, 1.7dvh, 17px) !important;
+    line-height: 0.96;
+    letter-spacing: -0.4px;
+    aspect-ratio: auto !important;
+    min-height: 0 !important;
+    height: 100% !important;
+    padding: clamp(1.5px, 0.4dvh, 5px) 1px !important;
+    align-self: stretch !important;
+    justify-self: stretch !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    white-space: pre-line !important;
+  }
+  .cx3-key.power {
+    aspect-ratio: auto !important;
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+  .cx3-key.orange-equal {
+    aspect-ratio: auto !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    font-size: clamp(19px, 4.1dvh, 38px) !important;
+    font-weight: 900 !important;
+  }
+  .cx3-key.nav.arrow {
+    font-size: clamp(21px, 4.9dvh, 38px) !important;
+  }
+  .cx3-key.op {
+    /* ===== 연산 기호 ÷ × − + √ +− 는 Unicode 글리프가 숫자보다 15~20% 작으므로 27% 더 큰 dvh ===== */
+    font-size: clamp(17px, 2.95dvh, 31px) !important;
+    font-weight: 900 !important;
+  }
+  .cx3-menu-line {
+    flex: 0 0 auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    height: auto !important;
+    padding: clamp(2.5px, 0.72dvh, 8px) 2px !important;
+    font-size: clamp(12px, 2.14dvh, 18.5px) !important;
+    border-bottom: 1px solid var(--cx3-lcd-divider);
+  }
+  .cx3-menu-label {
+    font-size: clamp(12px, 2.14dvh, 18.5px) !important;
+  }
+  .cx3-menu-value {
+    font-size: clamp(12px, 2.14dvh, 18.5px) !important;
+  }
+  /* CURR 환율 행의 Rate 라벨만 다른 라벨보다 한 단계 크게 */
+  .cx3-menu-label-small {
+    font-size: clamp(13px, 2.28dvh, 19.5px) !important;
+  }
+  .curr-result-big {
+    font-size: clamp(14px, 2.65dvh, 22.5px) !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.1px !important;
+  }
+  .cx3-menu-line-sub {
+    min-height: 24px !important;
+    max-height: 24px !important;
+    padding: 1px 2px !important;
+  }
+  .cx3-menu-unit {
+    font-size: clamp(10.5px, 1.8dvh, 16px) !important;
+  }
+  .calc-main-display {
+    font-size: clamp(24px, 7.1dvh, 52px) !important;
+  }
+  .cx3-lcd-screen {
+    flex: 1 1 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .cx3-lcd-menu {
+    flex: 1 1 100% !important;
+    justify-content: space-evenly !important;
+    align-content: space-evenly !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    max-height: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior-y: contain !important;
+    padding-right: clamp(1px, 0.2dvh, 3px) !important;
+  }
+  .cx3-lcd-menu::-webkit-scrollbar {
+    width: clamp(3px, 0.55dvh, 6px) !important;
+  }
+  /* ===== 모바일 WX RAW METAR/TAF 뷰어 · 폰트 20% + 터치 스크롤 ===== */
+  .wx-raw-viewport {
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior-y: contain !important;
+  }
+  .wx-raw-content {
+    font-size: clamp(12px, 2.35dvh, 18px) !important;
+    line-height: clamp(13.2px, 2.6dvh, 20px) !important;
+    padding: 0 clamp(8px, 2.1dvh, 16px) clamp(1px, 0.25dvh, 3px) clamp(1px, 0.3dvh, 4px) !important;
+  }
+  .wx-raw-title {
+    font-size: clamp(12px, 2.35dvh, 18px) !important;
+    line-height: clamp(13.2px, 2.6dvh, 20px) !important;
+    padding-bottom: clamp(1px, 0.2dvh, 2px) !important;
+    margin: clamp(1px, 0.25dvh, 3px) 0 clamp(1px, 0.2dvh, 2px) !important;
+  }
+  .wx-raw-scroll-hint {
+    font-size: clamp(10px, 1.55dvh, 13px) !important;
+    line-height: clamp(13px, 2.0dvh, 16px) !important;
+    height: clamp(14px, 2.15dvh, 18px) !important;
+    padding: 0 clamp(3px, 0.55dvh, 6px) !important;
+  }
+  .wx-raw-viewport::-webkit-scrollbar {
+    width: clamp(3px, 0.55dvh, 6px) !important;
+  }
+}

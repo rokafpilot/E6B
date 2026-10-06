@@ -1,0 +1,351 @@
+{
+  "id": "MANUAL-MEL-R08+TR001",
+  "revision": "R08+TR001",
+  "issue_date": "2026-01-16",
+  "type": "ManualOntologySection",
+  "manual_type": "MEL",
+  "aircraft_family": "B787",
+  "operator": "KOREAN AIR",
+  "language": "ko",
+  "source_refs": [
+    "Manuals/B787_MEL_R08_2026016_TR 2026-001.pdf"
+  ],
+  "mel_entries": [
+    {
+      "id": "MEL-B787-001",
+      "source_refs": [
+        "MEL R?? item M 23-02-01"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 23-02-01",
+      "item_name": "SATCOM 안테나 1호 고장",
+      "ata_chapter": 23,
+      "aircraft_type": "B787-9",
+      "category": "C",
+      "repair_interval_hr": 240,
+      "number_installed": 2,
+      "number_required_for_dispatch": 1,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "SATCOM 1 OFF",
+        "ACARS 통신 경로 SATCOM 2로 전환"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 23-02-01 'SATCOM 안테나 1호 고장'는 Category C 결함으로, 설치 수량 2개 중 1개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.) (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: SATCOM 1 OFF; ACARS 통신 경로 SATCOM 2로 전환. Category C 등급에 따른 정비 수리 기한이 적용된다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "MEL-B787-002",
+      "source_refs": [
+        "MEL R?? item M 27-10-02"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 27-10-02",
+      "item_name": "Flap 40° 동작 불가 (최대 30° 제한)",
+      "ata_chapter": 27,
+      "aircraft_type": "B787-9",
+      "category": "C",
+      "repair_interval_hr": 240,
+      "number_installed": 1,
+      "number_required_for_dispatch": 1,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "착륙 Flap 30 사용",
+        "VREF 30 계산 적용",
+        "Landing Distance Factor × 1.08"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 27-10-02 'Flap 40° 동작 불가 (최대 30° 제한)'는 Category C 결함으로, 설치 수량 1개 중 1개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.) (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: 착륙 Flap 30 사용; VREF 30 계산 적용; Landing Distance Factor × 1.08. Category C 등급에 따른 정비 수리 기한이 적용된다."
+    },
+    {
+      "id": "MEL-B787-003",
+      "source_refs": [
+        "MEL R?? item M 29-01-01"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 29-01-01",
+      "item_name": "유압계 1번 EDP (Engine Driven Pump)",
+      "ata_chapter": 29,
+      "aircraft_type": "B787-9",
+      "category": "B",
+      "repair_interval_hr": 72,
+      "number_installed": 3,
+      "number_required_for_dispatch": 2,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "HYD 1 EDP 스위치 OFF",
+        "PTU AUTO 확인",
+        "Takeoff flap 감소 고려"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 29-01-01 '유압계 1번 EDP (Engine Driven Pump)'는 Category B 결함으로, 설치 수량 3개 중 2개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: HYD 1 EDP 스위치 OFF; PTU AUTO 확인; Takeoff flap 감소 고려. Category B 등급에 따른 정비 수리 기한이 적용된다."
+    },
+    {
+      "id": "MEL-B787-004",
+      "source_refs": [
+        "MEL R?? item M 32-41-01"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 32-41-01",
+      "item_name": "Autobrake System 고장",
+      "ata_chapter": 32,
+      "aircraft_type": "B787-9",
+      "category": "B",
+      "repair_interval_hr": 72,
+      "number_installed": 1,
+      "number_required_for_dispatch": 0,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "자동브레이크 OFF",
+        "착륙 거리 계산 Manual Braking 기준으로 재계산"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [
+        "LDA 부족 시 대체 공항 고려; NO-GO if 젖은 활주로 + 중량 > 95% MLW"
+      ],
+      "description": "MEL 항목 M 32-41-01 'Autobrake System 고장'는 Category B 결함으로, 설치 수량 1개 중 0개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.) (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: 자동브레이크 OFF; 착륙 거리 계산 Manual Braking 기준으로 재계산. Category B 등급에 따른 정비 수리 기한이 적용된다."
+    },
+    {
+      "id": "MEL-B787-005",
+      "source_refs": [
+        "MEL R?? item M 34-13-03"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 34-13-03",
+      "item_name": "DME 1 고장",
+      "ata_chapter": 34,
+      "aircraft_type": "B787-9",
+      "category": "C",
+      "repair_interval_hr": 240,
+      "number_installed": 2,
+      "number_required_for_dispatch": 1,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "DME 2 확인",
+        "ILS/DME 절차 시 DME 2로 기준 변경"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 34-13-03 'DME 1 고장'는 Category C 결함으로, 설치 수량 2개 중 1개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.) (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: DME 2 확인; ILS/DME 절차 시 DME 2로 기준 변경. Category C 등급에 따른 정비 수리 기한이 적용된다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "MEL-B787-006",
+      "source_refs": [
+        "MEL R?? item M 26-11-01"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 26-11-01",
+      "item_name": "APU Fire Extinguisher Bottle 1개 방전",
+      "ata_chapter": 26,
+      "aircraft_type": "B787-9",
+      "category": "D",
+      "repair_interval_hr": 2880,
+      "number_installed": 2,
+      "number_required_for_dispatch": 1,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "APU 운용 제한 (Flight 중 APU OFF 권장)",
+        "정비 알림"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 26-11-01 'APU Fire Extinguisher Bottle 1개 방전'는 Category D 결함으로, 설치 수량 2개 중 1개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: APU 운용 제한 (Flight 중 APU OFF 권장); 정비 알림. Category D 등급에 따른 정비 수리 기한이 적용된다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "MEL-B787-007",
+      "source_refs": [
+        "MEL R?? item M 28-21-05"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 28-21-05",
+      "item_name": "Fuel Quantity Indicator 센서 1개 편차",
+      "ata_chapter": 28,
+      "aircraft_type": "B787-9",
+      "category": "B",
+      "repair_interval_hr": 72,
+      "number_installed": 4,
+      "number_required_for_dispatch": 3,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "Fuel Dip stick / 보정치 적용",
+        "Load sheet 대비 ±3% 이내 확인"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 28-21-05 'Fuel Quantity Indicator 센서 1개 편차'는 Category B 결함으로, 설치 수량 4개 중 3개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: Fuel Dip stick / 보정치 적용; Load sheet 대비 ±3% 이내 확인. Category B 등급에 따른 정비 수리 기한이 적용된다."
+    },
+    {
+      "id": "MEL-B787-008",
+      "source_refs": [
+        "MEL R?? item M 52-02-02"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 52-02-02",
+      "item_name": "Cabin Door L 센서 오류 (이중 확인 OK)",
+      "ata_chapter": 52,
+      "aircraft_type": "B787-9",
+      "category": "A",
+      "repair_interval_hr": 24,
+      "number_installed": 4,
+      "number_required_for_dispatch": 3,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "Door CLOSED 2단계 확인 (Visual + ECAM)",
+        "Takeoff 전 PM 재점검"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 52-02-02 'Cabin Door L 센서 오류 (이중 확인 OK)'는 Category A 결함으로, 설치 수량 4개 중 3개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: Door CLOSED 2단계 확인 (Visual + ECAM); Takeoff 전 PM 재점검. Category A 등급에 따른 정비 수리 기한이 적용된다."
+    },
+    {
+      "id": "MEL-B787-009",
+      "source_refs": [
+        "MEL R?? item M 33-10-11"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 33-10-11",
+      "item_name": "Strobe Light Wing L 고장",
+      "ata_chapter": 33,
+      "aircraft_type": "B787-9",
+      "category": "C",
+      "repair_interval_hr": 240,
+      "number_installed": 4,
+      "number_required_for_dispatch": 3,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "나머지 3개 정상 확인",
+        "주간 운항 OK; 야간 비행 운항 제한 가능"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [
+        "비행 규정 상 2개 이상 요구 시 NO-GO"
+      ],
+      "description": "MEL 항목 M 33-10-11 'Strobe Light Wing L 고장'는 Category C 결함으로, 설치 수량 4개 중 3개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.) (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: 나머지 3개 정상 확인; 주간 운항 OK; 야간 비행 운항 제한 가능. Category C 등급에 따른 정비 수리 기한이 적용된다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "MEL-B787-010",
+      "source_refs": [
+        "MEL R?? item M 35-20-01"
+      ],
+      "revision": "R??",
+      "issue_date": "UNKNOWN",
+      "type": "MELEntry",
+      "item_code": "M 35-20-01",
+      "item_name": "PBE (Protective Breathing Equipment) 1개 Missing",
+      "ata_chapter": 35,
+      "aircraft_type": "B787-9",
+      "category": "NO-GO",
+      "repair_interval_hr": null,
+      "number_installed": 14,
+      "number_required_for_dispatch": 13,
+      "operational_conditions": [],
+      "pilot_procedures": [
+        "승무원 배치 조정 → 대체 PBE 교체 전 NO-GO"
+      ],
+      "maintenance_actions": [],
+      "performance_impact": null,
+      "weight_restriction_kg": null,
+      "altitude_restriction_ft": null,
+      "route_restriction": null,
+      "cross_ref_cdl": [],
+      "cross_ref_fom": [],
+      "cross_ref_pom": [],
+      "no_go_if": [],
+      "description": "MEL 항목 M 35-20-01 'PBE (Protective Breathing Equipment) 1개 Missing'는 Category NO-GO 결함으로, 설치 수량 14개 중 13개 작동 시 dispatch 가능하다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "operational_context": "본 MEL 항목은 Korean Air B787 Minimum Equipment List에 등재된 결함 허용 기준으로, 조종사 절차: 승무원 배치 조정 → 대체 PBE 교체 전 NO-GO. Category NO-GO 등급에 따른 정비 수리 기한이 적용된다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    }
+  ],
+  "mel_categories": []
+}

@@ -1,0 +1,3475 @@
+{
+  "id": "MANUAL-AFM-B787-10-R05",
+  "type": "ManualOntologySection",
+  "manual_type": "AFM",
+  "revision": "R05",
+  "issue_date": "2025-04-25",
+  "aircraft_family": "B787",
+  "aircraft_subtype": "B787-10",
+  "operator": "KOREAN AIR",
+  "language": "en",
+  "source_refs": [
+    "B787-10_AFM_R05_20250425.pdf (기종=B787-10 Rev=R05. ★ B787-9/-10 절대 혼용 금지)"
+  ],
+  "aircraft_subtype_lock": "B787-10",
+  "afm_limits": [
+    {
+      "id": "AFM-B787-10-LIM-0001",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.1"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PRELIMINARY",
+      "description": "Also, to provide Alternate Maximum Takeoff Weights (MTOW) of 487,000 pounds (220,899 kilograms) and 531,000 pounds (240,857 kilograms) upon incorporation of Boeing Service Bulletin B787-81205- SB110038-00 for ASN 60307, 66879, and 66881.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0002",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.1"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PRELIMINARY",
+      "description": "a Maximum Taxi Weight of 561,500 pounds (254,692 kilograms); a Maximum Takeoff Weight of 560,000 pounds (254,011 kilograms); a Maximum Landing Weight of 445,000 pounds (201,848 kilograms); a Maximum Zero Fuel Weight of 425,000 pounds (192,776 kilograms); and a Minimum Flight Weight of 257,900 pounds (116,982 kilograms).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0003",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.1"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PRELIMINARY",
+      "description": "Maximum Taxi Weight of 489,000 pounds (221,806 kilograms); Maximum Takeoff Weight of 487,000 pounds (220,899 kilograms) Maximum Taxi Weight of 533,000 pounds (241,764 kilograms); Maximum Takeoff Weight of 531,000 pounds (240,857 kilograms).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0004",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.9"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "SECTION REVISION",
+      "description": "Maximum Airspeed Limits A170043 01/18/2018 787 Airplane Flight Manual Front Matter Log of Sections",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0005",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.10"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "SECTION REVISION",
+      "description": "Maximum Operating Limit Speed A090002 08/19/2011 Miscellaneous Operational Limits A180837 03/04/2019",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0006",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.11"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "SECTION REVISION",
+      "description": "Reduced Vertical Separation Minimum (RVSM) A121988 10/31/2012 Traffic Alert and Collision Avoidance System (TCAS) A211686 06/11/2021",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0007",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.12"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "SECTION REVISION",
+      "description": "Maximum Demonstrated Crosswind A211830 07/21/2021 Maximum Quick Turnaround Weight A134100 06/11/2014",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0008",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.17"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · appendix contains additional Certificate Limitatio",
+      "description": "Maximum Taxi Weight (MTW) 489,000 221,806 Maximum Takeoff Weight (MTOW) 487,000 220,899",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0009",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.17"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · appendix contains additional Certificate Limitatio",
+      "description": "Maximum Landing Weight (MLW) 445,000 201,848 Maximum Zero Fuel Weight (MZFW) 425,000 192,776",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0010",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.17"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · appendix contains additional Certificate Limitatio",
+      "description": "Minimum Flight Weight (MFW) 257,900 116,982 Notes: The maximum weight limits may be less as limited by center of gravity, fuel density and fuel loading limits, as given in this section. Refer to the Weight and Balance Manual for additional specific airplane loading",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0011",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.17"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · appendix contains additional Certificate Limitatio",
+      "description": "The Minimum Flight Weight does not include usable fuel.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0012",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.20"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "Maximum Taxi Weight (MTW) 533,000 241,764 Maximum Takeoff Weight (MTOW) 531,000 240,857",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0013",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.20"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "Maximum Landing Weight (MLW) 445,000 201,848 Maximum Zero Fuel Weight (MZFW) 425,000 192,776",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0014",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.20"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "Minimum Flight Weight (MFW) 257,900 116,982 Notes: The maximum weight limits may be less as limited by center of gravity, fuel density and fuel loading limits, as given in this section. Refer to the Weight and Balance Manual for additional specific airplane loading",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0015",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.20"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "The Minimum Flight Weight does not include usable fuel.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0016",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.23"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "Maximum Taxi Weight (MTW) 561,500 254,692 Maximum Takeoff Weight (MTOW) 560,000 254,011",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0017",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.23"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "Maximum Landing Weight (MLW) 445,000 201,848 Maximum Zero Fuel Weight (MZFW) 425,000 192,776",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0018",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.23"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "Minimum Flight Weight (MFW) 257,900 116,982 Notes: The maximum weight limits may be less as limited by center of gravity, fuel density and fuel loading limits, as given in this section. Refer to the Weight and Balance Manual for additional specific airplane loading",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0019",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.23"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations and Center of Gravity Limits",
+      "description": "The Minimum Flight Weight does not include usable fuel.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0020",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.27"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "conditions for an extended period, or dispatch is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0021",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.27"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "Maximum, positive relief valves: 9.9 psi differential.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0022",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.27"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "Maximum allowable cabin pressure differential for takeoff and landing: 0.11 psi.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0023",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.27"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "Use of any other but the following airplane deicing and anti-icing fluids is prohibited: AMS1424/1 Type I and AMS1428/1 Type II, Type III, and Type IV Airplane Deicing and Anti-Icing Fluids. Use of these fluid types is prohibited at ambient temperatures below the Lowest Operational Use Temperature specified for the fluid.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0024",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.28"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "The autopilot must not be engaged below a minimum engage altitude of 200 feet AGL after takeoff.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0025",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.28"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "Maximum wind component speeds when landing weather minima are predicated on autoland operations: Headwind: 25 knots Tailwind: 15 knots Crosswind: 25 knots The maximum and minimum glideslope angles are 3.25 degrees and 2.5 degrees, respectively.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0026",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.28"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LANDING · Alternate Landing Gear Extension",
+      "description": "Maximum wind component speeds when takeoff weather minima are predicated on takeoff operations: Headwind: 25 knots Tailwind: 15 knots Crosswind: 18 knots The Autopilot Flight Director System (AFDS) mode annunciation must have HUD TO/GA displayed.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0027",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.29"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "SECTION OF",
+      "description": "All flight operations based on magnetic heading or magnetic track angle are prohibited in geographic areas where the loaded ERS Magnetic Variation (MagVar) table errors are greater than 5 degrees.* All autopilot/flight director ILS (excluding GLS) approach and landing operations that use magnetic north referenced courses or bearings are prohibited in geographic areas where the loaded ERS MagVar table errors are greater than 3 degrees.* * See the Earth Reference System (ERS) section of the Operational Data chapter for procedures",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0028",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.29"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "SECTION OF",
+      "description": "When the destination’s reported temperature is below the minimum published temperature for the approach, instrument approach operations are prohibited unless manual temperature compensated barometric altitude corrections are applied in accordance with operationally approved procedures.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0029",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.29"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "SECTION OF",
+      "description": "If no minimum temperature is published for the approach, manual temperature compensated barometric altitude corrections must be applied in accordance with applicable operationally approved procedures, as specified by the operator’s regulatory authority or by the authority of the country in which the operation is conducted (including Air Traffic Control).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0030",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.29"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "SECTION OF",
+      "description": "The use of look-ahead terrain alerting and terrain display functions are prohibited within 15 nm of takeoff, approach or landing at an airport or runway not contained in the GPWS terrain database. Refer to Honeywell Document 060-4267-000 for airports and runways contained in the installed GPWS terrain database.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0031",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.30"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "SECTION OF",
+      "description": "Flight in RVSM airspace on ISFD alone is prohibited. The standby altimeter does not meet RVSM altimeter accuracy requirements.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0032",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.30"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "SECTION OF",
+      "description": "The use of VNAV and/or LNAV with QFE selected is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0033",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.30"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "SECTION OF",
+      "description": "Operation of the HF radio when refueling is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0034",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.30"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "SECTION OF",
+      "description": "Extending flaps above 20,000 feet pressure altitude is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0035",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.32"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "TAKEOFF · Takeoff is permitted only in the normal flight con",
+      "description": "With flaps 25 and 30, positive limits vary linearly from +2.0g at maximum landing weight to +1.5g at maximum takeoff weight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0036",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.32"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · Takeoff is permitted only in the normal flight con",
+      "description": "Fuel jettison at Flaps 30 is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0037",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.33"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · Takeoff is permitted only in the normal flight con",
+      "description": "Fuel density must be between the minimum allowable fuel density of 6.3 lb/gallon (0.7549 kg/liter) and maximum allowable fuel density 7.1 lb/gallon (0.8507 kg/liter).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0038",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.33"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "TAKEOFF · Takeoff is permitted only in the normal flight con",
+      "description": "Maximum Lateral Fuel Imbalance Chart weights in pounds.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0039",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.36"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LIMITATIONS · Limitations",
+      "description": "Maximum Airspeed Limits A170043 787 Airplane Flight Manual Certificate Limitations D631Z003.10B5",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0040",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.37"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LIMITATIONS · Limitations",
+      "description": "Maximum Operating Limit Speed A090002 The maximum operating limit speed shall not be deliberately exceeded in any regime of flight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0041",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.37"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LIMITATIONS · Limitations",
+      "description": "essentially displays knots CAS inflight. VMO/MMO, VLE or flap placard speed (whichever is lower) is indicated by the lower edge of the red and black colored region of the speed tape on the Primary Flight Displays (PFD).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0042",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.37"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "LIMITATIONS · Limitations",
+      "description": "Maximum Takeoff and Landing Tailwind Component: 15 knots[1] Maximum Operating Altitude: 41,100 feet pressure altitude Maximum Takeoff and Landing Altitude: 14,000 feet pressure altitude[2] Takeoff, Landing and Enroute Operational Limits: See Environmental Envelope within the Performance chapter of the thrust rating appendix.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0043",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.38"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · Limitations",
+      "description": "Occupancy of the OFAR during taxi, takeoff and landing is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0044",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.39"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PERFORMANCE · Performance Configuration - Tires",
+      "description": "installed in order to utilize the maximum structural and performance-limited weights. Tire size, minimum load rating and minimum ply rating are shown in the table below.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0045",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.39"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance Configuration - Tires",
+      "description": "Minimum Tire Load Rating - (Minimum Ply Rating) Main Gear 54 x 21.0R23 73,600 LB / 33,384 KG (39 PLY) Nose Gear",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0046",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.39"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PERFORMANCE · Performance Configuration - Tires",
+      "description": "may be installed if the Maximum Taxi Weight shown under Certification Limitations – Weight Limitations and Center of Gravity Limits does not exceed 561,500 LB / 254,692 KG. Refer to additional limitations in 685Z0100 – 787 Wheel, Tire, Brake, Electric Brake Actuator Controller (EBAC), and Loadable Software Interchangeability (ref: Boeing Service Letter 787-SL-32-042).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0047",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.39"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance Configuration - Tires",
+      "description": "Use for ground operation only. Intentional selection of reverse thrust in flight is prohibited. Backing the airplane with the use of reverse thrust is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0048",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.40"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Radio Altimeter 5G C-Band Interference, Landing Di",
+      "description": "Minimum Equipment List (MEL) Dispatch or release with any of the following MEL items is prohibited: 32-42-02 – Antiskid Control Systems 32-45-01 – Wheel Brake Systems 32-45-01-01 – Wheel Brake Systems, Electric Brake Actuator Systems Landing Operations on Runways with Condition Code 1 or 0",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0049",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.40"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Radio Altimeter 5G C-Band Interference, Landing Di",
+      "description": "Dispatch or releasing to or landing on runways with a runway condition code of 1 or 0 is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0050",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.40"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Radio Altimeter 5G C-Band Interference, Landing Di",
+      "description": "Minimum Equipment List (MEL) Dispatch or release with any of the following MEL items is prohibited: 32-42-02 – Antiskid Control Systems 32-45-01 – Wheel Brake Systems 32-45-01-01 – Wheel Brake Systems, Electric Brake Actuator Systems Landing Operations on Runways with Condition Code 1 or 0",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0051",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.40"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · Radio Altimeter 5G C-Band Interference, Landing Di",
+      "description": "Dispatch or releasing to or landing on runways with a runway condition code of 1 or 0 is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0052",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.43"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "CHAPTER HAVE",
+      "description": "indications may be unreliable: vertical speed, maximum speed, minimum speed, engine power indications, flight path vector, and wind indications.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0053",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.46"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "CHAPTER HAVE",
+      "description": "If cabin altitude is uncontrollable, push the passenger oxygen switch to ON and descend at VMO/MMO to the lowest safe altitude or 10,000 feet, whichever is higher.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0054",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.46"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "CHAPTER HAVE",
+      "description": "Caution: Autopilot and flight director descent near VMO/MMO may result in overspeed excursions due to wind and temperature changes. Pilot intervention via FLCH speed or manually flown pitch adjustment may be necessary to remain below VMO/MMO.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0055",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.51"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "CHAPTER HAVE",
+      "description": "maximum thrust and climb until the warning ceases or clear of terrain.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0056",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.55"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · 5G C-Band Interference Landing Distance",
+      "description": "landing distance by 1.15 to obtain the minimum required landing distance.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0057",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.57"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · During approach and landing:",
+      "description": "distance by 1.15 to obtain the minimum required landing distance at the destination. This approximates a minimum required landing distance resulting from 5G C-Band interference.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0058",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.57"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · During approach and landing:",
+      "description": "information from an approved source. Maximum manual braking may not be required.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0059",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.57"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · During approach and landing:",
+      "description": "Note: In some conditions, maximum manual braking may be required throughout the entire landing roll.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0060",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.61"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "TAKEOFF · Takeoff",
+      "description": "limits defined in Certificate Limitations, Weight Limitations, including the maximum landing weight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0061",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.61"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "TAKEOFF · Takeoff",
+      "description": "The maximum demonstrated altitude loss during an automatic go-around initiated below 100 feet AGL is listed below: GA Altitude (ft AGL) Altitude Loss (ft) 50 to 100 21 40 16 30 12",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0062",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.64"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · Low Weather Minima - Flight Director Takeoff",
+      "description": "runway when at or near landing minimums. If alignment and touchdown within the runway touchdown zone 787 Airplane Flight Manual Operational Data Section Autopilot Flight Director System, continued from previous page A170043 Continued on next page",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0063",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.69"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "APPENDIX G",
+      "description": "Configuration, Maintenance, and Procedures document D021Z002-01, are met. The actual maximum approved diversion time for this airplane may be less based on its most limiting system time capability. This finding does not constitute operational approval to conduct ETOPS.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0064",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.69"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "APPENDIX G",
+      "description": "Configuration, Maintenance, and Procedures document D021Z002-01, are met. The actual maximum approved diversion time for this airplane may be less based on its most limiting system time capability. This finding does not constitute operational approval to conduct ETOPS.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0065",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.72"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "APPENDIX 2",
+      "description": "The usable fuel is the maximum that can be safely used in flight. The fuel quantity indicators for each tank have been calibrated to read zero in level flight when the usable fuel supply has been exhausted in that tank.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0066",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.72"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "APPENDIX 2",
+      "description": "Maximum Weight [1] U.S. Gallons Pounds Kilograms Main L or R 5,520",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0067",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.72"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "APPENDIX 2",
+      "description": "Maximum fuel weight is determined using a fuel density of 7.1 pounds/gallon.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0068",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.73"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "SECTION OF",
+      "description": "Reduced Vertical Separation Minimum (RVSM) A121988 The type design reliability and performance of this airplane/engine combination have been evaluated in accordance with FAA document 91-RVSM Change 2, dated 10 February 2004, \"Guidance Material on the Approval of Operators/Aircraft for RVSM Operations\" and the type design is qualified for operation in RVSM airspace. This finding does not constitute approval to conduct reduced vertical separation minimum",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0069",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.77"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Alternate Performance Capability",
+      "description": "the minimum V1 for control on the ground, V1(MCG), or greater than the rotation speed, VR, or greater than the maximum brake energy speed, VMBE.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0070",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.77"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Alternate Performance Capability",
+      "description": "Maximum Brake Energy Speed, VMBE - The highest takeoff decision speed from which the airplane may be brought to a stop without exceeding the maximum energy absorption capability of the brakes. Maximum Brake Energy Speed is compared in takeoff planning to V1.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0071",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.77"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Alternate Performance Capability",
+      "description": "Air Minimum Control Speed, VMCA - The minimum flight speed at which the airplane is controllable with a maximum of 5 degrees bank when the critical engine suddenly becomes inoperative with the remaining engine at takeoff thrust.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0072",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.78"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Alternate Performance Capability",
+      "description": "Minimum V1 for Control on the Ground, V1(MCG) - The minimum takeoff decision speed, V1, at which, when the critical engine suddenly becomes inoperative at VEF with the remaining engine at takeoff thrust, it is possible to control the airplane with primary aerodynamic controls alone and continue the takeoff.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0073",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.78"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Alternate Performance Capability",
+      "description": "Minimum Control Speed for Landing, VMCL - The minimum control speed with the airplane configured for approach at which the airplane is controllable with a maximum of 5 degrees bank when the critical engine suddenly becomes inoperative with the remaining engine at takeoff thrust.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0074",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.78"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Alternate Performance Capability",
+      "description": "Landing Speed - The minimum speed at the 50 foot height in a normal landing.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0075",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.80"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · Definitions - Takeoff Flight Path",
+      "description": "Maximum Level-Off Height - The maximum height at which the third segment can be completed before the time limit on the use of takeoff thrust expires.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0076",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.80"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "TAKEOFF · Definitions - Takeoff Flight Path",
+      "description": "with flaps up, maximum continuous thrust and at final climb speed.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0077",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.83"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance",
+      "description": "Maximum Demonstrated Crosswind A211830 The maximum demonstrated crosswind component for takeoff is 37 knots (gust included), and the maximum demonstrated crosswind component for landing is 35 knots (gust included) with reported wind at 32.8 feet (10 meter) height. This component is not considered to be limiting on a dry runway with all engines operating.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0078",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.84"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PERFORMANCE · Performance",
+      "description": "Maximum Quick Turnaround Weight A134100 Use one of the following methods: 1. After landing at weights exceeding those determined from the maximum quick turnaround option in AFM-DPI, wait at least 65 minutes after landing and check that wheel thermal plugs have not melted before making a subsequent takeoff.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0079",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.84"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PERFORMANCE · Performance",
+      "description": "If the BRAKE TEMP SYS status message is displayed, the Maximum Quick Turnaround Weight method, Method 1, must be used.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0080",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.89"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PERFORMANCE · Performance Conditions and Procedures",
+      "description": "In compliance with 14 CFR Part 25, the wet runway performance must not exceed the dry runway performance. AFM-DPI does check to ensure that the wet limit weight is less than or equal to the dry limit weight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0081",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.90"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · Performance Conditions and Procedures - Rejected T",
+      "description": "Distances are valid with autobrakes set to RTO. With autobrakes either disarmed or off, maximum manual braking is assumed.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0082",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.90"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "TAKEOFF · Performance Conditions and Procedures - Rejected T",
+      "description": "Simultaneously close thrust levers and apply maximum manual braking or verify operation of RTO autobrakes. Immediately verify the speedbrakes are extended. Apply reverse thrust as necessary.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0083",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.91"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance Conditions and Procedures - Obstacle C",
+      "description": "(up to V2 + 15 knots maximum) up to the gross height required for obstacle clearance.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0084",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.91"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Performance Conditions and Procedures - Obstacle C",
+      "description": "Continue final takeoff climb to 1500 feet above runway elevation, or to the minimum gross height required for obstacle clearance, at final takeoff climb speed and maximum continuous thrust.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0085",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.91"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Performance Conditions and Procedures - Obstacle C",
+      "description": "on a smooth, level, hard-surfaced runway. Scheduled landing field lengths on a dry runway are maximum performance landing distances from a landing speed of VREF at a 50 feet height to a full stop, multiplied by a factor of 1.67. Scheduled landing field lengths on a non-dry smooth runway are determined by multiplying the dry scheduled landing field lengths by a factor of 1.15. Reverse thrust was not used in establishing these distances.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0086",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.91"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance Conditions and Procedures - Obstacle C",
+      "description": "touchdown; apply maximum wheel braking immediately.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0087",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.91"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "PERFORMANCE · Performance Conditions and Procedures - Obstacle C",
+      "description": "When landing with manual speed brakes, apply full speed brakes and maximum wheel braking 2 seconds or less after touchdown.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0088",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.116"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "SECTION REVISION",
+      "description": "Maximum Operating Limit Speed A090002 08/19/2011 Operating Procedures Severe Turbulent Air Penetration (N) A146980",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0089",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.120"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "LIMITATIONS · Weight Limitations",
+      "description": "For models 787-9 and 787-10: The maximum takeoff weight for gear down dispatch is 420,000 pounds (190,508 kilograms).",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0090",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.120"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · Weight Limitations",
+      "description": "Limitations are unchanged except that flight over water is limited to within 50 miles from land.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0091",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.120"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · Weight Limitations",
+      "description": "Reduced Vertical Separation Minimum (RVSM) operations are prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0092",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.120"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LIMITATIONS · Weight Limitations",
+      "description": "Maximum Operating Limit Speed A090002 Limitations are unchanged except: VMO and MMO are reduced to 270 KIAS / 0.73 Mach whichever is lower.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0093",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.120"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LIMITATIONS · Weight Limitations",
+      "description": "The airspeed indicator and Mach-airspeed warning switch must be reprogrammed for VMO and MMO .",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0094",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.124"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "ALTITUDE",
+      "limit_title": "LIMITATIONS · Weight Limitations",
+      "description": "non-conservative predictions of fuel burn and thrust-limited maximum altitude, and compute overly shallow descent paths.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0095",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.154"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · The Certificate Limitations in the basic Airplane ",
+      "description": "Maximum continuous 1030o C (1886o F) No Limit Takeoff 1065o C (1949o F) 5 Minute[2]",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0096",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.154"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "LIMITATIONS · The Certificate Limitations in the basic Airplane ",
+      "description": "Maximum transient 1070o C (1958o F) 30 Seconds Note: 975o C (1787o F) for Air Starting following In-Flight High Power Fuel Cut. Autostart will prevent exceedence of this limit.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0097",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.154"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · The Certificate Limitations in the basic Airplane ",
+      "description": "Maximum and minimum limits: Red Cautionary limits: Amber The engine limit display markings on EICAS must be used to determine compliance with the maximum and minimum limits and precautionary ranges.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0098",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.155"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · The Certificate Limitations in the basic Airplane ",
+      "description": "Maximum oil temperature, continuous operation, is 160o C.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0099",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.155"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LIMITATIONS · The Certificate Limitations in the basic Airplane ",
+      "description": "Maximum oil temperature, 15 minute limit, is 177o C.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0100",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.157"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "The maximum operational limits are: N1 - Low Pressure Compressor Rotor: 108.5% N2 - High Pressure Compressor Rotor: 117.5% Engine Thrust A190908 Power setting values for maximum continuous thrust, go-around thrust and full rated takeoff thrust are",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0101",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.157"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "operational limits. Takeoff and go-around thrust ratings are limited to 5 minutes duration or 10 minutes in the event of loss of thrust on one engine. For applicability of 10 minute takeoff, refer to the AFM-DPI - Alternate Performance Capability section of the Performance chapter of the basic manual.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0102",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.157"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "Operation of the GEnx-1B series engines with fuel containing Kathon FP 1.5 biocide is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0103",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.158"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "prohibited: Jet A and Jet A-1 as specified in ASTM-D-1655 JP-5 as specified in MIL-DTL-5624 JP-8 as specified in MIL-DTL-83133 TS-1 as specified in GOST 10227-86 The use of JP-4 and Jet B fuels is prohibited.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0104",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.158"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "the minimum fuel tank temperature limit.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0105",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.158"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "The maximum tank fuel temperature at takeoff is 120o F (49o C) for Jet A, Jet A-1, JP-5, JP-8 or TS-1.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0106",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.158"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "FUEL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "The inflight fuel temperature is limited to 150o F (65.5o C) for Jet A, Jet A-1, JP-5 or JP-8.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0107",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.158"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "The inflight temperature for TS-1 is limited to 135o F (57.2 o C) at or above 35,000 feet and 150 o F (65.5 o C) below 35,000 feet.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0108",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.158"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · The engine must be run at idle or taxiing power fo",
+      "description": "up to a minimum of 40% N1 for at least 5 seconds at intervals no greater than 60 minutes. If high engine vibrations occur, a run-up to 50% N1 may be done.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0109",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.160"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · Engine Reduced Takeoff Thrust",
+      "description": "must not exceed 25 percent of the takeoff thrust. The power setting values for reduced takeoff thrust are available from AFM-DPI. At any time during the takeoff operation, the pilot may select takeoff thrust instead of reduced takeoff thrust. Use of reduced thrust procedures is allowed on a wet runway if suitable performance accountability is made for the increased stopping distance on the wet surface. Reduced thrust is not allowed when the runway is contaminated with standing water, ice, slush, or snow. Reduced thrust is not allowed for alternate EEC mode operation. When allowed, use of reduced thrust is at the pilot's discretion.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0110",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.160"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "TAKEOFF · Engine Reduced Takeoff Thrust",
+      "description": "When engine thrust is increased to maximum climb thrust or higher, VBV cycling stops. When this occurs, N1 can temporarily increase above command N1 by up to 5 percent. This can last up to 10 seconds.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0111",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.168"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance",
+      "description": "The following noise levels comply with 14 CFR part 36, Appendix B, Stage 4 maximum noise level requirements and were obtained by analysis of approved data from noise tests conducted under the provision of 14 CFR part 36, Amendment 36-29. The noise measurement and evaluation procedures used to obtain these noise levels are considered by the FAA to be equivalent to the Chapter 4 noise level required by the International Civil Aviation Organization (ICAO) in Annex 16, Volume I, Appendix 2, Amendment 7, effective March 21, 2002.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0112",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.168"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "WEIGHT",
+      "limit_title": "PERFORMANCE · Performance",
+      "description": "Noise levels are determined by entering the graphs at the maximum weights defined under Certificate Limitations in the Airplane Flight Manual.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0113",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.170"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance Configuration",
+      "description": "Maximum continuous on operating engine Enroute Climb Maximum continuous on operating engine Approach Climb",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0114",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.170"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Performance Configuration",
+      "description": "Maximum available in 8 seconds on all engines 30 or 25 Down Landing Idle on all engines at",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0115",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.196"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "SPEED",
+      "limit_title": "LIMITATIONS · The Configuration Deviation List (CDL) limitations",
+      "description": "Operation with those missing parts requiring a reduction of VMO/MMO is permitted only when the airplane has the appropriate alternate VMO set prior to flight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0116",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.199"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights by:",
+      "description": "For all airplane operations, a maximum of 27 dischargers may be missing with the following exceptions.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0117",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.199"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights by:",
+      "description": "A minimum of 5 tip type dischargers, one on each wing tip and one on each stabilizer tip must be installed.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0118",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.200"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · 32-12-01 Main Landing Gear (Body) Door Seals",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0119",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.200"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · 32-12-01 Main Landing Gear (Body) Door Seals",
+      "description": "** Note: For the 787-9, the minimum takeoff penalty for this item is 2,000 lb. The higher of either the minimum penalty or the calculated penalty for seal missing must be used. The penalty for a missing seal is 150 lb/foot. When more than 13 feet, 4 inches of seal is missing, the penalty must be calculated based on the amount of seal missing. ** 787 Airplane Flight Manual Configuration",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0120",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.202"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · main landing gear drag brace door or main landing ",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0121",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.203"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · 32-12-04 Main Landing Gear Lower Strut Door",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0122",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.204"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · 32-12-05 Main Landing Gear Trunnion Door",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0123",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.205"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "LANDING · 32-12-06 Main Landing Gear Drag Brace Door",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0124",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.218"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for any number ",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0125",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.219"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for any number ",
+      "description": "landing gear until a minimum of 1,500 feet above airport elevation and terrain clearance is assured. While maintaining terrain clearance, extend the gear for the balance of the 10 minutes.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0126",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.236"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for each missin",
+      "description": "Once the maximum penalty is reached on one phase of flight the penalties stop incrementing for the other phases of flight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0127",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.236"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for each missin",
+      "description": "Maximum Decrement per Wing Takeoff Enroute Climb Approach and",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0128",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.236"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for each missin",
+      "description": "Once the maximum penalty is reached on one phase of flight the penalties stop incrementing for the other phases of flight.",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0129",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.236"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for each missin",
+      "description": "Maximum Decrement per Wing Takeoff Enroute Climb Approach and",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    },
+    {
+      "id": "AFM-B787-10-LIM-0130",
+      "type": "AFMLimit",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.239"
+      ],
+      "aircraft_subtype": "B787-10",
+      "limit_category": "OPERATIONAL",
+      "limit_title": "PERFORMANCE · Reduce performance limited weights for each missin",
+      "description": "Maximum Decrement per Fairing Takeoff Enroute Climb Approach and",
+      "phase": "ALL",
+      "certification_basis": "FAA/EASA + MOLIT (대한항공 OPSPECS)"
+    }
+  ],
+  "performance_tables": [
+    {
+      "id": "AFM-B787-10-PERF-0001",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.33"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "Fuel density must be between the minimum allowable fuel density of 6.3 lb/gallon (0.7549 kg/liter) and",
+        "maximum allowable fuel density 7.1 lb/gallon (0.8507 kg/liter).",
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0002",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.34"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0003",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.55"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 1 Table 1:",
+      "table_number": "1",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0004",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.55"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 2 Table 2:",
+      "table_number": "2",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0005",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.55"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 3 Table 3:",
+      "table_number": "3",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0006",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.56"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 4 Table 4:",
+      "table_number": "4",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0007",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.56"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 5 Table 5:",
+      "table_number": "5",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0008",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.56"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 6 Table 6:",
+      "table_number": "6",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0009",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.82"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH temperatures in Degrees F.",
+      "table_number": "temperatures",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0010",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.83"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH temperatures in Degrees C.",
+      "table_number": "temperatures",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0011",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.85"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0012",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.86"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0013",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.87"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0014",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.88"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0015",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.92"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0016",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.93"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0017",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.94"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0018",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.95"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0019",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.96"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0020",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.97"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0021",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.98"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0022",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.99"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0023",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.100"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0024",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.101"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0025",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.102"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0026",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.103"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0027",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.104"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0028",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.105"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0029",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.106"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0030",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.107"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0031",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.108"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0032",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.109"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0033",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.173"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0034",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.174"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0035",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.175"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0036",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.176"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0037",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.177"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0038",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.178"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0039",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.179"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0040",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.180"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0041",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.181"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0042",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.182"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in pounds.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0043",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.183"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0044",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.184"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH weights in kilograms.",
+      "table_number": "weights",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "787 Airplane Flight Manual"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0045",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.214"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "TAKEOFF 1 : Takeoff / Enroute Penalty",
+      "table_number": "1",
+      "table_kind": "TAKEOFF",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "500 lb / 226 kg",
+        "500 lb / 226 kg",
+        "650 lb / 294 kg",
+        "650 lb / 294 kg",
+        "650 lb / 294 kg"
+      ],
+      "phase_restriction": [
+        "TAKEOFF"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0046",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.214"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "LANDING 2 : Approach and Landing Penalty",
+      "table_number": "2",
+      "table_kind": "LANDING",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "500 lb / 226 kg",
+        "500 lb / 226 kg",
+        "650 lb / 294 kg",
+        "650 lb / 294 kg",
+        "650 lb / 294 kg"
+      ],
+      "phase_restriction": [
+        "LANDING"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0047",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.215"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 3 below.",
+      "table_number": "3",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "500 lb / 226 kg",
+        "200 lb / 91 kg",
+        "1,000 lb / 453 kg",
+        "400 lb / 181 kg",
+        "1,500 lb / 680 kg"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    },
+    {
+      "id": "AFM-B787-10-PERF-0048",
+      "type": "PerformanceTable",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "source_refs": [
+        "PDF:AFM_B787-10_R05 | p.215"
+      ],
+      "aircraft_subtype": "B787-10",
+      "table_name": "APPROACH 3 : Passenger Window Seal Migration Penalty",
+      "table_number": "3",
+      "table_kind": "APPROACH",
+      "units": [
+        "lbs",
+        "kts",
+        "ISA °C",
+        "ft"
+      ],
+      "conditions": {
+        "aircraft_subtype": "B787-10",
+        "flaps": "FLAP 20/25/30 추출시 세분화 (현재 Phase1 타이틀 레벨)",
+        "anti_ice": "추후 Phase2 표 파싱시 반영",
+        "bleeds": "추후 Phase2 반영"
+      },
+      "preview_rows": [
+        "500 lb / 226 kg",
+        "200 lb / 91 kg",
+        "1,000 lb / 453 kg",
+        "400 lb / 181 kg",
+        "1,500 lb / 680 kg"
+      ],
+      "phase_restriction": [
+        "APPROACH"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "term": "CA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Course to an altitude"
+  },
+  {
+    "term": "CAT",
+    "fullName": "Category",
+    "category": "NOTAM",
+    "old_description": "Clear air turbulence"
+  },
+  {
+    "term": "CC",
+    "fullName": "Cirrocumulus",
+    "category": "NOTAM",
+    "old_description": "Cirrocumulus"
+  },
+  {
+    "term": "CCO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Continuous climb operations"
+  },
+  {
+    "term": "CD",
+    "fullName": "Candela",
+    "category": "NOTAM",
+    "old_description": "광도의 단위 칸델라"
+  },
+  {
+    "term": "CDO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Continuous descent operations"
+  },
+  {
+    "term": "CDR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Conditional route"
+  },
+  {
+    "term": "CGL",
+    "fullName": "Circling guidance light",
+    "category": "NOTAM",
+    "old_description": "Circling guidance light(s)"
+  },
+  {
+    "term": "CHEM",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Chemical"
+  },
+  {
+    "term": "CI",
+    "fullName": "Cirrus",
+    "category": "NOTAM",
+    "old_description": "Cirrus"
+  },
+  {
+    "term": "CIV",
+    "fullName": "Civil",
+    "category": "NOTAM",
+    "old_description": "Civil"
+  },
+  {
+    "term": "CK",
+    "fullName": "Check",
+    "category": "NOTAM",
+    "old_description": "Check"
+  },
+  {
+    "term": "CL",
+    "fullName": "Centre line",
+    "category": "NOTAM",
+    "old_description": "Centre line"
+  },
+  {
+    "term": "CLA",
+    "fullName": "Clear type of ice formation",
+    "category": "NOTAM",
+    "old_description": "Clear type of ice formation"
+  },
+  {
+    "term": "CLBR",
+    "fullName": "Calibration",
+    "category": "NOTAM",
+    "old_description": "Calibration"
+  },
+  {
+    "term": "CLD",
+    "fullName": "Cloud",
+    "category": "NOTAM",
+    "old_description": "Cloud"
+  },
+  {
+    "term": "CLG",
+    "fullName": "Calling",
+    "category": "NOTAM",
+    "old_description": "Calling"
+  },
+  {
+    "term": "CLIMB-OUT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Climb-out area"
+  },
+  {
+    "term": "CLSD",
+    "fullName": "Close or closed or closing",
+    "category": "NOTAM",
+    "old_description": "Close or closed or closing"
+  },
+  {
+    "term": "CM",
+    "fullName": "Centimeter",
+    "category": "NOTAM",
+    "old_description": "Centimetre"
+  },
+  {
+    "term": "CMB",
+    "fullName": "Climb to or climbing to",
+    "category": "NOTAM",
+    "old_description": "Climb to or climbing to"
+  },
+  {
+    "term": "COM",
+    "fullName": "Communications",
+    "category": "NOTAM",
+    "old_description": "Communications"
+  },
+  {
+    "term": "CONC",
+    "fullName": "Concrete",
+    "category": "NOTAM",
+    "old_description": "Concrete"
+  },
+  {
+    "term": "COND",
+    "fullName": "Condition",
+    "category": "NOTAM",
+    "old_description": "Condition"
+  },
+  {
+    "term": "CONS",
+    "fullName": "Continuous",
+    "category": "NOTAM",
+    "old_description": "Continuous"
+  },
+  {
+    "term": "CONST",
+    "fullName": "Construction or constructed",
+    "category": "NOTAM",
+    "old_description": "Construction or constructed"
+  },
+  {
+    "term": "CONT",
+    "fullName": "Continue or continued",
+    "category": "NOTAM",
+    "old_description": "Continue(s) or continued"
+  },
+  {
+    "term": "COOR",
+    "fullName": "Coordinate or coordination",
+    "category": "NOTAM",
+    "old_description": "Coordinate or coordination"
+  },
+  {
+    "term": "COORD",
+    "fullName": "Coordinates",
+    "category": "NOTAM",
+    "old_description": "Coordinates"
+  },
+  {
+    "term": "COP",
+    "fullName": "Change-over-point",
+    "category": "NOTAM",
+    "old_description": "Change-over point"
+  },
+  {
+    "term": "COT",
+    "fullName": "At the coast",
+    "category": "NOTAM",
+    "old_description": "At the coast"
+  },
+  {
+    "term": "COV",
+    "fullName": "Cover or covered or covering",
+    "category": "NOTAM",
+    "old_description": "Cover or covered or covering"
+  },
+  {
+    "term": "CRC",
+    "fullName": "Cyclic redundancy check",
+    "category": "NOTAM",
+    "old_description": "Cyclic redundancy check"
+  },
+  {
+    "term": "CRM",
+    "fullName": "Collision risk model",
+    "category": "NOTAM",
+    "old_description": "Collision risk model"
+  },
+  {
+    "term": "CRP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Compulsory reporting point"
+  },
+  {
+    "term": "CRZ",
+    "fullName": "Cruise",
+    "category": "NOTAM",
+    "old_description": "Cruise"
+  },
+  {
+    "term": "CS",
+    "fullName": "Cirrostratus",
+    "category": "NOTAM",
+    "old_description": "Cirrostratus"
+  },
+  {
+    "term": "CTA",
+    "fullName": "Control area",
+    "category": "NOTAM",
+    "old_description": "Control area"
+  },
+  {
+    "term": "CTAM",
+    "fullName": "Climb to and maintain",
+    "category": "NOTAM",
+    "old_description": "Climb to and maintain"
+  },
+  {
+    "term": "CTC",
+    "fullName": "Contact",
+    "category": "NOTAM",
+    "old_description": "Contact"
+  },
+  {
+    "term": "CTL",
+    "fullName": "Control",
+    "category": "NOTAM",
+    "old_description": "Control"
+  },
+  {
+    "term": "CTN",
+    "fullName": "Caution",
+    "category": "NOTAM",
+    "old_description": "Caution"
+  },
+  {
+    "term": "CTR",
+    "fullName": "Control zone",
+    "category": "NOTAM",
+    "old_description": "Control zone"
+  },
+  {
+    "term": "CU",
+    "fullName": "Cumulus",
+    "category": "NOTAM",
+    "old_description": "Cumulus"
+  },
+  {
+    "term": "CUF",
+    "fullName": "Cumuliform",
+    "category": "NOTAM",
+    "old_description": "Cumuliform"
+  },
+  {
+    "term": "CUST",
+    "fullName": "Customs",
+    "category": "NOTAM",
+    "old_description": "Customs"
+  },
+  {
+    "term": "CVR",
+    "fullName": "Cockpit voice recorder",
+    "category": "NOTAM",
+    "old_description": "Cockpit voice recorder"
+  },
+  {
+    "term": "CW",
+    "fullName": "Continuous wave",
+    "category": "NOTAM",
+    "old_description": "Continuous wave"
+  },
+  {
+    "term": "CWY",
+    "fullName": "Clearway",
+    "category": "NOTAM",
+    "old_description": "Clearway"
+  },
+  {
+    "term": "D-VOLMET",
+    "fullName": "Data link VOLMET",
+    "category": "NOTAM",
+    "old_description": "비행중 항공기에 제공하기 위한 데이터링"
+  }
+]

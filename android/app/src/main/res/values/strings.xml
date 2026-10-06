@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FlightCal</string>
+    <string name="title_activity_main">FlightCal</string>
+    <string name="package_name">com.asacx3.e6b.flightcomputer</string>
+    <string name="custom_url_scheme">com.asacx3.e6b.flightcomputer</string>
+</resources>

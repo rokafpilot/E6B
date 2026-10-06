@@ -1,0 +1,100 @@
+{
+  "manifest_version": "1.0",
+  "manual_type": "AIRWAY",
+  "publisher": "Jeppesen Sanderson / ICAO",
+  "source_base_relpath": "Manuals/Jeppesen Airway",
+  "operator": "KOREAN AIR",
+  "note": "PilotAgent Jeppesen Airway Manual 온톨로지 Manifest v1.0 (Phase 1: 11카테고리 · 1970 PDF 섹션 단위 인덱스 + 풀텍스트 추출 · 2026-09-07)",
+  "issue_date_range": {
+    "earliest_observed": "2005-12-02",
+    "latest_observed": "2026-09-07",
+    "primary_cycle_hint": "AIRAC Cycle 2608 compatible"
+  },
+  "categories": {
+    "AIR TRAFFIC CONTROL": {
+      "folder": "AIR TRAFFIC CONTROL",
+      "pdf_count": 911,
+      "priority": 1,
+      "icao_docs": ["Annex 2", "Doc 4444 PANS-ATM", "Doc 8168 PANS-OPS"]
+    },
+    "EMERGENCY": {
+      "folder": "EMERGENCY",
+      "pdf_count": 172,
+      "priority": 1,
+      "icao_docs": ["Annex 2", "Annex 6", "Annex 10", "Annex 12", "Doc 4444"]
+    },
+    "ENROUTE": {
+      "folder": "ENROUTE",
+      "pdf_count": 167,
+      "priority": 1,
+      "icao_docs": ["Annex 11", "Doc 4444", "Doc 8168"]
+    },
+    "METEOROLOGY": {
+      "folder": "METEOROLOGY",
+      "pdf_count": 169,
+      "priority": 2,
+      "icao_docs": ["Annex 3"]
+    },
+    "INTRODUCTION": {
+      "folder": "INTRODUCTION",
+      "pdf_count": 152,
+      "priority": 2,
+      "icao_docs": ["Doc 7030 Regional Supplementary Procedures"]
+    },
+    "CHART CHANGE NOTICES": {
+      "folder": "CHART CHANGE NOTICES",
+      "pdf_count": 203,
+      "priority": 3,
+      "icao_docs": []
+    },
+    "RADIO AIDS": {
+      "folder": "RADIO AIDS",
+      "pdf_count": 76,
+      "priority": 2,
+      "icao_docs": ["Annex 10"]
+    },
+    "TABLES AND CODES": {
+      "folder": "TABLES AND CODES",
+      "pdf_count": 42,
+      "priority": 2,
+      "icao_docs": ["Doc 8168"]
+    },
+    "FRONT PAGES": {
+      "folder": "FRONT PAGES",
+      "pdf_count": 34,
+      "priority": 3,
+      "icao_docs": []
+    },
+    "NAVDATA CHANGE NOTICES": {
+      "folder": "NAVDATA CHANGE NOTICES",
+      "pdf_count": 29,
+      "priority": 3,
+      "icao_docs": []
+    },
+    "TERMINAL": {
+      "folder": "TERMINAL",
+      "pdf_count": 15,
+      "priority": 1,
+      "icao_docs": ["Doc 8168 PANS-OPS"]
+    }
+  },
+  "ontology_bundle_files": {
+    "phase1_full": {
+      "file": "airway/Airway_R1_phase1_full.json",
+      "revision": "R1",
+      "issue_date": "2026-09-07",
+      "status": "phase1_active",
+      "extraction_scope": "ALL 1970 PDF sections: metadata + full_text + category + icao_refs",
+      "top_level_key": ["sections", "definitions"]
+    },
+    "phase1_priority": {
+      "file": "airway/Airway_R1_phase1_priority.json",
+      "revision": "R1",
+      "issue_date": "2026-09-07",
+      "status": "phase1_active",
+      "extraction_scope": "Priority 1 (ATC 911 + EMERGENCY 172 + ENROUTE 167 + TERMINAL 15 = 1265 sections)",
+      "top_level_key": ["sections", "definitions"],
+      "load_first_recommendation": true
+    }
+  }
+}

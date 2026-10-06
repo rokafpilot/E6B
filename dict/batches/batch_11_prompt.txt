@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 12/24):
+Format: index|term|fullName|category|old_description
+0|OCNL|Occasional or occasionally|NOTAM|Occasional or occasionally
+1|OCS|Obstacle clearance surface|NOTAM|Obstacle clearance surface
+2|OCT|October 10|NOTAM|October
+3|OFZ|Obstacle free zone|NOTAM|Obstacle free zone
+4|OHD|Overhead|NOTAM|Overhead
+5|OIS||NOTAM|Obstacle identification surface
+6|OLDI|On-line data interchange|NOTAM|On-line data interchange
+7|OM|Outer marker|NOTAM|Outer marker
+8|OPMET|Operational meteorological(information)|NOTAM|Operational meteorological (information)
+9|OPN|Open or opening or opened|NOTAM|Open or opening or opened
+10|OPS|Operations|NOTAM|Operations
+11|ORD|Indication of an order|NOTAM|지시의 표시
+12|OSV|Ocean station vessel|NOTAM|Ocean station vessel
+13|OTP|On top|NOTAM|On top
+14|OTS|Out of service|NOTAM|Organized track system
+15|OUBD|Outbound|NOTAM|외국(외지로 가는
+16|OVC|Overcast|NOTAM|Overcast
+17|PA||NOTAM|Precision approach
+18|PARL|Parallel|NOTAM|Parallel
+19|PAX|Passenger(s)|NOTAM|Passenger(s)
+20|PBC||NOTAM|Performance-based communication
+21|PBN|Performance-based navigation|NOTAM|Performance-based navigation
+22|PBS||NOTAM|Performance-based surveillance
+23|PCD|Proceed or proceeding|NOTAM|Proceed or proceeding
+24|PCL|Pilot-controlled lighting|NOTAM|Pilot-controlled lighting
+25|PCN|Pavement classification number|NOTAM|Pavement classification number
+26|PCT||NOTAM|Per cent
+27|PDC|Pre-departure clearance|NOTAM|Pre-departure clearance
+28|PDG|Procedure design gradient|NOTAM|Procedure design gradient
+29|PER|Performance|NOTAM|Performance
+30|PERM|Permanent|NOTAM|Permanent
+31|PIB|Pre-flight information bulletin|NOTAM|Pre-flight information bulletin
+32|PJE|Parachute jumping exercise|NOTAM|Parachute jumping exercise
+33|PL|Ice pellets|NOTAM|Ice pellets
+34|PLA|Practice low approach|NOTAM|Practice low approach
+35|PLVL|Present level|NOTAM|Present level
+36|PN|Prior notice required|NOTAM|Prior notice required
+37|PNR|Point of no return|NOTAM|Point of no return
+38|POB|Persons on board|NOTAM|Persons on board
+39|POSS|Possible|NOTAM|Possible
+40|PPI|Plan position indicator|NOTAM|Plan position indicator
+41|PPR|Prior permission required|NOTAM|Prior permission required
+42|PPSN|Present position|NOTAM|Present position
+43|PRI|Primary 1|NOTAM|차, 주, 최초의
+44|PRKG|Parking|NOTAM|추차 또는 계류
+45|PROB|Probability|NOTAM|Probability
+46|PROC|Procedure|NOTAM|Procedure
+47|PROP||NOTAM|Propeller
+48|PROV|Provisional|NOTAM|Provisional
+49|PRP||NOTAM|Point-in-space reference point

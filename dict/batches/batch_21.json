@@ -1,0 +1,302 @@
+[
+  {
+    "term": "OUT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF SERVICE− When a piece of equipment, a"
+  },
+  {
+    "term": "OUTER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX ARC− A semicircle, usually about a"
+  },
+  {
+    "term": "OVERHEAD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER− A series of predeter-"
+  },
+  {
+    "term": "PCG",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "A−1"
+  },
+  {
+    "term": "PHOTO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RECONNAISSANCE− Military activity"
+  },
+  {
+    "term": "PILOT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BRIEFING− A service provided by the FSS"
+  },
+  {
+    "term": "PITCH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A fix/waypoint that serves as a"
+  },
+  {
+    "term": "PLACEMENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM (STARS)−"
+  },
+  {
+    "term": "PLAN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE− Airspace over United States"
+  },
+  {
+    "term": "PLANS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DISPLAY− A display available in EDST"
+  },
+  {
+    "term": "POINT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OUT−"
+  },
+  {
+    "term": "POSITION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "REPORT− A report over a known"
+  },
+  {
+    "term": "POSITIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROL− The separation of all air"
+  },
+  {
+    "term": "PRACTICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INSTRUMENT APPROACH− An"
+  },
+  {
+    "term": "PRE-FLIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PILOT BRIEFING− (See SEGMENTS OF AN INSTRUMENT"
+  },
+  {
+    "term": "PRECISION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH PROCEDURE− A"
+  },
+  {
+    "term": "PREDICTIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WIND SHEAR ALERT SYSTEM"
+  },
+  {
+    "term": "PREVAILING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VISIBILITY−"
+  },
+  {
+    "term": "PROCEDURAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROL [ICAO]– Term used to PROGRESS REPORT−"
+  },
+  {
+    "term": "PROCEDURE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TURN [ICAO]− A maneuver in"
+  },
+  {
+    "term": "PROFILE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DESCENT− An uninterrupted descent"
+  },
+  {
+    "term": "PROGRAM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(CTOP)- CTOP is a traffic management"
+  },
+  {
+    "term": "PROPOSED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BOUNDARY CROSSING TIME−"
+  },
+  {
+    "term": "PUBLISHED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INSTRUMENT APPROACH"
+  },
+  {
+    "term": "QUICK",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LOOK− A feature of the EAS and ARTS"
+  },
+  {
+    "term": "RADAR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IDENTIFICATION"
+  },
+  {
+    "term": "RADIO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTIMETER− Aircraft equipment which"
+  },
+  {
+    "term": "RANDOM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE− An altitude inappropriate"
+  },
+  {
+    "term": "RECEIVER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUTONOMOUS INTEGRITY MON-"
+  },
+  {
+    "term": "RECEIVING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROLLER− A controller/facility"
+  },
+  {
+    "term": "REDUCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPEED TO (SPEED)−"
+  },
+  {
+    "term": "RELEASE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME− A departure time restriction"
+  },
+  {
+    "term": "REMOTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COMMUNICATIONS OUTLET− An"
+  },
+  {
+    "term": "REPORTING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A geographical location in"
+  },
+  {
+    "term": "REQUIRED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION PERFORMANCE"
+  },
+  {
+    "term": "RESCUE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM− A facility which can deliver, in"
+  },
+  {
+    "term": "RESOLUTION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ADVISORY−A display indication ROAD RECONNAISSANCE− Military activity"
+  },
+  {
+    "term": "RNP",
+    "fullName": "Required navigation performance",
+    "category": "PilotController",
+    "old_description": "Required navigation performance"
+  },
+  {
+    "term": "ROLLOUT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RVR−"
+  },
+  {
+    "term": "ROUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ACTION NOTIFICATION− EDST notifi- (See BRAKING ACTION.)"
+  },
+  {
+    "term": "RTR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(O’s) were established for the express purpose"
+  },
+  {
+    "term": "RUNWAY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONDITION CODES (RWYCC)"
+  },
+  {
+    "term": "SAFETY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALERT− A safety alert issued by ATC to"
+  },
+  {
+    "term": "SAME",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DIRECTION AIRCRAFT− Aircraft are"
+  },
+  {
+    "term": "SAY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AGAIN− Used to request a repeat of the last"
+  },
+  {
+    "term": "SCHEDULED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME OF ARRIVAL (STA)− A STA"
+  },
+  {
+    "term": "SEARCH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AND RESCUE− A service which seeks"
+  },
+  {
+    "term": "SECTOR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIST DROP INTERVAL− A parameter"
+  },
+  {
+    "term": "SECURITY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NOTICE (SECNOT) − A SECNOT is a"
+  },
+  {
+    "term": "SEGMENTS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF AN INSTRUMENT APPROACH"
+  }
+]

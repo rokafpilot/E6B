@@ -1,0 +1,302 @@
+[
+  {
+    "term": "SIGWX",
+    "fullName": "Significant weather",
+    "category": "AIP/KMA",
+    "old_description": "악기상"
+  },
+  {
+    "term": "SKC",
+    "fullName": "Sky clear",
+    "category": "AIP/KMA",
+    "old_description": "맑음"
+  },
+  {
+    "term": "T",
+    "fullName": "Temperature",
+    "category": "AIP/KMA",
+    "old_description": "온도"
+  },
+  {
+    "term": "TEND",
+    "fullName": "Trend forecast",
+    "category": "AIP/KMA",
+    "old_description": "경향 예보"
+  },
+  {
+    "term": "TIP",
+    "fullName": "Until past...(place) (",
+    "category": "AIP/KMA",
+    "old_description": "장소)를 통과할 때까지"
+  },
+  {
+    "term": "TWYL",
+    "fullName": "Taxiway-link",
+    "category": "AIP/KMA",
+    "old_description": "유도로 연결"
+  },
+  {
+    "term": "W",
+    "fullName": "West or western longitude",
+    "category": "AIP/KMA",
+    "old_description": "서쪽 또는 서경"
+  },
+  {
+    "term": "WAC",
+    "fullName": "",
+    "category": "AIP/KMA",
+    "old_description": "World Aeronautical Chart ICAO-1:1,000,000(followed by"
+  },
+  {
+    "term": "WINTEM",
+    "fullName": "Forecast upper wind and temperature for aviation",
+    "category": "AIP/KMA",
+    "old_description": "상층바람?상층기온 항공예보"
+  },
+  {
+    "term": "X",
+    "fullName": "Cross",
+    "category": "AIP/KMA",
+    "old_description": "횡단하다"
+  },
+  {
+    "term": "Y",
+    "fullName": "Yellow",
+    "category": "AIP/KMA",
+    "old_description": "황색"
+  },
+  {
+    "term": "AOC",
+    "fullName": "Aerodrome obstacle chart",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . Aerodrome obstacle chart (followed by"
+  },
+  {
+    "term": "ATP",
+    "fullName": "At... (time or place) ...",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . At (followed by time or place) ATS Air traffic services"
+  },
+  {
+    "term": "ESE",
+    "fullName": "East south east",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": "East-south-east"
+  },
+  {
+    "term": "IAC",
+    "fullName": "Instrument approach chart(followed by name/title)",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . Instrument approach chart (followed by"
+  },
+  {
+    "term": "TO",
+    "fullName": "To...(place) ...",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . To (followed by place)"
+  },
+  {
+    "term": "VAC",
+    "fullName": "Visual approach chart(followed by name/title)",
+    "category": "AIP/KMA/DOC8400",
+    "old_description": ". . . Visual approach chart (followed by"
+  },
+  {
+    "term": "BL",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Blowing (followed by DU = dust,"
+  },
+  {
+    "term": "EQN",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Equatorial latitudes northern"
+  },
+  {
+    "term": "EQS",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Equatorial latitudes southern"
+  },
+  {
+    "term": "EUR",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "RODEX European regional OPMET data"
+  },
+  {
+    "term": "HNH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "High latitudes northern hemisphere"
+  },
+  {
+    "term": "HSH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "High latitudes southern hemisphere"
+  },
+  {
+    "term": "MNH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Middle latitudes northern hemisphere"
+  },
+  {
+    "term": "MSH",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Middle latitudes southern hemisphere"
+  },
+  {
+    "term": "PATC",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Precision approach terrain chart (followed"
+  },
+  {
+    "term": "REPORT",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Local routine meteorological report (in"
+  },
+  {
+    "term": "SWX",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Space weather"
+  },
+  {
+    "term": "SWXC",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "Space weather centre"
+  },
+  {
+    "term": "TCAS",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": "RA† (to be pronounced “TEE-CAS-AR-AY”)"
+  },
+  {
+    "term": "TL",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Till (followed by time by which weather"
+  },
+  {
+    "term": "TN",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Minimum temperature (followed by"
+  },
+  {
+    "term": "VOL",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Volume (followed by I, II . . .)"
+  },
+  {
+    "term": "VV",
+    "fullName": "",
+    "category": "DOC8400",
+    "old_description": ". . . Vertical visibility (followed by figures in"
+  },
+  {
+    "term": "AMR",
+    "fullName": "At sea",
+    "category": "KMA",
+    "old_description": "바다"
+  },
+  {
+    "term": "AR",
+    "fullName": "(부호) End of transmission",
+    "category": "KMA",
+    "old_description": "송신종료"
+  },
+  {
+    "term": "AVASIS",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "간이진입각 지시등"
+  },
+  {
+    "term": "BLSN",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "눈바람"
+  },
+  {
+    "term": "BT",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "분리신호 -...-"
+  },
+  {
+    "term": "DRSN",
+    "fullName": "Low drifting snow",
+    "category": "KMA",
+    "old_description": "눈보라"
+  },
+  {
+    "term": "ENRT",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "\"(항행중"
+  },
+  {
+    "term": "INDB",
+    "fullName": "Inbound",
+    "category": "KMA",
+    "old_description": "입항"
+  },
+  {
+    "term": "INTER",
+    "fullName": "Intermittent",
+    "category": "KMA",
+    "old_description": "간헐적"
+  },
+  {
+    "term": "LB",
+    "fullName": "Pounds(weight)",
+    "category": "KMA",
+    "old_description": "무게단위"
+  },
+  {
+    "term": "LLZ",
+    "fullName": ") Localizer",
+    "category": "KMA",
+    "old_description": "방위각 지시기(ILS"
+  },
+  {
+    "term": "M",
+    "fullName": "Mach number",
+    "category": "KMA",
+    "old_description": "The ratio of true airspeed to the speed of sound; e.g., MACH .82, MACH 1.6."
+  },
+  {
+    "term": "MB",
+    "fullName": "Milibars",
+    "category": "KMA",
+    "old_description": "기압단위"
+  },
+  {
+    "term": "MPH",
+    "fullName": "Statute miles per hour",
+    "category": "KMA",
+    "old_description": "마일/매시속도"
+  },
+  {
+    "term": "NEH",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "요구한국과 연결됐음"
+  },
+  {
+    "term": "OCL",
+    "fullName": "Obstacle clearance limit",
+    "category": "KMA",
+    "old_description": "장애물 허용한계"
+  }
+]

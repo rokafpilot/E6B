@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 4/24):
+Format: index|term|fullName|category|old_description
+0|AO||NOTAM|Aircraft operator
+1|APCH|Approach|NOTAM|진입 또는 접근
+2|APN|Apron|NOTAM|Apron
+3|APR|April 4|NOTAM|April
+4|APRX|Approximate or approximately|NOTAM|Approximate or approximately
+5|APSG|After passing|NOTAM|After passing
+6|APU||NOTAM|Auxiliary power unit
+7|ARC|Area chart|NOTAM|Area chart
+8|ARNG|Arrange|NOTAM|Arrange
+9|ARQ|Automatic error correction|NOTAM|Automatic error correction
+10|AS|Altostratus|NOTAM|Altostratus
+11|ASAP||NOTAM|As soon as possible
+12|ASC|Ascend to or ascending to ...|NOTAM|Ascend to or ascending to
+13|ASE|Altimetry system error|NOTAM|Altimetry system error
+14|ASPH|Asphalt|NOTAM|Asphalt
+15|ATA|Actual time of arrival|NOTAM|Actual time of arrival
+16|ATD|Actual time of departure|NOTAM|Actual time of departure
+17|ATFM|Air traffic flow management|NOTAM|Air traffic flow management
+18|ATM|Air traffic management|NOTAM|Air traffic management
+19|ATN|Aeronautical telecommunication network|NOTAM|Aeronautical telecommunication network
+20|ATTN|Attention|NOTAM|Attention
+21|ATZ|Aerodrome traffic zone|NOTAM|Aerodrome traffic zone
+22|AUG|August 8|NOTAM|August
+23|AUTH|Authorized or authorization|NOTAM|Authorized or authorization
+24|AUTO||NOTAM|Automatic
+25|AUW|All up weight|NOTAM|All up weight
+26|AUX|Auxiliary|NOTAM|Auxiliary
+27|AVBL|Available or availability|NOTAM|Available or availability
+28|AVG|Average|NOTAM|Average
+29|AVGAS|Aviation gasoline|NOTAM|Aviation gasoline
+30|AWTA|Advise at what time able|NOTAM|Advise at what time able
+31|AWY|Airway|NOTAM|Airway
+32|AZM|Azimuth|NOTAM|Azimuth
+33|BA|Braking action|NOTAM|Braking action
+34|BCFG|Fog patches|NOTAM|Fog patches
+35|BCST|Broadcast|NOTAM|Broadcast
+36|BDRY|Boundary|NOTAM|Boundary
+37|BECMG|Becoming|NOTAM|Becoming
+38|BFR|Before ...|NOTAM|...의 앞에
+39|BKN|Broken|NOTAM|운량 5/8 이상 7/8 이하
+40|BLDG|Building|NOTAM|Building
+41|BLO|Below clouds|NOTAM|Below clouds
+42|BLW|Below... ...|NOTAM|...미만
+43|BOMB|Bombing|NOTAM|Bombing
+44|BR|Mist|NOTAM|Mist
+45|BRG|Bearing|NOTAM|Bearing
+46|BRKG|Braking|NOTAM|Braking
+47|BS|Commercial broadcasting station|NOTAM|Commercial broadcasting station
+48|BTL|Between layers|NOTAM|Between layers
+49|BTN|Between|NOTAM|Between

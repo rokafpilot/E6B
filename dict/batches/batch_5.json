@@ -1,0 +1,302 @@
+[
+  {
+    "term": "DCD",
+    "fullName": "Double channel duplex",
+    "category": "NOTAM",
+    "old_description": "Double channel duplex"
+  },
+  {
+    "term": "DCKG",
+    "fullName": "Docking",
+    "category": "NOTAM",
+    "old_description": "Docking"
+  },
+  {
+    "term": "DCP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Datum crossing point"
+  },
+  {
+    "term": "DCPC",
+    "fullName": "Direct controller-pilot communications",
+    "category": "NOTAM",
+    "old_description": "Direct controller-pilot communications"
+  },
+  {
+    "term": "DCS",
+    "fullName": "Double channel simplex",
+    "category": "NOTAM",
+    "old_description": "Double channel simplex"
+  },
+  {
+    "term": "DEC",
+    "fullName": "December 12",
+    "category": "NOTAM",
+    "old_description": "December"
+  },
+  {
+    "term": "DEG",
+    "fullName": "Degrees",
+    "category": "NOTAM",
+    "old_description": "도(방위 또는 각도)"
+  },
+  {
+    "term": "DEPO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Deposition"
+  },
+  {
+    "term": "DER",
+    "fullName": "Departure end of the runway",
+    "category": "NOTAM",
+    "old_description": "Departure end of the runway"
+  },
+  {
+    "term": "DES",
+    "fullName": "Descend to or descending to",
+    "category": "NOTAM",
+    "old_description": "Descend to or descending to"
+  },
+  {
+    "term": "DEST",
+    "fullName": "Destination",
+    "category": "NOTAM",
+    "old_description": "Destination"
+  },
+  {
+    "term": "DETRESFA",
+    "fullName": "Distress phase",
+    "category": "NOTAM",
+    "old_description": "DETRESFA"
+  },
+  {
+    "term": "DEV",
+    "fullName": "Deviation or deviating",
+    "category": "NOTAM",
+    "old_description": "Deviation or deviating"
+  },
+  {
+    "term": "DF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Direction finding"
+  },
+  {
+    "term": "DFDR",
+    "fullName": "Digital flight data recorder",
+    "category": "NOTAM",
+    "old_description": "Digital flight data recorder"
+  },
+  {
+    "term": "DIF",
+    "fullName": "Diffuse",
+    "category": "NOTAM",
+    "old_description": "Diffuse"
+  },
+  {
+    "term": "DIST",
+    "fullName": "Distance",
+    "category": "NOTAM",
+    "old_description": "Distance"
+  },
+  {
+    "term": "DIV",
+    "fullName": "Divert or diverting",
+    "category": "NOTAM",
+    "old_description": "Divert or diverting"
+  },
+  {
+    "term": "DLY",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Daily"
+  },
+  {
+    "term": "DNG",
+    "fullName": "Danger or dangerous",
+    "category": "NOTAM",
+    "old_description": "Danger or dangerous"
+  },
+  {
+    "term": "DOF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Date of flight"
+  },
+  {
+    "term": "DOM",
+    "fullName": "Domestic",
+    "category": "NOTAM",
+    "old_description": "Domestic"
+  },
+  {
+    "term": "DP",
+    "fullName": "Dew point temperature",
+    "category": "NOTAM",
+    "old_description": "Dew point temperature"
+  },
+  {
+    "term": "DPT",
+    "fullName": "Depth",
+    "category": "NOTAM",
+    "old_description": "Depth"
+  },
+  {
+    "term": "DRG",
+    "fullName": "During",
+    "category": "NOTAM",
+    "old_description": "During"
+  },
+  {
+    "term": "DS",
+    "fullName": "Dust storm",
+    "category": "NOTAM",
+    "old_description": "= duststorm, SS = sandstorm,"
+  },
+  {
+    "term": "DSB",
+    "fullName": "Double Sideband",
+    "category": "NOTAM",
+    "old_description": "Double sideband"
+  },
+  {
+    "term": "DTAM",
+    "fullName": "Descend to and maintain",
+    "category": "NOTAM",
+    "old_description": "Descend to and maintain"
+  },
+  {
+    "term": "DTG",
+    "fullName": "Date-time group",
+    "category": "NOTAM",
+    "old_description": "Date-time group"
+  },
+  {
+    "term": "DTHR",
+    "fullName": "Displaced runway threshold",
+    "category": "NOTAM",
+    "old_description": "Displaced runway threshold"
+  },
+  {
+    "term": "DTRT",
+    "fullName": "Deteriorate or deteriorating",
+    "category": "NOTAM",
+    "old_description": "Deteriorate or deteriorating"
+  },
+  {
+    "term": "DTW",
+    "fullName": "Dual tandem wheels",
+    "category": "NOTAM",
+    "old_description": "Dual tandem wheels"
+  },
+  {
+    "term": "DU",
+    "fullName": "Dust",
+    "category": "NOTAM",
+    "old_description": "Dust"
+  },
+  {
+    "term": "DUC",
+    "fullName": "Dense upper cloud",
+    "category": "NOTAM",
+    "old_description": "Dense upper cloud"
+  },
+  {
+    "term": "DUR",
+    "fullName": "Duration",
+    "category": "NOTAM",
+    "old_description": "Duration"
+  },
+  {
+    "term": "DVOR",
+    "fullName": "Doppler VOR",
+    "category": "NOTAM",
+    "old_description": "Doppler VOR"
+  },
+  {
+    "term": "DW",
+    "fullName": "Dual wheels",
+    "category": "NOTAM",
+    "old_description": "Dual wheels"
+  },
+  {
+    "term": "DZ",
+    "fullName": "Drizzle",
+    "category": "NOTAM",
+    "old_description": "Drizzle"
+  },
+  {
+    "term": "EAT",
+    "fullName": "Expected approach time",
+    "category": "NOTAM",
+    "old_description": "Expected approach time"
+  },
+  {
+    "term": "EB",
+    "fullName": "East bound",
+    "category": "NOTAM",
+    "old_description": "Eastbound"
+  },
+  {
+    "term": "EDA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Elevation differential area"
+  },
+  {
+    "term": "EET",
+    "fullName": "Estimated elapsed time",
+    "category": "NOTAM",
+    "old_description": "Estimated elapsed time"
+  },
+  {
+    "term": "EFC",
+    "fullName": "Expect further clearance",
+    "category": "NOTAM",
+    "old_description": "Expect further clearance"
+  },
+  {
+    "term": "ELEV",
+    "fullName": "Elevation",
+    "category": "NOTAM",
+    "old_description": "Elevation"
+  },
+  {
+    "term": "ELR",
+    "fullName": "Extra long range",
+    "category": "NOTAM",
+    "old_description": "Extra long range"
+  },
+  {
+    "term": "ELT",
+    "fullName": "Emergency locator transmitter",
+    "category": "NOTAM",
+    "old_description": "Emergency locator transmitter"
+  },
+  {
+    "term": "EM",
+    "fullName": "Emission (",
+    "category": "NOTAM",
+    "old_description": "{발사(전파의)} Emission"
+  },
+  {
+    "term": "EMERG",
+    "fullName": "Emergency",
+    "category": "NOTAM",
+    "old_description": "Emergency"
+  },
+  {
+    "term": "ENE",
+    "fullName": "East north east",
+    "category": "NOTAM",
+    "old_description": "East-north-east"
+  },
+  {
+    "term": "ENG",
+    "fullName": "Engine",
+    "category": "NOTAM",
+    "old_description": "Engine"
+  }
+]

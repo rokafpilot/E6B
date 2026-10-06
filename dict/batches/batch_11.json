@@ -1,0 +1,302 @@
+[
+  {
+    "term": "OCNL",
+    "fullName": "Occasional or occasionally",
+    "category": "NOTAM",
+    "old_description": "Occasional or occasionally"
+  },
+  {
+    "term": "OCS",
+    "fullName": "Obstacle clearance surface",
+    "category": "NOTAM",
+    "old_description": "Obstacle clearance surface"
+  },
+  {
+    "term": "OCT",
+    "fullName": "October 10",
+    "category": "NOTAM",
+    "old_description": "October"
+  },
+  {
+    "term": "OFZ",
+    "fullName": "Obstacle free zone",
+    "category": "NOTAM",
+    "old_description": "Obstacle free zone"
+  },
+  {
+    "term": "OHD",
+    "fullName": "Overhead",
+    "category": "NOTAM",
+    "old_description": "Overhead"
+  },
+  {
+    "term": "OIS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Obstacle identification surface"
+  },
+  {
+    "term": "OLDI",
+    "fullName": "On-line data interchange",
+    "category": "NOTAM",
+    "old_description": "On-line data interchange"
+  },
+  {
+    "term": "OM",
+    "fullName": "Outer marker",
+    "category": "NOTAM",
+    "old_description": "Outer marker"
+  },
+  {
+    "term": "OPMET",
+    "fullName": "Operational meteorological(information)",
+    "category": "NOTAM",
+    "old_description": "Operational meteorological (information)"
+  },
+  {
+    "term": "OPN",
+    "fullName": "Open or opening or opened",
+    "category": "NOTAM",
+    "old_description": "Open or opening or opened"
+  },
+  {
+    "term": "OPS",
+    "fullName": "Operations",
+    "category": "NOTAM",
+    "old_description": "Operations"
+  },
+  {
+    "term": "ORD",
+    "fullName": "Indication of an order",
+    "category": "NOTAM",
+    "old_description": "지시의 표시"
+  },
+  {
+    "term": "OSV",
+    "fullName": "Ocean station vessel",
+    "category": "NOTAM",
+    "old_description": "Ocean station vessel"
+  },
+  {
+    "term": "OTP",
+    "fullName": "On top",
+    "category": "NOTAM",
+    "old_description": "On top"
+  },
+  {
+    "term": "OTS",
+    "fullName": "Out of service",
+    "category": "NOTAM",
+    "old_description": "Organized track system"
+  },
+  {
+    "term": "OUBD",
+    "fullName": "Outbound",
+    "category": "NOTAM",
+    "old_description": "외국(외지로 가는"
+  },
+  {
+    "term": "OVC",
+    "fullName": "Overcast",
+    "category": "NOTAM",
+    "old_description": "Overcast"
+  },
+  {
+    "term": "PA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Precision approach"
+  },
+  {
+    "term": "PARL",
+    "fullName": "Parallel",
+    "category": "NOTAM",
+    "old_description": "Parallel"
+  },
+  {
+    "term": "PAX",
+    "fullName": "Passenger(s)",
+    "category": "NOTAM",
+    "old_description": "Passenger(s)"
+  },
+  {
+    "term": "PBC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Performance-based communication"
+  },
+  {
+    "term": "PBN",
+    "fullName": "Performance-based navigation",
+    "category": "NOTAM",
+    "old_description": "Performance-based navigation"
+  },
+  {
+    "term": "PBS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Performance-based surveillance"
+  },
+  {
+    "term": "PCD",
+    "fullName": "Proceed or proceeding",
+    "category": "NOTAM",
+    "old_description": "Proceed or proceeding"
+  },
+  {
+    "term": "PCL",
+    "fullName": "Pilot-controlled lighting",
+    "category": "NOTAM",
+    "old_description": "Pilot-controlled lighting"
+  },
+  {
+    "term": "PCN",
+    "fullName": "Pavement classification number",
+    "category": "NOTAM",
+    "old_description": "Pavement classification number"
+  },
+  {
+    "term": "PCT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Per cent"
+  },
+  {
+    "term": "PDC",
+    "fullName": "Pre-departure clearance",
+    "category": "NOTAM",
+    "old_description": "Pre-departure clearance"
+  },
+  {
+    "term": "PDG",
+    "fullName": "Procedure design gradient",
+    "category": "NOTAM",
+    "old_description": "Procedure design gradient"
+  },
+  {
+    "term": "PER",
+    "fullName": "Performance",
+    "category": "NOTAM",
+    "old_description": "Performance"
+  },
+  {
+    "term": "PERM",
+    "fullName": "Permanent",
+    "category": "NOTAM",
+    "old_description": "Permanent"
+  },
+  {
+    "term": "PIB",
+    "fullName": "Pre-flight information bulletin",
+    "category": "NOTAM",
+    "old_description": "Pre-flight information bulletin"
+  },
+  {
+    "term": "PJE",
+    "fullName": "Parachute jumping exercise",
+    "category": "NOTAM",
+    "old_description": "Parachute jumping exercise"
+  },
+  {
+    "term": "PL",
+    "fullName": "Ice pellets",
+    "category": "NOTAM",
+    "old_description": "Ice pellets"
+  },
+  {
+    "term": "PLA",
+    "fullName": "Practice low approach",
+    "category": "NOTAM",
+    "old_description": "Practice low approach"
+  },
+  {
+    "term": "PLVL",
+    "fullName": "Present level",
+    "category": "NOTAM",
+    "old_description": "Present level"
+  },
+  {
+    "term": "PN",
+    "fullName": "Prior notice required",
+    "category": "NOTAM",
+    "old_description": "Prior notice required"
+  },
+  {
+    "term": "PNR",
+    "fullName": "Point of no return",
+    "category": "NOTAM",
+    "old_description": "Point of no return"
+  },
+  {
+    "term": "POB",
+    "fullName": "Persons on board",
+    "category": "NOTAM",
+    "old_description": "Persons on board"
+  },
+  {
+    "term": "POSS",
+    "fullName": "Possible",
+    "category": "NOTAM",
+    "old_description": "Possible"
+  },
+  {
+    "term": "PPI",
+    "fullName": "Plan position indicator",
+    "category": "NOTAM",
+    "old_description": "Plan position indicator"
+  },
+  {
+    "term": "PPR",
+    "fullName": "Prior permission required",
+    "category": "NOTAM",
+    "old_description": "Prior permission required"
+  },
+  {
+    "term": "PPSN",
+    "fullName": "Present position",
+    "category": "NOTAM",
+    "old_description": "Present position"
+  },
+  {
+    "term": "PRI",
+    "fullName": "Primary 1",
+    "category": "NOTAM",
+    "old_description": "차, 주, 최초의"
+  },
+  {
+    "term": "PRKG",
+    "fullName": "Parking",
+    "category": "NOTAM",
+    "old_description": "추차 또는 계류"
+  },
+  {
+    "term": "PROB",
+    "fullName": "Probability",
+    "category": "NOTAM",
+    "old_description": "Probability"
+  },
+  {
+    "term": "PROC",
+    "fullName": "Procedure",
+    "category": "NOTAM",
+    "old_description": "Procedure"
+  },
+  {
+    "term": "PROP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Propeller"
+  },
+  {
+    "term": "PROV",
+    "fullName": "Provisional",
+    "category": "NOTAM",
+    "old_description": "Provisional"
+  },
+  {
+    "term": "PRP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Point-in-space reference point"
+  }
+]

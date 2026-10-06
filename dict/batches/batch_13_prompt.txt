@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 14/24):
+Format: index|term|fullName|category|old_description
+0|RPI|Radar position indicator|NOTAM|Radar position indicator
+1|RPL|Repetitive flight plan|NOTAM|Repetitive flight plan
+2|RPLC|Replace or replaced ....|NOTAM|Replace or replaced
+3|RPS|Radar positon symbol|NOTAM|Radar position symbol
+4|RQMNTS|Requirements|NOTAM|Requirements
+5|RR|Report reaching|NOTAM|Report reaching
+6|RSC|Rescue sub-centre|NOTAM|Rescue sub-centre
+7|RSCD|Runway surface condition|NOTAM|Runway surface condition
+8|RSP|Responder beacon|NOTAM|Required surveillance performance
+9|RSR|En-route surveillance radar|NOTAM|En-route surveillance radar
+10|RSS||NOTAM|Root sum square
+11|RTE|Route|NOTAM|Route
+12|RTF|Radiotelephone|NOTAM|Radiotelephone
+13|RTG|Radiotelegraph|NOTAM|Radiotelegraph
+14|RTHL|Runway threshold light(s)|NOTAM|Runway threshold light(s)
+15|RTS|Return to service|NOTAM|Return to service
+16|RTT|Radioteletypewriter|NOTAM|Radioteletypewriter
+17|RV|Rescue vessel|NOTAM|Rescue vessel
+18|RVA||NOTAM|Radar vectoring area
+19|RVR|Runway visual range|NOTAM|Runway visual range
+20|RWY|Runway|NOTAM|Runway
+21|SA|Sand|NOTAM|= sand or SN = snow)
+22|SAN|Sanitary|NOTAM|Sanitary
+23|SAR|Search and rescue|NOTAM|Search and rescue
+24|SAT|Saturday|NOTAM|Saturday
+25|SATVOICE||NOTAM|Satellite voice communication
+26|SB|Southbound|NOTAM|Southbound
+27|SC|Stratocumulus|NOTAM|Stratocumulus
+28|SCT|Scattered|NOTAM|산재한 또는 운량이 3/8에서 4/8미만
+29|SD||NOTAM|Standard deviation
+30|SDBY|Stand by|NOTAM|Stand by
+31|SDF|Step down Fix|NOTAM|Step down fix
+32|SE|South-east|NOTAM|South-east
+33|SEB|South-east bound|NOTAM|South-eastbound
+34|SEC|Seconds|NOTAM|Seconds
+35|SECN||NOTAM|Section
+36|SECT|Sector|NOTAM|Sector
+37|SELCAL|Selective calling system|NOTAM|Selective calling system
+38|SEP|September 9|NOTAM|September
+39|SFC|Surface|NOTAM|Surface
+40|SG|Snow grains|NOTAM|Snow grains
+41|SGL|Signal|NOTAM|Signal
+42|SI||NOTAM|International system of units
+43|SID|Standard instrument departure|NOTAM|Standard instrument departure
+44|SIF|Selective identification feature|NOTAM|Selective identification feature
+45|SIG|Significant|NOTAM|Significant
+46|SIMUL|Simultaneous or simultaneously|NOTAM|Simultaneous or simultaneously
+47|SIWL|Single isolated wheel load|NOTAM|Single isolated wheel load
+48|SKED|Schedule or scheduled|NOTAM|Schedule or scheduled
+49|SLP|Speed limiting point|NOTAM|Speed limiting point

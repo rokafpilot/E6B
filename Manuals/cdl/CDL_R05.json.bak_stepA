@@ -1,0 +1,182 @@
+{
+  "id": "MANUAL-CDL-R05",
+  "revision": "R05",
+  "issue_date": "2024-05-03",
+  "type": "ManualOntologySection",
+  "manual_type": "CDL",
+  "aircraft_family": "B787",
+  "operator": "KOREAN AIR",
+  "language": "ko",
+  "source_refs": [
+    "Manuals/B787_CDL_R05_20240503.pdf"
+  ],
+  "cdl_entries": [
+    {
+      "id": "CDL-B787-001",
+      "source_refs": [
+        "CDL R05 item CDL 27-1-03-1"
+      ],
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "type": "CDLEntry",
+      "item_code": "CDL 27-1-03-1",
+      "item_name": "Wing LE Slat Panel 3번 누락",
+      "ata_chapter": 27,
+      "aircraft_type": "B787-9",
+      "missing_component": "Wing LE Slat Panel 3번 누락",
+      "max_number_allowed": 1,
+      "operational_conditions": [
+        "Slat 30°, Flap 30°/40° 착륙 허용",
+        "Flight 중 Anti-ice 사용 금지"
+      ],
+      "performance_penalty": [
+        "연료 Burn Penalty 1.8%",
+        "VREF +3kt",
+        "Max Speed 300kt / M0.78"
+      ],
+      "speed_restriction_kt": 2500,
+      "altitude_restriction_ft": 35000,
+      "operation_restriction": "비행 ICE 조건 진입 금지 → NO-GO if icing forecast",
+      "weight_impact_kg": null,
+      "cross_ref_mel": [],
+      "go_or_no_go": "CONDITIONAL_GO"
+    },
+    {
+      "id": "CDL-B787-002",
+      "source_refs": [
+        "CDL R05 item CDL 57-41-02"
+      ],
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "type": "CDLEntry",
+      "item_code": "CDL 57-41-02",
+      "item_name": "Winglet/Sharklet R 측 스크래치 (≤50mm)",
+      "ata_chapter": 57,
+      "aircraft_type": "B787-9",
+      "missing_component": "Winglet/Sharklet R 측 스크래치 (≤50mm)",
+      "max_number_allowed": 2,
+      "operational_conditions": [
+        "Visual inspection, scratch depth ≤ 5% chord OK"
+      ],
+      "performance_penalty": [
+        "Aerodynamic drag +0.3% (미미)"
+      ],
+      "speed_restriction_kt": null,
+      "altitude_restriction_ft": null,
+      "operation_restriction": "정비 120일 내 보수",
+      "weight_impact_kg": null,
+      "cross_ref_mel": [],
+      "go_or_no_go": "GO"
+    },
+    {
+      "id": "CDL-B787-003",
+      "source_refs": [
+        "CDL R05 item CDL 52-11-01"
+      ],
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "type": "CDLEntry",
+      "item_code": "CDL 52-11-01",
+      "item_name": "Cargo Door Outer Seal 1곳 손상",
+      "ata_chapter": 52,
+      "aircraft_type": "B787-9",
+      "missing_component": "Cargo Door Outer Seal 1곳 손상",
+      "max_number_allowed": 1,
+      "operational_conditions": [
+        "Leak check 1.5 psi 30초 ≤ 0.5 psi drop",
+        "Pressure schedule OK"
+      ],
+      "performance_penalty": [
+        "고도 35000ft 제한 (승객 cabin diff max 8.0)"
+      ],
+      "speed_restriction_kt": null,
+      "altitude_restriction_ft": 35000,
+      "operation_restriction": "Leak test 실패 시 NO-GO",
+      "weight_impact_kg": null,
+      "cross_ref_mel": [],
+      "go_or_no_go": "CONDITIONAL_GO"
+    },
+    {
+      "id": "CDL-B787-004",
+      "source_refs": [
+        "CDL R05 item CDL 34-41-05"
+      ],
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "type": "CDLEntry",
+      "item_code": "CDL 34-41-05",
+      "item_name": "GPS ANTENNA (Top Fuselage) Radome chip",
+      "ata_chapter": 34,
+      "aircraft_type": "B787-9",
+      "missing_component": "GPS ANTENNA (Top Fuselage) Radome chip",
+      "max_number_allowed": 1,
+      "operational_conditions": [
+        "GPS 1/2 Signal strength ≥ 35dB-Hz 확인 (두 시스템)"
+      ],
+      "performance_penalty": [
+        "LPV 접근은 3 out of 3 가능 시 OK"
+      ],
+      "speed_restriction_kt": null,
+      "altitude_restriction_ft": null,
+      "operation_restriction": "GPS RAIM Prediction FAIL 시 NO-GO",
+      "weight_impact_kg": null,
+      "cross_ref_mel": [],
+      "go_or_no_go": "CONDITIONAL_GO"
+    },
+    {
+      "id": "CDL-B787-005",
+      "source_refs": [
+        "CDL R05 item CDL 33-30-02"
+      ],
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "type": "CDLEntry",
+      "item_code": "CDL 33-30-02",
+      "item_name": "Landing Light L Outboard Cover Crack",
+      "ata_chapter": 33,
+      "aircraft_type": "B787-9",
+      "missing_component": "Landing Light L Outboard Cover Crack",
+      "max_number_allowed": 1,
+      "operational_conditions": [
+        "야간 운항 OK (Light 기능 정상 시)"
+      ],
+      "performance_penalty": [
+        "비행 중 Drop-off Risk → 격납고 보수"
+      ],
+      "speed_restriction_kt": 320,
+      "altitude_restriction_ft": null,
+      "operation_restriction": "Cover 이탈 조짐 시 NO-GO",
+      "weight_impact_kg": null,
+      "cross_ref_mel": [],
+      "go_or_no_go": "CONDITIONAL_GO"
+    },
+    {
+      "id": "CDL-B787-006",
+      "source_refs": [
+        "CDL R05 item CDL 29-11-03"
+      ],
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "type": "CDLEntry",
+      "item_code": "CDL 29-11-03",
+      "item_name": "HYD Reservoir Sight Glass Cover Missing",
+      "ata_chapter": 29,
+      "aircraft_type": "B787-9",
+      "missing_component": "HYD Reservoir Sight Glass Cover Missing",
+      "max_number_allowed": 1,
+      "operational_conditions": [
+        "LEVEL 확인 via ECAM (센서 우선)",
+        "Tape 임시 부착 후 비행"
+      ],
+      "performance_penalty": [
+        "없음"
+      ],
+      "speed_restriction_kt": null,
+      "altitude_restriction_ft": null,
+      "operation_restriction": "비행 전 정비 tape 확인 (압력 급변 예방)",
+      "weight_impact_kg": null,
+      "cross_ref_mel": [],
+      "go_or_no_go": "GO"
+    }
+  ]
+}

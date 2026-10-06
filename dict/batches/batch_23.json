@@ -1,0 +1,242 @@
+[
+  {
+    "term": "UPWIND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LEG−"
+  },
+  {
+    "term": "URGENCY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− A condition concerning the"
+  },
+  {
+    "term": "VERIFY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPECIFIC DIRECTION OF TAKEOFF"
+  },
+  {
+    "term": "VERTEX",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME OF ARRIVAL− A calculated time of"
+  },
+  {
+    "term": "VERTICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION (VNAV)– A function of"
+  },
+  {
+    "term": "VESSEL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESCUE SYSTEM.)"
+  },
+  {
+    "term": "VHF",
+    "fullName": "Very high frequency(30 to 300MHz)",
+    "category": "PilotController",
+    "old_description": "Very high frequency [30 to 300 MHz]"
+  },
+  {
+    "term": "VICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(AFIS) − ALASKA FSSs ONLY− The"
+  },
+  {
+    "term": "VISIBILITY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The ability, as determined by ODP."
+  },
+  {
+    "term": "VISUAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DESCENT POINT− A defined point on the"
+  },
+  {
+    "term": "VOICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SWITCHING AND CONTROL SYSTEM− (See AIRCRAFT CLASSES.)"
+  },
+  {
+    "term": "VOR",
+    "fullName": "VHF omnidirectional radio range",
+    "category": "PilotController",
+    "old_description": "TEST SIGNAL− (See VERTICAL TAKEOFF AND LANDING"
+  },
+  {
+    "term": "VTOL",
+    "fullName": "Vertical take-off and landing",
+    "category": "PilotController",
+    "old_description": "Vertical take-off and landing"
+  },
+  {
+    "term": "WAKE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TURBULENCE− Phenomena resulting from opportunity to comply."
+  },
+  {
+    "term": "WARNING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA− (WAAS)− The WAAS is a satellite navigation system"
+  },
+  {
+    "term": "WEATHER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RECONNAISSANCE AREA (WRA)"
+  },
+  {
+    "term": "WIDE-AREA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUGMENTATION SYSTEM"
+  },
+  {
+    "term": "WIND",
+    "fullName": "Wind",
+    "category": "PilotController",
+    "old_description": "SHEAR− A change in wind speed and/or wind WORDS TWICE−"
+  },
+  {
+    "term": "WING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIP VORTICES− (See CONVECTIVE SIGMET.)"
+  },
+  {
+    "term": "AIR TRAFFIC SERVICE",
+    "fullName": "AIR TRAFFIC SERVICE",
+    "category": "P/C Glossary",
+    "old_description": "A generic term meaning:"
+  },
+  {
+    "term": "ASDE-3",
+    "fullName": "ASDE-3",
+    "category": "P/C Glossary",
+    "old_description": "a Surface Movement Radar."
+  },
+  {
+    "term": "ARRIVAL TIME",
+    "fullName": "ARRIVAL TIME",
+    "category": "P/C Glossary",
+    "old_description": "The time an aircraft touches down on arrival."
+  },
+  {
+    "term": "CHOP",
+    "fullName": "CHOP",
+    "category": "P/C Glossary",
+    "old_description": "A form of turbulence."
+  },
+  {
+    "term": "CIVIL AIRCRAFT OPERATION (CAO)",
+    "fullName": "CIVIL AIRCRAFT OPERATION (CAO)",
+    "category": "P/C Glossary",
+    "old_description": "Aircraft operations other than public use."
+  },
+  {
+    "term": "DEPARTURE TIME",
+    "fullName": "DEPARTURE TIME",
+    "category": "P/C Glossary",
+    "old_description": "The time an aircraft becomes airborne."
+  },
+  {
+    "term": "FAWP",
+    "fullName": "FAWP",
+    "category": "P/C Glossary",
+    "old_description": "Final Approach Waypoint"
+  },
+  {
+    "term": "FERRY FLIGHT",
+    "fullName": "FERRY FLIGHT",
+    "category": "P/C Glossary",
+    "old_description": "A flight for the purpose of:"
+  },
+  {
+    "term": "FLIGHT TEST",
+    "fullName": "FLIGHT TEST",
+    "category": "P/C Glossary",
+    "old_description": "A flight for the purpose of:"
+  },
+  {
+    "term": "HIGH FREQUENCY",
+    "fullName": "HIGH FREQUENCY",
+    "category": "P/C Glossary",
+    "old_description": "The frequency band between 3 and 30&#xA0;MHz."
+  },
+  {
+    "term": "IAWP",
+    "fullName": "IAWP",
+    "category": "P/C Glossary",
+    "old_description": "Initial Approach Waypoint"
+  },
+  {
+    "term": "IFWP",
+    "fullName": "IFWP",
+    "category": "P/C Glossary",
+    "old_description": "Intermediate Fix Waypoint"
+  },
+  {
+    "term": "INTERNATIONAL AIRPORT",
+    "fullName": "INTERNATIONAL AIRPORT",
+    "category": "P/C Glossary",
+    "old_description": "Relating to international flight, it means:"
+  },
+  {
+    "term": "MAHWP",
+    "fullName": "MAHWP",
+    "category": "P/C Glossary",
+    "old_description": "Missed Approach Holding Waypoint"
+  },
+  {
+    "term": "MAWP",
+    "fullName": "MAWP",
+    "category": "P/C Glossary",
+    "old_description": "Missed Approach Waypoint"
+  },
+  {
+    "term": "OPERATOR (UAS)",
+    "fullName": "OPERATOR (UAS)",
+    "category": "P/C Glossary",
+    "old_description": "The owner and/or remote pilot of a UAS."
+  },
+  {
+    "term": "RADAR ENVIRONMENT",
+    "fullName": "RADAR ENVIRONMENT",
+    "category": "P/C Glossary",
+    "old_description": "An area in which radar service may be provided."
+  },
+  {
+    "term": "SLOW TAXI",
+    "fullName": "SLOW TAXI",
+    "category": "P/C Glossary",
+    "old_description": "To taxi a float plane at low power or low RPM."
+  },
+  {
+    "term": "STANDARD RATE TURN",
+    "fullName": "STANDARD RATE TURN",
+    "category": "P/C Glossary",
+    "old_description": "A turn of three degrees per second."
+  },
+  {
+    "term": "STEP TAXI",
+    "fullName": "STEP TAXI",
+    "category": "P/C Glossary",
+    "old_description": "To taxi a float plane at full power or high RPM."
+  },
+  {
+    "term": "TURN ANTICIPATION",
+    "fullName": "TURN ANTICIPATION",
+    "category": "P/C Glossary",
+    "old_description": "(maneuver anticipation)."
+  }
+]

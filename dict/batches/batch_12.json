@@ -1,0 +1,302 @@
+[
+  {
+    "term": "PS",
+    "fullName": "Plus",
+    "category": "NOTAM",
+    "old_description": "Plus"
+  },
+  {
+    "term": "PSG",
+    "fullName": "Passing",
+    "category": "NOTAM",
+    "old_description": "Passing"
+  },
+  {
+    "term": "PSN",
+    "fullName": "Position",
+    "category": "NOTAM",
+    "old_description": "Position"
+  },
+  {
+    "term": "PSP",
+    "fullName": "Pierced steel plank",
+    "category": "NOTAM",
+    "old_description": "Pierced steel plank"
+  },
+  {
+    "term": "PSR",
+    "fullName": "Primary surveillance radar 1",
+    "category": "NOTAM",
+    "old_description": "Primary surveillance radar"
+  },
+  {
+    "term": "PSYS",
+    "fullName": "Pressure system(s)",
+    "category": "NOTAM",
+    "old_description": "Pressure system(s)"
+  },
+  {
+    "term": "PTN",
+    "fullName": "Procedure turn",
+    "category": "NOTAM",
+    "old_description": "Procedure turn"
+  },
+  {
+    "term": "PTS",
+    "fullName": "Polar track structure",
+    "category": "NOTAM",
+    "old_description": "Polar track structure"
+  },
+  {
+    "term": "PWR",
+    "fullName": "Power",
+    "category": "NOTAM",
+    "old_description": "출력, 전력"
+  },
+  {
+    "term": "QDM",
+    "fullName": "Magnetic heading(zero wind)",
+    "category": "NOTAM",
+    "old_description": "Magnetic heading (zero wind)"
+  },
+  {
+    "term": "QDR",
+    "fullName": "Magnetic bearing",
+    "category": "NOTAM",
+    "old_description": "Magnetic bearing"
+  },
+  {
+    "term": "QTE",
+    "fullName": "True bearing",
+    "category": "NOTAM",
+    "old_description": "True bearing"
+  },
+  {
+    "term": "QUAD",
+    "fullName": "Quadrant",
+    "category": "NOTAM",
+    "old_description": "Quadrant"
+  },
+  {
+    "term": "RA",
+    "fullName": "Rain",
+    "category": "NOTAM",
+    "old_description": "Resolution advisory"
+  },
+  {
+    "term": "RAG",
+    "fullName": "Runway arresting gear",
+    "category": "NOTAM",
+    "old_description": "Runway arresting gear"
+  },
+  {
+    "term": "RAI",
+    "fullName": "Runway alignment indicator",
+    "category": "NOTAM",
+    "old_description": "Runway alignment indicator"
+  },
+  {
+    "term": "RASC",
+    "fullName": "Regional AIS system center",
+    "category": "NOTAM",
+    "old_description": "Regional AIS system centre"
+  },
+  {
+    "term": "RB",
+    "fullName": "Rescue boat",
+    "category": "NOTAM",
+    "old_description": "Rescue boat"
+  },
+  {
+    "term": "RCA",
+    "fullName": "Reach cruising altitude",
+    "category": "NOTAM",
+    "old_description": "Reach cruising altitude"
+  },
+  {
+    "term": "RCC",
+    "fullName": "Rescue coordination center",
+    "category": "NOTAM",
+    "old_description": "Rescue coordination centre"
+  },
+  {
+    "term": "RCH",
+    "fullName": "Reach or reaching",
+    "category": "NOTAM",
+    "old_description": "Reach or reaching"
+  },
+  {
+    "term": "RCL",
+    "fullName": "Runway center line",
+    "category": "NOTAM",
+    "old_description": "Runway centre line"
+  },
+  {
+    "term": "RCLL",
+    "fullName": "Runway center line light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway centre line light(s)"
+  },
+  {
+    "term": "RCLR",
+    "fullName": "Recleared",
+    "category": "NOTAM",
+    "old_description": "Recleared"
+  },
+  {
+    "term": "RCP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Required communication performance"
+  },
+  {
+    "term": "RDH",
+    "fullName": "Reference datum height",
+    "category": "NOTAM",
+    "old_description": "Reference datum height"
+  },
+  {
+    "term": "RDL",
+    "fullName": "Radial",
+    "category": "NOTAM",
+    "old_description": "Radial"
+  },
+  {
+    "term": "RDO",
+    "fullName": "Radio",
+    "category": "NOTAM",
+    "old_description": "Radio"
+  },
+  {
+    "term": "RDOACT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Radioactive"
+  },
+  {
+    "term": "REC",
+    "fullName": "Receive or receiver",
+    "category": "NOTAM",
+    "old_description": "Receive or receiver"
+  },
+  {
+    "term": "REDL",
+    "fullName": "Runway edge light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway edge light(s)"
+  },
+  {
+    "term": "REG",
+    "fullName": "Registration",
+    "category": "NOTAM",
+    "old_description": "Registration"
+  },
+  {
+    "term": "RENL",
+    "fullName": "Runway end light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway end light(s)"
+  },
+  {
+    "term": "REQ",
+    "fullName": "Request or requested",
+    "category": "NOTAM",
+    "old_description": "Request or requested"
+  },
+  {
+    "term": "RERTE",
+    "fullName": "Re-route",
+    "category": "NOTAM",
+    "old_description": "Re-route"
+  },
+  {
+    "term": "RESA",
+    "fullName": "Runway end safety area",
+    "category": "NOTAM",
+    "old_description": "Runway end safety area"
+  },
+  {
+    "term": "RF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Constant radius arc to a fix"
+  },
+  {
+    "term": "RG",
+    "fullName": "Range(lights)",
+    "category": "NOTAM",
+    "old_description": "Range (lights)"
+  },
+  {
+    "term": "RHC",
+    "fullName": "Right-hand circuit",
+    "category": "NOTAM",
+    "old_description": "Right-hand circuit"
+  },
+  {
+    "term": "RIF",
+    "fullName": "Reclearance in flight",
+    "category": "NOTAM",
+    "old_description": "Reclearance in flight"
+  },
+  {
+    "term": "RL",
+    "fullName": "Report leaving",
+    "category": "NOTAM",
+    "old_description": "Report leaving"
+  },
+  {
+    "term": "RLA",
+    "fullName": "Relay to",
+    "category": "NOTAM",
+    "old_description": "Relay to"
+  },
+  {
+    "term": "RLCE",
+    "fullName": "Request level change en-route",
+    "category": "NOTAM",
+    "old_description": "Request level change en route"
+  },
+  {
+    "term": "RLNA",
+    "fullName": "Request level not available",
+    "category": "NOTAM",
+    "old_description": "Requested level not available"
+  },
+  {
+    "term": "RMK",
+    "fullName": "Remark",
+    "category": "NOTAM",
+    "old_description": "Remark"
+  },
+  {
+    "term": "RNG",
+    "fullName": "Radio range",
+    "category": "NOTAM",
+    "old_description": "Radio range"
+  },
+  {
+    "term": "ROC",
+    "fullName": "Rate of climb",
+    "category": "NOTAM",
+    "old_description": "Rate of climb"
+  },
+  {
+    "term": "ROD",
+    "fullName": "Rate of descent",
+    "category": "NOTAM",
+    "old_description": "Rate of descent"
+  },
+  {
+    "term": "RON",
+    "fullName": "Receiving only",
+    "category": "NOTAM",
+    "old_description": "Receiving only"
+  },
+  {
+    "term": "RPDS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Reference path data selector"
+  }
+]

@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 21/24):
+Format: index|term|fullName|category|old_description
+0|ITED||PilotController|AREA (APDIA)− Airspace surrounding a
+1|ITORING||PilotController|(RAIM)− A technique whereby a civil
+2|JET||PilotController|BLAST− Jet engine exhaust (thrust stream
+3|KNOWN||PilotController|TRAFFIC− With respect to ATC clear-
+4|LANDING||PilotController|DISTANCE AVAILABLE [ICAO]− The
+5|LAST||PilotController|ASSIGNED ALTITUDE− The last altitude/
+6|LATERAL||PilotController|SEPARATION− The lateral spacing of
+7|LIGHTED||PilotController|AIRPORT− An airport where runway and
+8|LOCAL||PilotController|AIRPORT ADVISORY (LAA)− A service
+9|LOCALIZER||PilotController|OFFSET− An angular offset of the
+10|LOCATOR||PilotController|[ICAO]− An LM/MF NDB used as an aid
+11|LONG|Longitude|PilotController|RANGE NAVIGATION−
+12|LOST||PilotController|LINK PROCEDURE− Preprogrammed or
+13|LOW||PilotController|ALTITUDE ALERT, CHECK YOUR ALTI-
+14|MACH||PilotController|NUMBER− The ratio of true airspeed to the
+15|MAN||PilotController|PORTABLE AIR DEFENSE SYSTEMS
+16|MANCE||PilotController|SPECIFICATION AIRSPACE− That
+17|MATION||PilotController|SERVICE (D−ATIS) [ICAO]− The
+18|MAXIMUM||PilotController|AUTHORIZED ALTITUDE− A pub-
+19|METER||PilotController|FIX ARC− A semicircle, equidistant from
+20|METERING||PilotController|FIX− A fix along an established route
+21|MICRO-EN||PilotController|ROUTE AUTOMATED RADAR
+22|MID|Mid-point(related to RVR)|PilotController|Mid-point (related to RVR)
+23|MIDDLE||PilotController|MARKER− A marker beacon that defines
+24|MILITARY||PilotController|AUTHORITY ASSUMES RESPONSI- (Refer to AIM.)
+25|MINIMUM||PilotController|ALTITUDE− Any of the following:
+26|MODE||PilotController|(SSR MODE) [ICAO]− The letter or number
+27|MODEL||PilotController|AIRCRAFT− An unmanned aircraft that is:
+28|MONITOR||PilotController|ALERT (MA)− A function of the TFMS
+29|MOVEMENT||PilotController|AREA− The runways, taxiways, and MSA−
+30|MOVING||PilotController|TARGET INDICATOR− An electronic
+31|MULTIPLE||PilotController|RUNWAYS− The utilization of a
+32|NAT|North Atlantic|PilotController|North Atlantic
+33|NATIONAL||PilotController|AIRSPACE SYSTEM− The common
+34|NAVIGATION||PilotController|REFERENCE SYSTEM (NRS)−
+35|NBCAP||PilotController|AIRSPACE−
+36|NO||PilotController|No (negative) (to be used in AFS as a procedure signal)
+37|NONCOMMON||PilotController|ROUTE/PORTION− That segment
+38|NORTH||PilotController|AMERICAN ROUTE PROGRAM (NRP)−
+39|NOTICE||PilotController|TO AIRMEN− A notice containing
+40|NOTICES||PilotController|TO AIRMEN PUBLICATION− A
+41|NUMEROUS||PilotController|TARGETS VICINITY (LOCA-
+42|OBSTACLE||PilotController|DEPARTURE PROCEDURE (ODP)−
+43|OCEANIC||PilotController|ERROR REPORT− A report filed when
+44|OFF||PilotController|COURSE− A term used to describe a situation
+45|OFF-ROUTE||PilotController|VECTOR− A vector by ATC which
+46|OFFSET||PilotController|PARALLEL RUNWAYS− Staggered
+47|ON||PilotController|COURSE−
+48|ONE-MINUTE||PilotController|WEATHER− The most recent one
+49|ORGANIZED||PilotController|TRACK SYSTEM− A series of ATS

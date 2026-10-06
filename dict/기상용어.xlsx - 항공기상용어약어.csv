@@ -1,0 +1,640 @@
+,약 어 A Abbrev.,의       미(Signification),,약 어Abbrev.,의       미(Signification)
+,A,(호박색) Amber,,ALTN,(교차 또는 교차 등화)
+,AAA,(수정기상보),, ,Alternate or alternating(light alternates in colour)
+, ,Amended meteorological message,,ALTN,교체(공항) Alternate(aerodrome)
+,A/A,(공대공) Air-to-air,,AMA,(공역최저고도) Area minimum altitude
+,AAL,(비행장 지표상) Above aerodrome level,,AMD,(수정) Amend or amended
+,ABM,(정좌(우)현애) Abeam,,AMS,(항공이동업무) Aeronautical mobile service
+,ABN,(공항(또는 비행장) 등대),,AMSL,(해발높이) Above mean sea level
+, ,Aerodrome beacon,,ANS,(응답하는) Answer
+,ABT,(대략) About,,AOC,(공항(또는 비행장)장애도)
+,AC,(고적운) Altocumulus,,,Aerodrome obstruction chart
+,ACC,(지역관제국),,AP,(공항 또는 비행장) Airport
+, ,Area control centre or area control,,APCH,(진입 또는 접근) Approach
+,ACCID,(항공기사고통보),,APP,(접근관제소 또 접근관계)
+, ,Notification of an aircraft accident,,,Approach control office or approach control or approach control service
+,ACFT,(항공기) Aircraft,,APR,(4월) April
+,ACK,(수령하다) Acknowledge,,APRX,(대략) Approximate or approximately
+,ACL,(고도계수정치 점검지점),,APSG,(통과후) After passing
+, ,Altimeter check location,,AR,(송신종료)(부호) End of transmission
+,ACN,(항공기의 포장에 주는 영향치),,APV,(승인하다. 승인하다 또는 승인)
+, ,Aircraft classification number,, ,Approve or approved or approval
+,ACP,(접수) (전문),,ARFOR,(지역예보(국제기상통보식)
+, ,Acceptance(message type designator),, ,Area forecast(in aeronautical meteorological code)
+,ACPT,(접수) Accept or accepted,,ARNG,(조정한다) Arrange
+,ACT,(활동중) Active or activated or activity,,ARO,(항공교통업무 보고기관)
+,AD,(공항 또는 비행장) Aerodrome,, ,Air traffic services reporting office
+,ADA,(충고지역) Advisory area,,ARP,(공항(또는 비행장)표점)
+,ADDN,(추가) Addition or additional,, ,Aerodrome reference point
+,ADF,(자동방향탐지기),,ARQ,(자동오차교정) Automatic error correction
+, ,Automatic direction-finding equipment,,ARR,(도착) Arrive or arrival
+,ADIZ,(방공식별구역),,ARR,(도착보고)
+, ,Air defence identification zone,, ,Arrival(message tupe designator)
+,ADJ,(인접한) Adjacent,,ARST,(아레스팅 표치)
+,ADR,(충고항로) Advisory route,, ,Arrestimg[Specify(part of)aircraft arresting equipment]
+,ADZ,(충고) Advise,,AS,(고층운) Altostratus
+,AFIL,(비행중에 제출된 비행계획서),,AS,(송신대기요구)(부호) Wait[-....]
+, ,Flight plan filed in the air,,ASC,(상승중) Ascent to or ascending to
+,AFIS,(비행장항공정보업무),,ASDA,(가속정지가능거리)
+, ,Aerodrome flight information service,, ,Accelerate-stop distance available
+,AFM,(그와 같음),,ASDE,(공항지상감시장치)
+, ,Yes or affirm or affirmative or this is correct,, ,Airport Surface detection equpment
+,AFS,(항공고정업무),,ASPH,(아스팔트) Asphalt
+, ,Aeronautical fixed service,,ATA,(실제도착시간) Actual time of arrival
+,AFT,(...이후(시간 또는 장소)),,ATC,(항공교통관제) Air traffic control(in general)
+, ,After...(time or place),,ATD,(실체출발시간) Actual time of departure
+,AFTN,(항공고정통신망),,ATIS,(공항자동정보 방송업무)
+, ,Aeronautical fixed telecommunication network,, ,Automatic terminal information service
+,A/G,(공대지) Air-to-ground,,ATP,"(....에 있어서, 에, 에서(시간 또는 장소)"
+,AGA,(비행장 및 지상보조시설),, ,at...(time or place)
+, ,"Aerodromes, air routes and ground aids",,ATS,(항공교통업무) Air traffic services
+,AGL,(지표높이) Above ground level,,ATTN,(주의) Attention
+,AGN,(재차) Again,,ATZ,(비행장관제권) Aerodrome traffic zone
+,AIC,(항공정보회람),,AUG,(8월) August
+, ,Aeronautical information circular,,AUTH,(인가된 또는 인가)
+,AIP,(항공정보간행물),, ,Authorized or authorization
+, ,Aeronautical information publication,,AUW,(전비중량) All up weight
+,AIRAC,(항공정보관리와 규정),,AUX,(보조) Auxiliary
+, ,Aeronautical information regulation and control,,AVASIS,(간이진입각 지시등)
+,AIREP,(비행항공기로부터의 기상통보) Air-report (항공정보업무),, ,Abbreviated visual approach slope indicator system
+,AIS,Aeronautical information services,,AVBL,(이용가능) Available or availability
+,ALA,(착륙(착수)지역) Alighting area,,AVG,(평균) Average
+,ALERFA,(경계단계) Alert phase,,AVGAS,(항공유) Aviation gasoline
+,ALR,(긴급통보),,AWY,(항공로) Airway
+, ,Alerting(message type designator),,AZM,(방위각) Azimuth
+,ALS,(진입등시설) Approach lighting system,,,
+,ALT,(고도) Altitude,,,
+,약 어 B,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,B,(청색),,BLSN,(눈바람)
+, ,Blue,, ,Blowing snow
+,BA,(제동효과),,BLW,(...미만)
+, ,Braking action,, ,Below...
+,BASE,(운저),,BOMB,(폭탄투하)
+, ,Cloud base,, ,Bombing
+,BCFG,(산재된 안개),,BR,(박무)
+, ,Fog patches,, ,Mist
+,BCN,(항공등화),,BRF,(짧은)
+, ,Beacon(aeronautical ground light),, ,Short(used to indicate the type of approach desired or required)
+,BCST,(방송),,BRG,(방위)
+, ,Broadcast,, ,Bearing
+,BDRY,(경계),,BRKG,(제동)
+, ,Boundary,, ,Braking
+,BFR,(...의 앞에),,BS,(민간방송국)
+, ,Before,, ,Commercial broadcasting station
+,BKN,(운량 ⅝이상 7/8이하),,BT,(분리신호 -...-)
+, ,Broken,, ,Separative sign[-...-]
+,BLDG,(건물),,BTL,(층간)
+, ,Building,, ,Between layers
+,BLO,(구름아래),,BTN,(사이)
+,,Below clouds,,,Between
+,약 어 C,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,C,(중앙(활주로식별)),,CMPL,(완료)
+, ,Center(runway identification),, ,Completion or completed or complete
+,C,(섭씨) Degrees Celsius(Centigrade),,CNL,(취소) Cancel or cancelled
+,CAT,(카테고리 류별) Category,,CNL,(비행계획취소)
+,CAVOK,(운고 및 시정 양호한 기상),, ,Flight plan cancellation(message type designator)
+, ,"Visibility, cloud and present weather better than prescribed values or conditions",,CNS,(계속적) Continuous
+,CB,(적난운) Cumulonimbus,,COM,(통신) Communications
+,CC,(권적운) Cirrocumulus,,CONC,(콘크리트) Concrete
+,CCA,(정정기상보),,COND,(조건) Condition
+, ,Corrected meteorological message (message type disignator),,CONST,(공사) Construction or constructed
+,CD,(촉광) Candela,,CONT,(계속하다) Continue or continued
+,CDN,(협조전보),,COOR,(조정하다 또는 조정)
+, ,Co-ordination(message type designator),, ,Co-ordinate or co-ordination
+,CF,(...로 주파수를 변경),,COP,(변경지점) Change-over point
+, ,Change frequency to ...,,COR,(정정) Correct or corrected or correction
+,CFM,(확인) Confirm or I confirm,,COT,(해안에) At the coast
+,CGL,(선희등) Circling guidance light(s),,COV,(덮인) Cover or covered or covering
+,CK,(점검한다) Check,,CPL,(현비행계획)
+,CLG,(호출) Calling,, ,Current flight plan(message type designator)
+,CI,(권운) Cirrus,,CRZ,(순항하다) Cruize
+,CIT,(도시주변 및 그상공),,CS,(권층운) Cirrostratus
+, ,Near or over large towns,,CTA,(관제구) Control area
+,CIV,(민간) Civil,,CTAM,(상승후유지) Climb to and maintain
+,CL,(중심선) Center line,,CTC,"(연락, 접촉, 교신하다) Contact"
+,CLA,(투명착빙) Clear type of ice formation,,CTL,(관제) Control
+,CLBR,(교정) Calibration,,CTN,(경고) Caution
+,CLD,(구름) Cloud,,CTR,(관제권) Control zone
+,CLR,(인가) Clear or cleared to...or clearance,,CU,(적운) cumulus
+,CLSD,(폐쇄) Closed,,CUF,(적운형) Cummliform
+,CM,(센치미터) Centimetre,,CUST,(세관) Customs
+,CMB,(상승) Climb,,CW,(연속파) Continuous wave
+,,,,CWY,(개방구역) Clearway
+,약 어 D,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,D...,(위험구역(구역번호를 첨부함),,DLA,(지연보) Delay(message type dsignator)
+, ,Danger area(followed by identification),,DLA,(지연) Delay or delayed
+,DA,(결심고도) Decision altitude,,DME,(거리측정장치)
+,DCD,(이중복선) Double channel duplex,, ,Distance measuring equipment
+,DCKG,(접안) Docking,,DNG,(위험) Danger or dangerous
+,DCS,(이중단신) Double channel simplex,,DOM,(국내의) Domestic
+,DCT,(직접?직통),,DP,(이슬점) Dew point temperature
+, ,Direct(in relation to flight plan clearances and type of approach),,DPT,(깊이) Depth
+,DEC,(12월) December,,DR,(추측항법) Dead reckoning
+,DEG,(도(방위 또는 각도)) Degrees,,DRG,(동안) During
+,DENEB,(안개분산작업) Fog dispersal operations,,DRSN,(눈보라) Low drifting snow
+,DEP,(출발) Depart or departure,,DSB,(양측파대) Double sideband
+,DEP,(출발통보),,DTAM,(강하후유지)
+, ,Departure(message type designator),, ,Descend to and maintain
+,DES,(강하) Descend to or descending to,,DTG,(일시분) Date-time group
+,DEST,(목적지),,DTRT,(악화시키다)
+, ,Destination,, ,Deteriorate or deteriorating
+,,(조난단계),,DTW,(세로이중겹바퀴)
+, ,Distress phase,, ,Dual tandem wheels
+,DETR- ESFA DEV,일탈 또는 일탈하다                 Deviation or deviacing,,DUC,(겹구름) Dense upper cloud
+, ,,,DUPE,(중복전문)
+,DFTI,(접지지시기로부터 거리),, ,This is duplicate message
+,,Distance from touchdown indication,,DUR,(기간) Duration
+,DH,(결심고도) Decision height,,DVOR,(도푸라VOR) Doppler VOR
+,DIF,(발산) Diffuse,,DW,(이중바퀴) Dual wheels
+,DIST,(거리) Distance,,DZ,(이슬비) Drizzle
+,DIV,"(다른곳으로 돌리다, 또는 목적지변경)",,,
+,,Divete or Diverting,,,
+,약 어 E,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,E,(동쪽 또는 동경),,EQPT,(장비) Equipment
+, ,East or eastern longitude,,ER,(여기) here...or herewith
+,EAT,(접근예정시간) Expected approach time,,ESE,(동남동) East south east
+,EEE,(오자) Error,,EST,(예정)
+,EET,(소요예정시간) Estimated elapsed time,, ,Estimate or estimated or estimate(as message type designator)
+,EHF,(극초단파),,ETA,(도착예정시간)
+, ,Extremely high frequency[30000 to 300000MHz),, ,Estimated time of arrival or estimating arrival
+,ELBA,(항공기용 구명무선기),,ETD,(출발예정시간)
+, ,Emergency location beacon-aircraft,, ,Estimated time of departurc or cstimating departure
+,ELEV,(표고) Elevation,,ETO,(특정지점통과예정시간)
+,ELR,(초장거리) Extra long range,, ,Estimated time over significant point
+,EM,{발사(전파의)} Emission,,EV,(모든) Every
+,EMBD,(구름층사이에 묻혀있는),,EXC,(...을 제외하고는) Except
+, ,Embedded in a layer(to indicate cumulonimbus embedded in layers of other clouds),,EXER,(연습)
+,EMERG,(비상) Emergency,, ,Exercises or exercising or to exercise
+,END,(정지대)(RVR관련),,EXP,(예상)
+, ,Stop-end(related to RVR),, ,Expect or expected or expecting
+,ENE,(동북동) East north east,,EXTD,(연장된) Extend or extending
+,ENG,(엔진) Engine,,,
+,ENRT,"(항행중, 비행중 도는 도중) En route",,,
+,EOBT,(이동예정시간) Estimated off-block time,,,
+,약 어 F,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,F,(고정된) Fixed,,FLW,(다음) Follow(s) or following
+,F,(화씨) Degrees Fahrenheit,,FLY,(비행) Fly or flying
+,FAC,(시설) Facilities,,FM,(...부터) From
+,FAF,(최종접근지점) Final approach fix,,FNA,(최종접근) Final approach
+,FAL,(출입국절차),,FPL,(제출된비행계획)
+, ,Facilitation of international air transport,, ,Flight plan(message type designator)
+,FAP,(최종접근점) Final approach point,,FPM,(분당휘트) Feet per minute
+,FAX,(사진전송) Facsimile transmission,,FPR,(비행계획 노선) Flight plan route
+,FBL,"약한(착빙, 난기류, 혼신 또는 공전의 강도를 표시하는데 사용)",,FR,(잔존연료) Fuel remaining
+, ,"Light(used to qualify icing, turvulence, interference or static reports)",,FREQ,(주파수) Frequency
+,FC,(깔대기구름) Funnel cloud,,FRI,(금요일) Friday
+,FCST,(예보) Forecast,,FRNG,(사격) Firing
+,FEB,(2월) February,,FRONT,(전선)(기상)
+,FG,(안개) Fog,, ,Front(relating to weather)
+,FIC,(비행정보국) Flight information centre,,FRQ,(빈번한) Frequent
+,FIR,(비행정보구역) Flight information region,,FSL,(착륙) Full stop landing
+,FIS,(비행정보업무) Flight information service,,FSS,(비행정보업무국) flight service station
+,FISA,(자동비행정보업무),,FST,(첫째) First
+, ,Automated flight information service,,FT,[휘트(길이의 단위)]
+,FL,(비행고도) Flight level,, ,Feet(dimensional unit)
+,FLD,(비행장 지면) Field,,FU,(연기) smoke
+,FLG,(명멸하는) Flashing,,FZ,(빙결) Freezing
+,FLR,(조명탄) flares,,FZDZ,(어는 이슬비) Freezing drizzle
+,FLT,(비행) Flight,,FZFG,(어는 안개) Freezing fog
+,FLTCK,(비행 점검) flight check,,FZRA,(어는 비) Freezing rain
+,FLUC,(변동),,,
+,,fluctuating or fluctuation or fluctunated,,,
+,약 어 G,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,G,(녹색),,GNDCK,(지상점검)
+, ,Green,, ,Ground check
+,GA,(송신재개),,GP,(활공각)
+, ,"Go ahead, resume sending",, ,Glide path
+,G/A,(지대공),,GR,(우박)
+, ,Ground-to-air,, ,Hail or soft hail
+,G/A/G,"(지대공, 공대지)",,GRADU,(점차적으로)
+, ,Ground-to-air and air-to-ground,, ,Gradual or gradually
+,GCA,(지상유도접근관제시설),,GRASS,(초지착륙지역)
+, ,Ground controlled approach system or ground controlled approach,, ,Grass landing area
+,GEN,(일반 또는 총칙),,GRIB,(격자점자료의 교환을 위한 세계기상기구의 2진화 부호)
+, ,General,, ,WMO binary code for grid point value exchange
+,GEO,(진방위),,GRVL,(자갈)
+, ,Geographic or true,, ,Gravel
+,GLD,(활공기),,GS,(지상속도)
+, ,Glider,,,Ground speed
+,GND,(지상),,,
+,,Ground,,,
+,약 어 H,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,H24,(24시간 운용),,HOSP,(환자수송기)
+, ,Continuous day and night service,, ,Hospital aircraft
+,HBN,(위험표지등),,HPA,(고도계수정치 단위)
+, ,Hazard beacon,, ,Hectopascal
+,HDF,(HF방향탐지국),,HR,(시간)
+, ,High frequency direction-finding station,, ,Hours
+,HDG,(방향 또는 기수방향),,HS,(정시운용시간중 사용가능시간)
+, ,Heading,, ,Service available during hours of scheduled operations
+,HEL,(회전의 항공기),,HURCN,(태풍)
+, ,Helicopter,, ,Hurricane
+,HF,(단파),,HVDF,"(HF, VHF)방향 탐지국(병설)"
+, ,High frequency[3000 to 30000KHz],, ,High and very high frequency direction-finding stations(at the same lacation)
+,HGT,(높이),,HVY,(무거운)
+, ,Height or height above,, ,Heavy
+,HJ,(일출부터 일몰까지)(주간),,HX,(부정기운용시간)
+, ,Sunrise to sunset,, ,(No specific working hours
+,HLDG,(체공),,HYR,(...보다높은)
+, ,Holding,, ,Higher
+,HN,(일몰부터 일출까지)(야간),,HZ,(연무)
+, ,Sunset to sunrise,, ,Dust haze
+,HO,(운항상 필요시 이용가능시간),,HZ,(주파수의 단위)
+, ,Service available to meet operational requirements,,,Hertz(cycle per secound)
+,HOL,(휴일),,,
+,,Holiday,,,
+,,,,,
+,약 어 I,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,IAC,(계기접근도),,INA,(첫접근) Initial approach
+, ,Instrument approach chart,,INDB,(입항) Inbound
+,IAF,(첫 접근 지점) Initial approach fix,,INC,(운중) In cloud
+,IAO,(구름...) In and out of clouds,,INCERFA,(불확실한 상태) Uncertainty phase
+,IAR,(항로의 교차점),,INFO,(정보) Information
+, ,Intersection of air routes,,INOP,(불작동) Inoperative
+,IAS,(지시대기속도) Indicated air speed,,INP,(가능치 않다면) If not possible
+,IBN,(식별등대) Identification beacon,,INPR,(진행중) In progress
+,ICE,(착빙) Icing,,INS,(인치) Inches(dimensional unit)
+,ID,(식별) Identifier or identify,,INS,(관성항법 장치) Inertial navigation system
+,IDENT,(식별) Identification,,INSTL,(설치) Install or installed or installation
+,IF,(중간접근지점) Intermediate approach fix,,INSTR,(계기) Instrument
+,IFF,(피아식별장치) Identification friend/foe,,INT,(교차점) Intersection
+,IFR,(계기비행규칙) Instrument flight rules,,INTER,(간헐적) Intermittent
+,IGA,(국제일반 항공),,INTL,(국제) International
+, ,International general aviation,,INTRG,(질문기) Interrogator
+,ILS,(계기착륙장치) Instrument landing system,,INTRP,(중단)
+,IM,(내방표지소) Inner marker,, ,Interrup or interruption or interrupted
+,IMC,(계기기상상태),,INTSF,(강도) Intensify or intensifying
+, ,Instrument meteorological conditions,,INTST,(강도) Intensity
+,IMG,(출입국관리) Immigration,,IR,(활주로착빙) Ice on runway
+,IMPR,(개선) Improve or improving,,ISA,(국제표준 대기압)
+,IMT,(즉시),, ,International standard atmosphere
+,,Immediate or immediately,,ISB,(단주파대) Independent sideband
+,,,,ISOL,(고립된) isolated
+,약 어 J,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,JAN,(1월),,JUL,(7월)
+, ,January,, ,July
+,JTST,(젯트기류),,JUN,(6월)
+, ,Jet stream,,,June
+,약 어 K,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,KG,(중량단위),,KPA,(측정단위)
+, ,Kilograms,, ,Kilopascal
+,KHZ,(주파수의 단위),,KT,(속도단위)
+, ,Kilohertz,, ,Knots
+,KM,(거리단위),,KW,(전력의 단위)
+, ,Kilometres,,,Kilowatts
+,KMH,(시속),,,
+, ,Kilometres per hour,,,
+,약 어 L,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,L,(좌측)(활주로의 표시),,LLZ,(방위각 지시기(ILS)) Localizer
+, ,Left(Runway identification),,LM,"(중간로케이터) Locator, middle"
+,L,"(로케이터) Locator(see LM, LO)",,LMT,(지역표준시) Local mean time
+,LAM,(확인응답),,LNG,길다(요구나 지시된 진입방식에 사용)
+, ,Logical acknowledgement(message type designator),, ,Long(used to indicate the type of approach desired or required)
+,LAN,(육지) Inland,,LO,"(외측로케이터) Locator, outer"
+,LAT,(경도) Latitude,,LOC,(지역적으로) Locally or location or located
+,LB,(무게단위) Pounds(weight),,LONG,(위도) Longitude
+,LDA,(착륙가능거리) Landing distance available,,LORAN,(로란)
+,LDG,(착륙) Landing,, ,LORAN(long range air navigation system)
+,LDI,(착륙 방향 지시기),,LRG,(장거리) Long range
+, ,Landing direction Indicator,,LTD,(제한) Limited
+,LEN,(길이) Length,,LTT,(유선테레타잎회선) Landline teletypewriter
+,LF,(장파) Low frequency[30 to 300KHz],,LV,"(약하고, 변하는)(바람)"
+,LGT,(항공등화 또는 조명) Light or lighting,, ,Light and variable(relating to wind)
+,LGTD,(조명된) Lighted,,LVE,"(수평, 평면) Level"
+,LIH,(고촉광) Light intensity high,,LYR,(층) Layer or layered
+,LIL,(저촉광) Light intensity low,,,
+,LIM,(중촉광) Light intensity medium,,,
+,약 어 M,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,M,(마하수) Mach number,,MIFG,(엷은 안개) Shallow fog
+,M,(길이의 단위) Metres,,MIL,(군) Military
+,MAA,(최고승인고도),,MIN,(분) Minutes
+, ,Maximum authorized altitude,,MKR,(마카무선표지소) Marker radio beacon
+,MAG,(자방위) Magnetic,,MLS,(마아키르웨이브착륙장치)
+,MAINT,(보수) Maintenance,, ,Microwave landing system
+,MAP,(항공도면) Aeronautical maps and charts,,MM,(중간마차) Middle marker
+,MAPT,(실패접근지점) Missed approach point,,MNM,"(최소, 최저(의)) Minimum"
+,MAR,(3월) March,,MNPS,(보안시설 최저허용치)
+,AMR,(바다) At sea,, ,Minimum navigation performance specifications
+,MAS,(기술도시) Manual Al simplex,,MNT,(감시) Monitor or monitoring or monitored
+,MAX,"(최대, 최고(의)) Maximum",,MNTN,(유지) Maintain
+,MAY,(5월) May,,MOC,(최저장애물 허용치)
+,MB,(기압단위) Milibars,, ,Minimum obstacle clearance(required)
+,MCA,(최저통과고도) Minimum crossing altitude,,MOD,"(적합한, 적당한)"
+,MCW,(변조지속파) Modulated continuous wave,, ,"Moderate(used to qualify icing, turbulence, interference or static reports)"
+,MDA,(최저강하고도) Minimum descent altitude (중파 방향 탐지국),,MON,(산악상공) Above mountains
+,MDF,Medium frequency direction-findingstation,,MON,(월요일) Monday
+,MDH,(최저강하고도) Minimum descent height,,MOV,(이동) Move or moving or movement
+,MEA,(항공로의 최저고도),,MPH,(마일/매시속도) Statute miles per hour
+, ,Minimum en-routs altitude,,MPS,(초당미터) metres per second
+,MEHT,활주로 말단상에 있어서의 최저의 눈의 높이(진입각 지시 등에 사용),,MRA,(최저수신가능고도)
+, ,Minumum eye hight over threshol(for visual approach slope indicator systems),, ,Minimum reception altitude
+,MET,(항공기상) Meteorological or meteorology,,MRG,(중거리) Midium range
+,METAR,(정시항공기상보고),,MRP,(ATS/MET 보고지점)
+, ,Meteorological Airdrome Report,, ,ATS/MET reporting point
+,MF,(중파),,MS,(감산) Minus
+, ,Medium frequency[300 to 3000KHz],,MSA,최저선형(부채꼴) 고도
+,MHDF,MF-HF방향탐지국(병설),, ,Minimum sector altitude
+, ,"Mediun, and high frequency direction finding stations(at the same location)",,MSG,(전보)(전문) Message
+,MHVDF,MF-HF-VHF방향탐지국(병설),,MSL,(해발고도) Mean sea level
+, ,"Medium, high and very high frequency direction finding stations(at the same location)",,MT,(산) Mountain
+,MHZ,(주파수의 단위) (Megahertz),,MTU,(미터법 도량형 단위) Metric units
+,MID,중간점(RVR관련),,MTW,(산악파) Mountain waves
+,,Mid-point(related to RVR),,MVDF,(MF?VHF 방향탐지국(병설)
+,,,, ,Medium and very high frequency direction finding stations(at the same location)
+,,,,MWO,(기상감시소) Meteorological watch office
+,,,,MX,혼합형 착빙(흰색과 투명색)
+,,,,,Mixed type of ice formation(white and clear)
+,약 어 N,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,N,(북 또는 북위) North or northern latitude,,NNE,(북북동) North north east
+,NAT,"북대서양(의), 북대서양 연안(의)",,NNW,(북북서) North north west
+, ,North Atlantic,,NOF,(국제노-탐취급소)
+,NAV,"(항법, 항행) Navigation",, ,International NOTAM office
+,NB,(북행의) Northbound,,NOSIG,(현저한 변화 없음)
+,NBFR,(...의 앞이 아님) Not before,, ,No significant change(used in trend-type landing forecasts)
+,NC,(불변) No change,,NOTAM,(항공고시보)
+,NDB,(무지향 무선 표지소),, ,"NOtice To Air Man : A notice containing information concerning the establishment, condition or change in any aeronautical facility, service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations"
+, ,Non-directional radio beacon,,NOV,(11월) November
+,NE,(북동) North east,,NR,(번호) Number
+,NEB,(북동행) North-eastbound,,NRH,(응답없음) No reply herd
+,NEG,"(없음, 부정, 불허가 또는 옳지않음)",,NS,(난층운) Nimbostratus
+, ,No or negative or permission not granted ro that is not correct,,NSC,(특기할 구름없음) Nill significant cloud
+,NEH,(요구한국과 연결됐음),,NW,(북서) North-west
+, ,I an connection you to a station which will accept traffic for the station you request,,NWB,(북서행) North-westbound
+,NGT,(야간) Night,,NXT,(다음) Next
+,NIL,(없음),,,
+, ,None or I have nothing to send to you,,,
+,NM,해리(거리단위)) Nautical miles,,,
+,NML,(정상) Normal,,,
+,약 어 O,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,OAC,(해상관제국) Oceanic area control centre,,OM,(외방표지소) Outer marker
+,OAS,(장애물표면) Obstacle assessment surface,,OPA,(불명료한 얼음덩이)
+,OBS,"(관찰, 관측)",, ,"Opaque, white type of ice formation"
+, ,Observe or observed or observation,,OPC,(운항관리)
+,OBSC,(불명료한),, ,The control indicated is operational control
+, ,Obscure or obscured or obscuring,,OPMET,(운항기상(정보))
+,OBST,(장애물) Obstacle,, ,Operationalmeteorological(information)
+,OCA,(해상관제구역) Oceanic control area,,OPN,(개방) Open or opening or opened
+,OCA,(장애물 허용고도),,OPR,"(운영자, 운영하다)"
+, ,Obstscle clearance altitude,, ,Operator or operate or operative or operating
+,OCC,(명멸(등화)) Occulting(light),,OPS,(운영) Operations
+,OCC,(통신중) The line is engaged,,O/R,(요청에 의한) On request
+,OCH,(장애물 허용높이),,ORD,(지시의 표시) Indication of an order
+, ,Obstacle clearance height,,OSV,(해상정점 관측선) Ocean station vessel
+,OCL,(장애물 허용한계) Obstacle clearance limit,,OTP,(운상) On top
+,OCNL,(때때로의) Occasional or occasionally,,OTS,(장애중임) Out of service
+,OCS,(장애물 허용지표면),,OUBD,(외국(외지로 가는)) Outbound
+, ,Obstacle clearance surface,,OVC,(운량 8/8) Overcast
+,OCT,(10월) October,,,
+,OHD,"(머리위의, 직상) Overhead",,,
+,약 어 P,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,P...,(금지구역(번호를 첨부)),,PN,(사전통보를 요함) Prior notice required
+, ,Prohibited area (followed by identification,,PNR,(회항불가지점) Point of no return
+,PALS,(정밀식 진입등(카테고리 명기)),,PO,(심한먼지) Dust devils
+, ,Precision approach lighting system (specify category),,POB,(탑승인원) Persons on board
+,PANS,(항공업무절차),,PPI,(감시용레이다 표시장치)
+, ,Procedures for air navigation services,, ,Plan position indicator
+,PAPI,(정밀접근로 지시기),,PPR,(사전인가를 요함)
+, ,Precision aproach path indicator,, ,Prior permission required
+,PAR,(정밀 접근레이다),,PPSN,(현재 위치) Present position
+, ,Precision approach radar,,PRI,"(본래의, 최초의, 근본의) Primary"
+,PARL,(평행) Parallel,,PRKG,(추차 또는 계류) Parking
+,PAX,(승객) Passenger(s),,PROB,(가능성) Probability
+,PCD,(진행하다 또는 진행) Proceed or proceeding,,PROC,(절차) Procedure
+,PCN,(수치로 표시한 포장의 허용지지력),,PROV,(일시의) Provisional
+, ,Pavement classification number,,PS,(가산) Plus
+,PE,(얼음덩이) Ice pellets,,PSG,(통과) Passing
+,PER,(성능) Performance,,PSN,(위치) Position
+,PERM,(영구한) Permanent,,PSP,(철재판) Pierced steel plank
+,PJE,(낙하산 강하연습),,PTN,(절차선회) Procedure turn
+, ,Parachute jumping exercise,,PTS,(국권경로구성) Polar track structure
+,PLA,(훈련 저공 진입) Practice low approach,,PWR,(출력) Power
+,PLN,(비행계획) Flight plan,,,
+,PLVL,(현재 레벨) Present level,,,
+,약 어 Q,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,QBI,(의무계기비행규칙기행),,QFU,(자방위에 의한 활주로 방향 또는 번호)
+, ,Compulsory IFR flight,, ,Magnetic orientation of Runway
+,QDM,(자침로),,QNH,(지상의 표고를 얻기위한 고도 수정치)
+, ,Mgnetic heading(zero wind),, ,Altimeter sub-scale setting to obtain elevation when on the ground
+,QDR,(자방위),,QTE,(진방위)
+, ,Magnetic bearing,, ,True bearing
+,QFE,(비행장 표고로 환산한 대기압),,QUAD,(상한)
+, ,Atmospheric pressure at aerodrome elevation(or at runway threshold),,,Quadrant
+,약 어 R,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,R,(적색) Red,,RMK,(비고) Remark
+,R,(비행제한구역(번호를 첨부)),,RNAV,(지역항행보조시설) Area navigation
+, ,Restricted area(followed by identification),,RNG,(무선표지) Radio range
+,R,(우측(활주로 번호)),,ROC,(상승율) Rate of clime
+, ,Right(runway identification),,ROD,(강하율) Rate of descent
+,RA,(비) Rain,,ROFOR,(항로예보)
+,RAC,(항공규칙 또는 항공교통 관제업무),, ,Route forecast(in aeronautical meteorological code)
+, ,Rules of the air and air traffic services,,RON,(수신에 한함) Receiving only
+,RAFC,(지역예보센터),,RPL,(반복비행 계획) Repetitive flight plan
+, ,Regional area forecast centre,,RPLC,(...대신하다) Replace or replaced
+,RAG,(부조화) Ragged,,RPS,(레이다 위치기호) Radar position symbol
+,RAG,(활주로제동장치) Runway arresting gear,,RQMNTS,(요구) Requirements
+,RAI,(활주로정대지시기),,RQP,(비행계획요구전문)
+, ,Runway alignment indicator,, ,Request flight plan(message
+,RAPID,(신속) Rapid or rapidly,, ,type indicator)
+,RASH,(소나기) Rain showers,,RQS,(보충비행계획 요구전문)
+,RASN,"(비, 눈 혹은 심한 비, 눈)",, ,Request supplementary flight plan(message type indication)
+, ,Rain and snow or showers of rain and snow,,RR,(도달통보) Report reaching
+,RB,(구조보트) Rescue boat,,RRA,(지연기상보)
+,RCA,(순항고도도달) Reach cruising altitude,, ,Delayed meteorological message
+,RCC,(수색구조본부) Rescue co-ordination centre,,RSC,(구조부조정국) Rescue sub-centre
+,RCF,(무선통신두절),,RSCD,(활주로 표면상태)
+, ,Radiocommunication failure(message type designator),, ,Runway surface condition
+,RCH,(도달하다 또는 도달) Reach or reaching,,RSP,(응답비-콘) Responder beacon
+,RCL,(활주로 중심선) Runway centre line,,RSR,(항공로 감시레이다)
+,RCLL,(활주로 중심선등),, ,En-route surveillance radar
+, ,Runway centrerline light(s),,RTD,(지연번문)
+,RDH,(참고기준고도),, ,Delayed(used to indicate delayed meteorological message)
+, ,Reference datum height(for ILS),,RTE,"(노선, 루-트) Route"
+,RDL,(레디알) Radial,,RTF,(무선전화) Radiotelephone
+,RDO,(무선) Radio,,RTG,(무선전신) Radiotelegraph
+,RE,최근(기상현상),,RTHL,(활주로 말단등)
+, ,"Recent(used to qualify weather phenomena such as rain, eg recent rain=RERA)",, ,Runway threshold light(s)
+,REC,(수신 혹은 수신자) Receive or receiver,,RTN,"(복귀하다, 복귀끝 또는 복귀)"
+,REDL,(활주로 기장자리등) Runway edge light(s),, ,Return or returned or returing
+,REF,(참고) Reference to ...or refer to...,,RTS,(서비스 재개하다) Return to service
+,REG,(등록기호) Registration,,RTT,(무선텔레타이프) Radioteletypewriter
+,RENL,(활주로 종단등) Runway end light(s),,RTZL,(활주로 접지대등)
+,REP,(보고 또는 보고지접),, ,Runway touchdown zone light(s)
+, ,Report or reporting point,,RUT,(표준지역 항공로용 주파수)
+,REQ,(요구) Request or requested,, ,Standard regional route transmitting frequencies
+,RERTE,(노선변경) Reroute,,RV,(구조선) Rescue vessel
+,RG,(경계(등)) Range(lights),,RVR,(활주로 가시거리) Runway visual range
+,RIF,(재승인) Reclearance in flight,,RWY,(활주로) Runway
+,RITE,(우측(선회방향)) Right(direction of turn),,,
+,RL,(이탈통보) Report leaving,,,
+,RLA,(중계하다) Relay to,,,
+,RLLS,진입로 지시등(돌아서 진입하는),,,
+,,Runway lead- in lighting system,,,
+,약 어 S,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,S,(남쪽 또는 남위) South or southern latitude,,SNSH,(폭설) Snow showers
+,SA,"(모래, 먼지 현상)",,SPECI,(특별관측보고(약어))
+, ,"Duststorm, sandstorm, rising dust or rising sand",, ,Aviation selected special weather report(in aeronautical meteorological code)
+,SALS,(단순접근등장치),,SPL,(보충비행 계획 전문)
+, ,Simple approach lighting system,, ,Supplementary flight plan(message type designator)
+,SAN,(검역) Sanitary,,SPECIAL,(특별관측보고)(평문)
+,SAP,(가능한 빨리) As soon as possible,, ,Special meteorological report ( in abbreviated plain language)
+,SAR,(수색 및 구조) Search and rescue,,SPOT,(지점 풍향풍속) Spot wind
+,SARPS,(표준 및 권고방식)(ICAO),,SQ,(돌풍) Squall
+, ,Standards and Recommended Practices(ICAO),,SR,(일출) Sunrise
+,SAT,(토요일) Saturday,,SRA,(감시레이다 접근)
+,SC,(층적운) Stratocumulus,, ,Surveillance radar approach
+,SCT,(운량이 3/8에서 4/8이하) Scattered,,SRE,(정밀 진입레이다 시스템의 수신레이다 부분)
+,SDBY,(대기) Stand by,, ,Survaillance radar element of precision approach radar system
+,SE,(남동) South-eastbound,,SRG,(단거리) Short range
+,SEB,(남행) South-easthound,,SRR,(수색구조구역) Search and rescue region
+,SEC,(둘째) Seconds,,SRY,"(제2위의, 제2류의, 다음의) Secondary"
+,SECT,"(섹_타, 부문) Sector",,SS,(일몰) Sunset
+,SELCAL,(선택호출방법) Selective calling system,,SSB,(단축파대) Single sideband
+,SEP,(9월) September,,SSE,(남남동) South south east
+,SER,(업무) Service or servicing or served,,SSR,(2차 감시레_다)
+,SEV,"(심한(얼음, 요란기상현상보고)",, ,Secondary surveillance radar
+, ,Severe(used e.g. to qualify icing and turbulence reports),,SST,(초음속 항공) Supersonic transport
+, ,(지표면) Surface,,SSW,(남남서) South south west
+,SFC,(싸락눈) Snow grains,,ST,(층운) Stratus
+,SG,(신호) signal,,STA,(직선진입) Straight in approach
+,SGL,(소나기) showers,,STAR,(표준계기도착 절차)
+,SH,(주파수대),, ,Standard(instrument)arrival
+,SHF,Super high frequency[3000 to 30000MHz],,STD,(표준) Standard
+,SID,(표준계기출발절차),,STF,(층운형) Stratiform
+, ,Standard instrument departure,,STN,(국) Station
+,SIF,(선택성식별장치),,STNR,(정체적) Stationary
+, ,Selective identification feature,,STOL,(단거리 이착륙) Short take-off and landing
+,SIGMET,(항로기상현상정보),,STS,(상태) Status
+, ,Information concerning en-route weather phenomena which may affect the safety of aircraft operations,,STWL,(스톱웨이등) Stopway light(s)
+,SIGWX,(악기상) Significant weather,,SUBJ,(...을 조건으로 하는) Subject to
+,SIMUL,(동시) Simultaneous or simultaneously,,SUN,(일요일) Sunday
+,SIWL,(단차륜하중) Single isolated wheel load,,SUPPS,(지역보충절차)
+,SKC,(맑음) Sky clear,, ,Regional supplementary procedures
+,SKED,(정기) Schedule or scheduled,,SVC,(업무 또는 서비스 전보) Service message
+,SLP,(속도제한점) Speed limiting point,,SVCBL,(사용가능한) Servicable
+,SLW,(천천히) Slow,,SW,(남서) South-west
+,SMC,(지상이동관제) Surface movement control,,SWB,(남서행) South-westbound
+,SMR,(지상이동물체감시 레이다),,SWY,(정지경계선) Stopway
+, ,Surface movement radar,,SNOW- TAM,(강설항공고시보)
+,SN,(강설) Snow,,,"A special series NOTAM notifying the presence or removal of hazardous conditions due to snow, ice, slush or standing water associated with snow slush and ice on the movement area, by means of a specific pro forma"
+,약 어 T,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,T,(온도) Temperature,,TO,"...(장소)으로, ...에, ...까지"
+,TA,(전이고도) Transition altitude,, ,To...(place) To...(place)
+,TACAN,(전술용 항법장치),,TOC,(최대상승) Top of climb
+, ,UHF tactical air navigation aid,,TODA,(사용가능 이륙거리)
+,TAF,(비행장 기상예보) Aerodrome forecast,, ,Take-off distance available
+,TAIL,(배풍) Tail wind,,TOP,(운상) Cloup top
+,TAR,(터미날 감시레이더),,TORA,(이륙활주가능거리) Take-off run available
+, ,Terminal area surveillance radar,,TP,(선회점) Turning point
+,TAS,(진대기속도) True airspeed,,TR,(항적) Track
+,TAX,"(이륙, 이수전에) 활주하다. taxing or taxi",,TRA,(임시유보공역)
+,TC,(열대성저기압) Tropical cyclone,, ,Temporary reserved airspace
+,TCU,(탑상적운) Towering cumulus,,TAANS,(송신 또는 송신기) Transmits or transmitter
+,TDO,(회오리바람) Tornado,,TRLVL,(전이고도) Transitional level
+,TDZ,(접지대) Touchdown zone,,TROP,(권계면) Tropopause
+,TECR,(기술적 이유) Technical reason,,TS,(뇌우) Thunderstorm
+,TEL,(전화) Telephone,,TSGR,(우박을 동반한 뇌우)
+,TEMPO,(임시의) Temporary or temporarily,, ,Thunderstorm with hail
+,TEND,"(향하다, 가다, 방향, 향함)",,TSSA,"(뇌우)(먼지, 모래동반)"
+, ,Tending to or Trend,, ,Thunderstorm with duststorm or sandstorm
+,TFC,(항공교통) Traffic,,TT,(텔레타이프) Teletypewriter
+,TGL,(접지이착륙) Touch-and-go landing,,TUE,(화요일) Tuesday
+,TGS,(지상유도장치),,TURB,(난기류) Turbulence
+, ,Taxing guidance system,,TVOR,(종착지 VOR) Terminal VOR
+,THR,(입구 턱) Threshold,,TWR,(비행장관제탑 또는 비행장관제)
+,THRU,"(...을 통하여, ...동안, 줄곳, ...을 거쳐)",, ,Aerodrome control tower or aerodrome control
+, ,Through,,TWY,(유도로) Taxiway
+,THU,(목요일) Thursay,,TWYL,(유도로등) Taxiway edge light(s)
+,TIL,(까지) Until,,TYP,(항공기 형식) Type of aircraft
+,TIP,(장소) 통과할때까지 Until past...(place),,TYPH,(태풍) Typhoon
+,TKOF,(이륙) Take off,,,
+,TMA,(터미날 관제구역) Terminal control area,,,
+,TNH,(선희높이) Turn height,,,
+,약 어 U,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,UAB,(...에 의한 권고될때까지),,UIR,(고고도비행정보구역)
+, ,Until advised by...,, ,Upper information centre
+,UAC,(상층지역관제국),,ULR,(극초장거리)
+, ,Upper area control centre,, ,Ultra long range
+,UAR,(고고도 비행항로),,UNA,(할수없음)
+, ,Upper air route,, ,Unable
+,UDF,(UHF방향탐지국),,UNAP,(승인할 수 없음)
+, ,Ultra high frequency direction-finding station,, ,Unable to approve
+,UFN,(다음통고시까지),,UNL,(무한정)
+, ,Until further notice,, ,Unlimited
+,UHDT,(보다높은 고도에 상승은 트래픽으로 말미암아 승인 불가함),,UNREL,(신뢰할 수 없는)
+, ,Unable higher due to traffic,, ,Unreliable
+,UHF,(극초단파),,U/S,(사용불능)
+, ,Ultra high frequency[300 to 3000MHz],, ,Unserviceable
+,UIC,(고고도정보본부),,UTA,(고고도 관제구역)
+,,Upper information centre,, ,Upper control area
+,,,,UTC,(국제표준시)
+,,,,,Co-ordinated universal time
+,약 어 V,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,VAC,(시계진입도) Visual approach chart,,VIS,(시정) visibility
+,VAL,(계곡) In valleys,,VLF,(초저장파) Very low frequency[3 to 30kHz)
+,VAL,(시계접근착륙도),,VLR,(초장거리) Very long range
+, ,Visual approach and landing chart,,VMC,(시계비행기상조건)
+,VAN,(활주로감시차) Runway control van,, ,Visual meteorological conditions
+,VAR,"(가시, 가청무선표지소)",,VOLMET,(비행중인항공기를 위한 기상정보)
+, ,Visual-aural radio range,, ,Meteorological information for aircraft in flight
+,VAR,(지자기편차) Magnetic variation,,VOR,(전방향 무선표지소)
+,VASIS,(진입각지시등),, ,VHF omnidirectional radio range
+, ,Visual approach slope indicator system,,VORTAC,(VOR 및 TACAN 합동장치)
+,VCY,"(부근, 인근) Vicinity",, ,VOR and TACAN combination
+,VDF,(VHF방향탐지국),,VOT,(VOR기상장비 시험시설)
+, ,Very high frequency direction-finding station,, ,VOR airborne equipment test facility
+,VER,(수직의) Vertical,,VRB,(가변성의) Variable
+,VFR,(시계비행규칙) Visual flight rules,,VSA,(시계로 지표를 참조하여)
+,VHF,(초단파),, ,By visual reference to the ground
+, ,Very high frequency[30 to 300MHz),,VSP,(수직속도) Vertical speed
+,VIP,(귀빈) Very important person,,VTOL,(수직이착륙) Vertical take-off and landing
+,약 어 W,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,W,(서쪽 또는 서경) West or western longitude,,WILCO,"(양해, ...에 따르다, 응하다) Will comply"
+,W,(백색) White,,WINTEM,(상층바람?상층기온 항공예보)
+,WAC,(항공지도),, ,Forecast upper wind and temperature for aviation
+, ,"World Aeronautical Chart ICAO 1:1,000,000",,WIP,(작업진행중) Work in progress
+,WAFC,(세계공역예보센타),,WKN,(약해지다) Weaken or weakening
+, ,World area forecast centre,,WNW,(서북서) West or north west
+,WB,(서쪽행) Westbound,,WO,(...없이는) Without
+,WBAR,(윈드 -바 등) Wind bar lights,,WPT,(중간지점) Way-point
+,WDI,(풍향지시기) Wind direction indicator,,WRNG,(경고) Warning
+,WDSPR,(광범한) Widespread,,WS,(바람시어) Wind shear
+,WED,(수요일) Wednesday,,WSW,(서남서) West south west
+,WEF,(...부터 유효),,WT,"(중량, 무게) Weight"
+, ,With effect from or effective from,,WTSPT,(용오름) Waterspout
+,WI,(...이내) Within,,WX,(기상) Weather
+,WID,"(폭, 너비) Width",,WIE,(즉시유효)
+,,,,,With immediate effect or effective immediately
+,약 어 X,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,X,(횡단하다),,XNG,(횡단)
+, ,Cross,, ,Crossing
+,XBAR,(크로스바),,XS,(공전)
+, ,Crossbar(of approach lighting system),,,Atmospherics
+,약 어 Y,의       미,,약 어,의       미
+,Abbrev.,Signification,,Abbrev.,Signification
+,Y,(황색),,YD,(거리단위)
+, ,Yellow,, ,Yards
+,YCZ,(황색 경계 구역),,YR,(귀하)
+, ,Yellow caution zone(runway lighting),,,Your

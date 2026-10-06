@@ -1,0 +1,90 @@
+{
+  "manifest_version": "2.2",
+  "aircraft_family": "B787",
+  "operator": "KOREAN AIR",
+  "default_subtype": "B787-9",
+  "subtypes_supported": ["B787-8", "B787-9", "B787-10"],
+  "note": "PilotAgent 13축 독립 매뉴얼 Manifest v2.2 (2026-09-07 P1~P3 완료: FCRM·AFM x2종·QRH 추출 · 레거시 B787_R21.json 삭제 완료)",
+  "manuals": {
+    "fom": {
+      "file": "fom/FOM_R39.json",
+      "revision": "R39",
+      "issue_date": "2026-06-29",
+      "status": "active",
+      "source_pdf": "Manuals/EFB_KOR_FOM_R39_20260629_FCRM_R41_20260629.pdf (FOM 파트 p.1~p.1174)",
+      "top_level_key": ["fom_chapters", "fom_rules"]
+    },
+    "fcrm": {
+      "file": "fcrm/FCRM_R41.json",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "status": "active",
+      "source_pdf": "Manuals/EFB_KOR_FOM_R39_20260629_FCRM_R41_20260629.pdf (FCRM 파트 p.1175~제7장 Training·제8장 Safety&Security 추출)",
+      "top_level_key": ["fcrm_chapters", "fcrm_rules"]
+    },
+    "pom": {
+      "file": "pom/POM_R21.json",
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "status": "partial_active",
+      "source_pdf": "Manuals/B787_POM_R21_20250509.pdf",
+      "top_level_key": ["systems", "procedures", "checklists", "abnormal_procedures", "performance_tables"]
+    },
+    "qrh": {
+      "file": "qrh/QRH_R21.json",
+      "revision": "R21",
+      "issue_date": "2025-04-11",
+      "status": "partial_active",
+      "source_pdf": "Manuals/B787_QRH_R21_20250411.pdf (Phase1: ABN=776 / MEM=6 추출 · Phase2: EMERGENCY 전용 절차 + 프로시저 타이틀 정제 예정)",
+      "top_level_key": ["abnormal_procedures", "emergency_procedures", "qr_checklists", "memory_items"]
+    },
+    "normal_checklist": {
+      "file": "checklist/NORMAL_CHECKLIST_20240807.json",
+      "revision": "20240807",
+      "issue_date": "2024-08-07",
+      "status": "active",
+      "source_pdf": "Manuals/B787 NORMAL CHECKLIST 20240807.pdf",
+      "top_level_key": ["checklists"]
+    },
+    "mel": {
+      "file": "mel/MEL_R08_TR001.json",
+      "revision": "R08+TR001",
+      "issue_date": "2026-01-16",
+      "status": "partial_active",
+      "source_pdf": "Manuals/B787_MEL_R08_2026016_TR 2026-001.pdf",
+      "top_level_key": ["mel_entries", "mel_categories"]
+    },
+    "cdl": {
+      "file": "cdl/CDL_R05.json",
+      "revision": "R05",
+      "issue_date": "2024-05-03",
+      "status": "partial_active",
+      "source_pdf": "Manuals/B787_CDL_R05_20240503.pdf",
+      "top_level_key": ["cdl_entries"]
+    },
+    "afm:B787-9": {
+      "file": "afm/AFM_B787-9_R22.json",
+      "revision": "R22",
+      "issue_date": "2025-03-21",
+      "subtype": "B787-9",
+      "status": "partial_active",
+      "source_pdf": "Manuals/B787-9_AFM_R22_20250321.pdf (Phase1: LIMIT=134 / PERF=56 테이블 타이틀 추출 · Phase2: 테이블 셀 단위 좌표 파싱)",
+      "top_level_key": ["performance_tables", "afm_limits"]
+    },
+    "afm:B787-10": {
+      "file": "afm/AFM_B787-10_R05.json",
+      "revision": "R05",
+      "issue_date": "2025-04-25",
+      "subtype": "B787-10",
+      "status": "partial_active",
+      "source_pdf": "Manuals/B787-10_AFM_R05_20250425.pdf (Phase1: LIMIT=130 / PERF=48 · ★ 기종별 AFM 절대 혼용 금지)",
+      "top_level_key": ["performance_tables", "afm_limits"]
+    }
+  },
+  "legacy_bundle_fallback": {
+    "enabled": false,
+    "file": "B787_R21.json (DELETED 2026-09-07 · 9개 개별 JSON으로 100% 분리 이관 완료)",
+    "purpose": "사용 중지 · 폐기 처분 완료",
+    "load_order": 999
+  }
+}

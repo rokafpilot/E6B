@@ -1,0 +1,302 @@
+[
+  {
+    "term": "SLW",
+    "fullName": "Slow",
+    "category": "NOTAM",
+    "old_description": "Slow"
+  },
+  {
+    "term": "SMC",
+    "fullName": "Surface movement control",
+    "category": "NOTAM",
+    "old_description": "Surface movement control"
+  },
+  {
+    "term": "SMR",
+    "fullName": "Surface movement radar",
+    "category": "NOTAM",
+    "old_description": "Surface movement radar"
+  },
+  {
+    "term": "SN",
+    "fullName": "Snow",
+    "category": "NOTAM",
+    "old_description": "= snow, PL = ice pellets,"
+  },
+  {
+    "term": "SOC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Start of climb"
+  },
+  {
+    "term": "SPI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Special position indicator"
+  },
+  {
+    "term": "SPOC",
+    "fullName": "SAR point of contact",
+    "category": "NOTAM",
+    "old_description": "SAR point of contact"
+  },
+  {
+    "term": "SPOT",
+    "fullName": "Spot wind",
+    "category": "NOTAM",
+    "old_description": "Spot wind"
+  },
+  {
+    "term": "SQ",
+    "fullName": "Squall",
+    "category": "NOTAM",
+    "old_description": "Squall"
+  },
+  {
+    "term": "SQL",
+    "fullName": "Squall line",
+    "category": "NOTAM",
+    "old_description": "Squall line"
+  },
+  {
+    "term": "SR",
+    "fullName": "Sunrise",
+    "category": "NOTAM",
+    "old_description": "Sunrise"
+  },
+  {
+    "term": "SRA",
+    "fullName": "Surveillance radar approach",
+    "category": "NOTAM",
+    "old_description": "Surveillance radar approach"
+  },
+  {
+    "term": "SRG",
+    "fullName": "Short range",
+    "category": "NOTAM",
+    "old_description": "Short range"
+  },
+  {
+    "term": "SRR",
+    "fullName": "Search and rescue region",
+    "category": "NOTAM",
+    "old_description": "Search and rescue region"
+  },
+  {
+    "term": "SRY",
+    "fullName": "Secondary 2",
+    "category": "NOTAM",
+    "old_description": "Secondary"
+  },
+  {
+    "term": "SS",
+    "fullName": "Sunset",
+    "category": "NOTAM",
+    "old_description": "Sandstorm"
+  },
+  {
+    "term": "SSB",
+    "fullName": "Single sideband",
+    "category": "NOTAM",
+    "old_description": "Single sideband"
+  },
+  {
+    "term": "SSE",
+    "fullName": "South south east",
+    "category": "NOTAM",
+    "old_description": "South-south-east"
+  },
+  {
+    "term": "SSR",
+    "fullName": "Secondary surveillance radar",
+    "category": "NOTAM",
+    "old_description": "Secondary surveillance radar"
+  },
+  {
+    "term": "SST",
+    "fullName": "supersonic transport",
+    "category": "NOTAM",
+    "old_description": "Supersonic transport"
+  },
+  {
+    "term": "SSW",
+    "fullName": "South south west",
+    "category": "NOTAM",
+    "old_description": "South-south-west"
+  },
+  {
+    "term": "ST",
+    "fullName": "Stratus",
+    "category": "NOTAM",
+    "old_description": "Stratus"
+  },
+  {
+    "term": "STA",
+    "fullName": "Straight in approach",
+    "category": "NOTAM",
+    "old_description": "Straight-in approach"
+  },
+  {
+    "term": "STAR",
+    "fullName": "Standard instrument arrival",
+    "category": "NOTAM",
+    "old_description": "Standard instrument arrival"
+  },
+  {
+    "term": "STD",
+    "fullName": "Standard",
+    "category": "NOTAM",
+    "old_description": "Standard"
+  },
+  {
+    "term": "STF",
+    "fullName": "Stratiform",
+    "category": "NOTAM",
+    "old_description": "Stratiform"
+  },
+  {
+    "term": "STN",
+    "fullName": "Station",
+    "category": "NOTAM",
+    "old_description": "Station"
+  },
+  {
+    "term": "STNR",
+    "fullName": "Stationary",
+    "category": "NOTAM",
+    "old_description": "Stationary"
+  },
+  {
+    "term": "STS",
+    "fullName": "Status",
+    "category": "NOTAM",
+    "old_description": "Status"
+  },
+  {
+    "term": "STWL",
+    "fullName": "Stopway light(S)",
+    "category": "NOTAM",
+    "old_description": "Stopway light(s)"
+  },
+  {
+    "term": "SUBJ",
+    "fullName": "Subject to ...",
+    "category": "NOTAM",
+    "old_description": "...을 조건으로 하는"
+  },
+  {
+    "term": "SUN",
+    "fullName": "Sunday",
+    "category": "NOTAM",
+    "old_description": "Sunday"
+  },
+  {
+    "term": "SUPPS",
+    "fullName": "Regional supplementary procedure",
+    "category": "NOTAM",
+    "old_description": "Regional supplementary procedures"
+  },
+  {
+    "term": "SVCBL",
+    "fullName": "Serviceable",
+    "category": "NOTAM",
+    "old_description": "Serviceable"
+  },
+  {
+    "term": "SW",
+    "fullName": "South-west",
+    "category": "NOTAM",
+    "old_description": "South-west"
+  },
+  {
+    "term": "SWB",
+    "fullName": "South-westbound",
+    "category": "NOTAM",
+    "old_description": "South-westbound"
+  },
+  {
+    "term": "SWY",
+    "fullName": "Stopway",
+    "category": "NOTAM",
+    "old_description": "Stopway"
+  },
+  {
+    "term": "TA",
+    "fullName": "Transition altitude",
+    "category": "NOTAM",
+    "old_description": "Transition altitude"
+  },
+  {
+    "term": "TA/H",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Turn at an altitude/height"
+  },
+  {
+    "term": "TAA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Terminal arrival altitude"
+  },
+  {
+    "term": "TAIL",
+    "fullName": "Tail wind",
+    "category": "NOTAM",
+    "old_description": "Tail wind"
+  },
+  {
+    "term": "TAS",
+    "fullName": "True airspeed",
+    "category": "NOTAM",
+    "old_description": "True airspeed"
+  },
+  {
+    "term": "TAX",
+    "fullName": "Taxiing or taxi",
+    "category": "NOTAM",
+    "old_description": "Taxiing or taxi"
+  },
+  {
+    "term": "TC",
+    "fullName": "Tropical cyclone",
+    "category": "NOTAM",
+    "old_description": "Tropical cyclone"
+  },
+  {
+    "term": "TCH",
+    "fullName": "Threshold crossing height",
+    "category": "NOTAM",
+    "old_description": "Threshold crossing height"
+  },
+  {
+    "term": "TCU",
+    "fullName": "Towering cumulus",
+    "category": "NOTAM",
+    "old_description": "Towering cumulus"
+  },
+  {
+    "term": "TDO",
+    "fullName": "Tornado",
+    "category": "NOTAM",
+    "old_description": "Tornado"
+  },
+  {
+    "term": "TDZ",
+    "fullName": "Touchdown zone",
+    "category": "NOTAM",
+    "old_description": "Touchdown zone"
+  },
+  {
+    "term": "TECR",
+    "fullName": "Technical reason",
+    "category": "NOTAM",
+    "old_description": "Technical reason"
+  },
+  {
+    "term": "TEL",
+    "fullName": "Telephone",
+    "category": "NOTAM",
+    "old_description": "Telephone"
+  }
+]

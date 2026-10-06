@@ -1,0 +1,7 @@
+
+# Android build caches (auto-generated)
+.android-sdk/
+.gradle-user-home/
+android/app/build/
+android/build/
+android/.gradle/

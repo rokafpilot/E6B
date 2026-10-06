@@ -1,0 +1,302 @@
+[
+  {
+    "term": "AO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Aircraft operator"
+  },
+  {
+    "term": "APCH",
+    "fullName": "Approach",
+    "category": "NOTAM",
+    "old_description": "진입 또는 접근"
+  },
+  {
+    "term": "APN",
+    "fullName": "Apron",
+    "category": "NOTAM",
+    "old_description": "Apron"
+  },
+  {
+    "term": "APR",
+    "fullName": "April 4",
+    "category": "NOTAM",
+    "old_description": "April"
+  },
+  {
+    "term": "APRX",
+    "fullName": "Approximate or approximately",
+    "category": "NOTAM",
+    "old_description": "Approximate or approximately"
+  },
+  {
+    "term": "APSG",
+    "fullName": "After passing",
+    "category": "NOTAM",
+    "old_description": "After passing"
+  },
+  {
+    "term": "APU",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Auxiliary power unit"
+  },
+  {
+    "term": "ARC",
+    "fullName": "Area chart",
+    "category": "NOTAM",
+    "old_description": "Area chart"
+  },
+  {
+    "term": "ARNG",
+    "fullName": "Arrange",
+    "category": "NOTAM",
+    "old_description": "Arrange"
+  },
+  {
+    "term": "ARQ",
+    "fullName": "Automatic error correction",
+    "category": "NOTAM",
+    "old_description": "Automatic error correction"
+  },
+  {
+    "term": "AS",
+    "fullName": "Altostratus",
+    "category": "NOTAM",
+    "old_description": "Altostratus"
+  },
+  {
+    "term": "ASAP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "As soon as possible"
+  },
+  {
+    "term": "ASC",
+    "fullName": "Ascend to or ascending to ...",
+    "category": "NOTAM",
+    "old_description": "Ascend to or ascending to"
+  },
+  {
+    "term": "ASE",
+    "fullName": "Altimetry system error",
+    "category": "NOTAM",
+    "old_description": "Altimetry system error"
+  },
+  {
+    "term": "ASPH",
+    "fullName": "Asphalt",
+    "category": "NOTAM",
+    "old_description": "Asphalt"
+  },
+  {
+    "term": "ATA",
+    "fullName": "Actual time of arrival",
+    "category": "NOTAM",
+    "old_description": "Actual time of arrival"
+  },
+  {
+    "term": "ATD",
+    "fullName": "Actual time of departure",
+    "category": "NOTAM",
+    "old_description": "Actual time of departure"
+  },
+  {
+    "term": "ATFM",
+    "fullName": "Air traffic flow management",
+    "category": "NOTAM",
+    "old_description": "Air traffic flow management"
+  },
+  {
+    "term": "ATM",
+    "fullName": "Air traffic management",
+    "category": "NOTAM",
+    "old_description": "Air traffic management"
+  },
+  {
+    "term": "ATN",
+    "fullName": "Aeronautical telecommunication network",
+    "category": "NOTAM",
+    "old_description": "Aeronautical telecommunication network"
+  },
+  {
+    "term": "ATTN",
+    "fullName": "Attention",
+    "category": "NOTAM",
+    "old_description": "Attention"
+  },
+  {
+    "term": "ATZ",
+    "fullName": "Aerodrome traffic zone",
+    "category": "NOTAM",
+    "old_description": "Aerodrome traffic zone"
+  },
+  {
+    "term": "AUG",
+    "fullName": "August 8",
+    "category": "NOTAM",
+    "old_description": "August"
+  },
+  {
+    "term": "AUTH",
+    "fullName": "Authorized or authorization",
+    "category": "NOTAM",
+    "old_description": "Authorized or authorization"
+  },
+  {
+    "term": "AUTO",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Automatic"
+  },
+  {
+    "term": "AUW",
+    "fullName": "All up weight",
+    "category": "NOTAM",
+    "old_description": "All up weight"
+  },
+  {
+    "term": "AUX",
+    "fullName": "Auxiliary",
+    "category": "NOTAM",
+    "old_description": "Auxiliary"
+  },
+  {
+    "term": "AVBL",
+    "fullName": "Available or availability",
+    "category": "NOTAM",
+    "old_description": "Available or availability"
+  },
+  {
+    "term": "AVG",
+    "fullName": "Average",
+    "category": "NOTAM",
+    "old_description": "Average"
+  },
+  {
+    "term": "AVGAS",
+    "fullName": "Aviation gasoline",
+    "category": "NOTAM",
+    "old_description": "Aviation gasoline"
+  },
+  {
+    "term": "AWTA",
+    "fullName": "Advise at what time able",
+    "category": "NOTAM",
+    "old_description": "Advise at what time able"
+  },
+  {
+    "term": "AWY",
+    "fullName": "Airway",
+    "category": "NOTAM",
+    "old_description": "Airway"
+  },
+  {
+    "term": "AZM",
+    "fullName": "Azimuth",
+    "category": "NOTAM",
+    "old_description": "Azimuth"
+  },
+  {
+    "term": "BA",
+    "fullName": "Braking action",
+    "category": "NOTAM",
+    "old_description": "Braking action"
+  },
+  {
+    "term": "BCFG",
+    "fullName": "Fog patches",
+    "category": "NOTAM",
+    "old_description": "Fog patches"
+  },
+  {
+    "term": "BCST",
+    "fullName": "Broadcast",
+    "category": "NOTAM",
+    "old_description": "Broadcast"
+  },
+  {
+    "term": "BDRY",
+    "fullName": "Boundary",
+    "category": "NOTAM",
+    "old_description": "Boundary"
+  },
+  {
+    "term": "BECMG",
+    "fullName": "Becoming",
+    "category": "NOTAM",
+    "old_description": "Becoming"
+  },
+  {
+    "term": "BFR",
+    "fullName": "Before ...",
+    "category": "NOTAM",
+    "old_description": "...의 앞에"
+  },
+  {
+    "term": "BKN",
+    "fullName": "Broken",
+    "category": "NOTAM",
+    "old_description": "운량 5/8 이상 7/8 이하"
+  },
+  {
+    "term": "BLDG",
+    "fullName": "Building",
+    "category": "NOTAM",
+    "old_description": "Building"
+  },
+  {
+    "term": "BLO",
+    "fullName": "Below clouds",
+    "category": "NOTAM",
+    "old_description": "Below clouds"
+  },
+  {
+    "term": "BLW",
+    "fullName": "Below... ...",
+    "category": "NOTAM",
+    "old_description": "...미만"
+  },
+  {
+    "term": "BOMB",
+    "fullName": "Bombing",
+    "category": "NOTAM",
+    "old_description": "Bombing"
+  },
+  {
+    "term": "BR",
+    "fullName": "Mist",
+    "category": "NOTAM",
+    "old_description": "Mist"
+  },
+  {
+    "term": "BRG",
+    "fullName": "Bearing",
+    "category": "NOTAM",
+    "old_description": "Bearing"
+  },
+  {
+    "term": "BRKG",
+    "fullName": "Braking",
+    "category": "NOTAM",
+    "old_description": "Braking"
+  },
+  {
+    "term": "BS",
+    "fullName": "Commercial broadcasting station",
+    "category": "NOTAM",
+    "old_description": "Commercial broadcasting station"
+  },
+  {
+    "term": "BTL",
+    "fullName": "Between layers",
+    "category": "NOTAM",
+    "old_description": "Between layers"
+  },
+  {
+    "term": "BTN",
+    "fullName": "Between",
+    "category": "NOTAM",
+    "old_description": "Between"
+  }
+]

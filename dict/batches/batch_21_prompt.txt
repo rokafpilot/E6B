@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 22/24):
+Format: index|term|fullName|category|old_description
+0|OUT||PilotController|OF SERVICE− When a piece of equipment, a
+1|OUTER||PilotController|FIX ARC− A semicircle, usually about a
+2|OVERHEAD||PilotController|MANEUVER− A series of predeter-
+3|PCG||PilotController|A−1
+4|PHOTO||PilotController|RECONNAISSANCE− Military activity
+5|PILOT||PilotController|BRIEFING− A service provided by the FSS
+6|PITCH||PilotController|POINT− A fix/waypoint that serves as a
+7|PLACEMENT||PilotController|SYSTEM (STARS)−
+8|PLAN||PilotController|AIRSPACE− Airspace over United States
+9|PLANS||PilotController|DISPLAY− A display available in EDST
+10|POINT||PilotController|OUT−
+11|POSITION||PilotController|REPORT− A report over a known
+12|POSITIVE||PilotController|CONTROL− The separation of all air
+13|PRACTICE||PilotController|INSTRUMENT APPROACH− An
+14|PRE-FLIGHT||PilotController|PILOT BRIEFING− (See SEGMENTS OF AN INSTRUMENT
+15|PRECISION||PilotController|APPROACH PROCEDURE− A
+16|PREDICTIVE||PilotController|WIND SHEAR ALERT SYSTEM
+17|PREVAILING||PilotController|VISIBILITY−
+18|PROCEDURAL||PilotController|CONTROL [ICAO]– Term used to PROGRESS REPORT−
+19|PROCEDURE||PilotController|TURN [ICAO]− A maneuver in
+20|PROFILE||PilotController|DESCENT− An uninterrupted descent
+21|PROGRAM||PilotController|(CTOP)- CTOP is a traffic management
+22|PROPOSED||PilotController|BOUNDARY CROSSING TIME−
+23|PUBLISHED||PilotController|INSTRUMENT APPROACH
+24|QUICK||PilotController|LOOK− A feature of the EAS and ARTS
+25|RADAR||PilotController|IDENTIFICATION
+26|RADIO||PilotController|ALTIMETER− Aircraft equipment which
+27|RANDOM||PilotController|ALTITUDE− An altitude inappropriate
+28|RECEIVER||PilotController|AUTONOMOUS INTEGRITY MON-
+29|RECEIVING||PilotController|CONTROLLER− A controller/facility
+30|REDUCE||PilotController|SPEED TO (SPEED)−
+31|RELEASE||PilotController|TIME− A departure time restriction
+32|REMOTE||PilotController|COMMUNICATIONS OUTLET− An
+33|REPORTING||PilotController|POINT− A geographical location in
+34|REQUIRED||PilotController|NAVIGATION PERFORMANCE
+35|RESCUE||PilotController|SYSTEM− A facility which can deliver, in
+36|RESOLUTION||PilotController|ADVISORY−A display indication ROAD RECONNAISSANCE− Military activity
+37|RNP|Required navigation performance|PilotController|Required navigation performance
+38|ROLLOUT||PilotController|RVR−
+39|ROUTE||PilotController|ACTION NOTIFICATION− EDST notifi- (See BRAKING ACTION.)
+40|RTR||PilotController|(O’s) were established for the express purpose
+41|RUNWAY||PilotController|CONDITION CODES (RWYCC)
+42|SAFETY||PilotController|ALERT− A safety alert issued by ATC to
+43|SAME||PilotController|DIRECTION AIRCRAFT− Aircraft are
+44|SAY||PilotController|AGAIN− Used to request a repeat of the last
+45|SCHEDULED||PilotController|TIME OF ARRIVAL (STA)− A STA
+46|SEARCH||PilotController|AND RESCUE− A service which seeks
+47|SECTOR||PilotController|LIST DROP INTERVAL− A parameter
+48|SECURITY||PilotController|NOTICE (SECNOT) − A SECNOT is a
+49|SEGMENTS||PilotController|OF AN INSTRUMENT APPROACH

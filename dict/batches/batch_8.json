@@ -1,0 +1,302 @@
+[
+  {
+    "term": "IGA",
+    "fullName": "International general aviation",
+    "category": "NOTAM",
+    "old_description": "International general aviation"
+  },
+  {
+    "term": "IM",
+    "fullName": "Inner marker",
+    "category": "NOTAM",
+    "old_description": "Inner marker"
+  },
+  {
+    "term": "IMC",
+    "fullName": "Instrument meteorological conditions",
+    "category": "NOTAM",
+    "old_description": "Instrument meteorological conditions"
+  },
+  {
+    "term": "IMG",
+    "fullName": "Immigration",
+    "category": "NOTAM",
+    "old_description": "Immigration"
+  },
+  {
+    "term": "IMPR",
+    "fullName": "Improve or improving",
+    "category": "NOTAM",
+    "old_description": "Improve or improving"
+  },
+  {
+    "term": "IMT",
+    "fullName": "immediate or immediately",
+    "category": "NOTAM",
+    "old_description": "Immediate or immediately"
+  },
+  {
+    "term": "INA",
+    "fullName": "Initial approach",
+    "category": "NOTAM",
+    "old_description": "Initial approach"
+  },
+  {
+    "term": "INBD",
+    "fullName": "Inbound",
+    "category": "NOTAM",
+    "old_description": "Inbound"
+  },
+  {
+    "term": "INC",
+    "fullName": "In cloud",
+    "category": "NOTAM",
+    "old_description": "In cloud"
+  },
+  {
+    "term": "INCORP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Incorporated"
+  },
+  {
+    "term": "INFO",
+    "fullName": "Information",
+    "category": "NOTAM",
+    "old_description": "Information"
+  },
+  {
+    "term": "INOP",
+    "fullName": "Inoperative",
+    "category": "NOTAM",
+    "old_description": "Inoperative"
+  },
+  {
+    "term": "INP",
+    "fullName": "If not possible",
+    "category": "NOTAM",
+    "old_description": "If not possible"
+  },
+  {
+    "term": "INPR",
+    "fullName": "In progress",
+    "category": "NOTAM",
+    "old_description": "In progress"
+  },
+  {
+    "term": "INS",
+    "fullName": "Inertial navigation system",
+    "category": "NOTAM",
+    "old_description": "Inertial navigation system"
+  },
+  {
+    "term": "INSTR",
+    "fullName": "Instrument",
+    "category": "NOTAM",
+    "old_description": "Instrument"
+  },
+  {
+    "term": "INT",
+    "fullName": "Intersection",
+    "category": "NOTAM",
+    "old_description": "Intersection"
+  },
+  {
+    "term": "INTL",
+    "fullName": "International",
+    "category": "NOTAM",
+    "old_description": "International"
+  },
+  {
+    "term": "INTRG",
+    "fullName": "Interrogator",
+    "category": "NOTAM",
+    "old_description": "Interrogator"
+  },
+  {
+    "term": "INTSF",
+    "fullName": "Intensify or intensifying",
+    "category": "NOTAM",
+    "old_description": "Intensify or intensifying"
+  },
+  {
+    "term": "INTST",
+    "fullName": "Intensity",
+    "category": "NOTAM",
+    "old_description": "Intensity"
+  },
+  {
+    "term": "IR",
+    "fullName": "Ice on runway",
+    "category": "NOTAM",
+    "old_description": "Ice on runway"
+  },
+  {
+    "term": "IRS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Inertial reference system"
+  },
+  {
+    "term": "ISA",
+    "fullName": "International standard atmosphere",
+    "category": "NOTAM",
+    "old_description": "International standard atmosphere"
+  },
+  {
+    "term": "ISB",
+    "fullName": "Independent sideband",
+    "category": "NOTAM",
+    "old_description": "Independent sideband"
+  },
+  {
+    "term": "ISOL",
+    "fullName": "Isolated",
+    "category": "NOTAM",
+    "old_description": "Isolated"
+  },
+  {
+    "term": "JAN",
+    "fullName": "January 1",
+    "category": "NOTAM",
+    "old_description": "January"
+  },
+  {
+    "term": "JTST",
+    "fullName": "Jet stream",
+    "category": "NOTAM",
+    "old_description": "Jet stream"
+  },
+  {
+    "term": "JUL",
+    "fullName": "July 7",
+    "category": "NOTAM",
+    "old_description": "July"
+  },
+  {
+    "term": "JUN",
+    "fullName": "June 6",
+    "category": "NOTAM",
+    "old_description": "June"
+  },
+  {
+    "term": "KG",
+    "fullName": "Kilograms",
+    "category": "NOTAM",
+    "old_description": "Kilograms"
+  },
+  {
+    "term": "KHZ",
+    "fullName": "Kilohertz",
+    "category": "NOTAM",
+    "old_description": "Kilohertz"
+  },
+  {
+    "term": "KIAS",
+    "fullName": "Knots indicated airspeed",
+    "category": "NOTAM",
+    "old_description": "Knots indicated airspeed"
+  },
+  {
+    "term": "KM",
+    "fullName": "kilometers",
+    "category": "NOTAM",
+    "old_description": "Kilometres"
+  },
+  {
+    "term": "KMH",
+    "fullName": "Kilometers per hour",
+    "category": "NOTAM",
+    "old_description": "Kilometres per hour"
+  },
+  {
+    "term": "KPA",
+    "fullName": "Kilopascal",
+    "category": "NOTAM",
+    "old_description": "Kilopascal"
+  },
+  {
+    "term": "KT",
+    "fullName": "Knots",
+    "category": "NOTAM",
+    "old_description": "Knots"
+  },
+  {
+    "term": "KW",
+    "fullName": "Kilowatts",
+    "category": "NOTAM",
+    "old_description": "Kilowatts"
+  },
+  {
+    "term": "LAN",
+    "fullName": "Inland",
+    "category": "NOTAM",
+    "old_description": "Inland"
+  },
+  {
+    "term": "LAT",
+    "fullName": "Latitude",
+    "category": "NOTAM",
+    "old_description": "Latitude"
+  },
+  {
+    "term": "LDA",
+    "fullName": "Landing distance available",
+    "category": "NOTAM",
+    "old_description": "Landing distance available"
+  },
+  {
+    "term": "LDG",
+    "fullName": "Landing",
+    "category": "NOTAM",
+    "old_description": "Landing"
+  },
+  {
+    "term": "LDI",
+    "fullName": "Landing direction indicator",
+    "category": "NOTAM",
+    "old_description": "Landing direction indicator"
+  },
+  {
+    "term": "LEN",
+    "fullName": "Length",
+    "category": "NOTAM",
+    "old_description": "Length"
+  },
+  {
+    "term": "LF",
+    "fullName": "Low frequency(30 to 300kHz)",
+    "category": "NOTAM",
+    "old_description": "Low frequency [30 to 300 kHz]"
+  },
+  {
+    "term": "LGT",
+    "fullName": "Light or lighting",
+    "category": "NOTAM",
+    "old_description": "Light or lighting"
+  },
+  {
+    "term": "LGTD",
+    "fullName": "Lighted",
+    "category": "NOTAM",
+    "old_description": "Lighted"
+  },
+  {
+    "term": "LIH",
+    "fullName": "Light intensity high",
+    "category": "NOTAM",
+    "old_description": "Light intensity high"
+  },
+  {
+    "term": "LIL",
+    "fullName": "Light intensity low",
+    "category": "NOTAM",
+    "old_description": "Light intensity low"
+  },
+  {
+    "term": "LIM",
+    "fullName": "Light intensity medium",
+    "category": "NOTAM",
+    "old_description": "Light intensity medium"
+  }
+]

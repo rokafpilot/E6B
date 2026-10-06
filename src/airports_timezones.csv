@@ -1,0 +1,163 @@
+code,ident,latitude_deg,longitude_deg,time_zone,name
+YVR,CYVR,49.193044,-123.1798642,UTC-7,Vancouver International Airport
+YYZ,CYYZ,43.681583,-79.61146,UTC-4,Toronto Pearson International Airport
+BRU,EBBR,50.9010343,4.478626970832147,UTC+1,"Brussels Airport, Zaventem"
+FRA,EDDF,50.0229437,8.524938151916214,UTC+1,"Frankfurt Main Airport, Frankfurt am Main"
+MUC,EDDM,48.353004,11.790143,UTC+1,Munich Airport
+HEL,EFHK,60.32135905,24.947206800038444,UTC+2,"Helsinki Vantaa Airport, Helsinki (Vantaa)"
+LHR,EGLL,51.46773895,-0.458780074,UTC+0,London Heathrow Airport
+AMS,EHAM,52.32697895,4.741505200022974,UTC+1,Amsterdam Airport Schiphol
+CPH,EKCH,55.6091282,12.650982248393536,UTC+1,Copenhagen Kastrup Airport
+LUX,ELLX,49.62637155,6.209403407206421,UTC+1,Luxembourg-Findel International Airport
+OSL,ENGM,60.19786535,11.09967535417638,UTC+1,"Oslo-Gardermoen International Airport, Oslo (Gardermoen)"
+ARN,ESSA,59.6467921,17.937044334194475,UTC+1,Stockholm-Arlanda Airport
+CAI,HECA,30.1141148,31.42470226006945,UTC+2,Cairo International Airport
+NBO,HKJK,-1.3168547,36.92904912198662,UTC+3,"Jomo Kenyatta International Airport, Nairobi"
+ATL,KATL,33.63779875,-84.42927119,UTC-4,Hartsfield Jackson Atlanta International Airport
+DEN,KDEN,39.8606676,-104.6853673,UTC-6,Denver International Airport
+DFW,KDFW,32.89651945,-97.04652205,UTC-5,"Dallas Fort Worth International Airport, Dallas-Fort Worth"
+EWR,KEWR,40.68906405,-74.17725485,UTC-4,Newark Liberty International Airport
+IAD,KIAD,38.95226625,-77.45348491,UTC-4,Washington Dulles International Airport
+JFK,KJFK,40.6429479,-73.77937337,UTC-4,"John F. Kennedy International Airport, New York"
+LAS,KLAS,36.0861034,-115.1611199,UTC-7,"Harry Reid International Airport, Las Vegas"
+LAX,KLAX,33.94216754999999,-118.421393,UTC-7,Los Angeles International Airport
+MIA,KMIA,25.7949789,-80.28672341,UTC-4,Miami International Airport
+ORD,KORD,41.97795725,-87.90917585,UTC-5,Chicago O'Hare International Airport
+SEA,KSEA,47.4475673,-122.3080159,UTC-7,Seattle–Tacoma International Airport
+SFO,KSFO,37.622452,-122.3840716,UTC-7,San Francisco International Airport
+ZAG,LDZA,45.74027185,16.07231616098094,UTC+1,"Zagreb Franjo Tuđman International Airport, Velika Gorica"
+BCN,LEBL,41.29694395,2.079047362981321,UTC+1,Josep Tarradellas Barcelona-El Prat Airport
+MAD,LEMD,40.4948384,-3.574080621,UTC+1,Adolfo Suárez Madrid–Barajas Airport
+NCE,LFMN,43.65980345,7.213706629141443,UTC+1,"Nice-Côte d'Azur Airport, Nice, Alpes-Maritimes"
+CDG,LFPG,49.0068908,2.571081969101916,UTC+1,"Charles de Gaulle International Airport, Paris (Roissy-en-France, Val-d'Oise)"
+MXP,LIMC,45.6296273,8.723547468967393,UTC+1,"Milan Malpensa International Airport, Ferno (VA)"
+FCO,LIRF,41.8144309,12.22690120488078,UTC+1,Rome–Fiumicino Leonardo da Vinci International Airport
+PRG,LKPR,50.1020451,14.27056489323675,UTC+1,Václav Havel Airport Prague
+VIE,LOWW,48.10499675,16.5848987,UTC+1,Vienna International Airport
+ZRH,LSZH,47.4635489,8.553204683227131,UTC+1,"Zürich Airport, Zurich"
+IST,LTFM,40.9912282,28.8298952,UTC+3,"İstanbul Airport, Istanbul"
+NAN,NFFN,-17.7624533,177.43747042786867,UTC+12,Nadi International Airport
+PPT,NTAA,-17.55418205,-149.6103369,UTC-10,"Fa'a'ā International Airport, Papeete"
+AKL,NZAA,-37.00889695,174.7912138412501,UTC+13,Auckland International Airport
+CHC,NZCH,-43.4847958,172.53575429898345,UTC+13,Christchurch International Airport
+BAH,OBBI,26.2697012,50.632903208060256,UTC+3,"Bahrain International Airport, Manama"
+JED,OEJN,21.6836591,39.16367476310531,UTC+3,"King Abdulaziz International Airport, Jeddah"
+RUH,OERK,24.95929,46.702877,UTC+3,"King Khalid International Airport, Riyadh"
+THR,OIII,35.6979248,51.278399738353954,UTC+3,"Mehrabad International Airport, Tehran"
+KWI,OKBK,29.2202789,47.95511083306344,UTC+3,"Kuwait International Airport, Kuwait City"
+AUH,OMAA,24.43189915,54.64197668,UTC+4,"Zayed International Airport, Abu Dhabi"
+DXB,OMDB,25.248665,55.352917,UTC+4,Dubai International Airport
+MCT,OOMS,23.599458,58.29212963328453,UTC+4,"Muscat International Airport, Muscat/Seeb"
+DOH,OTHH,25.267569,51.558067,UTC+3,"Hamad International Airport, Doha"
+ANC,PANC,61.18103525,-149.9978919,UTC-8,Ted Stevens Anchorage International Airport
+SPN,PGSN,15.12049075,145.72962519467052,UTC+10,"Saipan International Airport, I Fadang, Saipan"
+GUM,PGUM,13.492787,144.80486,UTC+10,"Antonio B. Won Pat International Airport, Hagåtña"
+HNL,PHNL,21.32040435,-157.9173135,UTC-10,"Daniel K. Inouye International Airport, Honolulu, Oahu"
+ROR,PTRO,7.366885099999999,134.54430649330376,UTC+9,"Roman Tmetuchl International Airport, Babelthuap Island"
+TPE,RCTP,25.07931745,121.23459767526803,UTC+8,Taiwan Taoyuan International Airport
+NRT,RJAA,35.77587145,140.3933101399336,UTC+9,Narita International Airport
+KIX,RJBB,34.43420455,135.2225230169576,UTC+9,"Kansai International Airport, Osaka"
+UKB,RJBE,34.63428055,135.22785050798507,UTC+9,Kobe Airport
+CTS,RJCC,42.786787,141.68295976251358,UTC+9,"New Chitose Airport, Sapporo"
+FUK,RJFF,33.586802,130.44739386660302,UTC+9,Fukuoka Airport
+KOJ,RJFK,31.803187,130.718951,UTC+9,Kagoshima Airport
+KMJ,RJFT,32.8362322,130.85543996230052,UTC+9,Kumamoto Airport
+NGS,RJFU,32.917846,129.91545060447868,UTC+9,Nagasaki Airport
+NGO,RJGG,34.858719699999995,136.81136334974985,UTC+9,"Chubu Centrair International Airport, Tokoname"
+KMQ,RJNK,36.39344695,136.4092464012111,UTC+9,"Komatsu Airport / JASDF Komatsu Air Base, Kanazawa"
+OKJ,RJOB,34.75697285,133.8538693555767,UTC+9,Okayama Momotaro Airport
+AOJ,RJSA,40.7340525,140.689686,UTC+9,Aomori Airport
+KIJ,RJSN,37.9555294,139.118527,UTC+9,Niigata Airport
+HND,RJTT,35.54572095,139.78058713123818,UTC+9,Tokyo Haneda International Airport
+MWX,RKJB,34.991280200000006,126.38414054753376,UTC+9,"Muan International Airport, Muan (Piseo-ri)"
+KWJ,RKJJ,35.140833400000005,126.81177837965002,UTC+9,Gwangju Airport
+KUV,RKJK,35.983334,126.75,UTC+9,Gunsan Airport / Gunsan Air Base
+CHN,RKJU,37.016945,127.933334,UTC+9,Jeonju (G 703) Air Base
+RSU,RKJY,34.84243345,127.61618910716165,UTC+9,Yeosu Airport
+WJU,RKNW,37.43917275,127.96739325776014,UTC+9,Wonju Airport / Hoengseong Air Base (K-38/K-46)
+YNY,RKNY,38.066666,128.6,UTC+9,"Yangyang International Airport, Gonghang-ro"
+CJU,RKPC,33.50707105,126.4916441196128,UTC+9,"Jeju International Airport, Jeju City"
+PUS,RKPK,35.1800774,128.93640137086572,UTC+9,"Gimhae International Airport, Busan"
+HIN,RKPS,35.0921956,128.08665041662874,UTC+9,Sacheon Airport / Sacheon Air Base
+USN,RKPU,35.5935453,129.35279208634356,UTC+9,Ulsan Airport
+ICN,RKSI,37.4634169,126.44164409450852,UTC+9,"Incheon International Airport, Seoul"
+GMP,RKSS,37.55900775,126.7942402657747,UTC+9,Seoul Gimpo International Airport
+KPO,RKTH,35.9878003,129.4206163073351,UTC+9,Pohang Airport (G-815/K-3)
+TAE,RKTN,35.8979585,128.6516654,UTC+9,Daegu International Airport
+CJJ,RKTU,36.7155563,127.4974642747912,UTC+9,Cheongju International Airport/Cheongju Air Base (K-59/G-513)
+OKA,ROAH,26.1966997,127.6489520891715,UTC+9,Naha International Airport
+MNL,RPLL,14.5123016,121.02188606807516,UTC+8,"Ninoy Aquino International Airport, Manila (Pasay)"
+CEB,RPVM,10.310328,123.97927764356774,UTC+8,"Mactan Cebu International Airport, Cebu City/Lapu-Lapu City"
+KHV,UHHH,48.528096,135.18291320418953,UTC+10,Khabarovsk Novy Airport
+VVO,UHWW,43.3925287,132.14617665194015,UTC+10,"Vladivostok International Airport, Artyom"
+IKT,UIII,52.273308,104.35607,UTC+8,Irkutsk International Airport
+LED,ULLI,59.8016986,30.267601113109503,UTC+3,"Pulkovo Airport, St. Petersburg"
+OVB,UNNT,55.00901,82.667,UTC+7,Novosibirsk Tolmachevo Airport
+SVO,UUEE,55.97608755,37.42380082,UTC+3,"Sheremetyevo International Airport, Moscow"
+BOM,VABB,19.0901312,72.86370318520977,UTC+5,"Chhatrapati Shivaji Maharaj International Airport, Mumbai"
+CMB,VCBI,7.17970025,79.88399637,UTC+5,Bandaranaike International Colombo Airport
+PNH,VDPP,11.5470571,104.84811156075016,UTC+7,"Phnom Penh International Airport, Phnom Penh (Pou Senchey)"
+REP,VDSR,13.41068555,103.81347888302334,UTC+7,Siem Reap Angkor International Airport
+DAC,VGHS,23.84229135,90.40375285964708,UTC+6,"Hazrat Shahjalal International Airport, Dhaka"
+HKG,VHHH,22.3125986,113.9173237864194,UTC+8,Hong Kong International Airport
+DEL,VIDP,28.5551678,77.08473847979485,UTC+5,"Indira Gandhi International Airport, New Delhi"
+MFM,VMMC,22.149929,113.58936073979396,UTC+8,"Macau International Airport, Nossa Senhora do Carmo"
+KTM,VNKT,27.6939119,85.35821974,UTC+5,"Tribhuvan International Airport, Kathmandu"
+MLE,VRMM,4.1961894,73.53010416,UTC+5,"Velana International Airport, Malé"
+BKK,VTBS,13.68187665,100.74858027718852,UTC+7,"Suvarnabhumi Airport, Bangkok"
+CNX,VTCC,18.76684265,98.96487808920725,UTC+7,Chiang Mai International Airport
+HKT,VTSP,8.11013195,98.30581527719204,UTC+7,Phuket International Airport
+DAD,VVDN,16.0425792,108.19716127833767,UTC+7,Da Nang International Airport
+HAN,VVNB,21.2190339,105.8044969796485,UTC+7,"Noi Bai International Airport, Hanoi (Soc Son)"
+SGN,VVTS,10.81831885,106.65812173979047,UTC+7,"Tan Son Nhat International Airport, Ho Chi Minh City"
+RGN,VYYY,16.91201185,96.13661261066854,UTC+6,Yangon International Airport
+DPS,WADD,-8.7458582,115.16733897840363,UTC+8,"Denpasar I Gusti Ngurah Rai International Airport, Kuta, Badung"
+CGK,WIII,-6.12389155,106.65658968644006,UTC+7,"Soekarno-Hatta International Airport, Jakarta"
+KUL,WMKK,2.74476355,101.7066224803332,UTC+8,"Kuala Lumpur International Airport, Sepang"
+SIN,WSSS,1.361173,103.990204,UTC+8,Singapore Changi Airport
+BNE,YBBN,-27.3874138,153.1214764569645,UTC+10,Brisbane International Airport
+MEL,YMML,-37.667111,144.83348076679553,UTC+11,Melbourne Airport
+SYD,YSSY,-33.9498935,151.18196819346016,UTC+11,"Sydney Kingsford Smith International Airport, Sydney (Mascot)"
+PEK,ZBAA,40.07915555,116.5942601992765,UTC+8,Beijing Capital International Airport
+CIF,ZBCF,42.237392,118.91089,UTC+8,Chifeng Yulong Airport
+HET,ZBHH,40.8508981,111.81798726025258,UTC+8,Hohhot Baita International Airport
+SJW,ZBSJ,38.2803561,114.6896449790578,UTC+8,Shijiazhuang Zhengding International Airport
+TSN,ZBTJ,39.12745995,117.3548361759388,UTC+8,Tianjin Binhai International Airport
+DYG,ZGDY,29.1038685,110.44472066563624,UTC+8,"Zhangjiajie Hehua International Airport, Zhangjiajie (Yongding)"
+CAN,ZGGG,23.3931854,113.3015079267467,UTC+8,"Guangzhou Baiyun International Airport, Guangzhou (Huadu)"
+CSX,ZGHA,28.19066605,113.21991433924588,UTC+8,"Changsha Huanghua International Airport, Changsha (Changsha)"
+SZX,ZGSZ,22.6376434,113.80607686281571,UTC+8,Shenzhen Bao'an International Airport
+CGO,ZHCC,34.5270534,113.84801423633316,UTC+8,Zhengzhou Xinzheng International Airport
+WUH,ZHHH,30.77382425,114.21236810445087,UTC+8,"Wuhan Tianhe International Airport, Wuhan (Huangpi)"
+INC,ZLIC,38.3211525,106.38861654513931,UTC+8,Yinchuan Hedong International Airport
+LHW,ZLLL,36.033333,103.86667,UTC+8,"Lanzhou Zhongchuan International Airport, Lanzhou (Yongdeng)"
+XIY,ZLXY,34.43866385,108.7580567206632,UTC+8,Xi'an Xianyang International Airport
+UBN,ZMCK,47.65,106.818889,UTC+8,"Ulaanbaatar Chinggis Khaan International Airport, Ulaanbaatar (Sergelen)"
+KMG,ZPPP,25.10710645,102.93841345267796,UTC+8,Kunming Changshui International Airport
+XMN,ZSAM,24.54383005,118.13265145897324,UTC+8,Xiamen Gaoqi International Airport
+KHN,ZSCN,28.8616845,115.90823277913566,UTC+8,Nanchang Changbei International Airport
+FOC,ZSFZ,25.93452545,119.66617231883538,UTC+8,"Fuzhou Changle International Airport, Fuzhou (Changle)"
+HGH,ZSHC,30.2368729,120.42912444938366,UTC+8,Hangzhou Xiaoshan International Airport
+TNA,ZSJN,36.8572453,117.21173410272696,UTC+8,"Jinan Yaoqiang International Airport, Jinan (Licheng)"
+LYG,ZSLG,34.57096,118.87475668663636,UTC+8,Lianyungang Huaguoshan International Airport
+NGB,ZSNB,29.8261878,121.45840490871828,UTC+8,Ningbo Lishe International Airport
+NKG,ZSNJ,31.7318395,118.8722909841032,UTC+8,Nanjing Lukou International Airport
+HFE,ZSOF,31.85,117.28333,UTC+8,Hefei Xinqiao International Airport
+PVG,ZSPD,31.14134505,121.80463662688626,UTC+8,"Shanghai Pudong International Airport, Shanghai (Pudong)"
+TAO,ZSQD,36.26799135,120.3767926456306,UTC+8,"Qingdao Jiaodong International Airport, Qingdao (Jiaozhou)"
+JJN,ZSQZ,24.79702915,118.588705,UTC+8,Quanzhou Jinjiang International Airport
+SHA,ZSSS,31.19767765,121.33448312534463,UTC+8,"Shanghai Hongqiao International Airport, Shanghai (Minhang)"
+WEH,ZSWH,37.1864922,122.2294086093108,UTC+8,Weihai Dashuibo Airport
+WNZ,ZSWZ,27.9087893,120.84686367619172,UTC+8,"Wenzhou Longwan International Airport, Wenzhou (Longwan)"
+YNT,ZSYT,37.407326,121.3711,UTC+8,Yantai Penglai International Airport
+YIW,ZSYW,29.3422048,120.02868898781664,UTC+8,"Yiwu Airport, Yiwu/Jinhua"
+CKG,ZUCK,29.72606975,106.64983063307892,UTC+8,Chongqing Jiangbei International Airport
+CTU,ZUUU,30.5547767,103.9479446811554,UTC+8,"Chengdu Shuangliu International Airport, Chengdu (Shuangliu)"
+HTN,ZWTN,37.03216015,79.86284691607489,UTC+8,Hotan Airport
+CGQ,ZYCC,43.902836,125.217545,UTC+8,Changchun Longjia International Airport
+HRB,ZYHB,45.62212125,126.24525735616052,UTC+8,Harbin Taiping International Airport
+MDG,ZYMD,44.5245786,129.56714084864257,UTC+8,Mudanjiang Hailang International Airport
+NDG,ZYQQ,47.316666,123.916664,UTC+8,Qiqihar Sanjiazi Airport
+DLC,ZYTL,38.96412695,121.5414272375336,UTC+8,"Dalian Zhoushuizi International Airport, Dalian (Ganjingzi)"
+SHE,ZYTX,41.861084,123.426926,UTC+8,Shenyang Taoxian International Airport
+YNJ,ZYYJ,42.8787858,129.4487048951637,UTC+8,Yanji Chaoyangchuan Airport

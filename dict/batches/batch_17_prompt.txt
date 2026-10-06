@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 18/24):
+Format: index|term|fullName|category|old_description
+0|AERODROME||PilotController|BEACON [ICAO]− Aeronautical
+1|AIP|Aeronautical information publication|PilotController|[ICAO]− AIR ROUTE SURVEILLANCE RADAR− Air route
+2|AIR||PilotController|CARRIER DISTRICT OFFICE− An FAA field
+3|AIR/GROUND||PilotController|FACILITY.) receiver facility which is used to expand ARTCC
+4|AIRBORNE||PilotController|DELAY− Amount of delay to be
+5|AIRCRAFT||PilotController|CONFLICT− Predicted conflict, within
+6|AIRPORT||PilotController|ADVISORY AREA− The area within ten
+7|AIRSPACE||PilotController|CONFLICT− Predicted conflict of an
+8|ALERFA|Alert phase|PilotController|(Alert Phase) [ICAO]− A situation wherein
+9|ALTERNATE||PilotController|AERODROME [ICAO]− An aero-
+10|ALTIMETER||PilotController|SETTING− The barometric pressure ALTITUDE RESTRICTIONS ARE CANCELED−
+11|ALTITUDE||PilotController|RESERVATION (ALTRV)− Airspace
+12|AMENDED||PilotController|CLEARANCE if ATC issues a
+13|APPROACH||PilotController|CONTROL FACILITY− A terminal APPROACH WITH VERTICAL GUIDANCE
+14|APRON||PilotController|[ICAO]− A defined area, on a land
+15|AREA||PilotController|NAVIGATION (RNAV)− A method of
+16|ARMY||PilotController|AVIATION FLIGHT INFORMATION
+17|ARRIVAL||PilotController|AIRCRAFT INTERVAL− An internally ASR−
+18|ARTS||PilotController|IIIE, STARS, and MEARTS.
+19|ASDA|Accelerate-stop distance available|PilotController|Accelerate-stop distance available
+20|ASR||PilotController|APPROACH−
+21|ATC|Air traffic control (in general)|PilotController|ADVISES− Used to prefix a message of
+22|ATIS|Automatic terminal information service|PilotController|(to be pronounced �AY-TIS�) Automatic terminal information service
+23|ATS|Air traffic services|PilotController|ROUTE [ICAO]− A specified route designed for
+24|AUTOLAND||PilotController|APPROACH−An autoland system
+25|AUTOMATED||PilotController|PROBLEM DETECTION (APD)−
+26|AUTOMATIC||PilotController|ALTITUDE REPORT−
+27|AVAILABLE||PilotController|LANDING DISTANCE (ALD)− The
+28|AVIATION||PilotController|WEATHER SERVICE− A service
+29|AVOIDANCE||PilotController|SYSTEM.)
+30|BASE|Cloud base|PilotController|LEG− BLOCKED− Phraseology used to indicate that a
+31|BELOW||PilotController|MINIMUMS− Weather conditions below
+32|BILITY||PilotController|FOR SEPARATION OF AIRCRAFT− A
+33|BLAST||PilotController|FENCE− A barrier that is used to divert or
+34|BLIND||PilotController|ZONE−
+35|BOTTOM||PilotController|ALTITUDE– In reference to published
+36|BRAKING||PilotController|ACTION (GOOD, FAIR, POOR, OR NIL)
+37|BROADCAST||PilotController|(ADS-B)− A surveillance system in
+38|CALCULATED||PilotController|LANDING TIME− A term that may CENRAP-PLUS−
+39|CALL||PilotController|FOR RELEASE− Wherein the overlying CENTER−
+40|CANADIAN||PilotController|MINIMUM NAVIGATION PERFOR-
+41|CATCH||PilotController|POINT− A fix/waypoint that serves as a
+42|CEDURE||PilotController|(SIAP)− reservations which encompass activities in a fixed
+43|CEILING||PilotController|[ICAO]− The height above the ground or
+44|CENTER||PilotController|RADAR ARTS PRESENTATION/
+45|CERTIFIED||PilotController|TOWER RADAR DISPLAY (CTRD)−
+46|CHARTED||PilotController|VFR FLYWAYS− Charted VFR Fly- CIRCLING APPROACH−
+47|CHASE||PilotController|AIRCRAFT− as Class A, B, C, D or E.
+48|CIRCLE||PilotController|TO RUNWAY (RUNWAY NUMBER)−
+49|CIRCLING||PilotController|MANEUVER−

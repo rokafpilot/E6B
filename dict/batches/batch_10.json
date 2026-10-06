@@ -1,0 +1,302 @@
+[
+  {
+    "term": "MS",
+    "fullName": "Minus",
+    "category": "NOTAM",
+    "old_description": "Minus"
+  },
+  {
+    "term": "MSA",
+    "fullName": "Minimum sector altitude",
+    "category": "NOTAM",
+    "old_description": "Minimum sector altitude"
+  },
+  {
+    "term": "MSAW",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Minimum safe altitude warning"
+  },
+  {
+    "term": "MSG",
+    "fullName": "Message",
+    "category": "NOTAM",
+    "old_description": "Message"
+  },
+  {
+    "term": "MSL",
+    "fullName": "Mean sea level",
+    "category": "NOTAM",
+    "old_description": "Mean sea level"
+  },
+  {
+    "term": "MT",
+    "fullName": "Mountain",
+    "category": "NOTAM",
+    "old_description": "Mountain"
+  },
+  {
+    "term": "MTOM",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Maximum take-off mass"
+  },
+  {
+    "term": "MTU",
+    "fullName": "Metric units",
+    "category": "NOTAM",
+    "old_description": "Metric units"
+  },
+  {
+    "term": "MTW",
+    "fullName": "Mountain waves",
+    "category": "NOTAM",
+    "old_description": "Mountain waves"
+  },
+  {
+    "term": "MWO",
+    "fullName": "Meteorological watch office",
+    "category": "NOTAM",
+    "old_description": "Meteorological watch office"
+  },
+  {
+    "term": "NASC",
+    "fullName": "National AIS system center",
+    "category": "NOTAM",
+    "old_description": "National AIS system centre"
+  },
+  {
+    "term": "NAV",
+    "fullName": "Navigation",
+    "category": "NOTAM",
+    "old_description": "Navigation"
+  },
+  {
+    "term": "NAVAID",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Navigation aid"
+  },
+  {
+    "term": "NB",
+    "fullName": "Northbound",
+    "category": "NOTAM",
+    "old_description": "Northbound"
+  },
+  {
+    "term": "NBFR",
+    "fullName": "Not before ...",
+    "category": "NOTAM",
+    "old_description": "...의 앞이 아님"
+  },
+  {
+    "term": "NC",
+    "fullName": "No change",
+    "category": "NOTAM",
+    "old_description": "No change"
+  },
+  {
+    "term": "NDB",
+    "fullName": "Non-directional radio beacon",
+    "category": "NOTAM",
+    "old_description": "Non-directional radio beacon"
+  },
+  {
+    "term": "NE",
+    "fullName": "North-east",
+    "category": "NOTAM",
+    "old_description": "North-east"
+  },
+  {
+    "term": "NEB",
+    "fullName": "North-east bound",
+    "category": "NOTAM",
+    "old_description": "North-eastbound"
+  },
+  {
+    "term": "NGT",
+    "fullName": "Night",
+    "category": "NOTAM",
+    "old_description": "Night"
+  },
+  {
+    "term": "NM",
+    "fullName": "Nautical miles",
+    "category": "NOTAM",
+    "old_description": "해리(거리단위)) Nautical miles"
+  },
+  {
+    "term": "NML",
+    "fullName": "Normal",
+    "category": "NOTAM",
+    "old_description": "Normal"
+  },
+  {
+    "term": "NN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "No name, unnamed"
+  },
+  {
+    "term": "NNE",
+    "fullName": "North north east",
+    "category": "NOTAM",
+    "old_description": "North-north-east"
+  },
+  {
+    "term": "NNW",
+    "fullName": "North north west",
+    "category": "NOTAM",
+    "old_description": "North-north-west"
+  },
+  {
+    "term": "NOF",
+    "fullName": "International NOTAM office",
+    "category": "NOTAM",
+    "old_description": "International NOTAM office"
+  },
+  {
+    "term": "NONSTD",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Non-standard"
+  },
+  {
+    "term": "NOTAMC",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Cancelling NOTAM"
+  },
+  {
+    "term": "NOTAMN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "New NOTAM"
+  },
+  {
+    "term": "NOTAMR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Replacing NOTAM"
+  },
+  {
+    "term": "NOV",
+    "fullName": "November 11",
+    "category": "NOTAM",
+    "old_description": "November"
+  },
+  {
+    "term": "NPA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Non-precision approach"
+  },
+  {
+    "term": "NR",
+    "fullName": "Number",
+    "category": "NOTAM",
+    "old_description": "Number"
+  },
+  {
+    "term": "NRH",
+    "fullName": "NO reply heard",
+    "category": "NOTAM",
+    "old_description": "No reply heard"
+  },
+  {
+    "term": "NS",
+    "fullName": "Nimbostratus",
+    "category": "NOTAM",
+    "old_description": "Nimbostratus"
+  },
+  {
+    "term": "NSC",
+    "fullName": "Nil significant cloud",
+    "category": "NOTAM",
+    "old_description": "Nil significant cloud"
+  },
+  {
+    "term": "NSE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Navigation system error"
+  },
+  {
+    "term": "NSW",
+    "fullName": "Nil significant weather",
+    "category": "NOTAM",
+    "old_description": "Nil significant weather"
+  },
+  {
+    "term": "NTL",
+    "fullName": "National",
+    "category": "NOTAM",
+    "old_description": "National"
+  },
+  {
+    "term": "NTZ",
+    "fullName": "No transgression zone",
+    "category": "NOTAM",
+    "old_description": "No transgression zone"
+  },
+  {
+    "term": "NW",
+    "fullName": "North west",
+    "category": "NOTAM",
+    "old_description": "North-west"
+  },
+  {
+    "term": "NWB",
+    "fullName": "North west bound",
+    "category": "NOTAM",
+    "old_description": "North-westbound"
+  },
+  {
+    "term": "NXT",
+    "fullName": "Next",
+    "category": "NOTAM",
+    "old_description": "Next"
+  },
+  {
+    "term": "O/R",
+    "fullName": "On request",
+    "category": "NOTAM",
+    "old_description": "On request"
+  },
+  {
+    "term": "OAC",
+    "fullName": "Oceanic area control centre",
+    "category": "NOTAM",
+    "old_description": "Oceanic area control centre"
+  },
+  {
+    "term": "OAS",
+    "fullName": "Obstacle assessment surface",
+    "category": "NOTAM",
+    "old_description": "Obstacle assessment surface"
+  },
+  {
+    "term": "OBST",
+    "fullName": "Obstacle",
+    "category": "NOTAM",
+    "old_description": "Obstacle"
+  },
+  {
+    "term": "OCA",
+    "fullName": "Obstacle clearance altitude",
+    "category": "NOTAM",
+    "old_description": "Obstacle clearance altitude"
+  },
+  {
+    "term": "OCC",
+    "fullName": "Occulting(light)",
+    "category": "NOTAM",
+    "old_description": "Occulting (light)"
+  },
+  {
+    "term": "OCH",
+    "fullName": "Obstacle clearance height",
+    "category": "NOTAM",
+    "old_description": "Obstacle clearance height"
+  }
+]

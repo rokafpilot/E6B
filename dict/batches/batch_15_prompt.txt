@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 16/24):
+Format: index|term|fullName|category|old_description
+0|TEMPO|Temporary or temporarily|NOTAM|Temporary or temporarily
+1|TF||NOTAM|Track to fix
+2|TFC|Traffic|NOTAM|Traffic
+3|TGL|Touch-and-go landing|NOTAM|Touch-and-go landing
+4|TGS|Taxiing guidance system|NOTAM|Taxiing guidance system
+5|THR|Threshold|NOTAM|Threshold
+6|THRU|Through …|NOTAM|"(...을 통하여
+7|THU|Thursday|NOTAM|Thursday
+8|TIL|Until|NOTAM|Until
+9|TKOF|Take off|NOTAM|Take-off
+10|TLOF|Touchdown and lift-off area|NOTAM|Touchdown and lift-off area
+11|TMA|Terminal control area|NOTAM|Terminal control area
+12|TNA|Turn altitude|NOTAM|Turn altitude
+13|TNH|Turn height|NOTAM|Turn height
+14|TO . . .||NOTAM|To (followed by place)
+15|TOC|Top of climb|NOTAM|Top of climb
+16|TODA|Take-off distance available|NOTAM|Take-off distance available
+17|TORA|Take-off run available|NOTAM|Take-off run available
+18|TOX||NOTAM|Toxic
+19|TP|Turning point|NOTAM|Turning point
+20|TR|Track|NOTAM|Track
+21|TRA|Temporary reserved airspace|NOTAM|Temporary reserved airspace
+22|TRANS|Transmits or transmitter|NOTAM|Transmits or transmitter
+23|TREND||NOTAM|Trend forecast
+24|TRG||NOTAM|Training
+25|TRL|Transition level|NOTAM|Transition level
+26|TROP|Tropopause|NOTAM|Tropopause
+27|TT|Teletypewriter|NOTAM|Teletypewriter
+28|TUE|Tuesday|NOTAM|Tuesday
+29|TURB|Turbulence|NOTAM|Turbulence
+30|TVOR|Terminal VOR|NOTAM|Terminal VOR
+31|TWY|Taxiway|NOTAM|Taxiway
+32|TXL||NOTAM|Taxilane
+33|TYP|Type of aircraft|NOTAM|Type of aircraft
+34|TYPH|Typhoon|NOTAM|Typhoon
+35|U/S|Unserviceable|NOTAM|Unserviceable
+36|UA||NOTAM|Unmanned aircraft
+37|UAB|Until advised by... ...|NOTAM|Until advised by . . .
+38|UAC|Upper area control center|NOTAM|Upper area control centre
+39|UAR|Upper air route|NOTAM|Upper air route
+40|UAS||NOTAM|Unmanned aircraft system
+41|UFN|Until further notice|NOTAM|Until further notice
+42|UHDT|Unable higher due traffic|NOTAM|보다높은 고도에 상승은 트래픽으로 말미암아 승인 불가함
+43|UIC|Upper information centre|NOTAM|Upper information centre
+44|ULR|Ultra long range|NOTAM|Ultra long range
+45|UNA|Unable|NOTAM|Unable
+46|UNAP|Unable to approve|NOTAM|Unable to approve
+47|UNL|Unlimited|NOTAM|Unlimited
+48|UNREL|Unreliable|NOTAM|Unreliable
+49|UTA|Upper control area|NOTAM|Upper control area

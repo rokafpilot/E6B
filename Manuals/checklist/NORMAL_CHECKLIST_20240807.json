@@ -1,0 +1,615 @@
+{
+  "id": "MANUAL-CHECKLIST-20240807",
+  "revision": "20240807",
+  "issue_date": "2024-08-07",
+  "type": "ManualOntologySection",
+  "manual_type": "NORMAL_CHECKLIST",
+  "aircraft_family": "B787",
+  "operator": "KOREAN AIR",
+  "language": "ko",
+  "source_refs": [
+    "Manuals/B787 NORMAL CHECKLIST 20240807.pdf"
+  ],
+  "checklists": [
+    {
+      "id": "CL-B787-01",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "PRE-FLIGHT INSPECTION",
+      "phase": "PRE-FLIGHT",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Walkaround Inspection",
+          "condition": null,
+          "expected_value": "COMPLETE",
+          "verification": "Visual",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Airworthiness Release",
+          "condition": null,
+          "expected_value": "SIGNED",
+          "verification": "Document",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Documentations / Charts",
+          "condition": null,
+          "expected_value": "ON BOARD",
+          "verification": "Check",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Fuel Uplift",
+          "condition": null,
+          "expected_value": "AS REQUIRED",
+          "verification": "Loadsheet",
+          "callout": "FUEL QUANTITY",
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-02",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "BEFORE ENGINE START",
+      "phase": "ENGINE_START",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Parking Brake",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Indication",
+          "callout": "PARKING BRAKE ON",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Nose Wheel Steering",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Seat Belts / Signs",
+          "condition": null,
+          "expected_value": "AS APPROPRIATE",
+          "verification": "Visual",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Hydraulic PTU",
+          "condition": null,
+          "expected_value": "AUTO",
+          "verification": "Switch",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Fuel Pumps",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Overhead Panel",
+          "callout": "FUEL PUMPS ON",
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-03",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "ENGINE START (AUTO)",
+      "phase": "ENGINE_START",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "APU BLEED",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Indication",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Mode Selector",
+          "condition": null,
+          "expected_value": "START",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Engine Start Lever 2",
+          "condition": null,
+          "expected_value": "IDLE",
+          "verification": "ECAM",
+          "callout": "ENGINE 2 START",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Engine Start Lever 1",
+          "condition": null,
+          "expected_value": "IDLE",
+          "verification": "ECAM",
+          "callout": "ENGINE 1 START",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "APU BLEED (after start)",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-04",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "BEFORE TAKEOFF",
+      "phase": "BEFORE_TAKEOFF",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Flap Lever",
+          "condition": null,
+          "expected_value": "TO POSITION (20°)",
+          "verification": "Panel + ECAM",
+          "callout": "FLAPS 20",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Slat / Flap Indication",
+          "condition": null,
+          "expected_value": "TO POSITION",
+          "verification": "ECAM",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Trim (Pitch/Roll/Yaw)",
+          "condition": null,
+          "expected_value": "TAKEOFF TRIM",
+          "verification": "Indication",
+          "callout": "TRIM SET",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Air Data / IRS",
+          "condition": null,
+          "expected_value": "ON & ALIGNED",
+          "verification": "PFD / ND",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Autobrake",
+          "condition": null,
+          "expected_value": "RTO / MAX",
+          "verification": "Panel",
+          "callout": "AUTOBRAKE RTO",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 6,
+          "item": "TCAS / WXR",
+          "condition": null,
+          "expected_value": "TA / AUTO",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 7,
+          "item": "MCDU PERF TAKEOFF",
+          "condition": null,
+          "expected_value": "INSERTED",
+          "verification": "Both Pilots",
+          "callout": "V1 VR V2 SET",
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-05",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "TAKEOFF (ROLL)",
+      "phase": "TAKEOFF",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Thrust Lever",
+          "condition": null,
+          "expected_value": "FLEX / TOGA",
+          "verification": "TGT N1",
+          "callout": "FLEX / TOGA",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Autothrottle",
+          "condition": null,
+          "expected_value": "ENGAGED",
+          "verification": "FMA",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Airborne Callouts",
+          "condition": null,
+          "expected_value": "80kt / V1 / VR / V2 / Positive Rate",
+          "verification": "PM Callout",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Landing Gear",
+          "condition": null,
+          "expected_value": "UP",
+          "verification": "Indication",
+          "callout": "GEAR UP",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Flap Lever",
+          "condition": null,
+          "expected_value": "RETRACTION SCHEDULE",
+          "verification": "ECAM",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-06",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "APPROACH / BEFORE LANDING",
+      "phase": "APPROACH",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Seat Belt Sign",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Cabin Signals",
+          "condition": null,
+          "expected_value": "CHECKED",
+          "verification": "Interphone",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Approach Briefing",
+          "condition": null,
+          "expected_value": "REVIEWED",
+          "verification": "Both Pilots",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Landing Gear",
+          "condition": null,
+          "expected_value": "DOWN",
+          "verification": "3 Greens",
+          "callout": "3 GREEN",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Flap Lever",
+          "condition": null,
+          "expected_value": "LANDING (30/40)",
+          "verification": "Panel",
+          "callout": "FLAPS FULL",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 6,
+          "item": "Autobrake",
+          "condition": null,
+          "expected_value": "LANDING (LOW/MED/MAX)",
+          "verification": "Panel",
+          "callout": "AUTOBRAKE SET",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 7,
+          "item": "Speedbrake",
+          "condition": null,
+          "expected_value": "ARMED",
+          "verification": "Panel",
+          "callout": "SPOILERS ARMED",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 8,
+          "item": "MCDU PERF APPR",
+          "condition": null,
+          "expected_value": "INSERTED",
+          "verification": "Both Pilots",
+          "callout": "VREF SET",
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-07",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "LANDING / ROLLOUT",
+      "phase": "ROLLOUT",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Thrust Reversers",
+          "condition": null,
+          "expected_value": "DEPLOYED (if reqd)",
+          "verification": "Panel + ECAM",
+          "callout": "REVERSE",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Spoilers",
+          "condition": null,
+          "expected_value": "EXTENDED",
+          "verification": "ECAM",
+          "callout": "SPOILERS UP",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Brakes",
+          "condition": null,
+          "expected_value": "APPLIED",
+          "verification": "Deceleration",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Nose Wheel Steering",
+          "condition": null,
+          "expected_value": "ENGAGED",
+          "verification": "Tillerman",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Taxi Clearance",
+          "condition": null,
+          "expected_value": "OBTAINED",
+          "verification": "Radio",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-08",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "ENGINE SHUTDOWN & SECURING",
+      "phase": "SHUTDOWN",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Parking Brake",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Indication",
+          "callout": "PARKING BRAKE ON",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Nose Wheel Steering",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Engine Start Levers",
+          "condition": null,
+          "expected_value": "CUTOFF",
+          "verification": "ECAM",
+          "callout": "ENGINES OFF",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Fuel Pumps",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Overhead",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Battery",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    }
+  ]
+}

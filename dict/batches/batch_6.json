@@ -1,0 +1,302 @@
+[
+  {
+    "term": "ENR",
+    "fullName": "En route",
+    "category": "NOTAM",
+    "old_description": "En route"
+  },
+  {
+    "term": "EOBT",
+    "fullName": "Estimated off-block time",
+    "category": "NOTAM",
+    "old_description": "Estimated off-block time"
+  },
+  {
+    "term": "EQPT",
+    "fullName": "Equipment",
+    "category": "NOTAM",
+    "old_description": "Equipment"
+  },
+  {
+    "term": "EV",
+    "fullName": "Every",
+    "category": "NOTAM",
+    "old_description": "Every"
+  },
+  {
+    "term": "EVS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Enhanced vision system"
+  },
+  {
+    "term": "EXC",
+    "fullName": "Except ...",
+    "category": "NOTAM",
+    "old_description": "...을 제외하고는"
+  },
+  {
+    "term": "FAC",
+    "fullName": "Facilities",
+    "category": "NOTAM",
+    "old_description": "Facilities"
+  },
+  {
+    "term": "FAP",
+    "fullName": "Final approach point",
+    "category": "NOTAM",
+    "old_description": "Final approach point"
+  },
+  {
+    "term": "FAS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Final approach segment"
+  },
+  {
+    "term": "FAX",
+    "fullName": "Facsimile transmission",
+    "category": "NOTAM",
+    "old_description": "Facsimile transmission"
+  },
+  {
+    "term": "FCST",
+    "fullName": "Forecast",
+    "category": "NOTAM",
+    "old_description": "Forecast"
+  },
+  {
+    "term": "FCT",
+    "fullName": "Friction coefficient",
+    "category": "NOTAM",
+    "old_description": "Friction coefficient"
+  },
+  {
+    "term": "FDPS",
+    "fullName": "Flight data processing system",
+    "category": "NOTAM",
+    "old_description": "Flight data processing system"
+  },
+  {
+    "term": "FEB",
+    "fullName": "February 2",
+    "category": "NOTAM",
+    "old_description": "February"
+  },
+  {
+    "term": "FEW",
+    "fullName": "Few",
+    "category": "NOTAM",
+    "old_description": "운량이 1/8이상, 2/8이하"
+  },
+  {
+    "term": "FG",
+    "fullName": "Fog",
+    "category": "NOTAM",
+    "old_description": "= fog, FC = funnel cloud,"
+  },
+  {
+    "term": "FIC",
+    "fullName": "Flight information centre",
+    "category": "NOTAM",
+    "old_description": "Flight information centre"
+  },
+  {
+    "term": "FIR",
+    "fullName": "Flight information region",
+    "category": "NOTAM",
+    "old_description": "Flight information region"
+  },
+  {
+    "term": "FIS",
+    "fullName": "Flight information service",
+    "category": "NOTAM",
+    "old_description": "Flight information service"
+  },
+  {
+    "term": "FLD",
+    "fullName": "Field",
+    "category": "NOTAM",
+    "old_description": "비행장 지면"
+  },
+  {
+    "term": "FLG",
+    "fullName": "Flashing",
+    "category": "NOTAM",
+    "old_description": "Flashing"
+  },
+  {
+    "term": "FLR",
+    "fullName": "Flares",
+    "category": "NOTAM",
+    "old_description": "Flares"
+  },
+  {
+    "term": "FLT",
+    "fullName": "Flight",
+    "category": "NOTAM",
+    "old_description": "Flight"
+  },
+  {
+    "term": "FLTCK",
+    "fullName": "Flight check",
+    "category": "NOTAM",
+    "old_description": "Flight check"
+  },
+  {
+    "term": "FLW",
+    "fullName": "Follow(s) or following",
+    "category": "NOTAM",
+    "old_description": "Follow(s) or following"
+  },
+  {
+    "term": "FLY",
+    "fullName": "Fly or flying",
+    "category": "NOTAM",
+    "old_description": "Fly or flying"
+  },
+  {
+    "term": "FMC",
+    "fullName": "Flight management computer",
+    "category": "NOTAM",
+    "old_description": "Flight management computer"
+  },
+  {
+    "term": "FMS",
+    "fullName": "Flight management system",
+    "category": "NOTAM",
+    "old_description": "Flight management system"
+  },
+  {
+    "term": "FMU",
+    "fullName": "Flow management unit",
+    "category": "NOTAM",
+    "old_description": "Flow management unit"
+  },
+  {
+    "term": "FNA",
+    "fullName": "Final approach",
+    "category": "NOTAM",
+    "old_description": "Final approach"
+  },
+  {
+    "term": "FPAP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Flight path alignment point"
+  },
+  {
+    "term": "FPL",
+    "fullName": "Filed flight plan (message type designator)",
+    "category": "NOTAM",
+    "old_description": "제출된 비행계획서(전문형식 지정어)"
+  },
+  {
+    "term": "FPM",
+    "fullName": "Feet per minute",
+    "category": "NOTAM",
+    "old_description": "Feet per minute"
+  },
+  {
+    "term": "FPR",
+    "fullName": "Flight plan route",
+    "category": "NOTAM",
+    "old_description": "Flight plan route"
+  },
+  {
+    "term": "FR",
+    "fullName": "Fuel remaining",
+    "category": "NOTAM",
+    "old_description": "Fuel remaining"
+  },
+  {
+    "term": "FREQ",
+    "fullName": "Frequency",
+    "category": "NOTAM",
+    "old_description": "Frequency"
+  },
+  {
+    "term": "FRI",
+    "fullName": "Friday",
+    "category": "NOTAM",
+    "old_description": "Friday"
+  },
+  {
+    "term": "FRNG",
+    "fullName": "Firing",
+    "category": "NOTAM",
+    "old_description": "Firing"
+  },
+  {
+    "term": "FRONT",
+    "fullName": "Front (relating to weather)",
+    "category": "NOTAM",
+    "old_description": "Front (relating to weather)"
+  },
+  {
+    "term": "FRQ",
+    "fullName": "Frequent",
+    "category": "NOTAM",
+    "old_description": "Frequent"
+  },
+  {
+    "term": "FSL",
+    "fullName": "Full stop landing",
+    "category": "NOTAM",
+    "old_description": "Full stop landing"
+  },
+  {
+    "term": "FSS",
+    "fullName": "Flight service station",
+    "category": "NOTAM",
+    "old_description": "Flight service station"
+  },
+  {
+    "term": "FST",
+    "fullName": "First",
+    "category": "NOTAM",
+    "old_description": "First"
+  },
+  {
+    "term": "FT",
+    "fullName": "Feet (Dimensional unit)",
+    "category": "NOTAM",
+    "old_description": "Feet (dimensional unit)"
+  },
+  {
+    "term": "FTE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Flight technical error"
+  },
+  {
+    "term": "FTP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Fictitious threshold point"
+  },
+  {
+    "term": "FTT",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Flight technical tolerance"
+  },
+  {
+    "term": "FU",
+    "fullName": "Smoke",
+    "category": "NOTAM",
+    "old_description": "Smoke"
+  },
+  {
+    "term": "FZ",
+    "fullName": "Freezing",
+    "category": "NOTAM",
+    "old_description": "Freezing"
+  },
+  {
+    "term": "FZDZ",
+    "fullName": "Freezing drizzle",
+    "category": "NOTAM",
+    "old_description": "Freezing drizzle"
+  }
+]

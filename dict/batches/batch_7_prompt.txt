@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 8/24):
+Format: index|term|fullName|category|old_description
+0|FZFG|Freezing fog|NOTAM|Freezing fog
+1|FZRA|Freezing rain|NOTAM|Freezing rain
+2|G/A|Ground-to-air|NOTAM|Ground-to-air
+3|G/A/G|Ground-to-air and air-to-ground|NOTAM|Ground-to-air and air-to-ground
+4|GAIN||NOTAM|Airspeed or headwind gain
+5|GARP||NOTAM|GBAS azimuth reference point
+6|GEN|General|NOTAM|일반 또는 총칙
+7|GES|Ground earth station|NOTAM|Ground earth station
+8|GLD|Glider|NOTAM|Glider
+9|GLS||NOTAM|GBAS landing system
+10|GND|Ground|NOTAM|Ground
+11|GNDCK|Ground check|NOTAM|Ground check
+12|GOV||NOTAM|Government
+13|GP|Glide path|NOTAM|Glide path
+14|GPA||NOTAM|Glide path angle
+15|GPIP||NOTAM|Glide path intercept point
+16|GPU||NOTAM|Ground power unit
+17|GRASS|Grass landing area|NOTAM|Grass landing area
+18|GRVL|Gravel|NOTAM|Gravel
+19|GUND|Geoid undulation|NOTAM|Geoid undulation
+20|HBN|Hazard beacon|NOTAM|Hazard beacon
+21|HCH|Heliport crossing height|NOTAM|Heliport crossing height
+22|HDG|Heading|NOTAM|방향 또는 기수방향
+23|HEL|Helicopter|NOTAM|Helicopter
+24|HGT|Height or height above|NOTAM|Height or height above
+25|HJ|Sunrise to sunset|NOTAM|Sunrise to sunset
+26|HLDG|Holding|NOTAM|Holding
+27|HLP||NOTAM|Heliport
+28|HLS||NOTAM|Helicopter landing site
+29|HN|Sunset to sunrise|NOTAM|Sunset to sunrise
+30|HOL|Holiday|NOTAM|Holiday
+31|HOSP|Hospital aircraft|NOTAM|Hospital aircraft
+32|HPA|Hectopascal|NOTAM|Hectopascal
+33|HR|Hours|NOTAM|Hours
+34|HRP|Heliport reference point|NOTAM|Heliport reference point
+35|HUD||NOTAM|Head-up display
+36|HUM||NOTAM|Humanitarian
+37|HURCN|Hurricane|NOTAM|Hurricane
+38|HX|No specific working hours|NOTAM|No specific working hours
+39|HYR|Higher ...|NOTAM|...보다높은
+40|HZ|Haze|NOTAM|Hertz (cycle per second)
+41|IAF|Initial approach fix|NOTAM|Initial approach fix
+42|IAO|In and out of clouds|NOTAM|In and out of clouds
+43|IAP||NOTAM|Instrument approach procedure
+44|IAR|Intersection of air routes|NOTAM|Intersection of air routes
+45|IAS|Indicated air speed|NOTAM|Indicated airspeed
+46|IBN|Identification beacon|NOTAM|Identification beacon
+47|ICE|Icing|NOTAM|Icing
+48|ID|Identifier or identify|NOTAM|Identifier or identify
+49|IFF|Identification friend/foe|NOTAM|Identification friend/foe

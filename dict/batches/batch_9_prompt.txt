@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 10/24):
+Format: index|term|fullName|category|old_description
+0|LINE||NOTAM|Line (used in SIGMET)
+1|LM|Locator, middle|NOTAM|"(중간로케이터) Locator
+2|LMT|Local mean time|NOTAM|Local mean time
+3|LO|Locator, outer|NOTAM|"(외측로케이터) Locator
+4|LOC|Localizer|NOTAM|Localizer
+5|LOSS||NOTAM|Airspeed or headwind loss
+6|LRG|Long range|NOTAM|Long range
+7|LTA||NOTAM|Lower control area
+8|LTD|Limited|NOTAM|Limited
+9|LTP||NOTAM|Landing threshold point
+10|LVE|Leave or leaving|NOTAM|Leave or leaving
+11|LVL|Level|NOTAM|Level
+12|LVP||NOTAM|Low visibility procedures
+13|LYR|Layer or layered|NOTAM|Layer or layered
+14|MAA|Maximum authorized altitude|NOTAM|Maximum authorized altitude
+15|MAG|Magnetic|NOTAM|Magnetic
+16|MAHF||NOTAM|Missed approach holding fix
+17|MAINT|Maintenance|NOTAM|Maintenance
+18|MAP|Aeronautical maps and charts|NOTAM|Aeronautical maps and charts
+19|MAPT|Missed approach point|NOTAM|Missed approach point
+20|MAR|At sea|NOTAM|At sea
+21|MATF||NOTAM|Missed approach turning fix
+22|MAX|Maximum|NOTAM|Maximum
+23|MAY|May 5|NOTAM|May
+24|MBST||NOTAM|Microburst
+25|MCA|Minimum crossing altitude|NOTAM|Minimum crossing altitude
+26|MCTR||NOTAM|Military control zone
+27|MCW|Modulated continuous wave|NOTAM|Modulated continuous wave
+28|MDA|Minimum descent altitude|NOTAM|Minimum descent altitude
+29|MDH|Minimum descent height|NOTAM|Minimum descent height
+30|MEA|Minimum en-route altitude|NOTAM|Minimum en-route altitude
+31|MEDEVAC||NOTAM|Medical evacuation flight
+32|MET|Meteorological or Meteorology|NOTAM|Meteorological or meteorology
+33|MHA||NOTAM|Minimum holding altitude
+34|MHZ|Megahertz|NOTAM|Megahertz
+35|MIFG|Shallow fog|NOTAM|Shallow fog
+36|MIL|Military|NOTAM|Military
+37|MIN|Minute|NOTAM|Minutes
+38|MKR|Marker radio beacon|NOTAM|Marker radio beacon
+39|MLS|Microwave landing system|NOTAM|Microwave landing system
+40|MM|Middle marker|NOTAM|Middle marker
+41|MNM|Minimum|NOTAM|Minimum
+42|MNTN|Maintain|NOTAM|Maintain
+43|MOA|Military operating area|NOTAM|Military operating area
+44|MON|Above mountains|NOTAM|Above mountains
+45|MOV|Move or moving or movement|NOTAM|Move or moving or movement
+46|MPS|Meters per second|NOTAM|Metres per second
+47|MRA|Minimum reception altitude|NOTAM|Minimum reception altitude
+48|MRG|Medium range|NOTAM|Medium range
+49|MRP|ATS/MET reporting point|NOTAM|ATS/MET reporting point

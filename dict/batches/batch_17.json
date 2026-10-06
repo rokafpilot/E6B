@@ -1,0 +1,302 @@
+[
+  {
+    "term": "AERODROME",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BEACON [ICAO]− Aeronautical"
+  },
+  {
+    "term": "AIP",
+    "fullName": "Aeronautical information publication",
+    "category": "PilotController",
+    "old_description": "[ICAO]− AIR ROUTE SURVEILLANCE RADAR− Air route"
+  },
+  {
+    "term": "AIR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CARRIER DISTRICT OFFICE− An FAA field"
+  },
+  {
+    "term": "AIR/GROUND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FACILITY.) receiver facility which is used to expand ARTCC"
+  },
+  {
+    "term": "AIRBORNE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DELAY− Amount of delay to be"
+  },
+  {
+    "term": "AIRCRAFT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONFLICT− Predicted conflict, within"
+  },
+  {
+    "term": "AIRPORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ADVISORY AREA− The area within ten"
+  },
+  {
+    "term": "AIRSPACE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONFLICT− Predicted conflict of an"
+  },
+  {
+    "term": "ALERFA",
+    "fullName": "Alert phase",
+    "category": "PilotController",
+    "old_description": "(Alert Phase) [ICAO]− A situation wherein"
+  },
+  {
+    "term": "ALTERNATE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AERODROME [ICAO]− An aero-"
+  },
+  {
+    "term": "ALTIMETER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SETTING− The barometric pressure ALTITUDE RESTRICTIONS ARE CANCELED−"
+  },
+  {
+    "term": "ALTITUDE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESERVATION (ALTRV)− Airspace"
+  },
+  {
+    "term": "AMENDED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CLEARANCE if ATC issues a"
+  },
+  {
+    "term": "APPROACH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CONTROL FACILITY− A terminal APPROACH WITH VERTICAL GUIDANCE"
+  },
+  {
+    "term": "APRON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− A defined area, on a land"
+  },
+  {
+    "term": "AREA",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NAVIGATION (RNAV)− A method of"
+  },
+  {
+    "term": "ARMY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AVIATION FLIGHT INFORMATION"
+  },
+  {
+    "term": "ARRIVAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT INTERVAL− An internally ASR−"
+  },
+  {
+    "term": "ARTS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IIIE, STARS, and MEARTS."
+  },
+  {
+    "term": "ASDA",
+    "fullName": "Accelerate-stop distance available",
+    "category": "PilotController",
+    "old_description": "Accelerate-stop distance available"
+  },
+  {
+    "term": "ASR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH−"
+  },
+  {
+    "term": "ATC",
+    "fullName": "Air traffic control (in general)",
+    "category": "PilotController",
+    "old_description": "ADVISES− Used to prefix a message of"
+  },
+  {
+    "term": "ATIS",
+    "fullName": "Automatic terminal information service",
+    "category": "PilotController",
+    "old_description": "(to be pronounced �AY-TIS�) Automatic terminal information service"
+  },
+  {
+    "term": "ATS",
+    "fullName": "Air traffic services",
+    "category": "PilotController",
+    "old_description": "ROUTE [ICAO]− A specified route designed for"
+  },
+  {
+    "term": "AUTOLAND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "APPROACH−An autoland system"
+  },
+  {
+    "term": "AUTOMATED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PROBLEM DETECTION (APD)−"
+  },
+  {
+    "term": "AUTOMATIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE REPORT−"
+  },
+  {
+    "term": "AVAILABLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LANDING DISTANCE (ALD)− The"
+  },
+  {
+    "term": "AVIATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WEATHER SERVICE− A service"
+  },
+  {
+    "term": "AVOIDANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM.)"
+  },
+  {
+    "term": "BASE",
+    "fullName": "Cloud base",
+    "category": "PilotController",
+    "old_description": "LEG− BLOCKED− Phraseology used to indicate that a"
+  },
+  {
+    "term": "BELOW",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MINIMUMS− Weather conditions below"
+  },
+  {
+    "term": "BILITY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOR SEPARATION OF AIRCRAFT− A"
+  },
+  {
+    "term": "BLAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FENCE− A barrier that is used to divert or"
+  },
+  {
+    "term": "BLIND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ZONE−"
+  },
+  {
+    "term": "BOTTOM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE– In reference to published"
+  },
+  {
+    "term": "BRAKING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ACTION (GOOD, FAIR, POOR, OR NIL)"
+  },
+  {
+    "term": "BROADCAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(ADS-B)− A surveillance system in"
+  },
+  {
+    "term": "CALCULATED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LANDING TIME− A term that may CENRAP-PLUS−"
+  },
+  {
+    "term": "CALL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOR RELEASE− Wherein the overlying CENTER−"
+  },
+  {
+    "term": "CANADIAN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MINIMUM NAVIGATION PERFOR-"
+  },
+  {
+    "term": "CATCH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A fix/waypoint that serves as a"
+  },
+  {
+    "term": "CEDURE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(SIAP)− reservations which encompass activities in a fixed"
+  },
+  {
+    "term": "CEILING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The height above the ground or"
+  },
+  {
+    "term": "CENTER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RADAR ARTS PRESENTATION/"
+  },
+  {
+    "term": "CERTIFIED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TOWER RADAR DISPLAY (CTRD)−"
+  },
+  {
+    "term": "CHARTED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VFR FLYWAYS− Charted VFR Fly- CIRCLING APPROACH−"
+  },
+  {
+    "term": "CHASE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− as Class A, B, C, D or E."
+  },
+  {
+    "term": "CIRCLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO RUNWAY (RUNWAY NUMBER)−"
+  },
+  {
+    "term": "CIRCLING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER−"
+  }
+]

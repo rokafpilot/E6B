@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 6/24):
+Format: index|term|fullName|category|old_description
+0|DCD|Double channel duplex|NOTAM|Double channel duplex
+1|DCKG|Docking|NOTAM|Docking
+2|DCP||NOTAM|Datum crossing point
+3|DCPC|Direct controller-pilot communications|NOTAM|Direct controller-pilot communications
+4|DCS|Double channel simplex|NOTAM|Double channel simplex
+5|DEC|December 12|NOTAM|December
+6|DEG|Degrees|NOTAM|도(방위 또는 각도)
+7|DEPO||NOTAM|Deposition
+8|DER|Departure end of the runway|NOTAM|Departure end of the runway
+9|DES|Descend to or descending to|NOTAM|Descend to or descending to
+10|DEST|Destination|NOTAM|Destination
+11|DETRESFA|Distress phase|NOTAM|DETRESFA
+12|DEV|Deviation or deviating|NOTAM|Deviation or deviating
+13|DF||NOTAM|Direction finding
+14|DFDR|Digital flight data recorder|NOTAM|Digital flight data recorder
+15|DIF|Diffuse|NOTAM|Diffuse
+16|DIST|Distance|NOTAM|Distance
+17|DIV|Divert or diverting|NOTAM|Divert or diverting
+18|DLY||NOTAM|Daily
+19|DNG|Danger or dangerous|NOTAM|Danger or dangerous
+20|DOF||NOTAM|Date of flight
+21|DOM|Domestic|NOTAM|Domestic
+22|DP|Dew point temperature|NOTAM|Dew point temperature
+23|DPT|Depth|NOTAM|Depth
+24|DRG|During|NOTAM|During
+25|DS|Dust storm|NOTAM|= duststorm, SS = sandstorm,
+26|DSB|Double Sideband|NOTAM|Double sideband
+27|DTAM|Descend to and maintain|NOTAM|Descend to and maintain
+28|DTG|Date-time group|NOTAM|Date-time group
+29|DTHR|Displaced runway threshold|NOTAM|Displaced runway threshold
+30|DTRT|Deteriorate or deteriorating|NOTAM|Deteriorate or deteriorating
+31|DTW|Dual tandem wheels|NOTAM|Dual tandem wheels
+32|DU|Dust|NOTAM|Dust
+33|DUC|Dense upper cloud|NOTAM|Dense upper cloud
+34|DUR|Duration|NOTAM|Duration
+35|DVOR|Doppler VOR|NOTAM|Doppler VOR
+36|DW|Dual wheels|NOTAM|Dual wheels
+37|DZ|Drizzle|NOTAM|Drizzle
+38|EAT|Expected approach time|NOTAM|Expected approach time
+39|EB|East bound|NOTAM|Eastbound
+40|EDA||NOTAM|Elevation differential area
+41|EET|Estimated elapsed time|NOTAM|Estimated elapsed time
+42|EFC|Expect further clearance|NOTAM|Expect further clearance
+43|ELEV|Elevation|NOTAM|Elevation
+44|ELR|Extra long range|NOTAM|Extra long range
+45|ELT|Emergency locator transmitter|NOTAM|Emergency locator transmitter
+46|EM|Emission (|NOTAM|{발사(전파의)} Emission
+47|EMERG|Emergency|NOTAM|Emergency
+48|ENE|East north east|NOTAM|East-north-east
+49|ENG|Engine|NOTAM|Engine

@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 13/24):
+Format: index|term|fullName|category|old_description
+0|PS|Plus|NOTAM|Plus
+1|PSG|Passing|NOTAM|Passing
+2|PSN|Position|NOTAM|Position
+3|PSP|Pierced steel plank|NOTAM|Pierced steel plank
+4|PSR|Primary surveillance radar 1|NOTAM|Primary surveillance radar
+5|PSYS|Pressure system(s)|NOTAM|Pressure system(s)
+6|PTN|Procedure turn|NOTAM|Procedure turn
+7|PTS|Polar track structure|NOTAM|Polar track structure
+8|PWR|Power|NOTAM|출력, 전력
+9|QDM|Magnetic heading(zero wind)|NOTAM|Magnetic heading (zero wind)
+10|QDR|Magnetic bearing|NOTAM|Magnetic bearing
+11|QTE|True bearing|NOTAM|True bearing
+12|QUAD|Quadrant|NOTAM|Quadrant
+13|RA|Rain|NOTAM|Resolution advisory
+14|RAG|Runway arresting gear|NOTAM|Runway arresting gear
+15|RAI|Runway alignment indicator|NOTAM|Runway alignment indicator
+16|RASC|Regional AIS system center|NOTAM|Regional AIS system centre
+17|RB|Rescue boat|NOTAM|Rescue boat
+18|RCA|Reach cruising altitude|NOTAM|Reach cruising altitude
+19|RCC|Rescue coordination center|NOTAM|Rescue coordination centre
+20|RCH|Reach or reaching|NOTAM|Reach or reaching
+21|RCL|Runway center line|NOTAM|Runway centre line
+22|RCLL|Runway center line light(s)|NOTAM|Runway centre line light(s)
+23|RCLR|Recleared|NOTAM|Recleared
+24|RCP||NOTAM|Required communication performance
+25|RDH|Reference datum height|NOTAM|Reference datum height
+26|RDL|Radial|NOTAM|Radial
+27|RDO|Radio|NOTAM|Radio
+28|RDOACT||NOTAM|Radioactive
+29|REC|Receive or receiver|NOTAM|Receive or receiver
+30|REDL|Runway edge light(s)|NOTAM|Runway edge light(s)
+31|REG|Registration|NOTAM|Registration
+32|RENL|Runway end light(s)|NOTAM|Runway end light(s)
+33|REQ|Request or requested|NOTAM|Request or requested
+34|RERTE|Re-route|NOTAM|Re-route
+35|RESA|Runway end safety area|NOTAM|Runway end safety area
+36|RF||NOTAM|Constant radius arc to a fix
+37|RG|Range(lights)|NOTAM|Range (lights)
+38|RHC|Right-hand circuit|NOTAM|Right-hand circuit
+39|RIF|Reclearance in flight|NOTAM|Reclearance in flight
+40|RL|Report leaving|NOTAM|Report leaving
+41|RLA|Relay to|NOTAM|Relay to
+42|RLCE|Request level change en-route|NOTAM|Request level change en route
+43|RLNA|Request level not available|NOTAM|Requested level not available
+44|RMK|Remark|NOTAM|Remark
+45|RNG|Radio range|NOTAM|Radio range
+46|ROC|Rate of climb|NOTAM|Rate of climb
+47|ROD|Rate of descent|NOTAM|Rate of descent
+48|RON|Receiving only|NOTAM|Receiving only
+49|RPDS||NOTAM|Reference path data selector

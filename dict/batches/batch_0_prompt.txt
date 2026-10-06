@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 1/24):
+Format: index|term|fullName|category|old_description
+0|ACDM|Airport collaborative decision making|AIP|공항 운영자, 항공사, 지상조업사, 항공교통관제기관 등 공항 내 주요 이해관계자들이 실시간으로 정확한 운항 정보를 공유하여 항공기 지연을 최소화하고, 자원 활용을 최적화하며, 전반적인 운영 효율성과 예측 가능성을 높이는 공동 의사결정 체계입니다.
+1|DCL|Departure Clearance|ATC|조종사와 관제사 간의 항공기 출발 허가(비행 경로, 할당 고도, 주파수 등)를 무선 음성 통신 대신 디지털 데이터(텍스트)로 주고받아, 통신 오류를 방지하고 주파수 혼잡 및 조종사·관제사의 업무 부하를 줄여주는 자동화 통신 시스템입니다.
+2|ADP|ATFM daily plan|AIP|흐름관리일일계획서
+3|CDM|Collaborative decision making meeting|AIP|실무조정협의회
+4|COBT|Calculated off-block time|AIP|조정이동개시시간
+5|CTO|Calculated time over|AIP|조정통과시간
+6|CTOT|Calculated take-off time|AIP|조정이륙시간
+7|D|Downward (tendency in RVR during previous 10 minutes)|AIP|하향경향(이전 10분동안 활주로가시 거리
+8|ELDT|Estimated landing time|AIP|예상착륙시간
+9|ETOT|Estimated take-off time|AIP|예상이륙시간
+10|FDR|Flight data recorder|AIP|비행자료기록장치
+11|GRID||AIP|Processed meteorological data in the form of grid point
+12|IC||AIP|Ice Crystals(very small ice crystals in suspension, also
+13|KST|Korean standard time|AIP|한국표준시간
+14|LSQ|Line squall|AIP|스콜라인
+15|MINT|Minute in trail|AIP|시간(분) 간격 분리
+16|MIT|Miles in trail|AIP|거리(마일) 간격 분리
+17|OTLK||AIP|Outlook(used in SIGMET message for valcanic ash and
+18|RX|Receiver|AIP|수신기
+19|U|Upward(tendency in RVR during previous 10 minutes)|AIP|상승경향
+20|AMSS|Aeronautical mobile satellite service|AIP/DOC8400|Aeronautical mobile satellite service
+21|ANC|Aeronautical chart 1:500000 (followed by name title)|AIP/DOC8400|. . . Aeronautical chart — 1:500
+22|ANCS||AIP/DOC8400|Aeronautical navigation chart - small scale (followed by
+23|AT||AIP/DOC8400|At (followed by time at which weather change is forecast
+24|BLDU||AIP/DOC8400|= blowing dust, BLSA = blowing sand, BLSN =
+25|ENRC|Enroute chart (followed by name/title)|AIP/DOC8400|. . . Enroute chart (followed by name/title) EOBT Estimated off-block time
+26|GMC|Ground movement chart (followed by name/title)|AIP/DOC8400|. . . Ground movement chart (followed by
+27|TX|Transmitter|AIP/DOC8400|. . . Maximum temperature (followed by
+28|VC||AIP/DOC8400|Vicinity of the aerodrome(followed by, FG =fog, FC
+29|A|Amber|AIP/KMA|호박색
+30|ARFOR|Area forecast (in aeronautical meteorological code)|AIP/KMA|지역예보(항공기상용어)
+31|B|Blue|AIP/KMA|청색
+32|C|Degrees Celsius (Centigrade)|AIP/KMA|중앙(활주로식별
+33|CIT|Near or over large town|AIP/KMA|대도시 주변 또는 상공
+34|DENEB|Fog dispersal operations|AIP/KMA|안개분산작업(삭제)
+35|E|East or eastern longitude|AIP/KMA|동쪽 또는 동경
+36|ER|here... or herewith|AIP/KMA|여기
+37|F|Fixed|AIP/KMA|고정된
+38|G|Green|AIP/KMA|녹색
+39|L|Locator(see LM, LO)|AIP/KMA|Left(preceded by runway designation number to identify a
+40|LTT|Landing teletypewriter|AIP/KMA|유선테레타잎회선
+41|MAS|Manual Al simplex|AIP/KMA|수동 AI 단방향방식
+42|N|North or northern latitude|AIP/KMA|변화 경향없음(이전 10분동안 RVR에서)
+43|PE|Ice pellets|AIP/KMA|얼음덩이
+44|R|Red|AIP/KMA|비행제한구역(번호를 첨부
+45|RAFC|Regional area forecast center|AIP/KMA|지역예보센타
+46|RITE|Right(direction of turn)|AIP/KMA|우측(선회방향)
+47|ROFOR|Route forecast(in meteorological code)|AIP/KMA|항공로예보
+48|S|South or Southern latitude|AIP/KMA|남쪽 또는 남위
+49|SAP|As soon as possible|AIP/KMA|가능한 빨리

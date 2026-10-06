@@ -1,0 +1,5380 @@
+{
+  "id": "MANUAL-FCRM-R41",
+  "type": "ManualOntologySection",
+  "manual_type": "FCRM",
+  "revision": "R41",
+  "issue_date": "2026-06-29",
+  "aircraft_family": "B787",
+  "operator": "KOREAN AIR",
+  "language": "ko",
+  "source_refs": [
+    "EFB_KOR_FOM_R39_20260629_FCRM_R41_20260629.pdf (FCRM 파트, 제7~8장 분리 추출)"
+  ],
+  "fcrm_rules": [
+    {
+      "id": "FCRM-R41-0001",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1175 | pdf_page=1206"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "제 7 장 TRAINING ......................................................................................................... 1",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 제 7 장 TRAINING",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0002",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "대한항공 운항승무원의 훈련 및 심사에 관한 정책 및 지침은 대한민국 항공안전법, 동 법",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.1 배경",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0003",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "시행령, 동 법 시행규칙, 운항기술기준, OPSPECS 및 운항승무원 훈련교범 (FOTM)을 근거로",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.1 배경",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0004",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 대한항공 운항훈련원은 관련 법과 규정에서 정한 운항승무원에 대한 교육 훈련과 제반 시험",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0005",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "및 심사 (모의 비행 장치에서 실시하는 기량 심사 및 정기 SBE 심사에 한함)를 수행한다. 제",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0006",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "3 자 기관 (Third Party Provider)에 위탁이 이루어지는 경우에는 모의 비행 장치를 이용한",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0007",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 대한항공 운항표준부는 모든 운항승무원에 대한 각종, 노선심사 (공항 및 노선에 대한",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0008",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 교관 및 위촉심사관",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0009",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 해 기종 학술과목 교육",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0010",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 해 기종 FTD 훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0011",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 해 기종 모의비행장치에서 실시하는 훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0012",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기에서 실시하는 국지비행훈련 및",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0013",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FTD 훈련 및 노선 관련 학술 교육",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0014",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 해 기종 모의비행장치로 실시하는 제반",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0015",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 모의비행장치 비행교관 임무",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0016",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 해 기종 항공기에서 실시하는 제반 심사",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0017",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1179 | pdf_page=1210"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기 비행교관 임무",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.2 훈련 및 심사의 수행",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0018",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1180 | pdf_page=1211"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "교육 훈련 계획이 수립되면 훈련 입과 승무원 및 교관 (위촉심사관)에게 훈련 계획이 통보되며,",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.3 훈련 안내 및 교육준비",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0019",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1180 | pdf_page=1211"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "모든 교육 훈련은 대한항공 Crew Portal Network 를 통해서 통보되는 것이 원칙이다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.3.1 교육 훈련 통보",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0020",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1180 | pdf_page=1211"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "교육 명령을 받은 운항승무원은 Distance learning 을 통하여 사전 학습을 실시하여 훈련의",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.3.2 사전학습 및 훈련 Manual 준비",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0021",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1180 | pdf_page=1211"
+      ],
+      "deontic": "MUST",
+      "subject": "운항승무원/교관/심사관",
+      "action": "효과를 제고할 수 있도록 해야 한다. 운항 관련 Manual 은 e-Manual System 을 통해",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.3.2 사전학습 및 훈련 Manual 준비",
+      "severity": "CAUTION",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0022",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1180 | pdf_page=1211"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "다운받아 준비하며, 그 외 훈련에 필요한 Material 은 운항훈련원에서 제공된다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.1.3.2 사전학습 및 훈련 Manual 준비",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0023",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공사 절차 기본 교육 (Company Procedures Indoctrination)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0024",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 대한항공의 운항정책, 절차, 규범 등에 대한 교과목으로 구성된다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0025",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 초기 위험물 훈련 (Initial Dangerous Goods Training)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0026",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 초기 보안교육 (Initial Security Training)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0027",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 초기 승무원 자원관리 교육 (Initial Crew Resource Management Training)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0028",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 초기 비상장비 훈련 (Initial Emergency Equipment Drills)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0029",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 운송용 조종사 기초 교육 (Airman Specification Training)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0030",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1181 | pdf_page=1212"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- W/B, 성능, 항법, 기상, ATC, 비행계획, 계기비행, 항공영어, 사고사례, 제/방빙 및 특수",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.1.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0031",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 초기 훈련: 신입 조종사 기본 훈련을 이수한 신입 운항승무원",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0032",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 전환 훈련: 동일 직책 (기장 또는 부조종사)으로 타 기종으로 전환하는 운항승무원",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0033",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 승격 훈련: 부조종사에서 기장 승격 임무 수행을 위해 기장 승격 훈련 요원으로 임명된",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0034",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 기장 선발 시험에 합격한 조종사로서 총 비행 경력이 4,000 시간 이상, 입사 후 착륙",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0035",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "회수 350 회 이상, 회사 부조종사로서 임명된 후 5 년 이상이어야 기장 승격 요건이",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0036",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• ∙ 최대 이륙중량이 5,700 kg 이상 고정익 항공기의 비행시간은 1,500 시간까지 인정한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0037",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• ∙ 최대 이륙중량이 5,700kg 미만인 고정익 항공기의 비행시간은 1,000 시간까지 인정한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.2 훈련 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0038",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 지상훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0039",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 항공기 System, 정상/비정상 절차, CAT II/III, EDTO 과목 등으로 구성되어 있으며",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0040",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Flight Training Device (FTD) 또는 Full Flight Simulator (FFS)를 활용하여",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0041",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Automation, Standard/General Callout, 정상/비정상 절차 등을 습득하기 위한",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0042",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비행훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0043",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 비행훈련은 통상 FFS 로 진행된다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0044",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- MT(Maneuver Training)와 SBT(Scenario Based Training)로 구성된다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0045",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- MT 는 해기종 조종 특성을 파악하여 Technical Skill 을 숙달시키기 위한 훈련이며",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0046",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Local Training",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0047",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1182 | pdf_page=1213"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 해 기종 한정 자격 취득을 위한 훈련 과정으로 해 기종 한정 미소지 운항승무원을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.2.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0048",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1183 | pdf_page=1214"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 한정 자격 취득 시험",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 제 7 장 TRAINING",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0049",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1183 | pdf_page=1214"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 해 기종 한정 자격 취득을 위한 시험으로 교통안전공단에서 주관하며 학과시험과",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 제 7 장 TRAINING",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0050",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "요구되는 지역, 노선 및 공항에 대하여 소정의 실제 운항을 경험 혹은 관숙하는 것을 말한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.1 훈련 목표",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0051",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• PRE-OE 과정",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0052",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 양성훈련 과정을 이수한 후, 이/착륙 훈련 및 OE 입과 전 Line Operation 절차를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0053",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- FTD 또는 FFS 를 이용하여 실시한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0054",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 지상훈련 과정",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0055",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- OE 훈련 입과 전 Line Operation 에 필요한 일반적인 지식 및 Technique 에 대하여",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0056",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 부조초기/신입경력, 기장 승격, 전환, 재 자격 과정으로 구분하여 실시한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0057",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• OE 훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0058",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1184 | pdf_page=1215"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 관숙비행을 포함하여 모든 지상훈련 및 Simulator 훈련을 완료한 후 DLCP/LIP 와",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.3.3 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0059",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "해 기종에 부여 받은 임무를 수행하기 위해 요구되는 지식 및 역량을 유지/향상시킨다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.1 훈련 목표",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0060",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "정기 훈련과 심사는 모든 운항승무원에게 매 6 개월 주기 (자격 유효기간에 따라 매 12 개월",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.3 훈련 주기",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0061",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "주기로 실시되는 훈련/심사가 있음 )로 실시되며 이때 적격기간 (기준 월 전후 1 개월을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.3 훈련 주기",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0062",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "포함한 3 개월)이 적용된다. 초기, 전환, 승격 및 재 자격 훈련을 이수하는 경우 당해 훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.3 훈련 주기",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0063",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "a) 지상훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0064",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 공통과목과 기종과목으로 구분되며 강의 또는 Distance learning 으로 이루어진다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0065",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 공통과목: 법/규정, Navigation, 위험물, 항공생리, 계기비행, 사고사례, ATC, 항공기상,",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0066",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 기종과목: System, CAT II/III, EDTO 등",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0067",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "b) 비행훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0068",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비행훈련은 1 일차는 SBE 와 MT 를 실시하며 2 일차는 SBT, MT 및 훈련 중 발췌된 취약",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0069",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "사항에 대한 보강 훈련으로 구성되며 매 전반기 1 일차 SBE 종료 후 CAT II/III 훈련 및",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0070",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• MT 는 기종별 비행특성에 따른 Technical Skill 을 유지/향상시키고 이를 평가하는데",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0071",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "목적이 있으며 SBT/SBE 는 실제 운항 환경 하에서 정상/비정상 상황을 안전하게",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0072",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1185 | pdf_page=1216"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "수행하는데 필요한 Technical Skill 및 CRM Skill 을 유지/향상시키고 이를 평가하는데",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.4.4 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0073",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 최근 비행경험 재취득 훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.5.2 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0074",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 훈련 대상: 최근 90 일 이내 3 회 이착륙 요건을 미 충족한 운항승무원",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.5.2 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0075",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 훈련 내용: 동일 형식 항공기 또는 FFS 로 최소 3 회의 이착륙",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.5.2 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0076",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 재자격 부여 훈련",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.5.2 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0077",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 훈련 대상: 최근 3 개월 이상 해당 기종 비승무 운항승무원",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.5.2 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0078",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 훈련 내용: 지상 훈련 및 FFS 훈련으로 구성되며 훈련 요구량은 해기종 승무",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.5.2 훈련 과정",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0079",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "쌍발 이상의 터빈엔진 항공기 운항 시, 항로상 교체공항까지의 회항시간이 국토교통부에서",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.1 회항시간 연장운항 훈련 (EDTO)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0080",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "정한 기준시간 (Threshold Time) 보다 긴 경우 운항에 필요한 지식과 비행 기량을 숙달시키기",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.1 회항시간 연장운항 훈련 (EDTO)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0081",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "위한 훈련으로 초기 자격 부여 훈련은 양성 훈련 중 또는 이후에 실시하고, 정기훈련은 해",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.1 회항시간 연장운항 훈련 (EDTO)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0082",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "CAT-I 미만의 저 시정 상태에서 항공기를 운항하기 위하여 운항승무원으로 하여금 필요한",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.2 정밀계기접근 제 2 종 및 제 3 종 (CAT-II/III) 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0083",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 초기훈련은 해 기종 양성훈련 과정 중에 실시하며, 비행 훈련 및 심사는 양성 훈련 과정의",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.2 정밀계기접근 제 2 종 및 제 3 종 (CAT-II/III) 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0084",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1186 | pdf_page=1217"
+      ],
+      "deontic": "MUST",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 정기훈련은 자격유지를 위하여 연 1 회 훈련 및 (또는) 심사를 실시하여야 한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.2 정밀계기접근 제 2 종 및 제 3 종 (CAT-II/III) 훈련",
+      "severity": "CAUTION",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0085",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "정밀 레이더 접근 (PAR: Precision Approach Radar)을 Primary 로 운용하는 공항에 취항하는",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.3 레이더 정밀접근 (PAR) 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0086",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "항공기 기종의 조종사들로 하여금 PAR 유도에 의한 접근 및 착륙을 수행하는데 필요한",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.3 레이더 정밀접근 (PAR) 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0087",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "지식과 기량을 숙달, 유지하게 하기 위한 훈련으로 초기훈련은 해 기종 양성 훈련과정의 지상",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.3 레이더 정밀접근 (PAR) 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0088",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "훈련 및 비행 훈련 과정 중에 실시하며, 자격유지를 위한 훈련은 해 기종 정기훈련 과정에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.3 레이더 정밀접근 (PAR) 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0089",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "평행활주로에서 ILS/PRM 혹은 LDA/PRM, RNAV/PRM 방식에 의한 동시 접근을 안전하게",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.4 PRM(Precision Runway Monitor) 접근 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0090",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "수행할 수 있도록 자격을 부여하는 훈련으로 초기 훈련은 기종 양성과정에서 실시되며, 해",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.4 PRM(Precision Runway Monitor) 접근 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0091",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1187 | pdf_page=1218"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "훈련으로, 초기 훈련 및 검증을 통해 자격을 부여하고 자격유지를 위해 연 1 년 정기훈련 및",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.6.5 기장우측석 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0092",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 훈련 목표",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0093",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 정기 SPOT 비행 훈련은 각종 특수 운항 자격과 UPRT 등 EBT 훈련에서 실시하지",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0094",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 훈련 대상",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0095",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 해 기종 운항 자격을 유지하고 있는 운항 승무원을 대상으로 매 12 개월에 1 회",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0096",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 양성 및 UPRT 가 포함된 재자격 훈련의 기량심사를 받은 날로부터 1 년 이내에 정기",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0097",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 훈련 내용",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0098",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 정기 비행 훈련에서 실시하지 않은 각종 특수 운항 정기 훈련 요목",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0099",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 정기 비행 훈련에서 실시하지 않은 UPRT 정기 훈련 요목",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0100",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 기타 회사에서 안전 운항을 위해 필요로 하는 훈련 요목",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.1 정기 SPOT 비행 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0101",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 훈련 목표",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.2 CRM 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0102",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- CRM 및 TEM 과 관련된 지식과 역량을 습득하고 안전운항에 적용토록 한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.2 CRM 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0103",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1188 | pdf_page=1219"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 훈련 과정",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.2 CRM 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0104",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1189 | pdf_page=1220"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "제반 교육훈련 과정 중 각종 시험이나 심사에 불합격되거나 또는 교육 훈련 중 진도가 현저히",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.3 추가 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0105",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1189 | pdf_page=1220"
+      ],
+      "deontic": "MAY",
+      "subject": "운항승무원/교관/심사관",
+      "action": "부족하여 교관의 판단으로 더 이상 교육진행에 문제가 발생시 추가훈련을 실시할 수 있다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.3 추가 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0106",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1189 | pdf_page=1220"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "정기훈련 (EBT) 종료 시 2 등급이 남아 있거나 양성 기량심사 또는 노선심사 등에서 2",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.4 기량 향상 훈련",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0107",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 시험일정 및 장소",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0108",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 시험일정: 매월 2 번째 주 (CPaT 과정 입과 기간 1 주일: 월요일~일요일)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0109",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 시험장소: 온라인 환경 (개인 Tablet 또는 PC 사용 가능), CPaT 과정 입과 후",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0110",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 신청방법",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0111",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 시험 응시월 기준 전월 말일까지 성명, 사번, 응시희망월, 기종을 명기하여 본인의 회사",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0112",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "메일계정(*********@koreanair.com)으로 E-mail(selostest@koreanair.com)로 송부",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0113",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 담당자 접수 후 CPaT 입과 조치 및 안내 MAIL 발송",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0114",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 관련문의: 검열팀 심사담당(02-2656-6867)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0115",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 응시자격",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0116",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 최초 부기장 임명일로부터 만 4 년 6 개월 경과자 중 운송용 자격증명 소지자",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0117",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 문항구성/시험 시간 및 (불)합격기준",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0118",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 객관식 35 문항 / 70 분",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0119",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 시험범위",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0120",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- FOM",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0121",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- FCRM",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0122",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 각종 공시 및 항공상식",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0123",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "※ Crewlink 의 ‘기장선발시험 문제은행’ 등재는 폐지, CPaT 입과조치 후, ‘기장선발시험",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0124",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 기타",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0125",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1190 | pdf_page=1221"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- CPaT 문제은행은 Manual 개정 또는 필요 시 수시 Update 예정",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.6 기장 선발 시험",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0126",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1191 | pdf_page=1222"
+      ],
+      "deontic": "MUST",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 모든 운항승무원은 항공안전법 및 동 법 시행규칙과 국제 민간 항공조약 부속서 1 에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.7 항공영어 구술능력 자격 취득 및 유지",
+      "severity": "CAUTION",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0127",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1191 | pdf_page=1222"
+      ],
+      "deontic": "MUST",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 국제선 비행근무를 위하여 4 등급 이상의 자격을 소지하여야 한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.7 항공영어 구술능력 자격 취득 및 유지",
+      "severity": "CAUTION",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0128",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1191 | pdf_page=1222"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 영어자격 등급 별 유효기간은 아래와 같다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.7 항공영어 구술능력 자격 취득 및 유지",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0129",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1191 | pdf_page=1222"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 4 등급: 3 년",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.7 항공영어 구술능력 자격 취득 및 유지",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0130",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1191 | pdf_page=1222"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 5 등급: 6 년",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.7 항공영어 구술능력 자격 취득 및 유지",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0131",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1191 | pdf_page=1222"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 6 등급: 영구",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.2.7.7 항공영어 구술능력 자격 취득 및 유지",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0132",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "각종 지상학 교육 (Distance learning 포함)에 대한 이해도 및 성취도를 측정하기 위하여 필기",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.1 필기 시험 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0133",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "시험을 실시하며 합격기준은 각 70 점 이상으로 한다. 단, 위험물 및 ATC 과목의 합격기준은",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.1 필기 시험 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0134",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "각종 지상훈련, 기량심사 및 노선심사 등에서 훈련 성취도 또는 안전운항에 요구되는 지식",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.2 구술 시험 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0135",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "수준을 측정하기 위하여 구술 시험을 실시하며 합격기준은 각 70 점 이상으로 한다. 단, ATC",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.2 구술 시험 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0136",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "훈련 진척도가 부진할 경우 추가 훈련이 권고될 수 있으며 훈련의 성과와 진도가 현저하게",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.3 각종 훈련 검증 기준 (FTD, FFS, OE 등)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0137",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "부진하여 더 이상의 훈련진행이 어려울 경우 훈련/심사 심의위원회를 거쳐 불합격으로 판정될 수",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.3 각종 훈련 검증 기준 (FTD, FFS, OE 등)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0138",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전운항에 요구되는 운항승무원의 지식 및 기량 (역량)의 정도를 심사한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4 기량 (역량) 심사 기준 (FFS 양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0139",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 심사에 대한 판정은 Pilot Qualification Standard(PQS) 와 Behavioral Indicator 에 의거하여",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4 기량 (역량) 심사 기준 (FFS 양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0140",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 정기 심사 및 재 자격 기량심사에서 불합격 판정을 받는 경우에는 최초 심사 포함 3 회까지,",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4 기량 (역량) 심사 기준 (FFS 양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0141",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1192 | pdf_page=1223"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 심사에서 불합격 (Unsatisfactory)으로 판정되었을 경우 해당 조종사는 재심사에서",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4 기량 (역량) 심사 기준 (FFS 양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0142",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1193 | pdf_page=1224"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Note: 모든 심사의 첫 번째 시도를 종료한 후 1 등급 과목이 있는 경우 심사시간 내에서",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.1 종합판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0143",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1193 | pdf_page=1224"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "과목당 1 회씩, 최대 2 과목까지 재시도가 부여될 수 있다. 단, 3 과목 이상에서 1 등급",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.1 종합판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0144",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 조작 기준: 허용 기준치를 벗어나지 않으며 조작 수행의 결과로 안전 및 효율의",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0145",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "5 등급 • 절차 기준: 모든 단계를 확신을 갖고 수행하며 절차 수행의 결과로 안전 및",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0146",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• CRM/TEM 기준: 정확한 CRM 기법을 적용하고 사전에 Threat 를 예견하여",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0147",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 조작 기준: 허용 기준치를 매우 드물게 벗어나지만 적시에 인지하고 신속히",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0148",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "4 등급 • 절차 기준: 매우 드물게 절차 수행을 주저하는 경향이 있지만 대부분의 단계를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0149",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• CRM/TEM 기준: 정확한 CRM 기법을 적용하여 Threat 와 Error 를 적시에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0150",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 조작 기준: 허용 기준치를 가끔 벗어나지만 적절한 시간 내에 인지 및 수정",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0151",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "3 등급 • 절차 기준: 가끔 절차 수행을 주저하는 경향이 있지만 합리적인 시간 내에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0152",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• CRM/TEM 기준: 적절한 CRM 기법을 적용하여 Threat 와 Error 를 합리적인 시간",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0153",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 조작 기준: 허용 기준치를 자주 벗어나지만 안전을 위한 최저 수준 이상으로",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0154",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "2 등급 • 절차 기준: 업무가 정확히 수행되지 못하거나 운항에 필요한 합리적인 시간을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0155",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• CRM/TEM 기준: 최저 수준이상의 CRM 기법을 적용, 또는 Threat 을 자주",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0156",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 조작 기준: 허용 기준치를 벗어났음을 인지하지 못하거나 인지하였어도 수정이",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0157",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 절차 기준: 표준절차가 수행되지 않는다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0158",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1194 | pdf_page=1225"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• CRM/TEM 기준: Threat 를 인지하지 못하여 발생된 Error 를 수정하지 못한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.4.2 등급 판정 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0159",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 해당 자격별 직무수행에 필요한 지식과 임무수행능력에 대하여 운항 중인 노선 중에서",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.5 노선 심사 기준 (양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0160",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 명령능력, 판단, 상환인식, 위험대처, CRM, 결정력 그리고 기술적인 능력과 절차 수행 등과",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.5 노선 심사 기준 (양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0161",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 심사에 대한 판정은 FOTM ‘Pilot Qualification Standard(PQS)’에 의거하여 실시된다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.5 노선 심사 기준 (양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0162",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 인정 심사 불합격자는 훈련/표준 심사 심의위원회, 또는 운항승무원 자격심의위원회에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.5 노선 심사 기준 (양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0163",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 정기 심사 불합격자는 훈련/표준 심사 심의위원회를 개최하여 재 심사 여부 등을 심의하며,",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.5 노선 심사 기준 (양성/정기)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0164",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 노선심사 불합격자",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.6.1 심사 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0165",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 정기 SBE 심사에서 불합격하여 재심사에서 합격한 경우, 90 일 이내에 수시 노선 심사를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.6.1 심사 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0166",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "실시한다. 단, 재심사의 Technical Competency 의 점수가 2 점 이하인 경우 추가로",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.6.1 심사 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0167",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 수시 노선 심사",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.6.2 심사 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0168",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 수시 기량 심사: FFS 에서 실시하며 심사 내용 및 시간은 훈련심사 심의위원회에서",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.6.2 심사 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0169",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1195 | pdf_page=1226"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "결정한다. 단, 심사 시작 전 1 회의 정상 이착륙으로 FFS Adaptation 을 실시한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.6.2 심사 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0170",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 운항승무원 제반 훈련 과정 중 훈련 성취도가 현저하게 부진하여 교관이 추가훈련을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.1 적용 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0171",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 시험에서 불만족 되어 재시험을 실시해야 하는 경우",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.1 적용 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0172",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 검증 및 심사 시 불만족으로 추가훈련, 재검증 및 재심사를 해야 하는 경우",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.1 적용 대상",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0173",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 불만족자 발생 시 훈련심사 심의 위원회를 통하여 추가훈련 또는/및 재심사 내용과 방법을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.2 적용 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0174",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 각 훈련 단계 및 OE 에서 시험, 검증, 심사 및 추가훈련을 포함하여 불만족 판정이 3 회가",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.2 적용 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0175",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 각 훈련 과정 (초기, 승격, 정기 등)에서 시험, 검증, 심사 및 추가훈련을 포함하여 누적",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.2 적용 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0176",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1196 | pdf_page=1227"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "불만족 판정이 4 회가 되면 훈련은 종료되며 운항승무원 자격심의위원회에 회부된다. 단,",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.3.7.2 적용 방법",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0177",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전성",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.1 업무 우선 순위",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0178",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 쾌적성",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.1 업무 우선 순위",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0179",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 정시성",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.1 업무 우선 순위",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0180",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 경제성",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.1 업무 우선 순위",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0181",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "비행 단계 별 업무 수행 기준은 대한항공 및 제작사에서 발행한 아래의 Manual 등에 반영되어",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.2 비행 단계 별 업무 수행 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0182",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOM",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.2 비행 단계 별 업무 수행 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0183",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• POM",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.2 비행 단계 별 업무 수행 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0184",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• QRH",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.2 비행 단계 별 업무 수행 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0185",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FCOM",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.1.2 비행 단계 별 업무 수행 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0186",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "비행 임무는 Pilot Flying(PF) 와 Pilot Monitoring(PM)으로 구분되며 임무 별 업무 수행 기준은",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2 임무 별 업무 수행 기준",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0187",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기 조종",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0188",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Flight Path and Airspeed Control",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0189",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Navigation",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0190",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Airplane Configuration",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0191",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Manual 에 명시된 비행절차 수행",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0192",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비행 상태 및 상황 Monitor",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0193",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1197 | pdf_page=1228"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Takeoff Briefing 과 Landing Briefing",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.1 Pilot Flying (PF)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0194",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1198 | pdf_page=1229"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Approach 와 Landing 을 포함한 비행절차 및 항공기 System 전반에 대한 Monitor 와",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.2 Pilot Monitoring (PM)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0195",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1198 | pdf_page=1229"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비행 경로 이탈 또는 System 이상 발견 시 PF 에게 Callout",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.2 Pilot Monitoring (PM)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0196",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1198 | pdf_page=1229"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전한 접근이 계속될 수 없거나 Unstabilized 상태가 되면 Missed Approach 수행을 조언",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.2 Pilot Monitoring (PM)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0197",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1198 | pdf_page=1229"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• ATC Communication, Checklist Reading, FMS CDU Operation",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.2 Pilot Monitoring (PM)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0198",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1198 | pdf_page=1229"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• PF 의 지시 수행",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.4.2.2 Pilot Monitoring (PM)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0199",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "역량별 업무수행 기준은 운항승무원이 업무수행 시 발휘해야 할 역량별 행동 기준을 제시하고,",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.1 Preface",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0200",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "적절한 지식을 활용하여 발간된 Operating Instruction 및 관련 규정에 부합하는 절차를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0201",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 어떤 Operating Instruction 을 적용해야 하는 지 파악한다 (알고 있다).",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0202",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 더 높은 수준의 안전을 확보하기 위한 경우가 아니라면 SOP 를 따른다. (의도적으로",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0203",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 적시에 필요한 모든 Operating Instruction 을 파악하고 적용한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0204",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기 시스템과 관련 장비를 올바르게 운영한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0205",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 관련 규정을 준수한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0206",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1199 | pdf_page=1230"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 적절한 Procedural Knowledge 를 적용한다. (발간된 지침이 없을 경우)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.1 Application of Procedures",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0207",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Manual Flight 으로 항공기 Flight Path 를 Control 한다. (Flight management system 및",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0208",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Manual Flight 시 상황에 맞게, 정확하면서도 부드럽게 항공기를 제어한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0209",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기의 비행경로 이탈을 감지하고 적절한 조치를 취한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0210",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Normal Flight Envelope 이내에서 항공기를 운항한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0211",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기의 자세, 속도, 추력 간의 상관 관계를 활용하여 안전하게 Control 한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0212",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 최적의 운항 성능을 얻을 수 있도록 Flight Path 를 관리한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0213",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Manual Flight 시 다른 업무 및 비행 방해 요소들을 관리하는 중에도 비행 경로를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0214",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비행 단계와 업무량을 고려하여 알맞은 Flight Guidance System Mode 와 Level 을 적시에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0215",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 각종 Mode 의 Engagement 및 Transition 을 포함하여 Flight Guidance System 을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.2 Aircraft Flight Path Management, Manual Control",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0216",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Auto Flight 으로 항공기 Flight Path 를 Control 한다. (Flight management system 및 Flight",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0217",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Auto Flight 시 상황에 맞게, 정확하면서도 부드럽게 항공기를 제어한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0218",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기의 비행경로 이탈을 감지하고 적절한 조치를 취한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0219",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Normal Flight Envelope 이내에서 항공기를 운항한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0220",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 최적의 운항 성능을 얻을 수 있도록 Flight Path 를 관리한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0221",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Auto Flight 시 다른 업무 및 비행 방해 요소들을 관리하는 중에도 비행 경로를 유지한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0222",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비행 단계와 업무량을 고려하여 알맞은 Flight Guidance System Mode 와 Level 을 적시에",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0223",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1200 | pdf_page=1231"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 각종 Mode 의 Engagement 및 Transition 을 포함하여 Flight Guidance System 을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.3 Aircraft Flight Path Management, Automation",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0224",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 수신자가 정보를 받을 준비가 되어 있거나 받을 수 있는 상황인지 확인한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0225",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 의사 소통할 내용, 시기, 방법, 대상 등을 적절하게 선택한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0226",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 메시지를 분명하고 정확하며 간결하게 전달한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0227",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 수신자가 중요한 정보를 정확하게 이해했는지 확인한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0228",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 정보를 수신할 때 적극적으로 청취하고, 이해 여부를 표현한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0229",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 관련된 주요 사항에 대해 효과적인 질문을 한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0230",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 표준 ATC 용어 및 절차를 준수한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0231",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 회사 및 비행 문서를 정확하게 읽고 해석한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0232",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Datalink Message 를 정확하게 읽고, 해석하고, 작성하고, 회신한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0233",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 절차 상 요구되는 보고서를 정확하게 작성한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0234",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 비언어적 의사소통을 정확하게 해석한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0235",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 구두 메시지를 잘 전달하기 위해 필요 시 이에 부합하는 Eye Contact 이나 Gesture 를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.4 Communication",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0236",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 승무원 각각의 맡은 역할 및 그 역할의 목적을 이해하고 동의한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0237",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 열린 의사소통 분위기를 조성하고 다른 승무원의 참여를 독려한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0238",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 필요 시 주도적으로 방향을 제시한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0239",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 실수를 인정하고 책임감을 갖는다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0240",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 다른 승무원이 필요로 하는 것을 예측하고 적절히 대응한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0241",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 지시 받은 사항을 수행한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0242",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 관련된 고려 사항 및 의도를 전달한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0243",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 피드백을 유용하고 도움이 되는 방향으로 주고 받는다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0244",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전을 위해 중요한 상황인 경우, 자신 있게 개입한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0245",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 타인에 대한 공감, 존중 및 관용을 보여준다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0246",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 다른 사람을 계획 수립에 참여시키고 능력에 따라 공정하고 적절하게 업무를 배분한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0247",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1201 | pdf_page=1232"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 갈등과 이견을 유용하고 도움이 되는 방향으로 다루고 해결한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.5 Leadership & Teamwork",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0248",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 어떤 상황에서도 자제력을 보여준다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 제 7 장 TRAINING",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0249",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "사용 가능한 자원을 효율적으로 관리하여 모든 상황에서 적시에 업무의 우선 순위를 정하고",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0250",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 어떤 상황에서도 자제력을 유지한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0251",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 효과적으로 업무를 계획하고, 우선순위를 정하며, 일정을 수립한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0252",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 업무수행 시 시간을 효율적으로 관리한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0253",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 도움을 제공하거나 수용하고, 필요 시 업무를 위임하며, 도움은 조기에 요청한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0254",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 수행한 업무가 예상했던 결과를 가져왔는지 확인한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0255",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 일이 적절히 진행되는지 주의 깊게 관찰하고 검토하고 Cross check 한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0256",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 간섭이나 방해를 받는 상황, 정상적인 상태를 벗어나거나 비정상 상태가 발생한 상황 등을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.6 Workload Management",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0257",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기와 시스템 상태를 정확하게 파악하고 평가한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0258",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기의 Vertical/Lateral 위치 및 예상되는 비행 경로에 대해 파악하고 평가한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0259",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 운항에 영향을 미칠 수 있는 주변 환경을 정확히 파악하고 평가한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0260",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 시간 및 연료를 지속적으로 파악한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0261",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 운항과 관련된 사람들 및 그들이 수행할 수 있는 역량에 대해 지속적으로 인지한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0262",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 일어날 수 있는 상황을 정확하게 예측하고 그 상황이 발생하기 전에 계획을 세우고",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0263",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 잠재적인 위협에 대비하여 효과적인 대처 계획을 수립한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0264",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기나 사람의 안전에 위협이 되는 요소를 파악하고 관리한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0265",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1202 | pdf_page=1233"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 상황인식 감소의 징후를 인지하고 효과적으로 대응한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.7 Situation Awareness",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0266",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "위협요소를 정확하게 파악하여 문제를 해결한다. 적절한 의사결정 프로세스를 활용한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0267",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 적절한 출처 (Crew, ATC, Manual, A/C Display 등)로부터 정확하고 충분한 정보를",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0268",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 무엇이 왜 잘못되고 있는 지 파악하고 파악된 내용이 정확한지 검증한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0269",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 적절한 문제 해결 전략을 사용한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0270",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전을 저하시키지 않으면서 문제를 해결하기 위해 지속적으로 노력한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0271",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 적시에 적절한 의사결정 프로세스를 사용한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0272",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 우선순위를 적절하게 설정한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0273",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 추가 선택사항이나 대안이 있는지를 효과적으로 파악하고 고려한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0274",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 결정 사항을 관찰하고 검토하여 필요한 경우 상황에 맞게 수정한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0275",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 위협요소를 효과적으로 파악하고 관리한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0276",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1203 | pdf_page=1234"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 예측할 수 없는 상황에 직면했을 때 가장 안전한 결과를 얻는 방향으로 대처한다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.5.2.8 Problem Solving & Decision Making",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0277",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "특별히 언급된 것이 없을 경우에는 다음 수치 이내로 유지한다. 이 수치는 양호한 비행 조건을",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.1 일반사항",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0278",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "전제로 하며 위촉심사관이 피심사자의 기량 (역량) 수준을 측정하기 위한 지침으로 사용된다.",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.1 일반사항",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0279",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Airspeed: ± 10knots (접근단계의 Target Speed 제외)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0280",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Heading: ± 10° 이내",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0281",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Altitude: ± 100 feet 이내 (MDA 제외)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0282",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Area Navigation",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0283",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Tracking on Radio Aids",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0284",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Bearings: ± 5°",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0285",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Course: ± 1 Dot or 5°",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0286",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Radials: ± 5°",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0287",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- DME Arc: ±2 NM",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0288",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1204 | pdf_page=1235"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Airways: 항로상 제한치 이내",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.2 모든 비행 단계",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0289",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1205 | pdf_page=1236"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Target Speed +10kts/-5kts (but not below Vref)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.3.2 AIRSPEED",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0290",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1205 | pdf_page=1236"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "인가된 Touch Down Zone (Threshold 로부터 3,000 ft 나 활주로 길이의 1/3 중 작은 것)",
+      "chapter_ref": "FCRM-제 7 장 TRAINING | 7.6.3.3 접지지점 (Touch Down Zone)",
+      "severity": "INFO",
+      "category": "TRAINING"
+    },
+    {
+      "id": "FCRM-R41-0291",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1206 | pdf_page=1237"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "제 8 장 SAFETY & SECURITY .......................................................................................... 1",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0292",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "MUST",
+      "subject": "운항승무원/교관/심사관",
+      "action": "임직원들이 필수적인 안전 관련 정보를 자유롭게 보고하도록 장려하고, 용인되는 행위와",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.1.1 공정문화",
+      "severity": "CAUTION",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0293",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "공정문화 하에서 모든 임직원들은 처벌에 대한 두려움 없이 안전 관련 정보를 자유롭게",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.1.1 공정문화",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0294",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "보고해야 하며, 실수나 event 가 발생했을 경우 그 행위의 결과값이 아닌 행위 자체에 대해",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.1.1 공정문화",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0295",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOM 12 장 참조",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.1 목적",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0296",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전 (Safety): 항공기 운항과 관련되거나 항공기 운항을 직접적으로 지원하는 활동과",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0297",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공안전위해요인 (Hazard): 항공기사고, 항공기준사고 또는 항공안전장애를 발생시킬 수",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0298",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "있거나 발생 가능성의 확대에 기여할 수 있는 상황, 상태 또는 물적  인적요인 등을",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0299",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 위험도 (Safety Risk): 위해요인으로 초래 가능한 결과의 발생가능성 및 심각도를 경감하기",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0300",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 위험도 경감 (Risk Mitigation): 위해요인으로 초래 가능한 결과의 발생가능성 및 심각도를",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0301",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA Event: 당사의 표준 비행 절차 (Standard Operation Procedure)에 Safety",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0302",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA Exceedance (FOQA-X): FOQA Event 중 표준 비행 절차를 많이 초과하였거나",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0303",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "위험요소를 포함하고 있는 Event 로, 재발 방지를 위한 즉각적인 개선조치가 필요한",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0304",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1207 | pdf_page=1238"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "항목이다. 재발 방지 대책은 승무원 교육, 훈련 또는 절차 개선을 위주로 이루어진다.",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.2 용어 정의",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0305",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "a) 항공안전전략실장",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0306",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공안전관리시스템 (SMS) 운영 관련 총괄적인 책임",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0307",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전 개선 조치에 대한 확인 및 필요시 관련 경영층과 협의",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0308",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• Fleet Manager 선임",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0309",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA Data 발췌 기준 선정 및 변경",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0310",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공안전전략실 외부로 FOQA Data 제공에 관한 결정",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0311",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA 와 관련하여 승무원 정보를 고의적으로 유포한 자를 FOQA 운영에서 제외 조치",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0312",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "b) 안전조사팀장",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0313",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• IIC(Investigator In Charge)로서 사안에 따라 조사 팀을 구성하여 분야 별 조사 업무를",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0314",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 기종 별 Fleet Manager 관리 및 기장보고서/FOQA 에 대한 조사 및 적절한 후속조치에",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.3 책임과 권한",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0315",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "a) Safety Investigation",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0316",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ 목적",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0317",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOM 12 장 참조",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0318",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ 분류",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0319",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기 사고 및 준사고:",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0320",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 기타 비정상 운항 (항공보안 위규사례 포함)",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0321",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ 조사",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0322",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 모든 조사는 항공안전법 및 관련 규정에 따라 자료를 수집하고 사실을 분석함으로써",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0323",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "이루어지며, 항공안전전략실의 조사보고서는 기본적으로 ICAO Annex 13 의 내용과",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0324",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공기의 운항과 관련된 모든 항공안전 위해요인들은 항공안전전략실에 보고되어야 하며,",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0325",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 사고조사관은 현장증거 및 관련 정보를 수집하며, 관련 당사자 및 목격자 진술을",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0326",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1208 | pdf_page=1239"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "확보한다. 관련 정보에 대한 조사, 분석이 완료되면 조사보고서를 작성하여 추정 원인 및",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.4 구성",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0327",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 안전권고사항은 관련부서에 배포되며, 해당부서에서는 적절한 수정조치를 취하고 30 일",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0328",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ 보고",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0329",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "b) 안전 보고 제도",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0330",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOM 12 장 참조",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0331",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "c) FOQA (Flight Operations Quality Assurance) Program",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0332",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ 일반",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0333",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ 정책",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0334",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "FOQA System 을 통하여 얻어진 비행자료는 회사의 비행안전수준 향상 및 사고예방을",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0335",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "목적으로 사용하며, 평가나 처벌을 목적으로 사용하지 않는다. 단, 항공안전장애 범위 이상의",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0336",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1209 | pdf_page=1240"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Event 와 의도적인 정책 및 절차의 무시 또는 위반행위에 대해서는 FOQA 운영절차의",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0337",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1210 | pdf_page=1241"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ FOQA Program 운영도",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0338",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1210 | pdf_page=1241"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ FOQA Event",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0339",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1210 | pdf_page=1241"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 항공안전전략실은 표준운항절차로부터 일정한 Margin 을 두어 기종별로 Event 발췌",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0340",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1210 | pdf_page=1241"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA Event 는 주로 비행경향성 분석 및 잠재적인 Hazard 발췌용도로 사용된다.",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 제 8 장 SAFETY & SECURITY",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0341",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA Exceedance 는 당시 비행상황을 종합적으로 검토하여 결정하며, 다음과 같은",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0342",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- CFIT 에 근접한 비행",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0343",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- Unstabilized Approach",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0344",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 항공기 운영 한계치를 초과한 비행",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0345",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 규정, 절차를 준수하지 않은 비행",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0346",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "- 기타 심각한 안전위해요인을 포함하고 있는 비행",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0347",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• FOQA Exceedance 는 적절한 훈련을 포함한 수정조치가 수행될 수 있다. 이러한 조치는",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0348",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "본질적으로 처벌이 아닌, 해당 승무원의 비행능력 향상에 도움이 되는 기회를 제공하는",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0349",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "○ Fleet Manager",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0350",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1211 | pdf_page=1242"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Fleet Manager 는 운항승무원의 익명성을 보장하여야 하며, FOQA Data 분석을 통하여",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.1.2.5 FOQA Exceedance (FOQA-X)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0351",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 임직원은 본 규정 (정보보호규정), 취업규칙 등 제반 규정, 회사에 제출하는 서약서,",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.3 임직원의 책임과 의무 (B14-2.0-SELSY 정보보호규정)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0352",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "MUST",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 임직원은 재직중 직, 간접적으로 취득한 회사의 각종 정보 및 회사가 비밀유지 의무를 지는",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.3 임직원의 책임과 의무 (B14-2.0-SELSY 정보보호규정)",
+      "severity": "CAUTION",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0353",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "제 3 자와 관련된 정보를 재직중은 물론 퇴직 후에도 회사의 사전 승낙 없이 이를 누설",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.3 임직원의 책임과 의무 (B14-2.0-SELSY 정보보호규정)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0354",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "• 회사의 허가 없이 고의 또는 과실로 정보보호 규정상의 보호대상인 정보자산을 외부로",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.4 금지사항 (A02-0.0-SELIL 취업규칙 2.8.1)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0355",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "유출하거나 업무상 알게 된 영업비밀 등을 외부에 누설하는 행위 또는 정보자산이 기록된",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.4 금지사항 (A02-0.0-SELIL 취업규칙 2.8.1)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0356",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "Note: 회사의 신뢰도 저하 및 배상책임 등이 따를 수 있는 운항관련 사항 및 고객/화물정보",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.4 금지사항 (A02-0.0-SELIL 취업규칙 2.8.1)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    },
+    {
+      "id": "FCRM-R41-0357",
+      "type": "FCRMRule",
+      "revision": "R41",
+      "issue_date": "2026-06-29",
+      "source_refs": [
+        "PDF:EFB KOREAN AIR FCRM R41 20260629 | json_idx=1212 | pdf_page=1243"
+      ],
+      "deontic": "SHALL",
+      "subject": "운항승무원/교관/심사관",
+      "action": "(사진 촬영 등)를 회사의 허가 없이 SNS 를 포함한 일체의 대중매체에 게시하여서는 안 된다.",
+      "chapter_ref": "FCRM-제 8 장 SAFETY & SECURITY | 8.2.2.4 금지사항 (A02-0.0-SELIL 취업규칙 2.8.1)",
+      "severity": "INFO",
+      "category": "SAFETY_SECURITY"
+    }
+  ],
+  "fcrm_chapters": [
+    {
+      "id": "FCRM-CH7",
+      "title": "제7장 TRAINING · 훈련 일반/신입/양성/정기/재자격/기장선발/영어"
+    },
+    {
+      "id": "FCRM-CH8",
+      "title": "제8장 SAFETY & SECURITY · FOQA/안전권고/보안정책"
+    }
+  ]
+}

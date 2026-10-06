@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 7/24):
+Format: index|term|fullName|category|old_description
+0|ENR|En route|NOTAM|En route
+1|EOBT|Estimated off-block time|NOTAM|Estimated off-block time
+2|EQPT|Equipment|NOTAM|Equipment
+3|EV|Every|NOTAM|Every
+4|EVS||NOTAM|Enhanced vision system
+5|EXC|Except ...|NOTAM|...을 제외하고는
+6|FAC|Facilities|NOTAM|Facilities
+7|FAP|Final approach point|NOTAM|Final approach point
+8|FAS||NOTAM|Final approach segment
+9|FAX|Facsimile transmission|NOTAM|Facsimile transmission
+10|FCST|Forecast|NOTAM|Forecast
+11|FCT|Friction coefficient|NOTAM|Friction coefficient
+12|FDPS|Flight data processing system|NOTAM|Flight data processing system
+13|FEB|February 2|NOTAM|February
+14|FEW|Few|NOTAM|운량이 1/8이상, 2/8이하
+15|FG|Fog|NOTAM|= fog, FC = funnel cloud,
+16|FIC|Flight information centre|NOTAM|Flight information centre
+17|FIR|Flight information region|NOTAM|Flight information region
+18|FIS|Flight information service|NOTAM|Flight information service
+19|FLD|Field|NOTAM|비행장 지면
+20|FLG|Flashing|NOTAM|Flashing
+21|FLR|Flares|NOTAM|Flares
+22|FLT|Flight|NOTAM|Flight
+23|FLTCK|Flight check|NOTAM|Flight check
+24|FLW|Follow(s) or following|NOTAM|Follow(s) or following
+25|FLY|Fly or flying|NOTAM|Fly or flying
+26|FMC|Flight management computer|NOTAM|Flight management computer
+27|FMS|Flight management system|NOTAM|Flight management system
+28|FMU|Flow management unit|NOTAM|Flow management unit
+29|FNA|Final approach|NOTAM|Final approach
+30|FPAP||NOTAM|Flight path alignment point
+31|FPL|Filed flight plan (message type designator)|NOTAM|제출된 비행계획서(전문형식 지정어)
+32|FPM|Feet per minute|NOTAM|Feet per minute
+33|FPR|Flight plan route|NOTAM|Flight plan route
+34|FR|Fuel remaining|NOTAM|Fuel remaining
+35|FREQ|Frequency|NOTAM|Frequency
+36|FRI|Friday|NOTAM|Friday
+37|FRNG|Firing|NOTAM|Firing
+38|FRONT|Front (relating to weather)|NOTAM|Front (relating to weather)
+39|FRQ|Frequent|NOTAM|Frequent
+40|FSL|Full stop landing|NOTAM|Full stop landing
+41|FSS|Flight service station|NOTAM|Flight service station
+42|FST|First|NOTAM|First
+43|FT|Feet (Dimensional unit)|NOTAM|Feet (dimensional unit)
+44|FTE||NOTAM|Flight technical error
+45|FTP||NOTAM|Fictitious threshold point
+46|FTT||NOTAM|Flight technical tolerance
+47|FU|Smoke|NOTAM|Smoke
+48|FZ|Freezing|NOTAM|Freezing
+49|FZDZ|Freezing drizzle|NOTAM|Freezing drizzle

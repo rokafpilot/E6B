@@ -1,0 +1,302 @@
+[
+  {
+    "term": "ITED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA (APDIA)− Airspace surrounding a"
+  },
+  {
+    "term": "ITORING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(RAIM)− A technique whereby a civil"
+  },
+  {
+    "term": "JET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BLAST− Jet engine exhaust (thrust stream"
+  },
+  {
+    "term": "KNOWN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TRAFFIC− With respect to ATC clear-"
+  },
+  {
+    "term": "LANDING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DISTANCE AVAILABLE [ICAO]− The"
+  },
+  {
+    "term": "LAST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ASSIGNED ALTITUDE− The last altitude/"
+  },
+  {
+    "term": "LATERAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SEPARATION− The lateral spacing of"
+  },
+  {
+    "term": "LIGHTED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRPORT− An airport where runway and"
+  },
+  {
+    "term": "LOCAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRPORT ADVISORY (LAA)− A service"
+  },
+  {
+    "term": "LOCALIZER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OFFSET− An angular offset of the"
+  },
+  {
+    "term": "LOCATOR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− An LM/MF NDB used as an aid"
+  },
+  {
+    "term": "LONG",
+    "fullName": "Longitude",
+    "category": "PilotController",
+    "old_description": "RANGE NAVIGATION−"
+  },
+  {
+    "term": "LOST",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LINK PROCEDURE− Preprogrammed or"
+  },
+  {
+    "term": "LOW",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE ALERT, CHECK YOUR ALTI-"
+  },
+  {
+    "term": "MACH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "NUMBER− The ratio of true airspeed to the"
+  },
+  {
+    "term": "MAN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PORTABLE AIR DEFENSE SYSTEMS"
+  },
+  {
+    "term": "MANCE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SPECIFICATION AIRSPACE− That"
+  },
+  {
+    "term": "MATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SERVICE (D−ATIS) [ICAO]− The"
+  },
+  {
+    "term": "MAXIMUM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUTHORIZED ALTITUDE− A pub-"
+  },
+  {
+    "term": "METER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX ARC− A semicircle, equidistant from"
+  },
+  {
+    "term": "METERING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− A fix along an established route"
+  },
+  {
+    "term": "MICRO-EN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ROUTE AUTOMATED RADAR"
+  },
+  {
+    "term": "MID",
+    "fullName": "Mid-point(related to RVR)",
+    "category": "PilotController",
+    "old_description": "Mid-point (related to RVR)"
+  },
+  {
+    "term": "MIDDLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MARKER− A marker beacon that defines"
+  },
+  {
+    "term": "MILITARY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AUTHORITY ASSUMES RESPONSI- (Refer to AIM.)"
+  },
+  {
+    "term": "MINIMUM",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALTITUDE− Any of the following:"
+  },
+  {
+    "term": "MODE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(SSR MODE) [ICAO]− The letter or number"
+  },
+  {
+    "term": "MODEL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− An unmanned aircraft that is:"
+  },
+  {
+    "term": "MONITOR",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ALERT (MA)− A function of the TFMS"
+  },
+  {
+    "term": "MOVEMENT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AREA− The runways, taxiways, and MSA−"
+  },
+  {
+    "term": "MOVING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGET INDICATOR− An electronic"
+  },
+  {
+    "term": "MULTIPLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUNWAYS− The utilization of a"
+  },
+  {
+    "term": "NAT",
+    "fullName": "North Atlantic",
+    "category": "PilotController",
+    "old_description": "North Atlantic"
+  },
+  {
+    "term": "NATIONAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE SYSTEM− The common"
+  },
+  {
+    "term": "NAVIGATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "REFERENCE SYSTEM (NRS)−"
+  },
+  {
+    "term": "NBCAP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRSPACE−"
+  },
+  {
+    "term": "NO",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "No (negative) (to be used in AFS as a procedure signal)"
+  },
+  {
+    "term": "NONCOMMON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ROUTE/PORTION− That segment"
+  },
+  {
+    "term": "NORTH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AMERICAN ROUTE PROGRAM (NRP)−"
+  },
+  {
+    "term": "NOTICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO AIRMEN− A notice containing"
+  },
+  {
+    "term": "NOTICES",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO AIRMEN PUBLICATION− A"
+  },
+  {
+    "term": "NUMEROUS",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TARGETS VICINITY (LOCA-"
+  },
+  {
+    "term": "OBSTACLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DEPARTURE PROCEDURE (ODP)−"
+  },
+  {
+    "term": "OCEANIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ERROR REPORT− A report filed when"
+  },
+  {
+    "term": "OFF",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COURSE− A term used to describe a situation"
+  },
+  {
+    "term": "OFF-ROUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VECTOR− A vector by ATC which"
+  },
+  {
+    "term": "OFFSET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PARALLEL RUNWAYS− Staggered"
+  },
+  {
+    "term": "ON",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "COURSE−"
+  },
+  {
+    "term": "ONE-MINUTE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WEATHER− The most recent one"
+  },
+  {
+    "term": "ORGANIZED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TRACK SYSTEM− A series of ATS"
+  }
+]

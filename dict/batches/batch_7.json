@@ -1,0 +1,302 @@
+[
+  {
+    "term": "FZFG",
+    "fullName": "Freezing fog",
+    "category": "NOTAM",
+    "old_description": "Freezing fog"
+  },
+  {
+    "term": "FZRA",
+    "fullName": "Freezing rain",
+    "category": "NOTAM",
+    "old_description": "Freezing rain"
+  },
+  {
+    "term": "G/A",
+    "fullName": "Ground-to-air",
+    "category": "NOTAM",
+    "old_description": "Ground-to-air"
+  },
+  {
+    "term": "G/A/G",
+    "fullName": "Ground-to-air and air-to-ground",
+    "category": "NOTAM",
+    "old_description": "Ground-to-air and air-to-ground"
+  },
+  {
+    "term": "GAIN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Airspeed or headwind gain"
+  },
+  {
+    "term": "GARP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "GBAS azimuth reference point"
+  },
+  {
+    "term": "GEN",
+    "fullName": "General",
+    "category": "NOTAM",
+    "old_description": "일반 또는 총칙"
+  },
+  {
+    "term": "GES",
+    "fullName": "Ground earth station",
+    "category": "NOTAM",
+    "old_description": "Ground earth station"
+  },
+  {
+    "term": "GLD",
+    "fullName": "Glider",
+    "category": "NOTAM",
+    "old_description": "Glider"
+  },
+  {
+    "term": "GLS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "GBAS landing system"
+  },
+  {
+    "term": "GND",
+    "fullName": "Ground",
+    "category": "NOTAM",
+    "old_description": "Ground"
+  },
+  {
+    "term": "GNDCK",
+    "fullName": "Ground check",
+    "category": "NOTAM",
+    "old_description": "Ground check"
+  },
+  {
+    "term": "GOV",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Government"
+  },
+  {
+    "term": "GP",
+    "fullName": "Glide path",
+    "category": "NOTAM",
+    "old_description": "Glide path"
+  },
+  {
+    "term": "GPA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Glide path angle"
+  },
+  {
+    "term": "GPIP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Glide path intercept point"
+  },
+  {
+    "term": "GPU",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Ground power unit"
+  },
+  {
+    "term": "GRASS",
+    "fullName": "Grass landing area",
+    "category": "NOTAM",
+    "old_description": "Grass landing area"
+  },
+  {
+    "term": "GRVL",
+    "fullName": "Gravel",
+    "category": "NOTAM",
+    "old_description": "Gravel"
+  },
+  {
+    "term": "GUND",
+    "fullName": "Geoid undulation",
+    "category": "NOTAM",
+    "old_description": "Geoid undulation"
+  },
+  {
+    "term": "HBN",
+    "fullName": "Hazard beacon",
+    "category": "NOTAM",
+    "old_description": "Hazard beacon"
+  },
+  {
+    "term": "HCH",
+    "fullName": "Heliport crossing height",
+    "category": "NOTAM",
+    "old_description": "Heliport crossing height"
+  },
+  {
+    "term": "HDG",
+    "fullName": "Heading",
+    "category": "NOTAM",
+    "old_description": "방향 또는 기수방향"
+  },
+  {
+    "term": "HEL",
+    "fullName": "Helicopter",
+    "category": "NOTAM",
+    "old_description": "Helicopter"
+  },
+  {
+    "term": "HGT",
+    "fullName": "Height or height above",
+    "category": "NOTAM",
+    "old_description": "Height or height above"
+  },
+  {
+    "term": "HJ",
+    "fullName": "Sunrise to sunset",
+    "category": "NOTAM",
+    "old_description": "Sunrise to sunset"
+  },
+  {
+    "term": "HLDG",
+    "fullName": "Holding",
+    "category": "NOTAM",
+    "old_description": "Holding"
+  },
+  {
+    "term": "HLP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Heliport"
+  },
+  {
+    "term": "HLS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Helicopter landing site"
+  },
+  {
+    "term": "HN",
+    "fullName": "Sunset to sunrise",
+    "category": "NOTAM",
+    "old_description": "Sunset to sunrise"
+  },
+  {
+    "term": "HOL",
+    "fullName": "Holiday",
+    "category": "NOTAM",
+    "old_description": "Holiday"
+  },
+  {
+    "term": "HOSP",
+    "fullName": "Hospital aircraft",
+    "category": "NOTAM",
+    "old_description": "Hospital aircraft"
+  },
+  {
+    "term": "HPA",
+    "fullName": "Hectopascal",
+    "category": "NOTAM",
+    "old_description": "Hectopascal"
+  },
+  {
+    "term": "HR",
+    "fullName": "Hours",
+    "category": "NOTAM",
+    "old_description": "Hours"
+  },
+  {
+    "term": "HRP",
+    "fullName": "Heliport reference point",
+    "category": "NOTAM",
+    "old_description": "Heliport reference point"
+  },
+  {
+    "term": "HUD",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Head-up display"
+  },
+  {
+    "term": "HUM",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Humanitarian"
+  },
+  {
+    "term": "HURCN",
+    "fullName": "Hurricane",
+    "category": "NOTAM",
+    "old_description": "Hurricane"
+  },
+  {
+    "term": "HX",
+    "fullName": "No specific working hours",
+    "category": "NOTAM",
+    "old_description": "No specific working hours"
+  },
+  {
+    "term": "HYR",
+    "fullName": "Higher ...",
+    "category": "NOTAM",
+    "old_description": "...보다높은"
+  },
+  {
+    "term": "HZ",
+    "fullName": "Haze",
+    "category": "NOTAM",
+    "old_description": "Hertz (cycle per second)"
+  },
+  {
+    "term": "IAF",
+    "fullName": "Initial approach fix",
+    "category": "NOTAM",
+    "old_description": "Initial approach fix"
+  },
+  {
+    "term": "IAO",
+    "fullName": "In and out of clouds",
+    "category": "NOTAM",
+    "old_description": "In and out of clouds"
+  },
+  {
+    "term": "IAP",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Instrument approach procedure"
+  },
+  {
+    "term": "IAR",
+    "fullName": "Intersection of air routes",
+    "category": "NOTAM",
+    "old_description": "Intersection of air routes"
+  },
+  {
+    "term": "IAS",
+    "fullName": "Indicated air speed",
+    "category": "NOTAM",
+    "old_description": "Indicated airspeed"
+  },
+  {
+    "term": "IBN",
+    "fullName": "Identification beacon",
+    "category": "NOTAM",
+    "old_description": "Identification beacon"
+  },
+  {
+    "term": "ICE",
+    "fullName": "Icing",
+    "category": "NOTAM",
+    "old_description": "Icing"
+  },
+  {
+    "term": "ID",
+    "fullName": "Identifier or identify",
+    "category": "NOTAM",
+    "old_description": "Identifier or identify"
+  },
+  {
+    "term": "IFF",
+    "fullName": "Identification friend/foe",
+    "category": "NOTAM",
+    "old_description": "Identification friend/foe"
+  }
+]

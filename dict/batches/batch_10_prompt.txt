@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 11/24):
+Format: index|term|fullName|category|old_description
+0|MS|Minus|NOTAM|Minus
+1|MSA|Minimum sector altitude|NOTAM|Minimum sector altitude
+2|MSAW||NOTAM|Minimum safe altitude warning
+3|MSG|Message|NOTAM|Message
+4|MSL|Mean sea level|NOTAM|Mean sea level
+5|MT|Mountain|NOTAM|Mountain
+6|MTOM||NOTAM|Maximum take-off mass
+7|MTU|Metric units|NOTAM|Metric units
+8|MTW|Mountain waves|NOTAM|Mountain waves
+9|MWO|Meteorological watch office|NOTAM|Meteorological watch office
+10|NASC|National AIS system center|NOTAM|National AIS system centre
+11|NAV|Navigation|NOTAM|Navigation
+12|NAVAID||NOTAM|Navigation aid
+13|NB|Northbound|NOTAM|Northbound
+14|NBFR|Not before ...|NOTAM|...의 앞이 아님
+15|NC|No change|NOTAM|No change
+16|NDB|Non-directional radio beacon|NOTAM|Non-directional radio beacon
+17|NE|North-east|NOTAM|North-east
+18|NEB|North-east bound|NOTAM|North-eastbound
+19|NGT|Night|NOTAM|Night
+20|NM|Nautical miles|NOTAM|해리(거리단위)) Nautical miles
+21|NML|Normal|NOTAM|Normal
+22|NN||NOTAM|No name, unnamed
+23|NNE|North north east|NOTAM|North-north-east
+24|NNW|North north west|NOTAM|North-north-west
+25|NOF|International NOTAM office|NOTAM|International NOTAM office
+26|NONSTD||NOTAM|Non-standard
+27|NOTAMC||NOTAM|Cancelling NOTAM
+28|NOTAMN||NOTAM|New NOTAM
+29|NOTAMR||NOTAM|Replacing NOTAM
+30|NOV|November 11|NOTAM|November
+31|NPA||NOTAM|Non-precision approach
+32|NR|Number|NOTAM|Number
+33|NRH|NO reply heard|NOTAM|No reply heard
+34|NS|Nimbostratus|NOTAM|Nimbostratus
+35|NSC|Nil significant cloud|NOTAM|Nil significant cloud
+36|NSE||NOTAM|Navigation system error
+37|NSW|Nil significant weather|NOTAM|Nil significant weather
+38|NTL|National|NOTAM|National
+39|NTZ|No transgression zone|NOTAM|No transgression zone
+40|NW|North west|NOTAM|North-west
+41|NWB|North west bound|NOTAM|North-westbound
+42|NXT|Next|NOTAM|Next
+43|O/R|On request|NOTAM|On request
+44|OAC|Oceanic area control centre|NOTAM|Oceanic area control centre
+45|OAS|Obstacle assessment surface|NOTAM|Obstacle assessment surface
+46|OBST|Obstacle|NOTAM|Obstacle
+47|OCA|Obstacle clearance altitude|NOTAM|Obstacle clearance altitude
+48|OCC|Occulting(light)|NOTAM|Occulting (light)
+49|OCH|Obstacle clearance height|NOTAM|Obstacle clearance height

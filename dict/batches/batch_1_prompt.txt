@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 2/24):
+Format: index|term|fullName|category|old_description
+0|SIGWX|Significant weather|AIP/KMA|악기상
+1|SKC|Sky clear|AIP/KMA|맑음
+2|T|Temperature|AIP/KMA|온도
+3|TEND|Trend forecast|AIP/KMA|경향 예보
+4|TIP|Until past...(place) (|AIP/KMA|장소)를 통과할 때까지
+5|TWYL|Taxiway-link|AIP/KMA|유도로 연결
+6|W|West or western longitude|AIP/KMA|서쪽 또는 서경
+7|WAC||AIP/KMA|World Aeronautical Chart ICAO-1:1,000,000(followed by
+8|WINTEM|Forecast upper wind and temperature for aviation|AIP/KMA|상층바람?상층기온 항공예보
+9|X|Cross|AIP/KMA|횡단하다
+10|Y|Yellow|AIP/KMA|황색
+11|AOC|Aerodrome obstacle chart|AIP/KMA/DOC8400|. . . Aerodrome obstacle chart (followed by
+12|ATP|At... (time or place) ...|AIP/KMA/DOC8400|. . . At (followed by time or place) ATS Air traffic services
+13|ESE|East south east|AIP/KMA/DOC8400|East-south-east
+14|IAC|Instrument approach chart(followed by name/title)|AIP/KMA/DOC8400|. . . Instrument approach chart (followed by
+15|TO|To...(place) ...|AIP/KMA/DOC8400|. . . To (followed by place)
+16|VAC|Visual approach chart(followed by name/title)|AIP/KMA/DOC8400|. . . Visual approach chart (followed by
+17|BL||DOC8400|. . . Blowing (followed by DU = dust,
+18|EQN||DOC8400|Equatorial latitudes northern
+19|EQS||DOC8400|Equatorial latitudes southern
+20|EUR||DOC8400|RODEX European regional OPMET data
+21|HNH||DOC8400|High latitudes northern hemisphere
+22|HSH||DOC8400|High latitudes southern hemisphere
+23|MNH||DOC8400|Middle latitudes northern hemisphere
+24|MSH||DOC8400|Middle latitudes southern hemisphere
+25|PATC||DOC8400|. . . Precision approach terrain chart (followed
+26|REPORT||DOC8400|Local routine meteorological report (in
+27|SWX||DOC8400|Space weather
+28|SWXC||DOC8400|Space weather centre
+29|TCAS||DOC8400|RA† (to be pronounced “TEE-CAS-AR-AY”)
+30|TL||DOC8400|. . . Till (followed by time by which weather
+31|TN||DOC8400|. . . Minimum temperature (followed by
+32|VOL||DOC8400|. . . Volume (followed by I, II . . .)
+33|VV||DOC8400|. . . Vertical visibility (followed by figures in
+34|AMR|At sea|KMA|바다
+35|AR|(부호) End of transmission|KMA|송신종료
+36|AVASIS||KMA|간이진입각 지시등
+37|BLSN||KMA|눈바람
+38|BT||KMA|분리신호 -...-
+39|DRSN|Low drifting snow|KMA|눈보라
+40|ENRT||KMA|"(항행중
+41|INDB|Inbound|KMA|입항
+42|INTER|Intermittent|KMA|간헐적
+43|LB|Pounds(weight)|KMA|무게단위
+44|LLZ|) Localizer|KMA|방위각 지시기(ILS
+45|M|Mach number|KMA|The ratio of true airspeed to the speed of sound; e.g., MACH .82, MACH 1.6.
+46|MB|Milibars|KMA|기압단위
+47|MPH|Statute miles per hour|KMA|마일/매시속도
+48|NEH||KMA|요구한국과 연결됐음
+49|OCL|Obstacle clearance limit|KMA|장애물 허용한계

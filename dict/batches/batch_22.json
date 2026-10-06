@@ -1,0 +1,302 @@
+[
+  {
+    "term": "SEPARATION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MINIMA."
+  },
+  {
+    "term": "SERVICE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "− ALASKA FSSs ONLY.)"
+  },
+  {
+    "term": "SEVERE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "WEATHER AVOIDANCE PLAN− An"
+  },
+  {
+    "term": "SHORT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TAKEOFF AND LANDING AIRCRAFT−"
+  },
+  {
+    "term": "SIDESTEP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MANEUVER− A visual maneuver"
+  },
+  {
+    "term": "SINGLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "DIRECTION ROUTES− Preferred IFR"
+  },
+  {
+    "term": "SLOT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TIME−"
+  },
+  {
+    "term": "SPECIAL",
+    "fullName": "(평문)",
+    "category": "PilotController",
+    "old_description": "Local special meteorological report (in abbreviated plain language)"
+  },
+  {
+    "term": "SPEED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SEGMENTS− Portions of the arrival route"
+  },
+  {
+    "term": "SQUAWK",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(Mode, Code, Function)− Activate"
+  },
+  {
+    "term": "STAND",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BY− Means the controller or pilot must"
+  },
+  {
+    "term": "STANDARD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INSTRUMENT APPROACH PRO- STATIONARY RESERVATIONS− Altitude"
+  },
+  {
+    "term": "STATE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− Aircraft used in military,"
+  },
+  {
+    "term": "STATIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RESTRICTIONS− Those restrictions that transponder off."
+  },
+  {
+    "term": "STEP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TAXI− To taxi a float plane at full power or"
+  },
+  {
+    "term": "STEPDOWN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FIX− A fix permitting additional"
+  },
+  {
+    "term": "STOL",
+    "fullName": "Short take-off and landing",
+    "category": "PilotController",
+    "old_description": "Short take-off and landing"
+  },
+  {
+    "term": "STOP",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AND GO− A procedure wherein an aircraft"
+  },
+  {
+    "term": "STRATEGIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PLANNING− Planning whereby (Refer to AIM.)"
+  },
+  {
+    "term": "SUNSET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AND SUNRISE− The mean solar times of"
+  },
+  {
+    "term": "TACAN-ONLY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− An aircraft, normally"
+  },
+  {
+    "term": "TACTICAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIR NAVIGATION− An ultra-high"
+  },
+  {
+    "term": "TAKEOFF",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "RUN AVAILABLE (TORA) – The"
+  },
+  {
+    "term": "TARGET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− In radar:"
+  },
+  {
+    "term": "TELEPHONE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION BRIEFING SER-"
+  },
+  {
+    "term": "TENTATIVE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "CALCULATED LANDING TIME− A"
+  },
+  {
+    "term": "TERMINAL",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION SERVICE.)"
+  },
+  {
+    "term": "TERRAIN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FOLLOWING− The flight of a military"
+  },
+  {
+    "term": "THAT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IS CORRECT− The understanding you have"
+  },
+  {
+    "term": "THRESHOLD",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "LIGHTS− TMU−"
+  },
+  {
+    "term": "TIE-IN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FACILITY– The FSS primarily responsible TOI−"
+  },
+  {
+    "term": "TIME",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "BASED FLOW MANAGEMENT (TBFM)−"
+  },
+  {
+    "term": "TOP",
+    "fullName": "Cloud top",
+    "category": "PilotController",
+    "old_description": "ALTITUDE– In reference to SID published"
+  },
+  {
+    "term": "TOUCHDOWN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "[ICAO]− The point where the"
+  },
+  {
+    "term": "TOWER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "TO TOWER−"
+  },
+  {
+    "term": "TRACEABLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "PRESSURE STANDARD− The"
+  },
+  {
+    "term": "TRACK",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF INTEREST (TOI)− Displayed data"
+  },
+  {
+    "term": "TRACKING",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "SYSTEM.)"
+  },
+  {
+    "term": "TRAFFIC",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "INFORMATION−"
+  },
+  {
+    "term": "TRAJECTORY",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "MODELING− The automated pro-"
+  },
+  {
+    "term": "TRANSFER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "OF CONTROL− That action whereby"
+  },
+  {
+    "term": "TRANSITION",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "POINT− A point at an adapted"
+  },
+  {
+    "term": "TUDE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "IMMEDIATELY−"
+  },
+  {
+    "term": "TURBOJET",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT− An aircraft having a jet"
+  },
+  {
+    "term": "TURN",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "ANTICIPATION− (maneuver anticipation)."
+  },
+  {
+    "term": "ULTRAHIGH",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "FREQUENCY− The frequency band"
+  },
+  {
+    "term": "ULTRALIGHT",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "VEHICLE− A single-occupant"
+  },
+  {
+    "term": "UNDER",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "THE HOOD− Indicates that the pilot is (See ROUTE.)"
+  },
+  {
+    "term": "UNMANNED",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "AIRCRAFT SYSTEM (UAS)- An"
+  },
+  {
+    "term": "UNRELIABLE",
+    "fullName": "",
+    "category": "PilotController",
+    "old_description": "(GPS/WAAS)− An advisory to"
+  }
+]

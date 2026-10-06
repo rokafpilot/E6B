@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 17/24):
+Format: index|term|fullName|category|old_description
+0|UTC|Co-ordinated universal time|NOTAM|Coordinated Universal Time
+1|VA|Volcanic ash|NOTAM|Heading to an altitude
+2|VAAC||NOTAM|Volcanic ash advisory centre
+3|VAL|In valleys|NOTAM|In valleys
+4|VAN|Runway control van|NOTAM|Runway control van
+5|VAR|Magnetic variation|NOTAM|Visual-aural radio range
+6|VCY|Vicinity|NOTAM|Vicinity
+7|VER|Vertical|NOTAM|Vertical
+8|VI||NOTAM|Heading to an intercept
+9|VIP|Very important person|NOTAM|Very important person
+10|VIS|Visibility|NOTAM|Visibility
+11|VLR|Very long range|NOTAM|Very long range
+12|VMC|Visual meteorological conditions|NOTAM|Visual meteorological conditions
+13|VORTAC|VOR and TACAN combination VOR|NOTAM|VOR and TACAN combination
+14|VPA|Vertical path angle|NOTAM|Vertical path angle
+15|VRB|Variable|NOTAM|Variable
+16|VSP|Vertical speed|NOTAM|Vertical speed
+17|VTF||NOTAM|Vector to final
+18|WAAS||NOTAM|Wide area augmentation system
+19|WAFC|World area forecast center|NOTAM|World area forecast centre
+20|WB|Westbound|NOTAM|Westbound
+21|WBAR|Wing bar lights|NOTAM|Wing bar lights
+22|WDI|Wind direction indicator|NOTAM|Wind direction indicator
+23|WDSPR|Widespread|NOTAM|Widespread
+24|WED|Wednesday|NOTAM|Wednesday
+25|WGS-84|World Geodetic System - 1984|NOTAM|World Geodetic System � 1984
+26|WI|Within ...|NOTAM|Within
+27|WID|Width|NOTAM|Width or wide
+28|WILCO|Will comply ...|NOTAM|Will comply
+29|WIP|Work in progress|NOTAM|Work in progress
+30|WKN|Weaken or weakening|NOTAM|Weaken or weakening
+31|WNW|West north west|NOTAM|West-north-west
+32|WO|Without ...|NOTAM|Without
+33|WPT|Way-point|NOTAM|Way-point
+34|WRNG|Warning|NOTAM|Warning
+35|WS|Wind shear|NOTAM|Wind shear
+36|WSPD|Wind speed|NOTAM|Wind speed
+37|WSW|West south west|NOTAM|West-south-west
+38|WT|Weight|NOTAM|중량, 무게
+39|WTSPT|Waterspout|NOTAM|Waterspout
+40|WWW|World wide web|NOTAM|Worldwide web
+41|WX|Weather|NOTAM|Weather
+42|WXR||NOTAM|Weather radar
+43|XNG|Crossing|NOTAM|Crossing
+44|XS|Atmospherics|NOTAM|Atmospherics
+45|YR|Your|NOTAM|Your
+46|AC|Altocumulus|PilotController|150/5320-12, Measurement, Construction, and
+47|ACTIVE||PilotController|RUNWAY−
+48|ACTUAL||PilotController|CALCULATED LANDING TIME−
+49|ADVISORY||PilotController|SERVICE− Advice and information

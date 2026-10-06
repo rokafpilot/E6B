@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 3/24):
+Format: index|term|fullName|category|old_description
+0|QBI||KMA|의무계기비행규칙기행
+1|RAPID|Rapid or rapidly|KMA|신속
+2|RASH|Rain showers|KMA|소나기
+3|RASN||KMA|"(비
+4|SNSH|Snow showers|KMA|폭설
+5|TAANS|Transmits or transmitter|KMA|송신 또는 송신기
+6|TRLVL|Transitional level|KMA|전이고도
+7|TSGR||KMA|우박을 동반한 뇌우
+8|YD||KMA|거리단위
+9|SH||KMA/DOC8400|. . . Shower (followed by RA = rain, SN =
+10|...M||NOTAM|Metres (preceded by figures)
+11|A/A|Air-to-air|NOTAM|Air-to-air
+12|A/G|Air-to-ground|NOTAM|Air-to-ground
+13|AAD|Assigned altitude deviation|NOTAM|Assigned altitude deviation
+14|AAL|Above aerodrome level|NOTAM|Above aerodrome level
+15|AAR||NOTAM|Air to air refuelling
+16|ABI||NOTAM|Advance boundary information
+17|ABM|Abeam|NOTAM|정좌(우)현에
+18|ABN|Aerodrome beacon|NOTAM|Aerodrome beacon
+19|ABT|About|NOTAM|About
+20|ABV|Above|NOTAM|Above
+21|ACFT|Aircraft|NOTAM|Aircraft
+22|ACK|Acknowledge|NOTAM|Acknowledge
+23|ACL|Altimeter check location|NOTAM|Altimeter check location
+24|ACN|Aircraft classification number|NOTAM|Aircraft classification number
+25|ACPT|Accept, accepted|NOTAM|Accept or accepted
+26|ADA|Advisory Area|NOTAM|Advisory area
+27|ADC|Aerodrome chart|NOTAM|Aerodrome chart
+28|ADDN|Addition or additional|NOTAM|Addition or additional
+29|ADF|Automatic direction-finding equipment|NOTAM|Automatic direction-finding equipment
+30|ADJ|Adjacent|NOTAM|Adjacent
+31|ADR|Advisory route|NOTAM|Advisory route
+32|ADVS|Advisory service|NOTAM|Advisory service
+33|ADZ|Advise|NOTAM|Advise
+34|AES|Aircraft earth station|NOTAM|Aircraft earth station
+35|AFIL|Flight plan filed in the air|NOTAM|Flight plan filed in the air
+36|AFS|Aeronautical fixed service|NOTAM|Aeronautical fixed service
+37|AGL|Above ground level|NOTAM|Above ground level
+38|AGN|Again|NOTAM|Again
+39|AIC|Aeronautical information circular|NOTAM|Aeronautical information circular
+40|AIREP|Air-report|NOTAM|비행중 항공기로부터 기상보고
+41|AIS|Aeronautical information services|NOTAM|Aeronautical information services
+42|ALA|Alighting area|NOTAM|Alighting area
+43|ALRS|Alerting service|NOTAM|Alerting service
+44|ALS|Approach lighting system|NOTAM|Approach lighting system
+45|ALT|Altitude|NOTAM|Altitude
+46|AMA|Area minimum altitude|NOTAM|Area minimum altitude
+47|AMS|Aeronautical mobile service|NOTAM|Aeronautical mobile service
+48|AMSL|Above mean sea level|NOTAM|Above mean sea level
+49|ANS|Answer|NOTAM|Answer

@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 20/24):
+Format: index|term|fullName|category|old_description
+0|EXPECT||PilotController|(ALTITUDE) AT (TIME) or (FIX)− Used
+1|FAA||PilotController|Order JO 7110.65, Para 4−5−1, VERTICAL
+2|FAF|Final approach fix|PilotController|(such as an on airport VOR), where the aircraft
+3|FAST||PilotController|FILE− An FSS system whereby a pilot files a
+4|FEDERAL||PilotController|AIRWAYS− (See FINAL APPROACH COURSE.)
+5|FEEDER||PilotController|FIX− The fix depicted on Instrument
+6|FIELD||PilotController|ELEVATION−
+7|FINAL||PilotController|APPROACH [ICAO]− That part of an
+8|FL|Flight level|PilotController|Flight level
+9|FLAG||PilotController|ALARM−
+10|FLIGHT||PilotController|LEVEL [ICAO]− A surface of constant
+11|FLY-BY||PilotController|WAYPOINT− A fly-by waypoint requires
+12|FLY-OVER||PilotController|WAYPOINT− A fly-over waypoint
+13|FUEL||PilotController|DUMPING− Airborne release of usable fuel.
+14|FUSED||PilotController|TARGET-
+15|GENERAL||PilotController|AVIATION− That portion of civil APPROACH PROCEDURE.)
+16|GEO|Geographic or true|PilotController|MAP− The digitized map markings associated
+17|GLIDEPATH||PilotController|[ICAO]− A descent profile determined
+18|GLIDESLOPE||PilotController|INTERCEPT ALTITUDE− The
+19|GLOBAL||PilotController|NAVIGATION SATELLITE SYSTEM
+20|GNSS|Global navigation satellite system|PilotController|MEA− GROUND BASED AUGMENTATION SYSTEM
+21|GO||PilotController|AHEAD− Proceed with your message. Not to be
+22|GPS|Global positioning system|PilotController|Standard Positioning System Performance
+23|GROSS||PilotController|NAVIGATION ERROR (GNE) − A lateral
+24|GROUND||PilotController|BASED AUGMENTATION SYSTEM
+25|GUIDANCE||PilotController|LIGHTING SYSTEMS.) AIRPORT MARKING AIDS− Markings used on
+26|HAZARDOUS||PilotController|INFLIGHT WEATHER ADVISO-
+27|HEAVY||PilotController|(AIRCRAFT)−
+28|HEIGHT||PilotController|ABOVE TOUCHDOWN− The height of
+29|HELIPORT||PilotController|REFERENCE POINT (HRP)− The
+30|HIGH||PilotController|ALTITUDE REDESIGN (HAR)− A level of
+31|HIWAS||PilotController|BROADCAST AREA. any.
+32|HOLD||PilotController|PROCEDURE− A predetermined maneuver
+33|HOLD-SHORT||PilotController|POINT− A point on the runway
+34|HOLDING||PilotController|FIX− A specified fix identifiable to a
+35|HOMING||PilotController|[ICAO]− The procedure of using the
+36|HOW||PilotController|DO YOU HEAR ME?− A question relating to
+37|ICAL||PilotController|INFORMATION−
+38|ICAO||PilotController|International Civil Aviation Organization
+39|IDENT|Identification|PilotController|FEATURE− The special feature in the Air
+40|IF|Intermediate approach fix|PilotController|NO TRANSMISSION RECEIVED FOR
+41|ILS|Instrument landing system|PilotController|RNAV and GLS. These charts are identified by AIM−
+42|INCERFA|Uncertainty phase|PilotController|(Uncertainty Phase) [ICAO]− A situation
+43|INCREASE||PilotController|SPEED TO (SPEED)−
+44|INERTIAL||PilotController|NAVIGATION SYSTEM− An RNAV
+45|INFLIGHT||PilotController|CONTINGENCIES.)
+46|INHIBITED||PilotController|AREA.)
+47|INITIAL||PilotController|APPROACH FIX− The fixes depicted on (Refer to AIM.)
+48|INNER||PilotController|MARKER− A marker beacon used with an
+49|INSTRUMENT||PilotController|APPROACH OPERATIONS

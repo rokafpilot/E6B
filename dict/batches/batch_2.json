@@ -1,0 +1,302 @@
+[
+  {
+    "term": "QBI",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "의무계기비행규칙기행"
+  },
+  {
+    "term": "RAPID",
+    "fullName": "Rapid or rapidly",
+    "category": "KMA",
+    "old_description": "신속"
+  },
+  {
+    "term": "RASH",
+    "fullName": "Rain showers",
+    "category": "KMA",
+    "old_description": "소나기"
+  },
+  {
+    "term": "RASN",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "\"(비"
+  },
+  {
+    "term": "SNSH",
+    "fullName": "Snow showers",
+    "category": "KMA",
+    "old_description": "폭설"
+  },
+  {
+    "term": "TAANS",
+    "fullName": "Transmits or transmitter",
+    "category": "KMA",
+    "old_description": "송신 또는 송신기"
+  },
+  {
+    "term": "TRLVL",
+    "fullName": "Transitional level",
+    "category": "KMA",
+    "old_description": "전이고도"
+  },
+  {
+    "term": "TSGR",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "우박을 동반한 뇌우"
+  },
+  {
+    "term": "YD",
+    "fullName": "",
+    "category": "KMA",
+    "old_description": "거리단위"
+  },
+  {
+    "term": "SH",
+    "fullName": "",
+    "category": "KMA/DOC8400",
+    "old_description": ". . . Shower (followed by RA = rain, SN ="
+  },
+  {
+    "term": "...M",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Metres (preceded by figures)"
+  },
+  {
+    "term": "A/A",
+    "fullName": "Air-to-air",
+    "category": "NOTAM",
+    "old_description": "Air-to-air"
+  },
+  {
+    "term": "A/G",
+    "fullName": "Air-to-ground",
+    "category": "NOTAM",
+    "old_description": "Air-to-ground"
+  },
+  {
+    "term": "AAD",
+    "fullName": "Assigned altitude deviation",
+    "category": "NOTAM",
+    "old_description": "Assigned altitude deviation"
+  },
+  {
+    "term": "AAL",
+    "fullName": "Above aerodrome level",
+    "category": "NOTAM",
+    "old_description": "Above aerodrome level"
+  },
+  {
+    "term": "AAR",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Air to air refuelling"
+  },
+  {
+    "term": "ABI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Advance boundary information"
+  },
+  {
+    "term": "ABM",
+    "fullName": "Abeam",
+    "category": "NOTAM",
+    "old_description": "정좌(우)현에"
+  },
+  {
+    "term": "ABN",
+    "fullName": "Aerodrome beacon",
+    "category": "NOTAM",
+    "old_description": "Aerodrome beacon"
+  },
+  {
+    "term": "ABT",
+    "fullName": "About",
+    "category": "NOTAM",
+    "old_description": "About"
+  },
+  {
+    "term": "ABV",
+    "fullName": "Above",
+    "category": "NOTAM",
+    "old_description": "Above"
+  },
+  {
+    "term": "ACFT",
+    "fullName": "Aircraft",
+    "category": "NOTAM",
+    "old_description": "Aircraft"
+  },
+  {
+    "term": "ACK",
+    "fullName": "Acknowledge",
+    "category": "NOTAM",
+    "old_description": "Acknowledge"
+  },
+  {
+    "term": "ACL",
+    "fullName": "Altimeter check location",
+    "category": "NOTAM",
+    "old_description": "Altimeter check location"
+  },
+  {
+    "term": "ACN",
+    "fullName": "Aircraft classification number",
+    "category": "NOTAM",
+    "old_description": "Aircraft classification number"
+  },
+  {
+    "term": "ACPT",
+    "fullName": "Accept, accepted",
+    "category": "NOTAM",
+    "old_description": "Accept or accepted"
+  },
+  {
+    "term": "ADA",
+    "fullName": "Advisory Area",
+    "category": "NOTAM",
+    "old_description": "Advisory area"
+  },
+  {
+    "term": "ADC",
+    "fullName": "Aerodrome chart",
+    "category": "NOTAM",
+    "old_description": "Aerodrome chart"
+  },
+  {
+    "term": "ADDN",
+    "fullName": "Addition or additional",
+    "category": "NOTAM",
+    "old_description": "Addition or additional"
+  },
+  {
+    "term": "ADF",
+    "fullName": "Automatic direction-finding equipment",
+    "category": "NOTAM",
+    "old_description": "Automatic direction-finding equipment"
+  },
+  {
+    "term": "ADJ",
+    "fullName": "Adjacent",
+    "category": "NOTAM",
+    "old_description": "Adjacent"
+  },
+  {
+    "term": "ADR",
+    "fullName": "Advisory route",
+    "category": "NOTAM",
+    "old_description": "Advisory route"
+  },
+  {
+    "term": "ADVS",
+    "fullName": "Advisory service",
+    "category": "NOTAM",
+    "old_description": "Advisory service"
+  },
+  {
+    "term": "ADZ",
+    "fullName": "Advise",
+    "category": "NOTAM",
+    "old_description": "Advise"
+  },
+  {
+    "term": "AES",
+    "fullName": "Aircraft earth station",
+    "category": "NOTAM",
+    "old_description": "Aircraft earth station"
+  },
+  {
+    "term": "AFIL",
+    "fullName": "Flight plan filed in the air",
+    "category": "NOTAM",
+    "old_description": "Flight plan filed in the air"
+  },
+  {
+    "term": "AFS",
+    "fullName": "Aeronautical fixed service",
+    "category": "NOTAM",
+    "old_description": "Aeronautical fixed service"
+  },
+  {
+    "term": "AGL",
+    "fullName": "Above ground level",
+    "category": "NOTAM",
+    "old_description": "Above ground level"
+  },
+  {
+    "term": "AGN",
+    "fullName": "Again",
+    "category": "NOTAM",
+    "old_description": "Again"
+  },
+  {
+    "term": "AIC",
+    "fullName": "Aeronautical information circular",
+    "category": "NOTAM",
+    "old_description": "Aeronautical information circular"
+  },
+  {
+    "term": "AIREP",
+    "fullName": "Air-report",
+    "category": "NOTAM",
+    "old_description": "비행중 항공기로부터 기상보고"
+  },
+  {
+    "term": "AIS",
+    "fullName": "Aeronautical information services",
+    "category": "NOTAM",
+    "old_description": "Aeronautical information services"
+  },
+  {
+    "term": "ALA",
+    "fullName": "Alighting area",
+    "category": "NOTAM",
+    "old_description": "Alighting area"
+  },
+  {
+    "term": "ALRS",
+    "fullName": "Alerting service",
+    "category": "NOTAM",
+    "old_description": "Alerting service"
+  },
+  {
+    "term": "ALS",
+    "fullName": "Approach lighting system",
+    "category": "NOTAM",
+    "old_description": "Approach lighting system"
+  },
+  {
+    "term": "ALT",
+    "fullName": "Altitude",
+    "category": "NOTAM",
+    "old_description": "Altitude"
+  },
+  {
+    "term": "AMA",
+    "fullName": "Area minimum altitude",
+    "category": "NOTAM",
+    "old_description": "Area minimum altitude"
+  },
+  {
+    "term": "AMS",
+    "fullName": "Aeronautical mobile service",
+    "category": "NOTAM",
+    "old_description": "Aeronautical mobile service"
+  },
+  {
+    "term": "AMSL",
+    "fullName": "Above mean sea level",
+    "category": "NOTAM",
+    "old_description": "Above mean sea level"
+  },
+  {
+    "term": "ANS",
+    "fullName": "Answer",
+    "category": "NOTAM",
+    "old_description": "Answer"
+  }
+]

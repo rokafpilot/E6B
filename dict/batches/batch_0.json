@@ -1,0 +1,302 @@
+[
+  {
+    "term": "ACDM",
+    "fullName": "Airport collaborative decision making",
+    "category": "AIP",
+    "old_description": "공항 운영자, 항공사, 지상조업사, 항공교통관제기관 등 공항 내 주요 이해관계자들이 실시간으로 정확한 운항 정보를 공유하여 항공기 지연을 최소화하고, 자원 활용을 최적화하며, 전반적인 운영 효율성과 예측 가능성을 높이는 공동 의사결정 체계입니다."
+  },
+  {
+    "term": "DCL",
+    "fullName": "Departure Clearance",
+    "category": "ATC",
+    "old_description": "조종사와 관제사 간의 항공기 출발 허가(비행 경로, 할당 고도, 주파수 등)를 무선 음성 통신 대신 디지털 데이터(텍스트)로 주고받아, 통신 오류를 방지하고 주파수 혼잡 및 조종사·관제사의 업무 부하를 줄여주는 자동화 통신 시스템입니다."
+  },
+  {
+    "term": "ADP",
+    "fullName": "ATFM daily plan",
+    "category": "AIP",
+    "old_description": "흐름관리일일계획서"
+  },
+  {
+    "term": "CDM",
+    "fullName": "Collaborative decision making meeting",
+    "category": "AIP",
+    "old_description": "실무조정협의회"
+  },
+  {
+    "term": "COBT",
+    "fullName": "Calculated off-block time",
+    "category": "AIP",
+    "old_description": "조정이동개시시간"
+  },
+  {
+    "term": "CTO",
+    "fullName": "Calculated time over",
+    "category": "AIP",
+    "old_description": "조정통과시간"
+  },
+  {
+    "term": "CTOT",
+    "fullName": "Calculated take-off time",
+    "category": "AIP",
+    "old_description": "조정이륙시간"
+  },
+  {
+    "term": "D",
+    "fullName": "Downward (tendency in RVR during previous 10 minutes)",
+    "category": "AIP",
+    "old_description": "하향경향(이전 10분동안 활주로가시 거리"
+  },
+  {
+    "term": "ELDT",
+    "fullName": "Estimated landing time",
+    "category": "AIP",
+    "old_description": "예상착륙시간"
+  },
+  {
+    "term": "ETOT",
+    "fullName": "Estimated take-off time",
+    "category": "AIP",
+    "old_description": "예상이륙시간"
+  },
+  {
+    "term": "FDR",
+    "fullName": "Flight data recorder",
+    "category": "AIP",
+    "old_description": "비행자료기록장치"
+  },
+  {
+    "term": "GRID",
+    "fullName": "",
+    "category": "AIP",
+    "old_description": "Processed meteorological data in the form of grid point"
+  },
+  {
+    "term": "IC",
+    "fullName": "",
+    "category": "AIP",
+    "old_description": "Ice Crystals(very small ice crystals in suspension, also"
+  },
+  {
+    "term": "KST",
+    "fullName": "Korean standard time",
+    "category": "AIP",
+    "old_description": "한국표준시간"
+  },
+  {
+    "term": "LSQ",
+    "fullName": "Line squall",
+    "category": "AIP",
+    "old_description": "스콜라인"
+  },
+  {
+    "term": "MINT",
+    "fullName": "Minute in trail",
+    "category": "AIP",
+    "old_description": "시간(분) 간격 분리"
+  },
+  {
+    "term": "MIT",
+    "fullName": "Miles in trail",
+    "category": "AIP",
+    "old_description": "거리(마일) 간격 분리"
+  },
+  {
+    "term": "OTLK",
+    "fullName": "",
+    "category": "AIP",
+    "old_description": "Outlook(used in SIGMET message for valcanic ash and"
+  },
+  {
+    "term": "RX",
+    "fullName": "Receiver",
+    "category": "AIP",
+    "old_description": "수신기"
+  },
+  {
+    "term": "U",
+    "fullName": "Upward(tendency in RVR during previous 10 minutes)",
+    "category": "AIP",
+    "old_description": "상승경향"
+  },
+  {
+    "term": "AMSS",
+    "fullName": "Aeronautical mobile satellite service",
+    "category": "AIP/DOC8400",
+    "old_description": "Aeronautical mobile satellite service"
+  },
+  {
+    "term": "ANC",
+    "fullName": "Aeronautical chart 1:500000 (followed by name title)",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Aeronautical chart — 1:500"
+  },
+  {
+    "term": "ANCS",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "Aeronautical navigation chart - small scale (followed by"
+  },
+  {
+    "term": "AT",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "At (followed by time at which weather change is forecast"
+  },
+  {
+    "term": "BLDU",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "= blowing dust, BLSA = blowing sand, BLSN ="
+  },
+  {
+    "term": "ENRC",
+    "fullName": "Enroute chart (followed by name/title)",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Enroute chart (followed by name/title) EOBT Estimated off-block time"
+  },
+  {
+    "term": "GMC",
+    "fullName": "Ground movement chart (followed by name/title)",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Ground movement chart (followed by"
+  },
+  {
+    "term": "TX",
+    "fullName": "Transmitter",
+    "category": "AIP/DOC8400",
+    "old_description": ". . . Maximum temperature (followed by"
+  },
+  {
+    "term": "VC",
+    "fullName": "",
+    "category": "AIP/DOC8400",
+    "old_description": "Vicinity of the aerodrome(followed by, FG =fog, FC"
+  },
+  {
+    "term": "A",
+    "fullName": "Amber",
+    "category": "AIP/KMA",
+    "old_description": "호박색"
+  },
+  {
+    "term": "ARFOR",
+    "fullName": "Area forecast (in aeronautical meteorological code)",
+    "category": "AIP/KMA",
+    "old_description": "지역예보(항공기상용어)"
+  },
+  {
+    "term": "B",
+    "fullName": "Blue",
+    "category": "AIP/KMA",
+    "old_description": "청색"
+  },
+  {
+    "term": "C",
+    "fullName": "Degrees Celsius (Centigrade)",
+    "category": "AIP/KMA",
+    "old_description": "중앙(활주로식별"
+  },
+  {
+    "term": "CIT",
+    "fullName": "Near or over large town",
+    "category": "AIP/KMA",
+    "old_description": "대도시 주변 또는 상공"
+  },
+  {
+    "term": "DENEB",
+    "fullName": "Fog dispersal operations",
+    "category": "AIP/KMA",
+    "old_description": "안개분산작업(삭제)"
+  },
+  {
+    "term": "E",
+    "fullName": "East or eastern longitude",
+    "category": "AIP/KMA",
+    "old_description": "동쪽 또는 동경"
+  },
+  {
+    "term": "ER",
+    "fullName": "here... or herewith",
+    "category": "AIP/KMA",
+    "old_description": "여기"
+  },
+  {
+    "term": "F",
+    "fullName": "Fixed",
+    "category": "AIP/KMA",
+    "old_description": "고정된"
+  },
+  {
+    "term": "G",
+    "fullName": "Green",
+    "category": "AIP/KMA",
+    "old_description": "녹색"
+  },
+  {
+    "term": "L",
+    "fullName": "Locator(see LM, LO)",
+    "category": "AIP/KMA",
+    "old_description": "Left(preceded by runway designation number to identify a"
+  },
+  {
+    "term": "LTT",
+    "fullName": "Landing teletypewriter",
+    "category": "AIP/KMA",
+    "old_description": "유선테레타잎회선"
+  },
+  {
+    "term": "MAS",
+    "fullName": "Manual Al simplex",
+    "category": "AIP/KMA",
+    "old_description": "수동 AI 단방향방식"
+  },
+  {
+    "term": "N",
+    "fullName": "North or northern latitude",
+    "category": "AIP/KMA",
+    "old_description": "변화 경향없음(이전 10분동안 RVR에서)"
+  },
+  {
+    "term": "PE",
+    "fullName": "Ice pellets",
+    "category": "AIP/KMA",
+    "old_description": "얼음덩이"
+  },
+  {
+    "term": "R",
+    "fullName": "Red",
+    "category": "AIP/KMA",
+    "old_description": "비행제한구역(번호를 첨부"
+  },
+  {
+    "term": "RAFC",
+    "fullName": "Regional area forecast center",
+    "category": "AIP/KMA",
+    "old_description": "지역예보센타"
+  },
+  {
+    "term": "RITE",
+    "fullName": "Right(direction of turn)",
+    "category": "AIP/KMA",
+    "old_description": "우측(선회방향)"
+  },
+  {
+    "term": "ROFOR",
+    "fullName": "Route forecast(in meteorological code)",
+    "category": "AIP/KMA",
+    "old_description": "항공로예보"
+  },
+  {
+    "term": "S",
+    "fullName": "South or Southern latitude",
+    "category": "AIP/KMA",
+    "old_description": "남쪽 또는 남위"
+  },
+  {
+    "term": "SAP",
+    "fullName": "As soon as possible",
+    "category": "AIP/KMA",
+    "old_description": "가능한 빨리"
+  }
+]

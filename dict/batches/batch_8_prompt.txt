@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 9/24):
+Format: index|term|fullName|category|old_description
+0|IGA|International general aviation|NOTAM|International general aviation
+1|IM|Inner marker|NOTAM|Inner marker
+2|IMC|Instrument meteorological conditions|NOTAM|Instrument meteorological conditions
+3|IMG|Immigration|NOTAM|Immigration
+4|IMPR|Improve or improving|NOTAM|Improve or improving
+5|IMT|immediate or immediately|NOTAM|Immediate or immediately
+6|INA|Initial approach|NOTAM|Initial approach
+7|INBD|Inbound|NOTAM|Inbound
+8|INC|In cloud|NOTAM|In cloud
+9|INCORP||NOTAM|Incorporated
+10|INFO|Information|NOTAM|Information
+11|INOP|Inoperative|NOTAM|Inoperative
+12|INP|If not possible|NOTAM|If not possible
+13|INPR|In progress|NOTAM|In progress
+14|INS|Inertial navigation system|NOTAM|Inertial navigation system
+15|INSTR|Instrument|NOTAM|Instrument
+16|INT|Intersection|NOTAM|Intersection
+17|INTL|International|NOTAM|International
+18|INTRG|Interrogator|NOTAM|Interrogator
+19|INTSF|Intensify or intensifying|NOTAM|Intensify or intensifying
+20|INTST|Intensity|NOTAM|Intensity
+21|IR|Ice on runway|NOTAM|Ice on runway
+22|IRS||NOTAM|Inertial reference system
+23|ISA|International standard atmosphere|NOTAM|International standard atmosphere
+24|ISB|Independent sideband|NOTAM|Independent sideband
+25|ISOL|Isolated|NOTAM|Isolated
+26|JAN|January 1|NOTAM|January
+27|JTST|Jet stream|NOTAM|Jet stream
+28|JUL|July 7|NOTAM|July
+29|JUN|June 6|NOTAM|June
+30|KG|Kilograms|NOTAM|Kilograms
+31|KHZ|Kilohertz|NOTAM|Kilohertz
+32|KIAS|Knots indicated airspeed|NOTAM|Knots indicated airspeed
+33|KM|kilometers|NOTAM|Kilometres
+34|KMH|Kilometers per hour|NOTAM|Kilometres per hour
+35|KPA|Kilopascal|NOTAM|Kilopascal
+36|KT|Knots|NOTAM|Knots
+37|KW|Kilowatts|NOTAM|Kilowatts
+38|LAN|Inland|NOTAM|Inland
+39|LAT|Latitude|NOTAM|Latitude
+40|LDA|Landing distance available|NOTAM|Landing distance available
+41|LDG|Landing|NOTAM|Landing
+42|LDI|Landing direction indicator|NOTAM|Landing direction indicator
+43|LEN|Length|NOTAM|Length
+44|LF|Low frequency(30 to 300kHz)|NOTAM|Low frequency [30 to 300 kHz]
+45|LGT|Light or lighting|NOTAM|Light or lighting
+46|LGTD|Lighted|NOTAM|Lighted
+47|LIH|Light intensity high|NOTAM|Light intensity high
+48|LIL|Light intensity low|NOTAM|Light intensity low
+49|LIM|Light intensity medium|NOTAM|Light intensity medium

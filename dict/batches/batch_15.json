@@ -1,0 +1,302 @@
+[
+  {
+    "term": "TEMPO",
+    "fullName": "Temporary or temporarily",
+    "category": "NOTAM",
+    "old_description": "Temporary or temporarily"
+  },
+  {
+    "term": "TF",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Track to fix"
+  },
+  {
+    "term": "TFC",
+    "fullName": "Traffic",
+    "category": "NOTAM",
+    "old_description": "Traffic"
+  },
+  {
+    "term": "TGL",
+    "fullName": "Touch-and-go landing",
+    "category": "NOTAM",
+    "old_description": "Touch-and-go landing"
+  },
+  {
+    "term": "TGS",
+    "fullName": "Taxiing guidance system",
+    "category": "NOTAM",
+    "old_description": "Taxiing guidance system"
+  },
+  {
+    "term": "THR",
+    "fullName": "Threshold",
+    "category": "NOTAM",
+    "old_description": "Threshold"
+  },
+  {
+    "term": "THRU",
+    "fullName": "Through …",
+    "category": "NOTAM",
+    "old_description": "\"(...을 통하여"
+  },
+  {
+    "term": "THU",
+    "fullName": "Thursday",
+    "category": "NOTAM",
+    "old_description": "Thursday"
+  },
+  {
+    "term": "TIL",
+    "fullName": "Until",
+    "category": "NOTAM",
+    "old_description": "Until"
+  },
+  {
+    "term": "TKOF",
+    "fullName": "Take off",
+    "category": "NOTAM",
+    "old_description": "Take-off"
+  },
+  {
+    "term": "TLOF",
+    "fullName": "Touchdown and lift-off area",
+    "category": "NOTAM",
+    "old_description": "Touchdown and lift-off area"
+  },
+  {
+    "term": "TMA",
+    "fullName": "Terminal control area",
+    "category": "NOTAM",
+    "old_description": "Terminal control area"
+  },
+  {
+    "term": "TNA",
+    "fullName": "Turn altitude",
+    "category": "NOTAM",
+    "old_description": "Turn altitude"
+  },
+  {
+    "term": "TNH",
+    "fullName": "Turn height",
+    "category": "NOTAM",
+    "old_description": "Turn height"
+  },
+  {
+    "term": "TO . . .",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "To (followed by place)"
+  },
+  {
+    "term": "TOC",
+    "fullName": "Top of climb",
+    "category": "NOTAM",
+    "old_description": "Top of climb"
+  },
+  {
+    "term": "TODA",
+    "fullName": "Take-off distance available",
+    "category": "NOTAM",
+    "old_description": "Take-off distance available"
+  },
+  {
+    "term": "TORA",
+    "fullName": "Take-off run available",
+    "category": "NOTAM",
+    "old_description": "Take-off run available"
+  },
+  {
+    "term": "TOX",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Toxic"
+  },
+  {
+    "term": "TP",
+    "fullName": "Turning point",
+    "category": "NOTAM",
+    "old_description": "Turning point"
+  },
+  {
+    "term": "TR",
+    "fullName": "Track",
+    "category": "NOTAM",
+    "old_description": "Track"
+  },
+  {
+    "term": "TRA",
+    "fullName": "Temporary reserved airspace",
+    "category": "NOTAM",
+    "old_description": "Temporary reserved airspace"
+  },
+  {
+    "term": "TRANS",
+    "fullName": "Transmits or transmitter",
+    "category": "NOTAM",
+    "old_description": "Transmits or transmitter"
+  },
+  {
+    "term": "TREND",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Trend forecast"
+  },
+  {
+    "term": "TRG",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Training"
+  },
+  {
+    "term": "TRL",
+    "fullName": "Transition level",
+    "category": "NOTAM",
+    "old_description": "Transition level"
+  },
+  {
+    "term": "TROP",
+    "fullName": "Tropopause",
+    "category": "NOTAM",
+    "old_description": "Tropopause"
+  },
+  {
+    "term": "TT",
+    "fullName": "Teletypewriter",
+    "category": "NOTAM",
+    "old_description": "Teletypewriter"
+  },
+  {
+    "term": "TUE",
+    "fullName": "Tuesday",
+    "category": "NOTAM",
+    "old_description": "Tuesday"
+  },
+  {
+    "term": "TURB",
+    "fullName": "Turbulence",
+    "category": "NOTAM",
+    "old_description": "Turbulence"
+  },
+  {
+    "term": "TVOR",
+    "fullName": "Terminal VOR",
+    "category": "NOTAM",
+    "old_description": "Terminal VOR"
+  },
+  {
+    "term": "TWY",
+    "fullName": "Taxiway",
+    "category": "NOTAM",
+    "old_description": "Taxiway"
+  },
+  {
+    "term": "TXL",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Taxilane"
+  },
+  {
+    "term": "TYP",
+    "fullName": "Type of aircraft",
+    "category": "NOTAM",
+    "old_description": "Type of aircraft"
+  },
+  {
+    "term": "TYPH",
+    "fullName": "Typhoon",
+    "category": "NOTAM",
+    "old_description": "Typhoon"
+  },
+  {
+    "term": "U/S",
+    "fullName": "Unserviceable",
+    "category": "NOTAM",
+    "old_description": "Unserviceable"
+  },
+  {
+    "term": "UA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Unmanned aircraft"
+  },
+  {
+    "term": "UAB",
+    "fullName": "Until advised by... ...",
+    "category": "NOTAM",
+    "old_description": "Until advised by . . ."
+  },
+  {
+    "term": "UAC",
+    "fullName": "Upper area control center",
+    "category": "NOTAM",
+    "old_description": "Upper area control centre"
+  },
+  {
+    "term": "UAR",
+    "fullName": "Upper air route",
+    "category": "NOTAM",
+    "old_description": "Upper air route"
+  },
+  {
+    "term": "UAS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Unmanned aircraft system"
+  },
+  {
+    "term": "UFN",
+    "fullName": "Until further notice",
+    "category": "NOTAM",
+    "old_description": "Until further notice"
+  },
+  {
+    "term": "UHDT",
+    "fullName": "Unable higher due traffic",
+    "category": "NOTAM",
+    "old_description": "보다높은 고도에 상승은 트래픽으로 말미암아 승인 불가함"
+  },
+  {
+    "term": "UIC",
+    "fullName": "Upper information centre",
+    "category": "NOTAM",
+    "old_description": "Upper information centre"
+  },
+  {
+    "term": "ULR",
+    "fullName": "Ultra long range",
+    "category": "NOTAM",
+    "old_description": "Ultra long range"
+  },
+  {
+    "term": "UNA",
+    "fullName": "Unable",
+    "category": "NOTAM",
+    "old_description": "Unable"
+  },
+  {
+    "term": "UNAP",
+    "fullName": "Unable to approve",
+    "category": "NOTAM",
+    "old_description": "Unable to approve"
+  },
+  {
+    "term": "UNL",
+    "fullName": "Unlimited",
+    "category": "NOTAM",
+    "old_description": "Unlimited"
+  },
+  {
+    "term": "UNREL",
+    "fullName": "Unreliable",
+    "category": "NOTAM",
+    "old_description": "Unreliable"
+  },
+  {
+    "term": "UTA",
+    "fullName": "Upper control area",
+    "category": "NOTAM",
+    "old_description": "Upper control area"
+  }
+]

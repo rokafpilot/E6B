@@ -1,0 +1,969 @@
+{
+  "id": "MANUAL-POM-R21",
+  "revision": "R21",
+  "issue_date": "2025-05-09",
+  "type": "ManualOntologySection",
+  "manual_type": "POM",
+  "aircraft_family": "B787",
+  "operator": "KOREAN AIR",
+  "language": "ko",
+  "source_refs": [
+    "Manuals/B787_POM_R21_20250509.pdf"
+  ],
+  "systems": [
+    {
+      "id": "SYS-B787-21",
+      "source_refs": [
+        "POM p.60",
+        "POM p.62",
+        "POM p.141"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 21",
+      "system_name": "공조 시스템",
+      "ata_chapter": 21,
+      "description": "B787 공조 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Operations Manual Bulletin(KAL-63R1) Operations Manual Bulletin(KAL-63R1) 공조 시스템 (ATA 21)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 21 · 공조 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-22",
+      "source_refs": [
+        "POM p.207"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 22",
+      "system_name": "자동조종장치 (FMS/AP/FD)",
+      "ata_chapter": 22,
+      "description": "B787 자동조종장치 (FMS/AP/FD)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. EQUIPMENT NOT AUTOFLIGHT MONITORED 자동조종장치 (FMS/AP/FD) (ATA 22)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 22 · 자동조종장치 (FMS/AP/FD))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-23",
+      "source_refs": [
+        "POM p.22",
+        "POM p.59",
+        "POM p.80"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 23",
+      "system_name": "통신 시스템 (VHF/HF/ACARS)",
+      "ata_chapter": 23,
+      "description": "B787 통신 시스템 (VHF/HF/ACARS)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Aircraft Communications Operations Manual Bulletin(KAL-62R3) 통신 시스템 (VHF/HF/ACARS) (ATA 23)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 23 · 통신 시스템 (VHF/HF/ACARS))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-24",
+      "source_refs": [
+        "POM p.24",
+        "POM p.126",
+        "POM p.135"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 24",
+      "system_name": "전기 시스템 (AC/DC/APU GEN)",
+      "ata_chapter": 24,
+      "description": "B787 전기 시스템 (AC/DC/APU GEN)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Decision Altitude (Height) PRELIMINARY PREFLIGHT PROCEDURE - CAPTAIN OR 전기 시스템 (AC/DC/APU GEN) (ATA 24)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 24 · 전기 시스템 (AC/DC/APU GEN))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-26",
+      "source_refs": [],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 26",
+      "system_name": "화재방호 시스템",
+      "ata_chapter": 26,
+      "description": "B787 화재방호 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. 관련 페이지 수: 0 화재방호 시스템 (ATA 26)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 26 · 화재방호 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-27",
+      "source_refs": [
+        "POM p.42",
+        "POM p.80",
+        "POM p.87"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 27",
+      "system_name": "비행조종 시스템 (플랩/슬랫 포함)",
+      "ata_chapter": 27,
+      "description": "B787 비행조종 시스템 (플랩/슬랫 포함)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Operations Manual Bulletin(KAL-37R8) OPERATING LIMITATIONS .......................................... 4.1.1",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 27 · 비행조종 시스템 (플랩/슬랫 포함))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-28",
+      "source_refs": [
+        "POM p.5",
+        "POM p.25",
+        "POM p.31"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 28",
+      "system_name": "연료 시스템",
+      "ata_chapter": 28,
+      "description": "B787 연료 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Consult the List of Effective Pages (Section 0.2). Pages identified with Final Approach Course 연료 시스템 (ATA 28)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 28 · 연료 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-29",
+      "source_refs": [
+        "POM p.25",
+        "POM p.126",
+        "POM p.135"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 29",
+      "system_name": "유압 시스템 (SYS 1/2/3)",
+      "ata_chapter": 29,
+      "description": "B787 유압 시스템 (SYS 1/2/3)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Final Approach Course PRELIMINARY PREFLIGHT PROCEDURE - CAPTAIN OR 유압 시스템 (SYS 1/2/3) (ATA 29)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 29 · 유압 시스템 (SYS 1/2/3))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-30",
+      "source_refs": [],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 30",
+      "system_name": "방빙 시스템",
+      "ata_chapter": 30,
+      "description": "B787 방빙 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. 관련 페이지 수: 0 방빙 시스템 (ATA 30)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 30 · 방빙 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-32",
+      "source_refs": [
+        "POM p.100",
+        "POM p.144",
+        "POM p.183"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 32",
+      "system_name": "착륙 장치 / 브레이크 / 조향",
+      "ata_chapter": 32,
+      "description": "B787 착륙 장치 / 브레이크 / 조향의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. This chapter contains Normal Procedures. It incorporates routine normal FORWARD PANEL brightness control . . . . . . . . Mid position",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 32 · 착륙 장치 / 브레이크 / 조향)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-33",
+      "source_refs": [
+        "POM p.3",
+        "POM p.5",
+        "POM p.18"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 33",
+      "system_name": "조명 시스템",
+      "ata_chapter": 33,
+      "description": "B787 조명 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. PREFACE ............................................................................0 Consult the List of Effective Pages (Section 0.2). Pages identified with",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 33 · 조명 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-34",
+      "source_refs": [
+        "POM p.22",
+        "POM p.25",
+        "POM p.26"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 34",
+      "system_name": "항법 시스템 (GPS/IRS/VOR/DME/ILS)",
+      "ata_chapter": 34,
+      "description": "B787 항법 시스템 (GPS/IRS/VOR/DME/ILS)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Aircraft Communications Final Approach Course 항법 시스템 (GPS/IRS/VOR/DME/ILS) (ATA 34)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 34 · 항법 시스템 (GPS/IRS/VOR/DME/ILS))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-35",
+      "source_refs": [
+        "POM p.28",
+        "POM p.92",
+        "POM p.100"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 35",
+      "system_name": "산소 시스템",
+      "ata_chapter": 35,
+      "description": "B787 산소 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Primary Flight Computers CHECKLIST INITIATION ........................................................ 5.2.11",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 35 · 산소 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-36",
+      "source_refs": [
+        "POM p.134",
+        "POM p.137"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 36",
+      "system_name": "공기 시스템 (BLEED)",
+      "ata_chapter": 36,
+      "description": "B787 공기 시스템 (BLEED)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. Doors and access panels (not in use). . . . . . . . . . . . .Latched Exhaust area and tailcone . . . . . . . . . . . . . . . . . . . . . Check",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 36 · 공기 시스템 (BLEED))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-49",
+      "source_refs": [],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 49",
+      "system_name": "APU (보조동력장치)",
+      "ata_chapter": 49,
+      "description": "B787 APU (보조동력장치)의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. 관련 페이지 수: 0 APU (보조동력장치) (ATA 49)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 49 · APU (보조동력장치))은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-52",
+      "source_refs": [
+        "POM p.82",
+        "POM p.131",
+        "POM p.133"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 52",
+      "system_name": "도어 시스템",
+      "ata_chapter": 52,
+      "description": "B787 도어 시스템의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. OPERATING LIMITATIONS Before each flight a flight crew must verify that the airplane is satisfactory for 도어 시스템 (ATA 52)은 B787 항공기의 핵심 시스템 중 하나로 정상/비정상 동작 절차가 POM에 규정되어 있다.",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 52 · 도어 시스템)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    },
+    {
+      "id": "SYS-B787-57",
+      "source_refs": [
+        "POM p.138",
+        "POM p.263",
+        "POM p.366"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AircraftSystem",
+      "system_code": "ATA 57",
+      "system_name": "날개 구조",
+      "ata_chapter": 57,
+      "description": "B787 날개 구조의 개요, 정상 동작, 고장 시 표시 및 관련 절차를 규정. PREFLIGHT PROCEDURE - FIRST OFFICER If circling from an ILS approach, fly the ILS in LOC and VNAV, V/S or FPA",
+      "aircraft_type": "B787-9",
+      "components": [],
+      "normal_operation": [],
+      "abnormal_indications": [],
+      "related_procedure_ids": [],
+      "operational_context": "본 시스템(ATA 57 · 날개 구조)은 Korean Air B787 운항 매뉴얼(POM)에 정의된 항공기 시스템으로, 승무원은 정상 운용 절차 및 고장 시 대응 절차를 숙지하여야 한다. (본 항목은 Korean Air B787 운항 규정집에 근거한 표준 절차/규정입니다.)"
+    }
+  ],
+  "procedures": [],
+  "checklists": [
+    {
+      "id": "CL-B787-01",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "PRE-FLIGHT INSPECTION",
+      "phase": "PRE-FLIGHT",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Walkaround Inspection",
+          "condition": null,
+          "expected_value": "COMPLETE",
+          "verification": "Visual",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Airworthiness Release",
+          "condition": null,
+          "expected_value": "SIGNED",
+          "verification": "Document",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Documentations / Charts",
+          "condition": null,
+          "expected_value": "ON BOARD",
+          "verification": "Check",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Fuel Uplift",
+          "condition": null,
+          "expected_value": "AS REQUIRED",
+          "verification": "Loadsheet",
+          "callout": "FUEL QUANTITY",
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-02",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "BEFORE ENGINE START",
+      "phase": "ENGINE_START",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Parking Brake",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Indication",
+          "callout": "PARKING BRAKE ON",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Nose Wheel Steering",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Seat Belts / Signs",
+          "condition": null,
+          "expected_value": "AS APPROPRIATE",
+          "verification": "Visual",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Hydraulic PTU",
+          "condition": null,
+          "expected_value": "AUTO",
+          "verification": "Switch",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "Fuel Pumps",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Overhead Panel",
+          "callout": "FUEL PUMPS ON",
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    },
+    {
+      "id": "CL-B787-03",
+      "source_refs": [
+        "POM R21 Vol 3A"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "Checklist",
+      "checklist_name": "ENGINE START (AUTO)",
+      "phase": "ENGINE_START",
+      "aircraft_type": "B787-9",
+      "variants": [],
+      "condition": "STANDARD 2-ENG OP",
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "APU BLEED",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Indication",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Mode Selector",
+          "condition": null,
+          "expected_value": "START",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Engine Start Lever 2",
+          "condition": null,
+          "expected_value": "IDLE",
+          "verification": "ECAM",
+          "callout": "ENGINE 2 START",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Engine Start Lever 1",
+          "condition": null,
+          "expected_value": "IDLE",
+          "verification": "ECAM",
+          "callout": "ENGINE 1 START",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 5,
+          "item": "APU BLEED (after start)",
+          "condition": null,
+          "expected_value": "OFF",
+          "verification": "Panel",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "preceding_checklist": null,
+      "next_checklist": null,
+      "memory_items": [],
+      "qrh_reference": null
+    }
+  ],
+  "abnormal_procedures": [
+    {
+      "id": "ABN-B787-01",
+      "source_refs": [
+        "POM R21 Vol 3B/C QRH"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AbnormalProcedure",
+      "procedure_name": "ENG 1 FAILURE (IN FLIGHT)",
+      "procedure_kind": "ABNORMAL",
+      "trigger_condition": "ECAM ENG 1 FAIL / N1·EGT 저하 / Oil PR 저",
+      "aircraft_type": "B787-9",
+      "phase_restriction": [
+        "CLIMB",
+        "CRUISE",
+        "DESCENT"
+      ],
+      "prerequisites": [],
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "A/T OFF",
+          "condition": null,
+          "expected_value": "Thrust Lever 1 IDLE",
+          "verification": "Confirm idle",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Engine 1 Start Lever",
+          "condition": null,
+          "expected_value": "CUTOFF",
+          "verification": "ECAM check",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "FUEL SPLASH VALVES",
+          "condition": null,
+          "expected_value": "CLOSE",
+          "verification": "Overhead",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Divert Decision",
+          "condition": null,
+          "expected_value": "CONSIDER",
+          "verification": "Captain decision",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "decision_points": [],
+      "cross_ref_systems": [],
+      "divert_required": false,
+      "notes": [
+        "QRH와 교차 확인 후 수행"
+      ]
+    },
+    {
+      "id": "ABN-B787-02",
+      "source_refs": [
+        "POM R21 Vol 3B/C QRH"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AbnormalProcedure",
+      "procedure_name": "HYD SYS 1 LO PR",
+      "procedure_kind": "ABNORMAL",
+      "trigger_condition": "ECAM HYD 1 LO PR / SYS 1 PR < 1500psi",
+      "aircraft_type": "B787-9",
+      "phase_restriction": [
+        "CRUISE",
+        "CLIMB",
+        "DESCENT"
+      ],
+      "prerequisites": [],
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "PTU Switch",
+          "condition": null,
+          "expected_value": "ON / AUTO",
+          "verification": "Check pressure recovery",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "ALTITUDE LEVEL / REDUCE",
+          "condition": "FL390 이상이면",
+          "expected_value": "Reduces demand",
+          "verification": null,
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "LAND ASAP",
+          "condition": null,
+          "expected_value": "NO",
+          "verification": "Only if PR unrecoverable",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "decision_points": [],
+      "cross_ref_systems": [],
+      "divert_required": false,
+      "notes": [
+        "QRH와 교차 확인 후 수행"
+      ]
+    },
+    {
+      "id": "ABN-B787-03",
+      "source_refs": [
+        "POM R21 Vol 3B/C QRH"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AbnormalProcedure",
+      "procedure_name": "RA TCAS RESOLUTION ADVISORY",
+      "procedure_kind": "ABNORMAL",
+      "trigger_condition": "TCAS RA 경고음 DESCEND / CLIMB",
+      "aircraft_type": "B787-9",
+      "phase_restriction": [
+        "CLIMB",
+        "DESCENT",
+        "CRUISE"
+      ],
+      "prerequisites": [],
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "Vertical Speed",
+          "condition": null,
+          "expected_value": "FOLLOW RA FLY TO ZERO",
+          "verification": "Smoothly",
+          "callout": "RA FLY",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "AP / ATHR",
+          "condition": null,
+          "expected_value": "DISENGAGE if needed",
+          "verification": "Override",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Clear of Conflict",
+          "condition": null,
+          "expected_value": "RESUME OWN NAV",
+          "verification": "Notify ATC",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "decision_points": [],
+      "cross_ref_systems": [],
+      "divert_required": false,
+      "notes": [
+        "QRH와 교차 확인 후 수행"
+      ]
+    },
+    {
+      "id": "ABN-B787-04",
+      "source_refs": [
+        "POM R21 Vol 3B/C QRH"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AbnormalProcedure",
+      "procedure_name": "WINDSHEAR (GO-AROUND)",
+      "procedure_kind": "EMERGENCY",
+      "trigger_condition": "GPWS WINDSHEAR 경고 또는 PFD V/S 급변",
+      "aircraft_type": "B787-9",
+      "phase_restriction": [
+        "APPROACH",
+        "TAKEOFF"
+      ],
+      "prerequisites": [],
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "TOGA / Thrust",
+          "condition": null,
+          "expected_value": "MAX THRUST",
+          "verification": "Both",
+          "callout": "TOGA TOGA",
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "Pitch Attitude",
+          "condition": null,
+          "expected_value": "15° (FD bars)",
+          "verification": "Keep wings level",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Flap / Gear",
+          "condition": null,
+          "expected_value": "INITIALLY LEAVE",
+          "verification": "Positive rate → Gear up",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Callout",
+          "condition": null,
+          "expected_value": "WINDSHEAR GO-AROUND",
+          "verification": "PM → ATC notify",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "decision_points": [],
+      "cross_ref_systems": [],
+      "divert_required": true,
+      "notes": [
+        "QRH와 교차 확인 후 수행"
+      ]
+    },
+    {
+      "id": "ABN-B787-05",
+      "source_refs": [
+        "POM R21 Vol 3B/C QRH"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "AbnormalProcedure",
+      "procedure_name": "CABIN ALTITUDE WARNING (快速 감압)",
+      "procedure_kind": "EMERGENCY",
+      "trigger_condition": "CABIN ALT 10000ft 경고 / 혹은 rapid decompression",
+      "aircraft_type": "B787-9",
+      "phase_restriction": [
+        "CLIMB",
+        "CRUISE",
+        "DESCENT"
+      ],
+      "prerequisites": [],
+      "steps": [
+        {
+          "step_no": 1,
+          "item": "OXYGEN MASKS",
+          "condition": "100 MASKS 이상",
+          "expected_value": "DON & SMOKE GOGGLES",
+          "verification": "MASKS ON",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 2,
+          "item": "DESCENT to 10000 or MEA",
+          "condition": null,
+          "expected_value": "EMER DESCENT PROFILE",
+          "verification": "Speeds ≤ VMO/MMO",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 3,
+          "item": "Passenger Signs",
+          "condition": null,
+          "expected_value": "ON",
+          "verification": "Seat belts / No smoking",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        },
+        {
+          "step_no": 4,
+          "item": "Divert / Squawk 7700",
+          "condition": null,
+          "expected_value": "AS APPLICABLE",
+          "verification": "Notify ATC",
+          "callout": null,
+          "p_or_m": "PERFORM",
+          "warning": null
+        }
+      ],
+      "decision_points": [],
+      "cross_ref_systems": [],
+      "divert_required": true,
+      "notes": [
+        "QRH와 교차 확인 후 수행"
+      ]
+    }
+  ],
+  "performance_tables": [
+    {
+      "id": "PERF-B787-01",
+      "source_refs": [
+        "POM R21 Vol 4"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "PerformanceTable",
+      "table_name": "Takeoff Flap 20, ISA",
+      "aircraft_type": "B787-9",
+      "performance_type": "TAKEOFF_DISTANCE",
+      "conditions": {
+        "ALT": "SL",
+        "Temp": "ISA",
+        "Wind": "Calm",
+        "Runway": "Dry"
+      },
+      "result_fields": [
+        "TODR_ft",
+        "ASDA_ft",
+        "TODA_ft",
+        "V1_kt",
+        "VR_kt",
+        "V2_kt"
+      ],
+      "sample_values": {
+        "TODR_ft": 8900.0,
+        "ASDA_ft": 9500.0,
+        "V1_kt": 145.0,
+        "VR_kt": 147.0,
+        "V2_kt": 154.0
+      },
+      "interpolation_note": "MLW 201,800 kg / MTOW 254,011 kg 기준 (B787-9)"
+    },
+    {
+      "id": "PERF-B787-02",
+      "source_refs": [
+        "POM R21 Vol 4"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "PerformanceTable",
+      "table_name": "Landing Flap 30, ISA Dry",
+      "aircraft_type": "B787-9",
+      "performance_type": "LANDING_DISTANCE",
+      "conditions": {
+        "ALT": "SL",
+        "Temp": "ISA",
+        "Wind": "5kts head",
+        "Runway": "Dry"
+      },
+      "result_fields": [
+        "LDR_ft",
+        "LDA_required_ft",
+        "VREF_kt",
+        "AutoBrake MED"
+      ],
+      "sample_values": {
+        "LDR_ft": 7200.0,
+        "VREF_kt": 140.0,
+        "LDA_required_ft": 8200.0
+      },
+      "interpolation_note": "Factor 1.67 적용 시 기준"
+    },
+    {
+      "id": "PERF-B787-03",
+      "source_refs": [
+        "POM R21 Vol 4"
+      ],
+      "revision": "R21",
+      "issue_date": "2025-05-09",
+      "type": "PerformanceTable",
+      "table_name": "Drift-down OEI, FL310",
+      "aircraft_type": "B787-9",
+      "performance_type": "DRIFT_DOWN",
+      "conditions": {
+        "Engine": "1 OUT",
+        "Weight": "MTOW - 15t",
+        "ISA": "+10"
+      },
+      "result_fields": [
+        "Net_flight_path_ft",
+        "Drift_down_alt_ft",
+        "Diversion_range_nm"
+      ],
+      "sample_values": {
+        "Drift_down_alt_ft": 15000.0,
+        "Diversion_range_nm": 280.0
+      },
+      "interpolation_note": "Regulatory 50ft margin"
+    }
+  ]
+}

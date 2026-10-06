@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 15/24):
+Format: index|term|fullName|category|old_description
+0|SLW|Slow|NOTAM|Slow
+1|SMC|Surface movement control|NOTAM|Surface movement control
+2|SMR|Surface movement radar|NOTAM|Surface movement radar
+3|SN|Snow|NOTAM|= snow, PL = ice pellets,
+4|SOC||NOTAM|Start of climb
+5|SPI||NOTAM|Special position indicator
+6|SPOC|SAR point of contact|NOTAM|SAR point of contact
+7|SPOT|Spot wind|NOTAM|Spot wind
+8|SQ|Squall|NOTAM|Squall
+9|SQL|Squall line|NOTAM|Squall line
+10|SR|Sunrise|NOTAM|Sunrise
+11|SRA|Surveillance radar approach|NOTAM|Surveillance radar approach
+12|SRG|Short range|NOTAM|Short range
+13|SRR|Search and rescue region|NOTAM|Search and rescue region
+14|SRY|Secondary 2|NOTAM|Secondary
+15|SS|Sunset|NOTAM|Sandstorm
+16|SSB|Single sideband|NOTAM|Single sideband
+17|SSE|South south east|NOTAM|South-south-east
+18|SSR|Secondary surveillance radar|NOTAM|Secondary surveillance radar
+19|SST|supersonic transport|NOTAM|Supersonic transport
+20|SSW|South south west|NOTAM|South-south-west
+21|ST|Stratus|NOTAM|Stratus
+22|STA|Straight in approach|NOTAM|Straight-in approach
+23|STAR|Standard instrument arrival|NOTAM|Standard instrument arrival
+24|STD|Standard|NOTAM|Standard
+25|STF|Stratiform|NOTAM|Stratiform
+26|STN|Station|NOTAM|Station
+27|STNR|Stationary|NOTAM|Stationary
+28|STS|Status|NOTAM|Status
+29|STWL|Stopway light(S)|NOTAM|Stopway light(s)
+30|SUBJ|Subject to ...|NOTAM|...을 조건으로 하는
+31|SUN|Sunday|NOTAM|Sunday
+32|SUPPS|Regional supplementary procedure|NOTAM|Regional supplementary procedures
+33|SVCBL|Serviceable|NOTAM|Serviceable
+34|SW|South-west|NOTAM|South-west
+35|SWB|South-westbound|NOTAM|South-westbound
+36|SWY|Stopway|NOTAM|Stopway
+37|TA|Transition altitude|NOTAM|Transition altitude
+38|TA/H||NOTAM|Turn at an altitude/height
+39|TAA||NOTAM|Terminal arrival altitude
+40|TAIL|Tail wind|NOTAM|Tail wind
+41|TAS|True airspeed|NOTAM|True airspeed
+42|TAX|Taxiing or taxi|NOTAM|Taxiing or taxi
+43|TC|Tropical cyclone|NOTAM|Tropical cyclone
+44|TCH|Threshold crossing height|NOTAM|Threshold crossing height
+45|TCU|Towering cumulus|NOTAM|Towering cumulus
+46|TDO|Tornado|NOTAM|Tornado
+47|TDZ|Touchdown zone|NOTAM|Touchdown zone
+48|TECR|Technical reason|NOTAM|Technical reason
+49|TEL|Telephone|NOTAM|Telephone

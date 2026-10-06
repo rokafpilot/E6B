@@ -1,0 +1,72 @@
+You are an aviation terminology expert. Generate concise English descriptions for the following aviation terms.
+
+For each term, provide a brief but informative description (1-2 sentences) that explains what the term means in aviation context.
+
+Guidelines:
+- NOTAM terms: ICAO meteorological code definitions (e.g., "YR" = "Your", used in NOTAM text)
+- PilotController: FAA Pilot/Controller Glossary terms (aviation operational definitions)
+- AIP/KMA/KMA: Korean aviation terms - provide English equivalent
+- DOC8400: ICAO Document 8400 abbreviations
+- P/C Glossary: Only improve if the current description is very short or Korean
+
+Format your response as a JSON object with term as key and description as value.
+Only return valid JSON, no other text.
+
+Example format:
+{{
+  "ACDM": "A collaborative decision-making process involving airport stakeholders to optimize aircraft turnaround and reduce delays.",
+  "YR": "Your. Used in NOTAM text to indicate possession or association."
+}}
+
+Terms to process (batch 5/24):
+Format: index|term|fullName|category|old_description
+0|CA||NOTAM|Course to an altitude
+1|CAT|Category|NOTAM|Clear air turbulence
+2|CC|Cirrocumulus|NOTAM|Cirrocumulus
+3|CCO||NOTAM|Continuous climb operations
+4|CD|Candela|NOTAM|광도의 단위 칸델라
+5|CDO||NOTAM|Continuous descent operations
+6|CDR||NOTAM|Conditional route
+7|CGL|Circling guidance light|NOTAM|Circling guidance light(s)
+8|CHEM||NOTAM|Chemical
+9|CI|Cirrus|NOTAM|Cirrus
+10|CIV|Civil|NOTAM|Civil
+11|CK|Check|NOTAM|Check
+12|CL|Centre line|NOTAM|Centre line
+13|CLA|Clear type of ice formation|NOTAM|Clear type of ice formation
+14|CLBR|Calibration|NOTAM|Calibration
+15|CLD|Cloud|NOTAM|Cloud
+16|CLG|Calling|NOTAM|Calling
+17|CLIMB-OUT||NOTAM|Climb-out area
+18|CLSD|Close or closed or closing|NOTAM|Close or closed or closing
+19|CM|Centimeter|NOTAM|Centimetre
+20|CMB|Climb to or climbing to|NOTAM|Climb to or climbing to
+21|COM|Communications|NOTAM|Communications
+22|CONC|Concrete|NOTAM|Concrete
+23|COND|Condition|NOTAM|Condition
+24|CONS|Continuous|NOTAM|Continuous
+25|CONST|Construction or constructed|NOTAM|Construction or constructed
+26|CONT|Continue or continued|NOTAM|Continue(s) or continued
+27|COOR|Coordinate or coordination|NOTAM|Coordinate or coordination
+28|COORD|Coordinates|NOTAM|Coordinates
+29|COP|Change-over-point|NOTAM|Change-over point
+30|COT|At the coast|NOTAM|At the coast
+31|COV|Cover or covered or covering|NOTAM|Cover or covered or covering
+32|CRC|Cyclic redundancy check|NOTAM|Cyclic redundancy check
+33|CRM|Collision risk model|NOTAM|Collision risk model
+34|CRP||NOTAM|Compulsory reporting point
+35|CRZ|Cruise|NOTAM|Cruise
+36|CS|Cirrostratus|NOTAM|Cirrostratus
+37|CTA|Control area|NOTAM|Control area
+38|CTAM|Climb to and maintain|NOTAM|Climb to and maintain
+39|CTC|Contact|NOTAM|Contact
+40|CTL|Control|NOTAM|Control
+41|CTN|Caution|NOTAM|Caution
+42|CTR|Control zone|NOTAM|Control zone
+43|CU|Cumulus|NOTAM|Cumulus
+44|CUF|Cumuliform|NOTAM|Cumuliform
+45|CUST|Customs|NOTAM|Customs
+46|CVR|Cockpit voice recorder|NOTAM|Cockpit voice recorder
+47|CW|Continuous wave|NOTAM|Continuous wave
+48|CWY|Clearway|NOTAM|Clearway
+49|D-VOLMET|Data link VOLMET|NOTAM|비행중 항공기에 제공하기 위한 데이터링

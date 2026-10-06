@@ -1,0 +1,302 @@
+[
+  {
+    "term": "RPI",
+    "fullName": "Radar position indicator",
+    "category": "NOTAM",
+    "old_description": "Radar position indicator"
+  },
+  {
+    "term": "RPL",
+    "fullName": "Repetitive flight plan",
+    "category": "NOTAM",
+    "old_description": "Repetitive flight plan"
+  },
+  {
+    "term": "RPLC",
+    "fullName": "Replace or replaced ....",
+    "category": "NOTAM",
+    "old_description": "Replace or replaced"
+  },
+  {
+    "term": "RPS",
+    "fullName": "Radar positon symbol",
+    "category": "NOTAM",
+    "old_description": "Radar position symbol"
+  },
+  {
+    "term": "RQMNTS",
+    "fullName": "Requirements",
+    "category": "NOTAM",
+    "old_description": "Requirements"
+  },
+  {
+    "term": "RR",
+    "fullName": "Report reaching",
+    "category": "NOTAM",
+    "old_description": "Report reaching"
+  },
+  {
+    "term": "RSC",
+    "fullName": "Rescue sub-centre",
+    "category": "NOTAM",
+    "old_description": "Rescue sub-centre"
+  },
+  {
+    "term": "RSCD",
+    "fullName": "Runway surface condition",
+    "category": "NOTAM",
+    "old_description": "Runway surface condition"
+  },
+  {
+    "term": "RSP",
+    "fullName": "Responder beacon",
+    "category": "NOTAM",
+    "old_description": "Required surveillance performance"
+  },
+  {
+    "term": "RSR",
+    "fullName": "En-route surveillance radar",
+    "category": "NOTAM",
+    "old_description": "En-route surveillance radar"
+  },
+  {
+    "term": "RSS",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Root sum square"
+  },
+  {
+    "term": "RTE",
+    "fullName": "Route",
+    "category": "NOTAM",
+    "old_description": "Route"
+  },
+  {
+    "term": "RTF",
+    "fullName": "Radiotelephone",
+    "category": "NOTAM",
+    "old_description": "Radiotelephone"
+  },
+  {
+    "term": "RTG",
+    "fullName": "Radiotelegraph",
+    "category": "NOTAM",
+    "old_description": "Radiotelegraph"
+  },
+  {
+    "term": "RTHL",
+    "fullName": "Runway threshold light(s)",
+    "category": "NOTAM",
+    "old_description": "Runway threshold light(s)"
+  },
+  {
+    "term": "RTS",
+    "fullName": "Return to service",
+    "category": "NOTAM",
+    "old_description": "Return to service"
+  },
+  {
+    "term": "RTT",
+    "fullName": "Radioteletypewriter",
+    "category": "NOTAM",
+    "old_description": "Radioteletypewriter"
+  },
+  {
+    "term": "RV",
+    "fullName": "Rescue vessel",
+    "category": "NOTAM",
+    "old_description": "Rescue vessel"
+  },
+  {
+    "term": "RVA",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Radar vectoring area"
+  },
+  {
+    "term": "RVR",
+    "fullName": "Runway visual range",
+    "category": "NOTAM",
+    "old_description": "Runway visual range"
+  },
+  {
+    "term": "RWY",
+    "fullName": "Runway",
+    "category": "NOTAM",
+    "old_description": "Runway"
+  },
+  {
+    "term": "SA",
+    "fullName": "Sand",
+    "category": "NOTAM",
+    "old_description": "= sand or SN = snow)"
+  },
+  {
+    "term": "SAN",
+    "fullName": "Sanitary",
+    "category": "NOTAM",
+    "old_description": "Sanitary"
+  },
+  {
+    "term": "SAR",
+    "fullName": "Search and rescue",
+    "category": "NOTAM",
+    "old_description": "Search and rescue"
+  },
+  {
+    "term": "SAT",
+    "fullName": "Saturday",
+    "category": "NOTAM",
+    "old_description": "Saturday"
+  },
+  {
+    "term": "SATVOICE",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Satellite voice communication"
+  },
+  {
+    "term": "SB",
+    "fullName": "Southbound",
+    "category": "NOTAM",
+    "old_description": "Southbound"
+  },
+  {
+    "term": "SC",
+    "fullName": "Stratocumulus",
+    "category": "NOTAM",
+    "old_description": "Stratocumulus"
+  },
+  {
+    "term": "SCT",
+    "fullName": "Scattered",
+    "category": "NOTAM",
+    "old_description": "산재한 또는 운량이 3/8에서 4/8미만"
+  },
+  {
+    "term": "SD",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Standard deviation"
+  },
+  {
+    "term": "SDBY",
+    "fullName": "Stand by",
+    "category": "NOTAM",
+    "old_description": "Stand by"
+  },
+  {
+    "term": "SDF",
+    "fullName": "Step down Fix",
+    "category": "NOTAM",
+    "old_description": "Step down fix"
+  },
+  {
+    "term": "SE",
+    "fullName": "South-east",
+    "category": "NOTAM",
+    "old_description": "South-east"
+  },
+  {
+    "term": "SEB",
+    "fullName": "South-east bound",
+    "category": "NOTAM",
+    "old_description": "South-eastbound"
+  },
+  {
+    "term": "SEC",
+    "fullName": "Seconds",
+    "category": "NOTAM",
+    "old_description": "Seconds"
+  },
+  {
+    "term": "SECN",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "Section"
+  },
+  {
+    "term": "SECT",
+    "fullName": "Sector",
+    "category": "NOTAM",
+    "old_description": "Sector"
+  },
+  {
+    "term": "SELCAL",
+    "fullName": "Selective calling system",
+    "category": "NOTAM",
+    "old_description": "Selective calling system"
+  },
+  {
+    "term": "SEP",
+    "fullName": "September 9",
+    "category": "NOTAM",
+    "old_description": "September"
+  },
+  {
+    "term": "SFC",
+    "fullName": "Surface",
+    "category": "NOTAM",
+    "old_description": "Surface"
+  },
+  {
+    "term": "SG",
+    "fullName": "Snow grains",
+    "category": "NOTAM",
+    "old_description": "Snow grains"
+  },
+  {
+    "term": "SGL",
+    "fullName": "Signal",
+    "category": "NOTAM",
+    "old_description": "Signal"
+  },
+  {
+    "term": "SI",
+    "fullName": "",
+    "category": "NOTAM",
+    "old_description": "International system of units"
+  },
+  {
+    "term": "SID",
+    "fullName": "Standard instrument departure",
+    "category": "NOTAM",
+    "old_description": "Standard instrument departure"
+  },
+  {
+    "term": "SIF",
+    "fullName": "Selective identification feature",
+    "category": "NOTAM",
+    "old_description": "Selective identification feature"
+  },
+  {
+    "term": "SIG",
+    "fullName": "Significant",
+    "category": "NOTAM",
+    "old_description": "Significant"
+  },
+  {
+    "term": "SIMUL",
+    "fullName": "Simultaneous or simultaneously",
+    "category": "NOTAM",
+    "old_description": "Simultaneous or simultaneously"
+  },
+  {
+    "term": "SIWL",
+    "fullName": "Single isolated wheel load",
+    "category": "NOTAM",
+    "old_description": "Single isolated wheel load"
+  },
+  {
+    "term": "SKED",
+    "fullName": "Schedule or scheduled",
+    "category": "NOTAM",
+    "old_description": "Schedule or scheduled"
+  },
+  {
+    "term": "SLP",
+    "fullName": "Speed limiting point",
+    "category": "NOTAM",
+    "old_description": "Speed limiting point"
+  }
+]
