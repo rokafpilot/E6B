@@ -355,8 +355,8 @@ type PopupTarget = 'from' | 'to' | null;
 type IcaoTarget = 'from' | 'to' | null;
 const LINES = ['TIME', 'FROM', 'TO', 'OUT'] as const;
 
-const DEFAULT_FROM = TZ_LIST.findIndex(t => t.id === 'Asia/Seoul');
-const DEFAULT_TO = TZ_LIST.findIndex(t => t.id === 'Asia/Seoul');
+const DEFAULT_FROM = TZ_LIST.findIndex(t => t.id === 'Asia/9');
+const DEFAULT_TO = TZ_LIST.findIndex(t => t.id === 'Asia/9');
 
 export default function TimeZoneScreen() {
   const { replaceTop } = useCx3Router();
